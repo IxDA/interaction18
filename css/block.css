@@ -1,0 +1,90 @@
+
+/* BANNER SECTION */
+.banner{
+  background: url('../img/saone_rhone.jpg') 0 0 no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 0 1vmax;
+}
+.banner .button-banner{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  min-height: 60vh;
+  padding: 1em;
+}
+
+.button-play{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  .button-play .button-play_round{
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+    background-color: #421B4B;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+  }
+    .button-play:hover .button-play_round{
+      background-color: #E40050;
+      width: 110px;
+      height: 110px;
+    }
+  .button-play .button-play_triangle{
+    width: 0;
+    height: 0;
+    margin-left: 5%;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left:30px solid white;
+    display: block;
+    transition: all 0.2s ease-in-out;
+  }
+    .button-play:hover .button-play_triangle{
+      border-top-width: 25px;
+      border-bottom-width: 25px;
+      border-left-width:36px;
+    }
+  .button-play strong{
+    margin-top: 0.5em;
+  }
+
+/* CONTAINER */
+.container{
+  max-width: 60em;
+  margin: 2em auto;
+}
+
+
+/* Boxes */
+.boxes{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-left: -1vmax;
+  margin-right: -1vmax;
+  margin-top: 1vmax;
+  margin-bottom: 1vmax;
+}
+  .boxes>*{
+    margin: 1vmax;
+  }
+  .boxes .box{
+    flex: 1 0 40%;
+    min-width: 20vmax;
+    padding: 1em;
+    background-color: #E40050;
+  }
+  .boxes .box-secondary{
+    background-color: #421B4B;
+  }
+
+
+.boxes-logo{}
+  .boxes-logo img{ max-width: 10em;}

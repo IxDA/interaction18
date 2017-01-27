@@ -1,0 +1,20 @@
+/*
+Interaction18 colors
+#E40050 - Electric crimson
+#D0A9D0 - Mauve
+#421B4B - Dark purple
+#B0A7AC - Neutral Grey
+#FFFFFF - White
+*/
+
+
+
+body {
+  max-width: 60em;
+  margin: auto;
+}
+@media (max-width: 120em) {
+  body {
+    border: 1em white solid;
+  }
+}
