@@ -4,12 +4,12 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 5vmax;
+  min-height: 3vmax;
   background-color: #fff;
 }
   header .logo{
-    max-width: 340px;
     width: 30vw;
+    max-width: 340px;
     min-width: 200px;
   }
   .logo-home:hover .logo .st0{

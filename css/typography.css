@@ -12,13 +12,18 @@
 
 html{
   font-size: 14px;
-}
-body {
-  font-size: calc(0.5em + 1vmax);
-  font-size: -webkit-calc(50% + 1vmax);
-  /*font-size: -webkit-calc(87.5% + 0.25 * (100vw - 8000%) / 40);*/
   color: #421B4B;
   font-family: graphik, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+body{
+  font-size: calc(0.5em + 1vmax);
+  font-size: -webkit-calc(50% + 1vmax);
+}
+@media (min-width: 90rem) {
+  body{
+    font-size: 1.5em;
+    /* max font-size */
+  }
 }
 b, strong{
   font-family: graphik-bold, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -46,8 +51,8 @@ h3, .h3 {
   font-size: calc(0.5em + 1vmax);
   font-size: -webkit-calc(50% + 1vmax);
   line-height: 1.3em;
-  margin-top: 0.5vmax;
-  margin-bottom: 0.2vmax;
+  margin-top: 0.6vmax;
+  margin-bottom: 0.5vmax;
 }
 h4, .h4 {
   font-size: 1.9rem;
@@ -66,6 +71,10 @@ p, ul, ol, pre, table, blockquote {
   margin-top: 0px;
   margin-bottom: 25px;
 }
+ul{
+  margin-left: 1em;
+  padding-left: 0;
+}
 ul li{
   margin-bottom: 0.4em;
 }
@@ -73,6 +82,11 @@ ul ul, ol ol, ul ol, ol ul {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
+input, textarea, keygen, select, button{
+  font-size: 100%;
+}
+
 
 li{
   list-style: square;

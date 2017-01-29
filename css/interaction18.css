@@ -7,14 +7,8 @@ Interaction18 colors
 #FFFFFF - White
 */
 
-
-
 body {
-  max-width: 60em;
+  max-width: 80em;
   margin: auto;
-}
-@media (max-width: 120em) {
-  body {
-    border: 1em white solid;
-  }
+  border: 1rem white solid;
 }
