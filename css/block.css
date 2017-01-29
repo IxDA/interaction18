@@ -78,6 +78,7 @@
 /* Boxes */
 .boxes{
   display: flex;
+  flex-wrap: wrap;
   flex-flow: row wrap;
   justify-content: space-between;
   margin-left: -0.5rem;
@@ -87,6 +88,8 @@
 }
   .boxes>*{
     margin: 0.5rem;
+    padding-right: 0.75em;
+    padding-bottom : 0.75em;
   }
   .boxes.boxes-2 .box{
     flex: 1 0 40%;
@@ -104,14 +107,21 @@
     flex: 1 0 40%;
     min-width: 20vmax;
   }
+  .boxes.boxes-4 .box{
+    flex: 1 0 20em;
+    min-width: 20em;
+  }
   .boxes .box-primary{
     background-color: #E40050;
-    padding: 1em;
+    padding: 2em;
   }
   .boxes .box-secondary{
     background-color: #421B4B;
-    padding: 1em;
+    padding: 2em;
   }
 
 .boxes-logo{}
-  .boxes-logo img{ max-width: 10em;}
+  .boxes-logo img{
+    max-width: 8em;
+    margin: 1em;
+  }
