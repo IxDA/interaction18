@@ -35,23 +35,22 @@ h1, .h1 {
   font-size: -webkit-calc(140% + 2vmax);
   line-height: 1.3em;
   font-weight: normal;
-  margin-top: 2vmax;
+  margin-top: 0;
   margin-bottom: 1vmax;
 }
 h2, .h2 {
   font-size: calc(1em + 1vmax);
   font-size: -webkit-calc(100% + 1vmax);
   line-height: 1.3em;
-  font-family: graphik-bold, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: normal;
-  margin-top: 1vmax;
+  margin-top: 0;
   margin-bottom: 0.5vmax;
 }
 h3, .h3 {
   font-size: calc(0.5em + 1vmax);
   font-size: -webkit-calc(50% + 1vmax);
   line-height: 1.3em;
-  margin-top: 0.6vmax;
+  margin-top: 0;
   margin-bottom: 0.5vmax;
 }
 h4, .h4 {
@@ -72,7 +71,7 @@ p, ul, ol, pre, table, blockquote {
   margin-bottom: 25px;
 }
 ul{
-  margin-left: 1em;
+  margin-left: 0;
   padding-left: 0;
 }
 ul li{
@@ -127,7 +126,7 @@ a{
 
 /* Let's make sure all's aligned */
 hr, .hr {
-  border: 1px solid;
+  border: 1px solid #B0A7AC;
   margin: -1px 0;
 }
 
