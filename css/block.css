@@ -106,7 +106,6 @@
   .boxes>*{
     margin: 0.5rem;
     padding-right: 0.75em;
-    flex: 1;
   }
   .boxes.boxes-valign{
     align-items: center;
@@ -114,6 +113,9 @@
   .boxes.boxes-nopadding>*{
     padding-right: 0;
     padding-bottom : 0;
+  }
+  .boxes.boxes-1 .box{
+    flex: 1;
   }
   .boxes.boxes-2 .box{
     flex: 1 0 40%;
