@@ -104,6 +104,7 @@ header{
     .nav-toggle{
       display: block;
       position: fixed;
+      z-index: 8000;
       bottom: 3vh;
       right: -1.2em;
       padding: 0;

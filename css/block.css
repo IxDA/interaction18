@@ -1,7 +1,7 @@
 
 /* BANNER SECTION */
 .banner{
-  background: url('../img/photos/saone_rhone.jpg') 0 0 no-repeat;
+  background: #421B4B url('../img/photos/saone_rhone.jpg') 0 0 no-repeat;
   background-size: cover;
   text-align: center;
   padding: 0 1vmax;
@@ -65,7 +65,8 @@
 /* CONTAINER */
 .container{
   max-width: 70em;
-  margin: 2em auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .content{
@@ -73,6 +74,8 @@
 }
   .content img{
     max-width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
   }
 
 /* Boxes */
@@ -89,11 +92,17 @@
   .boxes>*{
     margin: 0.5rem;
     padding-right: 0.75em;
-    padding-bottom : 0.75em;
+  }
+  .boxes.boxes-valign{
+    align-items: center;
+  }
+  .boxes.boxes-nopadding>*{
+    padding-right: 0;
+    padding-bottom : 0;
   }
   .boxes.boxes-2 .box{
     flex: 1 0 40%;
-    min-width: 20vmax;
+    min-width: 25vmax;
   }
   .boxes.boxes-3 .box{
     flex: 1 0 20%;
@@ -106,6 +115,10 @@
   .boxes.boxes-2-13 .box:first-child{
     flex: 1 0 40%;
     min-width: 20vmax;
+  }
+  .boxes.boxes-4 .box{
+    flex: 1 0 20em;
+    min-width: 20em;
   }
   .boxes.boxes-4 .box{
     flex: 1 0 20em;
@@ -125,3 +138,10 @@
     max-width: 8em;
     margin: 1em;
   }
+
+
+/* FOOTER */
+footer{
+  min-height: 6em;
+  padding: 1em 0;
+}
