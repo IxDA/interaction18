@@ -79,11 +79,11 @@ h5, .h5 {
   margin-bottom: 0;
 }
 p, ul, ol, pre, table, blockquote {
-  line-height: 1.32em;
+  line-height: 1.43em;
   margin-top: 0;
   margin-bottom: 0;
 }
-p + p{
+p + p, p + h2, p + h3, p + ul, ul + p, h2 + p{
   margin-top: 0.8em;
 }
 ul{
@@ -116,10 +116,10 @@ a{
   }
 
 .content{}
-  .content h1{ margin-bottom: 0.5em; }
-  .content h2{ margin-bottom: 0.4em; }
-  .content h3{ margin-bottom: 0.3em; }
-  .content h4{ margin-bottom: 0.2em; }
+  .content h1{  }
+  .content h2{  }
+  .content h3{ margin-bottom: 0.1em; }
+  .content h4{ margin-bottom: 0.1em; }
   .content a:not(.button){
     text-decoration: none;
     color: #421B4B;

@@ -33,6 +33,9 @@
 .bordered{
   border: 1px solid #B0A7AC;
 }
+.bordered-top{
+  border-top: 1px solid #B0A7AC;
+}
 .bordered-bottom{
   border-bottom: 1px solid #B0A7AC;
 }
@@ -45,6 +48,10 @@
 }
 .spacer-b{
   margin-bottom: 3em;
+}
+.spacer-r-l{
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
 /* BUTTONS */
