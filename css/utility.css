@@ -25,13 +25,42 @@
   }
 }
 
+
+/* PADDINGS AND BORDERS */
+.mega-padding{
+  padding: 2em;
+}
+.bordered{
+  border: 1px solid #B0A7AC;
+}
+.bordered-top{
+  border-top: 1px solid #B0A7AC;
+}
+.bordered-bottom{
+  border-bottom: 1px solid #B0A7AC;
+}
+.spacer-t-b{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.spacer-t{
+  margin-top: 3em;
+}
+.spacer-b{
+  margin-bottom: 3em;
+}
+.spacer-r-l{
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
 /* BUTTONS */
 .button{
   border: none;
   display: inline-block;
   background-color: #E40050;
   color: #fff;
-  border-radius: 2px;
+  border-radius: 3px;
   padding: 0.6em 1em;
   transition: background 0.2s ease-in-out;
   text-decoration: none;
