@@ -115,7 +115,8 @@
     padding-bottom : 0;
   }
   .boxes.boxes-1 .box{
-    flex: 1;
+    flex: 1 0 8em;
+    min-width: 8em;
   }
   .boxes.boxes-2 .box{
     flex: 1 0 40%;
@@ -132,10 +133,6 @@
   .boxes.boxes-2-13 .box:first-child{
     flex: 1 0 40%;
     min-width: 20vmax;
-  }
-  .boxes.boxes-4 .box{
-    flex: 1 0 20em;
-    min-width: 20em;
   }
   .boxes.boxes-4 .box{
     flex: 1 0 20em;
