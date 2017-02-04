@@ -83,6 +83,9 @@
 .container-s{
   max-width: 40em;
 }
+.container-xs{
+  max-width: 25em;
+}
 
 .content{
 
