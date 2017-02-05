@@ -6,6 +6,12 @@
   .text-white:hover{
     color: rgba(255,255,255,0.9);
   }
+.text-fade{
+  color: #B0A7AC;
+}
+.text-xs{
+  font-size:0.8em;
+}
 .link-no-underline{
   text-decoration: none;
 }
@@ -94,6 +100,21 @@
 /* FORMS */
 .forms{
 
+}
+.form-contest{
+
+}
+.form-contest label{
+  line-height: 1.4em;
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+  display: block;
+}
+.form-contest .form-input{
+  display: block;
+  margin-bottom: 1em;
+  font-size: 16px;
+  width: 97%;
 }
 input:not(.button){
   line-height: 1.5em;

@@ -148,14 +148,15 @@
     flex: 1 0 20em;
     min-width: 20em;
   }
-  .boxes .box-primary{
+  .box-primary{
     background-color: #E40050;
     padding: 2em;
   }
-  .boxes .box-secondary{
+  .box-secondary{
     background-color: #421B4B;
     padding: 2em;
   }
+
 
 .boxes-team{
   justify-content: flex-start;
