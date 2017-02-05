@@ -121,6 +121,9 @@
     padding-right: 0;
     padding-bottom : 0;
   }
+  .boxes.boxes-auto .box{
+    flex: 1 1 auto;
+  }
   .boxes.boxes-1 .box{
     flex: 1 0 8em;
     min-width: 8em;
@@ -166,6 +169,22 @@
   .boxes-team .box img{
     max-width: 100%;
   }
+
+.boxes-partners{
+}
+  .boxes-partners .box{
+    margin-bottom: 3em;
+    flex: 1 1 auto;
+  }
+
+.boxes-gallery{
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+  .boxes-gallery .box{
+
+  }
+
 
 .boxes-logo{}
   .boxes-logo img{
