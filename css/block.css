@@ -83,6 +83,9 @@
 .container-s{
   max-width: 40em;
 }
+.container-xs{
+  max-width: 25em;
+}
 
 .content{
 
@@ -103,9 +106,13 @@
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
+  .box-inner-padding{
+    margin: 0.75em;
+  }
   .boxes>*{
     margin: 0.5rem;
     padding-right: 0.75em;
+    box-sizing: border-box;
   }
   .boxes.boxes-valign{
     align-items: center;
@@ -114,8 +121,12 @@
     padding-right: 0;
     padding-bottom : 0;
   }
+  .boxes.boxes-auto .box{
+    flex: 1 1 auto;
+  }
   .boxes.boxes-1 .box{
-    flex: 1;
+    flex: 1 0 8em;
+    min-width: 8em;
   }
   .boxes.boxes-2 .box{
     flex: 1 0 40%;
@@ -137,18 +148,44 @@
     flex: 1 0 20em;
     min-width: 20em;
   }
-  .boxes.boxes-4 .box{
-    flex: 1 0 20em;
-    min-width: 20em;
-  }
-  .boxes .box-primary{
+  .box-primary{
     background-color: #E40050;
     padding: 2em;
   }
-  .boxes .box-secondary{
+  .box-secondary{
     background-color: #421B4B;
     padding: 2em;
   }
+
+
+.boxes-team{
+  justify-content: flex-start;
+}
+  .boxes-team .box{
+    max-width: 50%;
+    flex: 1 1 auto;
+    padding: 0;
+    margin: 0;
+  }
+  .boxes-team .box img{
+    max-width: 100%;
+  }
+
+.boxes-partners{
+}
+  .boxes-partners .box{
+    margin-bottom: 3em;
+    flex: 1 1 auto;
+  }
+
+.boxes-gallery{
+    flex-wrap: nowrap;
+    overflow: scroll;
+}
+  .boxes-gallery .box{
+
+  }
+
 
 .boxes-logo{}
   .boxes-logo img{
