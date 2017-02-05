@@ -151,6 +151,10 @@ hr, .hr {
   border: 1px solid #B0A7AC;
   margin: -1px 0;
 }
+.hr-xs{
+  width: 1.5em;
+  margin: 1em auto;
+}
 
 sup {
   top: -0.5em;
