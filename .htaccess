@@ -2,3 +2,8 @@ Options +Includes
 AddType text/html .html
 AddOutputFilter INCLUDES .html
 DirectoryIndex contest.html index.html
+
+<FilesMatch "about\.html|index\.html|credits\.html|lyon\.html|code-of-conduct\.html|partners\.html">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
