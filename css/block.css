@@ -30,6 +30,10 @@
   flex-direction: column;
   padding: 1em;
 }
+.banner .button-banner p{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 
 .banner-video{
   position: relative;
@@ -70,11 +74,11 @@
     justify-content: center;
     transition: all 0.2s ease-in-out;
   }
-    .button-play:hover .button-play_round{
+    .button-banner:hover .button-play .button-play_round{
       background-color: #E40050;
       width: 4.6em;
       height: 4.6em;
-      margin-top: 4em;
+      margin-top: 2em;
     }
   .button-play .button-play_triangle{
     width: 0;
@@ -86,7 +90,7 @@
     display: block;
     transition: all 0.2s ease-in-out;
   }
-    .button-play:hover .button-play_triangle{
+    .button-banner:hover .button-play .button-play_triangle{
       border-top-width: 1em;
       border-bottom-width: 1em;
       border-left-width: 1.5em;
