@@ -1,9 +1,15 @@
 /* HEADER NAVIGATION */
 /* HEADER */
 header{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   min-height: 3vmax;
   background-color: #fff;
 }
@@ -20,8 +26,12 @@ header{
     margin: 1em 0;
   }
   header nav ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: baseline;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
     margin: 0;
     padding: 0;
   }
@@ -53,11 +63,19 @@ header{
 
   header.mobile-open {
     box-sizing: border-box;
+    -webkit-transition: background 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11);
     transition:
       background 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11);
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     position: fixed;
     z-index: 9999;
     top: 0;
@@ -66,6 +84,11 @@ header{
     padding: 0 3em;
     height: 100vh;
     background-color: #421B4B;
+    background-image:
+      -webkit-linear-gradient(
+        left,
+        #421B4B, #E40050
+      );
     background-image:
       linear-gradient(
         to right,
@@ -81,7 +104,10 @@ header{
     }
     header.mobile-open nav {}
     header.mobile-open nav ul {
-      flex-direction: column;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
       margin-top: 2em;
     }
     header.mobile-open nav ul li{
