@@ -178,6 +178,22 @@
     padding: 2em;
   }
 
+.boxes-fun{
+  flex-direction: column;
+  height: 100em;
+  justify-content: flex-start;
+}
+.boxes-fun .box{
+  width: 30%;
+}
+@media (max-width: 60em) {
+  .boxes-fun{
+    height: auto;
+  }
+  .boxes-fun .box{
+    width: 100%;
+  }
+}
 
 .boxes-team{
   justify-content: flex-start;
