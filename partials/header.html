@@ -52,10 +52,26 @@
   <!-- <img src="img/logo_interaction18.svg" alt="" class="logo"> -->
   <nav>
     <ul>
+      <!--#if expr='v("page") = "index"' -->
+      <li><a href="index.html" class="active">Home</a></li>
+      <!--#else -->
       <li><a href="index.html">Home</a></li>
+      <!--#endif -->
+      <!--#if expr='v("page") = "about"' -->
+      <li><a href="about.html" class="active">About</a></li>
+      <!--#else -->
       <li><a href="about.html">About</a></li>
+      <!--#endif -->
+      <!--#if expr='v("page") = "lyon"' -->
+      <li><a href="lyon.html" class="active">Lyon</a></li>
+      <!--#else -->
       <li><a href="lyon.html">Lyon</a></li>
+      <!--#endif -->
+      <!--#if expr='v("page") = "partners"' -->
+      <li><a href="partners.html" class="active">Partners</a></li>
+      <!--#else -->
       <li><a href="partners.html">Partners</a></li>
+      <!--#endif -->
       <li class="main-nav-button"><a href="http://join.interaction.ixda.org" class="button button-xs-link"<strong>Get Tickets</strong></a></li>
     </ul>
     <a href="#" class="nav-toggle button" id="js-toggle-nav">

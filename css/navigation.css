@@ -33,6 +33,9 @@ header{
     text-decoration: none;
     color: #421B4B;
   }
+  header nav a.active{
+    color: #E40050;
+  }
   header nav ul li.main-nav-button .button{
     margin-left: 1em;
   }
@@ -91,6 +94,9 @@ header{
       margin: calc(0.2em + 1vh) 0;
       padding: 0;
       display: block;
+    }
+    header.mobile-open nav ul li a.active{
+      opacity: 0.6;
     }
     header.mobile-open nav ul li a:hover{
       color: #D0A9D0;
