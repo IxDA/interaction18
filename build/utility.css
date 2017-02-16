@@ -83,6 +83,7 @@
   .button:hover{
     background-color: #ad003d;
     color: #fff;
+    cursor:default;
   }
 
   .button-secondary{
@@ -92,6 +93,13 @@
       background-color: #290930;
       color: #D0A9D0;
     }
+
+  .button-disabled, .button-disabled:hover {
+    background-color: #B0A7AC;
+    color: #fff;
+  }
+
+
   @media (max-width: 60em) {
     .button-xs-link{
       background: none;
@@ -101,6 +109,10 @@
     .button-xs-link:hover{
       background: none;
       color: #ad003d;
+    }
+    
+    .button-xs-link.button-disabled, .button-xs-link.button-disabled:hover  {
+      color: #B0A7AC;
     }
   }
 
