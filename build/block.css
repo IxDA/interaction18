@@ -8,6 +8,10 @@
     background: #421B4B url('../img/photos/saone_rhone.jpg') 0 0 no-repeat;
     background-size: cover;
   }
+  .banner-purple-speakers{
+    background: #421B4B url('../img/photos/speakers.jpg') center 0 no-repeat;
+    background-size: cover;
+  }
   .banner-neutral{
     background-color: #B0A7AC;
   }
