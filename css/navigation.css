@@ -94,6 +94,7 @@ header{
       margin: calc(0.2em + 1vh) 0;
       padding: 0;
       display: block;
+      line-height: 1em;
     }
     header.mobile-open nav ul li a.active{
       opacity: 0.6;
