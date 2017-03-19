@@ -158,16 +158,16 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-left: -0.5rem;
-  margin-right: -0.5rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
   .box-inner-padding{
     margin: 0.75em;
   }
   .boxes>*{
-    margin: 0.5rem;
+    margin: 1rem;
     padding-right: 0.75em;
     box-sizing: border-box;
   }
