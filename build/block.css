@@ -8,6 +8,10 @@
     background: #421B4B url('../img/photos/saone_rhone.jpg') 0 0 no-repeat;
     background-size: cover;
   }
+  .banner-purple-speakers{
+    background: #421B4B url('../img/photos/speakers.jpg') center 0 no-repeat;
+    background-size: cover;
+  }
   .banner-neutral{
     background-color: #B0A7AC;
   }
@@ -131,6 +135,7 @@
   max-width: 70em;
   margin-left: auto;
   margin-right: auto;
+  clear: both;
 }
 .container-s{
   max-width: 40em;
@@ -158,16 +163,16 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-left: -0.5rem;
-  margin-right: -0.5rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
   .box-inner-padding{
     margin: 0.75em;
   }
   .boxes>*{
-    margin: 0.5rem;
+    margin: 1rem;
     padding-right: 0.75em;
     box-sizing: border-box;
   }
@@ -284,6 +289,15 @@
     overflow: scroll;
 }
   .boxes-gallery .box{}
+
+.gallery-simple {
+  text-align: center;
+}
+  .gallery-simple img{
+    max-width: 700px;
+    width: calc(100% - 2rem);
+    margin: 1rem;
+  }
 
 
 .boxes-logo{}
