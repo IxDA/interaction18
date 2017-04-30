@@ -119,6 +119,22 @@
     }
   }
 
+/* THEME BACKGROUND */
+.content .bg-pink{
+  background-color: #E40050;
+  color: #ffffff !important;
+}
+.bg-pink a{
+  color: #ffffff !important;
+}
+
+.content .bg-purple{
+  background-color: #421B4B;
+  color: #ffffff !important;
+}
+.bg-purple a{
+  color: #ffffff !important;
+}
 
 /* FORMS */
 .forms{
