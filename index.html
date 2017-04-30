@@ -29,7 +29,7 @@
 	<li><a href="speakers.html">Speakers</a></li>
 	<li><a href="partners.html">Partners</a></li>
 	<!--#include virtual="partials/header-bottom.html" -->
-	<section class="banner text-white banner-link banner-purple banner-video">
+	<!-- <section class="banner text-white banner-link banner-purple banner-video">
 		<a href="#play" class="button-banner text-white link-no-underline banner-full" id="js-play-vimeo">
 			<p>3—8 February 2018 • Lyon, France</p>
 			<h1>Dissolving boundaries. <br/>Building connections. </h1>
@@ -39,9 +39,9 @@
 			</p>
 		</a>
 		<iframe id="js-vimeo-player" src="https://player.vimeo.com/video/202684890" width="100%" height="60vh" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-	</section>
+	</section> -->
 
-	<section class="text-white boxes boxes-2">
+	<!-- <section class="text-white boxes boxes-2">
 		<div class="box box-secondary">
 			<h2>Join us in Lyon</h2>
 			<p>
@@ -64,13 +64,13 @@
 						<div id="mce-responses">
 							<div class="response" id="mce-error-response" style="display:none"></div>
 							<div class="response" id="mce-success-response" style="display:none"></div>
-						</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						</div>
 						<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e714c585710f24c2743e2cb29_4f464c4573" tabindex="-1" value=""></div>
 					</div>
 				</form>
 			</p>
 		</div>
-	</section>
+	</section> -->
 
 	<section class="content container spacer-t-b">
 		<h2>Interaction Week 18, A week like no other</h2>
@@ -88,32 +88,72 @@
 		</div>
 
 		<div class="schedule">
-			<ul class="week">
-				<li>
-					<span class="day">Sat 3</span>
+			<div class="schedule-date">
+				<h6 class="schedule-day">Sat 3</h6>
+			</div>
+			<div class="schedule-date">
+				<h6 class="schedule-day">Sun 4</h6>
+			</div>
+			<div class="schedule-date">
+				<h6 class="schedule-day">Mon 5</h6>
+			</div>
+			<div class="schedule-date">
+				<h6 class="schedule-day">Tue 6</h6>
+			</div>
+			<div class="schedule-date">
+				<h6 class="schedule-day">Wed 7</h6>
+			</div>
+			<div class="schedule-date">
+				<h6 class="schedule-day">Thu 8</h6>
+			</div>
 
-				</li>
-				<li>
-					<span class="day">Sun 4</span>
+			<div class="schedule-activity schedule-activity-education-summit bg-purple">
+				<h5><a href="#" class="no-underline schedule-activity-more-link">Interaction Design Education Summit</a></h5>
+				<div class="schedule-activity-more">
+					Grow your passion for learning and educating, explore how design learning is even more transdisciplinary.
+					<p>
+						<a href="#">learn more</a>
+					</p>
+				</div>
+			</div>
+			<div class="schedule-activity schedule-activity-workshop">
+				<h5><a href="#" class="no-underline schedule-activity-more-link">Workshops</a></h5>
+				<div class="schedule-activity-more">
+					Join the best designers and learn hands on.
+					<p>
+						<a href="#">workshop tickets soon</a>
+					</p>
+				</div>
+			</div>
+			<div class="schedule-activity schedule-activity-interaction18-conference bg-pink">
+				<h5><a href="#" class="no-underline schedule-activity-more-link">Interaction 18 Conference</a></h5>
+				<div class="schedule-activity-more">
+					The main event. You will enjoy three full conference days, listening to experts and join conversations to reshape our changing relations with ourselves, our objects, the environment and the society as a whole.
+					Don’t miss the opening night and the Interaction Awards!
+					<p>
+						<a href="#">early bird tickets</a>
+					</p>
+				</div>
+			</div>
+			<div class="schedule-activity schedule-activity-local-leader">
+				<h5><a href="#" class="no-underline schedule-activity-more-link">Local Leaders</a></h5>
+				<div class="schedule-activity-more">
+					Are you passionate about growing your local community? Join us in a one day workshop.
+					<p>
+						<a href="#">free tickets soon</a>
+					</p>
+				</div>
+			</div>
+			<div class="schedule-activity schedule-activity-student-design-challenge">
+				<h5><a href="#" class="no-underline schedule-activity-more-link">Student Design Challenge</a></h5>
+				<div class="schedule-activity-more">
+					Demonstrate your skills in the design challenge and learn from amazing mentors.
+					<p>
+						<a href="#">learn more</a>
+					</p>
+				</div>
+			</div>
 
-				</li>
-				<li>
-					<span class="day">Mon 5</span>
-
-				</li>
-				<li>
-					<span class="day">Tue 6</span>
-
-				</li>
-				<li>
-					<span class="day">Wed 7</span>
-
-				</li>
-				<li>
-					<span class="day">Thu 8</span>
-
-				</li>
-			</ul>
 		</div>
 
 	</section>
@@ -177,6 +217,19 @@
 		  }
 
 		  playButton.addEventListener('click', playVimeo);
-</script>
+
+
+		// toggle schedule more info
+		  // const toggleMoreInfo = document.querySelector('.schedule-activity-more-link');
+		  // const moreInfoBox = document.querySelector('.schedule-activity-more');
+			//
+		  // function toggleMoreInfo() {
+		  //   this.classList.toggle('schedule-activity-more-link-open');
+		  //   moreInfoBox.classList.toggle('schedule-activity-more-open');
+		  // }
+			//
+		  // toggleButton.addEventListener('click', toggleMoreInfo);
+	</script>
+
 </body>
 </html>
