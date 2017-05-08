@@ -127,6 +127,9 @@
 .bg-pink a{
   color: #ffffff !important;
 }
+.color-pink, .content a:not(.button).color-pink{
+  color: #E40050;
+}
 
 .content .bg-purple{
   background-color: #421B4B;
@@ -134,6 +137,21 @@
 }
 .bg-purple a{
   color: #ffffff !important;
+}
+.color-purple, .content a:not(.button).color-purple{
+  color: #421B4B;
+}
+
+.content .bg-mauve{
+  background-color: #D0A9D0;
+}
+.color-mauve, .content a:not(.button).color-mauve{
+  color: #D0A9D0;
+}
+
+/* JS class */
+.js-collapsed{
+  display: none;
 }
 
 /* FORMS */

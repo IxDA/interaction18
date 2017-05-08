@@ -3,56 +3,65 @@
 .schedule{
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-gap:  0.5em;
+  grid-gap:  0.3em;
 }
   .schedule > *{
-    padding: 0.6em 1.3em;
-
+    padding: 0.6em 0em;
   }
   .schedule-date{
-    text-align: center;
-    border: none;
+    border-bottom: 0.8em solid #421B4B;
+    padding-bottom: 0.1em;
+  }
+  .schedule-date.color-pink{
+    border-color: #E40050;
+  }
+  .schedule-date.color-mauve{
+    border-color: #D0A9D0;
   }
   .schedule-activity{
-    /*border-radius: 2em;*/
+    border-left: 1px solid #B0A7AC;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
 
   .schedule-activity-education-summit{
     grid-column: 1 / 2 span;
-    background-color: #421B4B;
-    color: #fff;
   }
   .schedule-activity-workshop{
-    background-color: #D0A9D0;
+
   }
   .schedule-activity-interaction18-conference{
     grid-column: 3 span;
-    background-color: #E40050;
+
   }
   .schedule-activity-local-leader{
     grid-column: 2;
-    border: 1px solid #B0A7AC;
   }
   .schedule-activity-student-design-challenge{
     grid-column: 4 span;
-    border: 1px solid #B0A7AC;
   }
 
   .schedule-activity-more-link{
     display: block;
-
   }
   .schedule-activity-more{
-    display: none;
+
   }
 
 @media (max-width: 60em) {
   .schedule{
-    grid-template-columns: 6em 1fr 1fr;
+    grid-template-columns: 4em 1fr 1fr;
   }
   .schedule-date{
     grid-column: 1;
     text-align: right;
+    border-bottom: none;
+    border-right: 0.6em solid #421B4B;
+    padding-right: 0.4em;
+  }
+  .schedule-activity{
+    border-left: none;
+    border-top: 1px solid #B0A7AC;
   }
   .schedule-activity-education-summit{
     grid-row: 1 / 2 span;
