@@ -1,9 +1,10 @@
 /* GRID */
-
-.schedule{
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap:  0.3em;
+@supports (display: grid) {
+  .schedule{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap:  0.3em;
+  }
 }
   .schedule > *{
     padding: 0.6em 0em;

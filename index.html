@@ -230,10 +230,9 @@
 		  function toggleCollapse(e) {
 				document.getElementById(this.getAttribute('for')).classList.toggle('js-collapsed');
 				e.preventDefault();
-				e.stopPropagation();
 		  }
 
-		  collapseLink.forEach(link => link.addEventListener('click', toggleCollapse));
+		  collapseLink.forEach((link) => {link.addEventListener('click', toggleCollapse)});
 	</script>
 
 </body>
