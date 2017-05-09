@@ -56,6 +56,18 @@
   margin-top: 3em;
   margin-bottom: 3em;
 }
+.spacer-2t-b{
+  margin-top: 6em;
+  margin-bottom: 3em;
+}
+.spacer-2t-2b{
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+.spacer-t-2b{
+  margin-top: 3em;
+  margin-bottom: 6em;
+}
 .spacer-t{
   margin-top: 3em;
 }
