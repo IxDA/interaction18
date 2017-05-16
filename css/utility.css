@@ -71,6 +71,9 @@
   margin-left: 3em;
   margin-right: 3em;
 }
+.spacer-none{
+  margin: 0em;
+}
 
 /* BUTTONS */
 .button{
