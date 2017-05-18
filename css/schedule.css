@@ -1,9 +1,19 @@
 /* GRID */
+.schedule-date{
+  display: none;
+}
+
 @supports (display: grid) {
   .schedule{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap:  0.3em;
+  }
+  .schedule-date{
+    display: block;
+  }
+  .schedule-activity time{
+    display: none;
   }
 }
   .schedule > *{
@@ -47,6 +57,9 @@
   }
   .schedule-activity-more{
 
+  }
+  .schedule-activity time{
+    font-weight: normal;
   }
 
 @media (max-width: 60em) {
