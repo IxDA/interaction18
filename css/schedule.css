@@ -31,6 +31,7 @@
   }
   .schedule-activity{
     border-left: 1px solid #B0A7AC;
+    border-bottom: 1px solid #B0A7AC;    
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
