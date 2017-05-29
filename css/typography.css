@@ -102,7 +102,7 @@ ul{
   margin-left: 0;
   padding-left: 0;
 }
-ul li{
+ul li {
   margin-bottom: 0.4em;
 }
 ul ul, ol ol, ul ol, ol ul {
@@ -114,8 +114,7 @@ input, textarea, keygen, select, button{
   font-size: 100%;
 }
 
-
-li{
+ul li{
   list-style: square;
 }
 
