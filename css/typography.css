@@ -95,7 +95,7 @@ p, ul, ol, pre, table, blockquote {
   margin-top: 0;
   margin-bottom: 0;
 }
-p + p, p + h2, p + h3, p + ul, ul + p, h2 + p{
+p + p, p + h2, p + h3, p + ul, ul + p, h2 + p, h3 + ol, h3 + ul, h2 + ol, h2 + ul{
   margin-top: 0.8em;
 }
 ul, ol{
