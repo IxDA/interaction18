@@ -95,14 +95,14 @@ p, ul, ol, pre, table, blockquote {
   margin-top: 0;
   margin-bottom: 0;
 }
-p + p, p + h2, p + h3, p + ul, ul + p, h2 + p{
+p + p, p + h2, p + h3, p + ul, ul + p, h2 + p, h3 + ol, h3 + ul, h2 + ol, h2 + ul{
   margin-top: 0.8em;
 }
-ul{
+ul, ol{
   margin-left: 0;
   padding-left: 0;
 }
-ul li{
+ul li , ol li{
   margin-bottom: 0.4em;
 }
 ul ul, ol ol, ul ol, ol ul {
@@ -114,9 +114,15 @@ input, textarea, keygen, select, button{
   font-size: 100%;
 }
 
-
-li{
+ul li{
   list-style: square;
+}
+ol{
+  margin-left: -0.2em;
+}
+ol li{
+  padding-left: 0.2em;
+  list-style: decimal;
 }
 
 a{
