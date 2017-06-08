@@ -95,7 +95,7 @@
   text-decoration: none;
   cursor: pointer;
 }
-  .button:hover{
+  .button:hover, .button:focus{
     background-color: #ad003d;
     color: #fff;
   }
@@ -104,7 +104,7 @@
   .button-secondary{
     background-color: #421B4B;
   }
-    .button-secondary:hover{
+    .button-secondary:hover, .button-secondary:focus{
       background-color: #290930;
       color: #D0A9D0;
     }
@@ -121,7 +121,7 @@
       color: #E40050;
       text-decoration: underline;
     }
-    .button-xs-link:hover{
+    .button-xs-link:hover, .button-xs-link:focus{
       background: none;
       color: #ad003d;
     }
