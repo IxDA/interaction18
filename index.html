@@ -116,7 +116,7 @@
 			<div class="schedule-activity schedule-activity-education-summit">
 				<h4><a href="#" for="more-education-summit" class="no-underline js-collapse schedule-activity-more-link color-purple">
 					<time datetime="2018-02-03T12:00:00+00:00">3—4 Feb - </time>
-					Interaction Design Education Summit
+					Interaction Design Education Summit<span class="arrow-down">&nbsp;&blacktriangledown;</span>
 				</a></h4>
 				<div class="js-collapsed schedule-activity-more" id="more-education-summit">
 					<p>
@@ -129,7 +129,7 @@
 			<div class="schedule-activity schedule-activity-workshop">
 				<h4><a href="#" for="more-workshop" class="no-underline js-collapse schedule-activity-more-link color-mauve">
 					<time datetime="2018-02-05T12:00:00+00:00">5 Feb - </time>
-					Workshops
+					Workshops<span class="arrow-down">&nbsp;&blacktriangledown;</span>
 				</a></h4>
 				<div class="js-collapsed schedule-activity-more" id="more-workshop">
 					<p>
@@ -142,7 +142,7 @@
 			<div class="schedule-activity schedule-activity-interaction18-conference">
 				<h4><a href="#" for="more-interaction18-conference" class="no-underline js-collapse schedule-activity-more-link color-pink">
 					<time datetime="2018-02-06T12:00:00+00:00">6—8 Feb - </time>
-					Interaction 18 Conference
+					Interaction 18 Conference<span class="arrow-down">&nbsp;&blacktriangledown;</span>
 				</a></h4>
 				<div class="js-collapsed schedule-activity-more" id="more-interaction18-conference">
 					<p>
@@ -156,7 +156,7 @@
 			<div class="schedule-activity schedule-activity-local-leader">
 				<h5><a href="#" for="more-local-leader" class="no-underline js-collapse schedule-activity-more-link">
 					<time datetime="2018-02-04T12:00:00+00:00">4 Feb - </time>
-					Local Leaders workshop
+					Local Leaders workshop<span class="arrow-down">&nbsp;&blacktriangledown;</span>
 				</a></h5>
 				<div class="js-collapsed schedule-activity-more" id="more-local-leader">
 					<p>
@@ -169,7 +169,7 @@
 			<div class="schedule-activity schedule-activity-student-design-challenge">
 				<h5><a href="#" for="more-student-design-challenge" class="no-underline js-collapse schedule-activity-more-link">
 					<time datetime="2018-02-05T12:00:00+00:00">5—8 Feb - </time>
-					Student Design Challenge
+					Student Design Challenge<span class="arrow-down">&nbsp;&blacktriangledown;</span>
 				</a></h5>
 				<div class="js-collapsed schedule-activity-more" id="more-student-design-challenge">
 					<p>
@@ -250,6 +250,7 @@
 
 		  function toggleCollapse(e) {
 				document.getElementById(this.getAttribute('for')).classList.toggle('js-collapsed');
+				this.classList.toggle('js-collapse-active');
 				e.preventDefault();
 		  }
 

@@ -164,6 +164,16 @@
 .js-collapsed{
   display: none;
 }
+.arrow-down{
+  display: inline-block;
+}
+.js-collapse-active .arrow-down{
+  -webkit-transform: rotate(0.5turn);
+          transform: rotate(0.5turn);
+  -webkit-transform-origin: 0.45em 0.75em;
+          transform-origin: 0.45em 0.75em;
+}
+
 
 /* FORMS */
 .forms{
