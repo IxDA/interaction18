@@ -31,7 +31,6 @@
   }
   .schedule-activity{
     border-left: 1px solid #B0A7AC;
-    border-bottom: 1px solid #B0A7AC;    
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
@@ -44,13 +43,14 @@
   }
   .schedule-activity-interaction18-conference{
     grid-column: 3 span;
-
+    border-right: 1px solid #B0A7AC;
   }
   .schedule-activity-local-leader{
     grid-column: 2;
   }
   .schedule-activity-student-design-challenge{
     grid-column: 4 span;
+    border-right: 1px solid #B0A7AC;
   }
 
   .schedule-activity-more-link{
@@ -89,6 +89,8 @@
   .schedule-activity-interaction18-conference{
     grid-row: 4 / 3 span;
     grid-column: 2;
+    border-right: none;
+    border-bottom: 1px solid #B0A7AC;    
   }
   .schedule-activity-local-leader{
     grid-row: 2 ;
@@ -97,6 +99,8 @@
   .schedule-activity-student-design-challenge{
     grid-row: 3 / 4 span;
     grid-column: 3;
+    border-right: none;
+    border-bottom: 1px solid #B0A7AC;
   }
 }
 
