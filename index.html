@@ -229,6 +229,18 @@
 
 	<!--#include virtual="partials/footer.html" -->
 	<!--#include virtual="partials/footer-script.html" -->
+	<script>
+		// toggle schedule more info
+		const collapseLink = document.querySelectorAll('.js-collapse');
+
+		function toggleCollapse(e) {
+			document.getElementById(this.getAttribute('for')).classList.toggle('js-collapsed');
+			this.classList.toggle('js-collapse-active');
+			e.preventDefault();
+		}
+
+		collapseLink.forEach((link) => {link.addEventListener('click', toggleCollapse)});
+	</script>
 	<script src="https://player.vimeo.com/api/player.js"></script>
 	<script>
 			// Vimeo
@@ -243,18 +255,6 @@
 		  }
 
 		  playButton.addEventListener('click', playVimeo);
-
-
-			// toggle schedule more info
-			const collapseLink = document.querySelectorAll('.js-collapse');
-
-		  function toggleCollapse(e) {
-				document.getElementById(this.getAttribute('for')).classList.toggle('js-collapsed');
-				this.classList.toggle('js-collapse-active');
-				e.preventDefault();
-		  }
-
-		  collapseLink.forEach((link) => {link.addEventListener('click', toggleCollapse)});
 	</script>
 
 </body>
