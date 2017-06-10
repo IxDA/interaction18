@@ -221,6 +221,11 @@
     padding: 0;
     margin: 0;
   }
+  @media (max-width: 600px) {
+    .boxes-team .box{
+      flex-basis: 50%; /* SAFARI fix*/
+    }
+  }
   .boxes-team .box img{
     max-width: 100%;
   }
