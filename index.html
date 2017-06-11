@@ -1,6 +1,6 @@
 <!--#set var="page" value="index" -->
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-US" class="no-js">
 <head>
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 	<meta charset="UTF-8">
@@ -31,7 +31,7 @@
 	<li><a href="partners.html">Partners</a></li>
 	<!--#include virtual="partials/header-bottom.html" -->
 	<section class="banner text-white banner-link banner-purple banner-video">
-		<a href="#play" class="button-banner text-white link-no-underline banner-full" id="js-play-vimeo">
+		<a href="https://vimeo.com/202684890" class="button-banner text-white link-no-underline banner-full" id="js-play-vimeo">
 			<p>3—8 February 2018 • Lyon, France</p>
 			<h1>Dissolving boundaries. <br/>Building connections. </h1>
 			<p class="button-play">
@@ -248,10 +248,13 @@
 		  const vimeoFrame = document.querySelector('#js-vimeo-player');
 			const player = new Vimeo.Player(vimeoFrame);
 
+			// If JS then play in the page
+			playButton.href="#play";
+
 			function playVimeo() {
-		    this.classList.toggle('nav-toggle-open');
 		    vimeoFrame.classList.toggle('video-show');
 				player.play();
+				e.preventDefault();
 		  }
 
 		  playButton.addEventListener('click', playVimeo);
