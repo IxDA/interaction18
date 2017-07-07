@@ -1,4 +1,14 @@
 /* HEADER NAVIGATION */
+
+.a11y-navigation{
+  position: fixed;
+  top: 1em;
+  left: 1em;
+}
+.a11y-navigation ul li{
+  list-style: none;
+}
+
 /* HEADER */
 header{
   display: -webkit-box;
@@ -33,9 +43,9 @@ header{
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;    
-    -webkit-box-align: baseline;    
-        -ms-flex-align: baseline;    
+        flex-wrap: wrap;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
             align-items: baseline;
     margin: 0;
     padding: 0;
