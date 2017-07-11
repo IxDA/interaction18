@@ -188,3 +188,26 @@ input:not(.button){
   line-height: 1.5em;
   padding: 0.3em;
 }
+
+/* A11Y */
+.sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+.sr-show-on-focus:focus{
+  z-index: 20;
+  width: auto;
+  min-width: 10em;
+  height: auto;
+  clip: auto;
+  background-color: #fff;
+  padding: 0.4em 1em;
+  background-color: #E40050;
+  color: #fff;
+}
