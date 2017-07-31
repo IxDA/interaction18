@@ -230,9 +230,9 @@
   }
   .boxes.boxes-4 .box{
     -webkit-box-flex: 1;
-        -ms-flex: 1 0 20em;
-            flex: 1 0 20em;
-    min-width: 20em;
+        -ms-flex: 1 0 14em;
+            flex: 1 0 14em;
+    min-width: 14em;
   }
   .box-primary{
     background-color: #E40050;
