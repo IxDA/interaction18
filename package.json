@@ -8,12 +8,15 @@
     "url": "git+https://github.com/ixda/interaction18.git"
   },
   "devDependencies": {
-    "onchange": "latest",
-    "autoprefixer": "^7.1.1"
+    "autoprefixer": "^7.1.2",
+    "onchange": "latest"
   },
   "scripts": {
     "autoprefixer": "postcss --use autoprefixer ./css/*.css -d build/",
     "build": "npm run autoprefixer",
     "build:watch": "onchange 'css/*.css' -- npm run build"
+  },
+  "dependencies": {
+    "postcss-cli": "^4.1.0"
   }
 }
