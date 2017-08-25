@@ -7,7 +7,7 @@
   .schedule{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-gap:  0.3em;
+    grid-gap:  0.5em;
   }
   .schedule-date{
     display: block;
@@ -30,8 +30,7 @@
     border-color: #D0A9D0;
   }
   .schedule-activity{
-    border-left: 1px solid #B0A7AC;
-    border-bottom: 1px solid #B0A7AC;    
+    border: 1px solid #B0A7AC;
     padding-left: 0.5em;
     padding-right: 0.5em;
   }
@@ -44,7 +43,6 @@
   }
   .schedule-activity-interaction18-conference{
     grid-column: 3 span;
-
   }
   .schedule-activity-local-leader{
     grid-column: 2;
@@ -52,7 +50,9 @@
   .schedule-activity-student-design-challenge{
     grid-column: 4 span;
   }
-
+  .schedule-activity-awards{
+    grid-column: 6 / 1 span;
+  }
   .schedule-activity-more-link{
     display: block;
   }
@@ -65,6 +65,7 @@
 
 @media (max-width: 60em) {
   .schedule{
+    margin-top: 1em;
     grid-template-columns: 4em 1fr 1fr;
   }
   .schedule-date{
@@ -74,9 +75,10 @@
     border-right: 0.6em solid #421B4B;
     padding-right: 0.4em;
   }
+  .schedule-date-2rows{
+    grid-row: 2 span;
+  }
   .schedule-activity{
-    border-left: none;
-    border-top: 1px solid #B0A7AC;
   }
   .schedule-activity-education-summit{
     grid-row: 1 / 2 span;
@@ -98,50 +100,8 @@
     grid-row: 3 / 4 span;
     grid-column: 3;
   }
+  .schedule-activity-awards{
+    grid-row: 7;
+    grid-column: 2 / 2 span;
+  }
 }
-
-
-/*
-
-
-
-
-.schedule{
-
-}
-  .schedule ul li{
-    list-style: none;
-    width: 100%;
-    border-right: 1px solid #D0A9D0;
-  }
-  .schedule ul li:first-child{
-    border-left: 1px solid #D0A9D0;
-  }
-  .day{
-    display: block;
-    text-align: center;
-    font-size: 80%;
-  }
-  .week{
-    justify-content: center;
-    display: flex;
-    width: 100%;
-  }
-
-@media (max-width: 60em) {
-  .week{
-    flex-direction: column;
-  }
-  .schedule ul li{
-    border-bottom: 1px solid #D0A9D0;
-    border-right: none;
-  }
-  .schedule ul li:first-child{
-    border-top: 1px solid #D0A9D0;
-    border-left: none;
-  }
-  .day{
-    text-align: right;
-  }
-
-}*/
