@@ -43,7 +43,6 @@
   }
   .schedule-activity-interaction18-conference{
     grid-column: 3 span;
-
   }
   .schedule-activity-local-leader{
     grid-column: 2;
@@ -51,7 +50,9 @@
   .schedule-activity-student-design-challenge{
     grid-column: 4 span;
   }
-
+  .schedule-activity-awards{
+    grid-column: 6 / 1 span;
+  }
   .schedule-activity-more-link{
     display: block;
   }
@@ -74,6 +75,9 @@
     border-right: 0.6em solid #421B4B;
     padding-right: 0.4em;
   }
+  .schedule-date-2rows{
+    grid-row: 2 span;
+  }
   .schedule-activity{
   }
   .schedule-activity-education-summit{
@@ -95,5 +99,9 @@
   .schedule-activity-student-design-challenge{
     grid-row: 3 / 4 span;
     grid-column: 3;
+  }
+  .schedule-activity-awards{
+    grid-row: 7;
+    grid-column: 2 / 2 span;
   }
 }

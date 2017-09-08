@@ -24,7 +24,13 @@
 <body>
 	<!--#include virtual="partials/header-top.html" -->
 	<li><a href="index.html">Home</a></li>
-	<li><a href="about.html" class="active">About</a></li>
+	<li>
+		<a href="about.html" class="active">About</a>
+		<ul class="subnav">
+			<li><a href="about.html" class="active">Principles</a></li>
+			<li><a href="about-team.html">Team</a></li>
+		</ul>
+	</li>
 	<li><a href="lyon.html">Lyon</a></li>
 	<li><a href="venues.html">Venues</a></li>
 	<li><a href="speakers.html">Speakers</a></li>
@@ -34,221 +40,39 @@
   <div class="bordered-top"></div>
 
 	<main id="main">
-	  <section class="container content container-xs spacer-t-b">
-	    <h1>About</h1>
-	    <h2>Dissolving boundaries. Building connections.</h2>
+	  <section class="container content container-s spacer-2t-b">
+	    <h1>The principles</h1>
+	    <h2>Dissolving boundaries.<br>
+	    Building connections.</h2>
 	    <p>
-	      <strong>Technology and design keep redefining the relationship between us and the world, a continuous flow of change that invests us, objects, society, environment.</strong><br/>
+	      The team stands by a strong set of principles for Interaction&nbsp;18:
 	    </p>
-	    <p>
-	      <strong>We want</strong> to hear contributions about how technology has been changing the relations with ourselves and what is going to happen with a more pervasive presence of digital identities and user-generated data.
-	    </p>
-	    <p>
-	      <strong>We want</strong> to reflect on how technology is disrupting the relationship with information, society and politics, adopting a more systemic perspective on what has been happening around us in the recent years and what to expect moving forward.
-	    </p>
-	    <p>
-	      <strong>We want</strong> to hear how technology has been redefining the relations with objects, and how the raise of artificial intelligences on one side and mixed analog and digital realities on the other will extend humans’ possibilities.
-	    <p>
-	      <strong>We want</strong> to talk about how we relate with the environment where we live and reflect on the virtuous paths that can improve in a smart, responsible and sustainable way our experience of the city and of all the key services we need for living, from health to finance, transport, education and inclusivity.
-	    </p>
-	    <p>
-	      It’s now just a matter of what interaction design can do to improve our future lives but also why we want to be part of this flow and what role we want to play within it.
-	    </p>
-	  </section>
-
-	    <section class="container content container-s spacer-t-b">
-	    <h2>The Team</h2>
-	    <p>
-	      <strong>All of this is possible thanks to the dedication of passionate inviduals.</strong><br/>
-	    </p>
-	    <p>
-	      Please meet a few of them.
-	    </p>
-	  </section>
-
-		<!--Team pictures & links — group of 4 -->
-	  	<section class="content container spacer-t-b">
-			<div class="boxes boxes-team">
-				<div class="box">
-					<div class="box-inner-padding">
-						<img src="img/photos/about-team-Roberta-Tassi.jpg" alt="Roberta Tassi">
-						<p>
-							<strong>Roberta Tassi</strong><br>
-							Co-Chair<br>
-							<a href="https://www.linkedin.com/in/robertatassi" target="_blank" title="LinkedIn profile">LinkedIn</a>
-							 +
-							<a href="https://twitter.com/s_DesignTools" target="_blank" title="Twitter profile">Twitter</a>
-						</p>
-					</div>
-				</div>
-				<div class="box">
-					<div class="box-inner-padding">
-						<img src="img/photos/about-team-Gilles-Demarty.jpg" alt="Gilles Demarty">
-						<p>
-							<strong>Gilles Demarty</strong><br>
-							Co-Chair<br>
-							<a href="https://www.linkedin.com/in/gillesdemarty" target="_blank" title="LinkedIn profile">LinkedIn</a>
-							 +
-							<a href="https://twitter.com/gillesdemarty" target="_blank" title="Twitter profile">Twitter</a>
-						</p>
-					</div>
-				</div>
-				<div class="box">
-					<div class="box-inner-padding">
-						<img src="img/photos/about-team-Nolwenn-Maudet.jpg" alt="Nolwenn Maudet">
-						<p>
-							<strong>Nolwenn Maudet</strong><br>
-							Program<br>
-							<a href="https://twitter.com/nolwennmaudet" target="_blank" title="Twitter profile">Twitter</a>
-						</p>
-					</div>
-				</div>
-				<div class="box">
-					<div class="box-inner-padding">
-						<img src="img/photos/about-team-Fredrik-Matheson.jpg" alt="Fredrik Matheson">
-						<p>
-							<strong>Fredrik Matheson</strong><br>
-							Program<br>
-							<a href="https://www.linkedin.com/in/movito" target="_blank" title="LinkedIn profile">LinkedIn</a>
-							 +
-							<a href="https://twitter.com/movito" target="_blank" title="Twitter profile">Twitter</a>
-						</p>
-					</div>
-				</div>
-				<div class="box">
-					<div class="box-inner-padding">
-						<img src="img/photos/about-team-Marie-Cecile-Paccard.jpg" alt="Marie-C&eacute;cile Paccard">
-						<p>
-							<strong>Marie-C&eacute;cile Paccard</strong><br>
-							Production<br>
-							<a href="https://www.linkedin.com/in/mcpaccard" target="_blank" title="LinkedIn profile">LinkedIn</a>
-							 +
-							<a href="https://twitter.com/mcpaccard" target="_blank" title="Twitter profile">Twitter</a>
-						</p>
-					</div>
-				</div>
-				<div class="box">
-					<div class="box-inner-padding">
-						<img src="img/photos/about-team-Claudia-Steinau.jpg" alt="Claudia Steinau">
-						<p>
-							<strong>Claudia Steinau</strong><br>
-							Experience<br>
-							<a href="https://www.linkedin.com/in/claudia-steinau-36878791" target="_blank" title="LinkedIn profile">LinkedIn</a>
-							 +
-							<a href="https://twitter.com/mcpaccard" target="_blank" title="Twitter profile">Twitter</a>
-						</p>
-					</div>
-				</div>
-				<div class="box">
-					<div class="box-inner-padding">
-						<img src="img/photos/about-team-Bertrand-Cochet.jpg" alt="Bertrand Cochet">
-						<p>
-							<strong>Bertrand Cochet</strong><br>
-							Experience<br>
-							<a href="https://www.linkedin.com/in/bcochet" target="_blank" title="LinkedIn profile">LinkedIn</a>
-							 +
-							<a href="https://twitter.com/bcochet" target="_blank" title="Twitter profile">Twitter</a>
-						</p>
-					</div>
-				</div>
-				<div class="box">
-					<div class="box-inner-padding">
-						<img src="img/photos/about-team-Jean-Baptiste-Joatton.jpg" alt="Jean-Baptiste Joatton">
-						<p>
-							<strong>Jean-Baptiste Joatton</strong><br>
-							Education Liaison<br>
-							<a href="https://www.linkedin.com/in/jbjoatton" target="_blank" title="LinkedIn profile">LinkedIn</a>
-							 +
-							<a href="https://twitter.com/jbjoatton" target="_blank" title="Twitter profile">Twitter</a>
-						</p>
-					</div>
-				</div>
-				<div class="box">
-					<div class="box-inner-padding">
-						<img src="img/photos/about-team-Ev-Henke.jpg" alt="Ev Henke">
-						<p>
-							<strong>Ev Henke</strong><br>
-							Speakers relations<br>
-							<a href="https://www.linkedin.com/in/ev-henke-b5b49936" target="_blank" title="LinkedIn profile">LinkedIn</a>
-							 +
-							<a href="https://twitter.com/evstyledesign" target="_blank" title="Twitter profile">Twitter</a>
-						</p>
-					</div>
-				</div>
-				<div class="box">
-					<div class="box-inner-padding">
-						<img src="img/photos/about-team-Jean-Yves-Rigal.jpg" alt="Jean-Yves Rigal">
-						<p>
-							<strong>Jean-Yves Rigal</strong><br>
-							Partners relations<br>
-							<a href="https://www.linkedin.com/in/jeanyvesrigal" target="_blank" title="LinkedIn profile">LinkedIn</a>
-							 +
-							<a href="https://twitter.com/jyrigal" target="_blank" title="Twitter profile">Twitter</a>
-						</p>
-					</div>
-				</div>
-				<div class="box">
-					<div class="box-inner-padding">
-						<img src="img/photos/about-team-Anahi-Bagu.jpg" alt="Anah&iacute; Bag&uacute;">
-						<p>
-							<strong>Anah&iacute; Bag&uacute;</strong><br>
-							Attendee relations<br>
-							<a href="https://www.linkedin.com/in/anahibagu" target="_blank" title="LinkedIn profile">LinkedIn</a>
-							 +
-							<a href="https://twitter.com/bagucci" target="_blank" title="Twitter profile">Twitter</a>
-						</p>
-					</div>
-				</div>
-				<div class="box">
-					<div class="box-inner-padding">
-						<img src="img/photos/about-team-Aurelien-Tabard.jpg" alt="Aur&eacute;lien Tabard">
-						<p>
-							<strong>Aur&eacute;lien Tabard</strong><br>
-							Schools relations<br>
-							<a href="https://www.linkedin.com/in/aurelientabard" target="_blank" title="LinkedIn profile">LinkedIn</a>
-							 +
-							<a href="https://twitter.com/aurelient" target="_blank" title="Twitter profile">Twitter</a>
-						</p>
-					</div>
-				</div>
-				<div class="box">
-					<div class="box-inner-padding">
-						<img src="img/photos/about-team-Davide-Casali.jpg" alt="Davide Casali">
-						<p>
-							<strong>Davide Casali</strong><br>
-							Communication<br>
-							<a href="https://www.linkedin.com/in/davidecasali" target="_blank" title="LinkedIn profile">LinkedIn</a>
-							 +
-							<a href="https://twitter.com/Folletto" target="_blank" title="Twitter profile">Twitter</a>
-						</p>
-					</div>
-				</div>
-				<div class="box">
-					<div class="box-inner-padding">
-						<img src="img/photos/about-team-Guillaume-Berry.jpg" alt="Guillaume Berry">
-						<p>
-							<strong>Guillaume Berry</strong><br>
-							Branding<br>
-							<a href="https://www.linkedin.com/in/guillaumeberry" target="_blank" title="LinkedIn profile">LinkedIn</a>
-							 +
-							<a href="https://twitter.com/guillaumeberry" target="_blank" title="Twitter profile">Twitter</a>
-						</p>
-					</div>
-				</div>
-				<div class="box">
-					<div class="box-inner-padding">
-						<img src="img/photos/about-team-Marc-Friederich.jpg" alt="Marc Friederich">
-						<p>
-							<strong>Marc Friederich</strong><br>
-							Web<br>
-							<a href="https://www.linkedin.com/in/marcfriederich" target="_blank" title="LinkedIn profile">LinkedIn</a>
-							 +
-							<a href="https://twitter.com/zufrieden" target="_blank" title="Twitter profile">Twitter</a>
-						</p>
-					</div>
-				</div>
+		<h2>Impact</h2>
+		<p>We aim to have a positive, long-lasting impact on our guests, our practice, and the world.</p>
+		<div class="boxes boxes-2">
+			<div class="box">
+				<h4>Impact by Cross Pollination</h4>
+				<p>We aim to facilitate activities supporting dialog and connection. Impact comes from the interactions and the mix of ideas of our diverse crowd of attendees.</p>
 			</div>
-		</section>
+			<div class="box">
+				<h4>Impact by Insightful Delight</h4>
+				<p>We aim to bring the unexpected within our space, to challenge our perspectives. Impact comes from insightful experiences.</p>
+			</div>
+		</div>
+		<hr class="spacer-t-b">
+		<h2>Diversity</h2>
+		<p>We acknowledge our practice comes from an exchange between the members of a pluralistic community, where each voice is heard.</p>
+		<div class="boxes boxes-2">
+			<div class="box">
+				<h4>Diversity by IxDA</h4>
+				<p>IxDA is a worldwide member-supported organization with over 10 years of history, 173 local groups and 80,000 members.</p>
+			</div>	
+			<div class="box">
+				<h4>Diversity by Contextual Relevance.</h4>
+				<p>Each year the conference lives in a different city, with a different culture and a different organization team. We want to give tribute to Lyon, France and Europe.</p>
+			</div>
+		</div>
+	  </section>
 	</main>
 
 	<!--Reach out block -->
