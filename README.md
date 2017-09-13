@@ -9,7 +9,7 @@ In order to minimize dependencies, we tried to be minimalist
 - Yarn
 - Postcss
 - Autoprefixer
-- Apache
+- Hugo
 
 ### Install
 
@@ -19,3 +19,7 @@ In order to minimize dependencies, we tried to be minimalist
 ### Work on CSS
 1. Edit only css files in ./css folder
 2. ```$ yarn run build:watch```
+
+### Work with Hugo
+1. Install Hugo http://gohugo.io/getting-started/installing/
+2. ```hugo serve``` to view the output
