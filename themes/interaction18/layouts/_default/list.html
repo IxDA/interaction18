@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
 	<main>
+		youpi
 		{{ $paginator := .Paginate (where .Site.Pages "Type" "post") }}
 		{{ range $paginator.Pages }}
 			{{ partial "summary.html" . }}
