@@ -1,8 +1,10 @@
 ---
 title: "Team"
 date: 2017-07-11T22:31:14+02:00
-menu: main
-slug: 'about-team'
+menu: 
+  "main":
+    parent: "about"
+
 ---
 
 <section class="container content container-s spacer-2t-b">

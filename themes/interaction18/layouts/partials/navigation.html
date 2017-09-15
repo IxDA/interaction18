@@ -1,12 +1,9 @@
 <nav role="menubar" id="menu">
   <ul>
-
-
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
-
-      <li class="sub-menu{{if $currentPage.HasMenuCurrent "main" . }} active{{end}}">
+      <li class='sub-menu{{if $currentPage.HasMenuCurrent "main" . }} active{{end}}'>
       <a href="javascript:;" class="">
           {{ .Pre }}
           <span>{{ .Name }}</span>
@@ -18,7 +15,7 @@
           {{ end }}
       </ul>
     {{else}}
-      <li>
+      <li class='{{if $currentPage.IsMenuCurrent "main" . }} active{{end}}' >
       <a href="{{.URL}}">
           {{ .Pre }}
           <span>{{ .Name }}</span>

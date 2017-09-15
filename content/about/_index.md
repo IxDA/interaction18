@@ -1,12 +1,11 @@
 ---
-title: "About"
+title: "The Principles"
 date: 2017-07-11T22:31:14+02:00
-menu: main
-slug: 'about'
+menu: 
+  "main":
+    parent: "about"
 ---
 
-
-<h1>The principles</h1>
 <h2>Dissolving boundaries.<br>
 Building connections.</h2>
 <p>
