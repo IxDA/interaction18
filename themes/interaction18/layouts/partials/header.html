@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>{{ .Title }}</title>
+	<title>{{ .Title }} - {{ .Site.Title }}</title>
 	{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 	<meta name="description" content="Interaction 18 - IxDA - Interaction Week 18 wants to reflect on how technology and design are shaping the world moving forward by building bridges across cultures, disciplines and industries to reach shared goals. Interaction Week 18 in short : Education Summit / Workshops / 3 days conference / Student Design Challenge / The interaction Awards / Field trips & surprises">
@@ -131,5 +131,5 @@
 	  </a>
 
 		{{ partial "navigation" . }}
-	 
+
 	</header>

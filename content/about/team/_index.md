@@ -1,28 +1,25 @@
 ---
 title: "Team"
 date: 2017-07-11T22:31:14+02:00
-menu: 
+menu:
   "main":
+    weight: 160
     parent: "about"
 
 ---
 
-<section class="container content container-s spacer-2t-b">
-<h1>The Team</h1>
 <p>
   <strong>All of this is possible thanks to the dedication of passionate inviduals.</strong><br/>
 </p>
 <p>
   Please meet a few of them.
 </p>
-</section>
 
 <!--Team pictures & links — group of 4 -->
-<section class="content container spacer-t-b">
 <div class="boxes boxes-team">
   <div class="box">
     <div class="box-inner-padding">
-      <img src="img/photos/about-team-Roberta-Tassi.jpg" alt="Roberta Tassi">
+      <img src="/img/photos/about-team-Roberta-Tassi.jpg" alt="Roberta Tassi">
       <p>
         <strong>Roberta Tassi</strong><br>
         Co-Chair<br>
@@ -34,7 +31,7 @@ menu:
   </div>
   <div class="box">
     <div class="box-inner-padding">
-      <img src="img/photos/about-team-Gilles-Demarty.jpg" alt="Gilles Demarty">
+      <img src="/img/photos/about-team-Gilles-Demarty.jpg" alt="Gilles Demarty">
       <p>
         <strong>Gilles Demarty</strong><br>
         Co-Chair<br>
@@ -46,7 +43,7 @@ menu:
   </div>
   <div class="box">
     <div class="box-inner-padding">
-      <img src="img/photos/about-team-Nolwenn-Maudet.jpg" alt="Nolwenn Maudet">
+      <img src="/img/photos/about-team-Nolwenn-Maudet.jpg" alt="Nolwenn Maudet">
       <p>
         <strong>Nolwenn Maudet</strong><br>
         Program<br>
@@ -56,7 +53,7 @@ menu:
   </div>
   <div class="box">
     <div class="box-inner-padding">
-      <img src="img/photos/about-team-Fredrik-Matheson.jpg" alt="Fredrik Matheson">
+      <img src="/img/photos/about-team-Fredrik-Matheson.jpg" alt="Fredrik Matheson">
       <p>
         <strong>Fredrik Matheson</strong><br>
         Program<br>
@@ -68,7 +65,7 @@ menu:
   </div>
   <div class="box">
     <div class="box-inner-padding">
-      <img src="img/photos/about-team-Marie-Cecile-Paccard.jpg" alt="Marie-C&eacute;cile Paccard">
+      <img src="/img/photos/about-team-Marie-Cecile-Paccard.jpg" alt="Marie-C&eacute;cile Paccard">
       <p>
         <strong>Marie-C&eacute;cile Paccard</strong><br>
         Production<br>
@@ -80,7 +77,7 @@ menu:
   </div>
   <div class="box">
     <div class="box-inner-padding">
-      <img src="img/photos/about-team-Claudia-Steinau.jpg" alt="Claudia Steinau">
+      <img src="/img/photos/about-team-Claudia-Steinau.jpg" alt="Claudia Steinau">
       <p>
         <strong>Claudia Steinau</strong><br>
         Experience<br>
@@ -92,7 +89,7 @@ menu:
   </div>
   <div class="box">
     <div class="box-inner-padding">
-      <img src="img/photos/about-team-Bertrand-Cochet.jpg" alt="Bertrand Cochet">
+      <img src="/img/photos/about-team-Bertrand-Cochet.jpg" alt="Bertrand Cochet">
       <p>
         <strong>Bertrand Cochet</strong><br>
         Experience<br>
@@ -104,7 +101,7 @@ menu:
   </div>
   <div class="box">
     <div class="box-inner-padding">
-      <img src="img/photos/about-team-Jean-Baptiste-Joatton.jpg" alt="Jean-Baptiste Joatton">
+      <img src="/img/photos/about-team-Jean-Baptiste-Joatton.jpg" alt="Jean-Baptiste Joatton">
       <p>
         <strong>Jean-Baptiste Joatton</strong><br>
         Education Liaison<br>
@@ -116,7 +113,7 @@ menu:
   </div>
   <div class="box">
     <div class="box-inner-padding">
-      <img src="img/photos/about-team-Ev-Henke.jpg" alt="Ev Henke">
+      <img src="/img/photos/about-team-Ev-Henke.jpg" alt="Ev Henke">
       <p>
         <strong>Ev Henke</strong><br>
         Speakers relations<br>
@@ -128,7 +125,7 @@ menu:
   </div>
   <div class="box">
     <div class="box-inner-padding">
-      <img src="img/photos/about-team-Jean-Yves-Rigal.jpg" alt="Jean-Yves Rigal">
+      <img src="/img/photos/about-team-Jean-Yves-Rigal.jpg" alt="Jean-Yves Rigal">
       <p>
         <strong>Jean-Yves Rigal</strong><br>
         Partners relations<br>
@@ -140,7 +137,7 @@ menu:
   </div>
   <div class="box">
     <div class="box-inner-padding">
-      <img src="img/photos/about-team-Anahi-Bagu.jpg" alt="Anah&iacute; Bag&uacute;">
+      <img src="/img/photos/about-team-Anahi-Bagu.jpg" alt="Anah&iacute; Bag&uacute;">
       <p>
         <strong>Anah&iacute; Bag&uacute;</strong><br>
         Attendee relations<br>
@@ -152,7 +149,7 @@ menu:
   </div>
   <div class="box">
     <div class="box-inner-padding">
-      <img src="img/photos/about-team-Aurelien-Tabard.jpg" alt="Aur&eacute;lien Tabard">
+      <img src="/img/photos/about-team-Aurelien-Tabard.jpg" alt="Aur&eacute;lien Tabard">
       <p>
         <strong>Aur&eacute;lien Tabard</strong><br>
         Schools relations<br>
@@ -164,7 +161,7 @@ menu:
   </div>
   <div class="box">
     <div class="box-inner-padding">
-      <img src="img/photos/about-team-Davide-Casali.jpg" alt="Davide Casali">
+      <img src="/img/photos/about-team-Davide-Casali.jpg" alt="Davide Casali">
       <p>
         <strong>Davide Casali</strong><br>
         Communication<br>
@@ -176,7 +173,7 @@ menu:
   </div>
   <div class="box">
     <div class="box-inner-padding">
-      <img src="img/photos/about-team-Guillaume-Berry.jpg" alt="Guillaume Berry">
+      <img src="/img/photos/about-team-Guillaume-Berry.jpg" alt="Guillaume Berry">
       <p>
         <strong>Guillaume Berry</strong><br>
         Branding<br>
@@ -188,7 +185,7 @@ menu:
   </div>
   <div class="box">
     <div class="box-inner-padding">
-      <img src="img/photos/about-team-Marc-Friederich.jpg" alt="Marc Friederich">
+      <img src="/img/photos/about-team-Marc-Friederich.jpg" alt="Marc Friederich">
       <p>
         <strong>Marc Friederich</strong><br>
         Web<br>
@@ -199,4 +196,3 @@ menu:
     </div>
   </div>
 </div>
-</section>

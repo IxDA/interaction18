@@ -6,9 +6,36 @@ title = "Interaction 18 – 3—8 February 2018 • Lyon, France"
 [menu]
 [[menu.main]]
     name = "About"
-    weight = -110
+    weight = 100
     identifier = "about"
     url = "/about/"
 
  [[menu.about]]
  	parent = "about"
+
+[[menu.main]]
+    name = "Lyon"
+    weight = 200
+    identifier = "lyon"
+    url = "/lyon/"
+
+ [[menu.lyon]]
+ 	parent = "lyon"
+
+[[menu.main]]
+  name = "Venues"
+  weight = 300
+  identifier = "venues"
+  url = "/venues/"
+
+[[menu.main]]
+  name = "Speakers"
+  weight = 400
+  identifier = "speakers"
+  url = "/speakers/"
+
+[[menu.main]]
+    name = "Partners"
+    weight = 500
+    identifier = "partners"
+    url = "/partners/"
