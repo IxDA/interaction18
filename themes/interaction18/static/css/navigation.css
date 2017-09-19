@@ -71,8 +71,11 @@ header{
     justify-content: center;
     font-size: 80%;
   }
-  header nav .subnav li{
+  /*ADDITION*/
+  header nav .subnav:not(.subnav-active){
+    display: none;
   }
+  /*ADDITION*/
   header nav .subnav a{
     border-bottom: 1px solid #B0A7AC;
     padding-left: 0.8em;
