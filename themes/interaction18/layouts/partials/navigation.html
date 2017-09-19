@@ -4,20 +4,24 @@
     {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
       <li class='{{if $currentPage.HasMenuCurrent "main" . }}active{{end}}'>
-      <a href="{{.URL}}">
+      <a href="{{.URL}}" class='{{if $currentPage.HasMenuCurrent "main" . }}active{{end}}'>
           {{ .Pre }}
           {{ .Name }}
       </a>
       <ul class='subnav {{if $currentPage.HasMenuCurrent "main" . }}subnav-active{{end}}'>
           {{ range .Children }}
-          <li{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }} </a> </li>
+          <li{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
+            <a href="{{.URL}}"{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
+              {{ .Name }}
+            </a>
+          </li>
           {{ end }}
       </ul>
     {{else}}
       <li class='{{if $currentPage.IsMenuCurrent "main" . }} active{{end}}' >
-      <a href="{{.URL}}">
+      <a href="{{.URL}}"{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
           {{ .Pre }}
-          <span>{{ .Name }}</span>
+          {{ .Name }}
       </a>
     {{end}}
     </li>
