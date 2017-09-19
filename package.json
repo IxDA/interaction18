@@ -12,9 +12,9 @@
     "onchange": "latest"
   },
   "scripts": {
-    "autoprefixer": "postcss --use autoprefixer ./css/*.css -d build/",
+    "autoprefixer": "postcss --use autoprefixer ./themes/interaction18/static/css/*.css -d ./themes/interaction18/static/build/",
     "build": "npm run autoprefixer",
-    "build:watch": "onchange 'css/*.css' -- npm run build"
+    "build:watch": "onchange 'themes/interaction18/static/css/*.css' -- npm run build"
   },
   "dependencies": {
     "postcss-cli": "^4.1.0"
