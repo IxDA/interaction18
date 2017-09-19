@@ -3,13 +3,12 @@
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
-      <li class='sub-menu{{if $currentPage.HasMenuCurrent "main" . }} active{{end}}'>
-      <a href="javascript:;" class="">
+      <li class='{{if $currentPage.HasMenuCurrent "main" . }} active{{end}}'>
+      <a href="{{.URL}}">
           {{ .Pre }}
-          <span>{{ .Name }}</span>
-          <span class="menu-arrow arrow_carrot-right"></span>
+          {{ .Name }}
       </a>
-      <ul class="sub">
+      <ul class="subnav">
           {{ range .Children }}
           <li{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}><a href="{{.URL}}"> {{ .Name }} </a> </li>
           {{ end }}
@@ -22,8 +21,7 @@
       </a>
     {{end}}
     </li>
-    {{end}}
-    
+    {{end}}    
     <li class="main-nav-button"><a href="http://join.interaction.ixda.org" class="button button-xs-link">Get tickets</a></li>
   </ul>
   <a href="#menu" class="nav-toggle button" id="js-toggle-nav">
