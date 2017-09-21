@@ -18,7 +18,6 @@ date: 2017-07-11T22:31:14+02:00
   </div>
 </div>
 
-
 <section class="bordered mega-padding container content container-s spacer-t-b">
   <h2>Call for Proposals</h2>
   <p>Eager to speak at Interaction 18? Take this opportunity to inspire people, impacting the discipline of interaction design. You will meet other design leaders from all around the world. And more importantly, it will be fun!<br>
