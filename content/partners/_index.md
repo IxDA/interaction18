@@ -42,6 +42,10 @@ date: 2017-07-11T22:31:14+02:00
   Partners
 </h2>
 <div class="boxes boxes-nopadding boxes-partners">
+
+{{% partners %}}
+
+
   <div class="box">
     <img src="/img/logos/partner-OnlyLyon.svg" alt="OnlyLyon" style="width:250px;"><br/>
       <hr class="hr-xs">

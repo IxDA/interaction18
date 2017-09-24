@@ -1,0 +1,53 @@
+{
+    "items": [
+      {
+        "logo": "/img/logos/partner-OnlyLyon.svg",
+        "logo-alt": "OnlyLyon",
+        "title": "Convention bureau",
+        "url": "http://www.onlylyon.com",
+        "link": "onlylyon.com"
+      },
+      {
+        "logo": "/img/logos/partner-Mirage-Festival.svg",
+        "logo-alt": "Mirage Festival",
+        "title": "Art & Mapping",
+        "url": "http://www.miragefestival.com",
+        "link": "miragefestival.com"
+      },
+      {
+        "logo": "/img/logos/partner-ENS.svg",
+        "logo-alt": "ENS school",
+        "title": "Partner Design School",
+        "url": "http://www.ens-lyon.fr",
+        "link": "ens-lyon.fr"
+      },
+      {
+        "logo": "/img/logos/partner-Villefontaine.svg",
+        "logo-alt": "Villefontaine design school",
+        "title": "Partner Design School",
+        "url": "http://dsaa.designvillefontaine.com",
+        "link": "designvillefontaine.com"
+      },
+      {
+        "logo": "/img/logos/partner-Harvest.svg",
+        "logo-alt": "Harvest app",
+        "title": "Modern time tracking",
+        "url": "https://www.getharvest.com",
+        "link": "getharvest.com"
+      },
+      {
+        "logo": "/img/logos/partner-Mama-shelter.svg",
+        "logo-alt": "Mama Shelter hotel",
+        "title": "Official conference hotel",
+        "url": "lyon-accomodations.html",
+        "link": "more details"
+      },
+      {
+        "logo": "/img/logos/partner-You.svg",
+        "logo-alt": "Become a partner",
+        "title": "Join us!",
+        "url": "pdf/Interaction-18_SponsorKit_EN.pdf",
+        "link": "Download the kit (EN)"
+      }
+  ]
+}
