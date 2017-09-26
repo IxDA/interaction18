@@ -1,10 +1,15 @@
+<div class="boxes boxes-nopadding boxes-partners">
 {{ $data := getJSON "data/partner/partners.json" }}
 {{ range $data.items }}
     {{ $item := . }}
     <div class="box">
-      <img src="{{ $item.logo }}" alt="{{ $item.logo-alt }}" style="width:250px;"><br/>
+      <a href="{{ $item.url }}" target="_blank" class="no-underline">
+        <img src="{{ $item.logo }}" alt="{{ $item.logoalt }}" style="width:250px;">
+      </a>
+      <br/>
         <hr class="hr-xs">
         {{ $item.title }}<br>
         <a href="{{ $item.url }}" target="_blank">{{ $item.link }}</a>
     </div>
 {{ end }}
+</div>

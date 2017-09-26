@@ -41,56 +41,7 @@ date: 2017-07-11T22:31:14+02:00
 <h2>
   Partners
 </h2>
-<div class="boxes boxes-nopadding boxes-partners">
 
-{{% partners %}}
+  {{% partners %}}
 
-
-  <div class="box">
-    <img src="/img/logos/partner-OnlyLyon.svg" alt="OnlyLyon" style="width:250px;"><br/>
-      <hr class="hr-xs">
-      Convention bureau<br>
-      <a href="http://www.onlylyon.com" target="_blank">onlylyon.com</a>
-  </div>
-
-  <!-- Mirage festival
-  <div class="box">
-    <img src="/img/logos/partner-Mirage-Festival.svg" alt="Mirage Festival" style="width:250px;"><br/>
-      <hr class="hr-xs">
-      Art & Mapping<br>
-      <a href="http://www.miragefestival.com" target="_blank">miragefestival.com</a>
-  </div>
-  -->
-
-  <div class="box">
-    <img src="/img/logos/partner-ENS.svg" alt="ENS school" style="width:250px;"><br/>
-      <hr class="hr-xs">
-      Partner Design School<br>
-      <a href="http://www.ens-lyon.fr" target="_blank">ens-lyon.fr</a>
-  </div>
-  <div class="box">
-    <img src="/img/logos/partner-Villefontaine.svg" alt="Villefontaine design school" style="width:250px;"><br/>
-      <hr class="hr-xs">
-      Partner Design School<br>
-      <a href="http://dsaa.designvillefontaine.com" target="_blank">designvillefontaine.com</a>
-  </div>
-  <div class="box">
-    <img src="/img/logos/partner-Harvest.svg" alt="Harvest app" style="width:250px;"><br/>
-      <hr class="hr-xs">
-      Modern time tracking<br>
-      <a href="https://www.getharvest.com" target="_blank">getharvest.com</a>
-  </div>
-  <div class="box">
-    <img src="/img/logos/partner-Mama-shelter.svg" alt="Mama Shelter hotel" style="width:250px;"><br/>
-      <hr class="hr-xs">
-      Official conference hotel<br>
-      <a href="lyon-accomodations.html" target="_blank">more details</a>
-  </div>
-  <div class="box">
-    <img src="/img/logos/partner-You.svg" alt="Become a partner" style="width:250px;"><br/>
-      <hr class="hr-xs">
-      Join us!<br>
-      <a href="pdf/Interaction-18_SponsorKit_EN.pdf" target="_blank">Download the kit (EN)</a>
-  </div>
-</div>
 </section>
