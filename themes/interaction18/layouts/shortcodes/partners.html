@@ -1,4 +1,4 @@
-{{ $data := getJson "data/partner/partners.json" }}
+{{ $data := getJSON "data/partner/partners.json" }}
 {{ range $data.items }}
     {{ $item := . }}
     <div class="box">
