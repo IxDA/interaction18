@@ -1,6 +1,6 @@
 <div class="boxes boxes-nopadding boxes-partners">
-{{ $data := getJSON "data/partner/partners.json" }}
-{{ range $data.items }}
+{{ $data := getJSON "https://script.google.com/macros/s/AKfycbxOLElujQcy1-ZUer1KgEvK16gkTLUqYftApjNCM_IRTL3HSuDk/exec?id=1I1tqSbAVRccL1N2yKQ3aiSzgNryLNzhfX6SAQ8xkNVI&sheet=partners" }}
+{{ range $data.partners }}
     {{ $item := . }}
     <div class="box">
       <a href="{{ $item.url }}" target="_blank" class="no-underline">
