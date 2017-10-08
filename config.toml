@@ -8,6 +8,12 @@ title = "Interaction 18 – 3—8 February 2018 • Lyon, France"
 
 [menu]
 [[menu.main]]
+    name = "Home"
+    weight = 80
+    identifier = "home"
+    url = "/"
+
+[[menu.main]]
     name = "About"
     weight = 100
     identifier = "about"
