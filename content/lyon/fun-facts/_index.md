@@ -1,14 +1,12 @@
 ---
-title: "Fun facts"
-date: 2017-07-11T22:31:14+02:00
+title: "Fun facts about Lyon"
 menu:
   "main":
+    name: "Fun facts"
     weight: 260  
     parent: "lyon"
 ---
-
-  <h1>Fun facts about Lyon</h1>
-  <p>We selected a few interesting stories about the city and the people of Lyon.</p>
+We selected a few interesting stories about the city and the people of Lyon.
 
 <section class="boxes boxes-nopadding boxes-fun">
 <div class="box">

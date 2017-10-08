@@ -1,13 +1,13 @@
 ---
-title: "Get there"
+title: "Get to Lyon"
 date: 2017-07-11T22:31:14+02:00
 menu:
   "main":
+    name: "Get there"
     weight: 210  
     parent: "lyon"
 ---
 <section class="container content container-s spacer-2t-b">
-  <h1>Get to Lyon</h1>
   <p>
     Lyon benefits from a central location in Europe. You can enjoy a quiet high-speed train, or take a direct flight from <strong>125 cities</strong> in <strong>46 countries</strong>. Paris is just two hours away. Bon voyage!
   </p>

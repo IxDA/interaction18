@@ -1,0 +1,2 @@
+
+<a href="{{ .Get "href" }}"  {{ with .Get "target" }}target="{{.}}"{{ end }} class="button{{ with .Get "class" }} {{.}}{{ end }}">{{ .Get "name" }}</a>

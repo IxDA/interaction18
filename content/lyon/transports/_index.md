@@ -1,14 +1,14 @@
 ---
-title: "Transports"
+title: "Get around Lyon"
 date: 2017-07-11T22:31:14+02:00
 menu:
   "main":
+    name: "Transports"
     weight: 230
     parent: "lyon"
 ---
 
 <section class="container content container-s spacer-2t-b">
-  <h1>Get around Lyon</h1>
   <p>
     You can easily move in the city using Lyon’s wide range of public transport. It’s also a beautiful city for a walk, if you fancy.
   </p>
