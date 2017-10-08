@@ -10,9 +10,11 @@ Lyon offers a rich variety of accommodation choices, in the city centre or downt
 
 For Interaction&nbsp;Week&nbsp;18 we are looking for some of the best places for you.
 
-## Mama Shelter - **Official  hotel**
+## Mama Shelter - **Official conference hotel**
 
 You will find in Mama Shelter a place that blends into one of the central quarters of Lyon but at the same time has a charm of its own. Minimal yet eccentric, luxurious yet affordable – everything is enriched with an urban touch.
+
+Mama Shelter is our official partner: you will be able to use the hotel [spaces](http://www.mamashelter.com/en/lyon/photos) for interaction and chill.
 
 ![Mama Shelter Luxe Twin room](/img/photos/Mama-Shelter-luxe-twin.jpg)
 
