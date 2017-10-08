@@ -140,9 +140,13 @@
     column-count: 2;
     column-gap: 4em;
   }
-  .columns-3{
+  .columns.columns-3{
     column-count: 3;
   }
+}
+.columns .columns-break{
+  break-after: column;
+  margin: 1em;
 }
 
 /* Boxes */

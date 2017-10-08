@@ -21,16 +21,17 @@ Its [156 comfortable rooms](http://www.mamashelter.com/en/lyon/rooms) are equipp
 Mama Shelter is our official partner: you will be able to use the hotel [spaces](http://www.mamashelter.com/en/lyon/photos) for interaction and chill.
 
 ![Mama Shelter restaurant](/img/photos/Mama-Shelter-restaurant.jpg)
-  
+
 {{% box %}}
 
 ## Get 10% discount at Mama Shelter hotel
 Mama Shelter is the official hotel of Interaction&nbsp;Week&nbsp;18. Book before 15 January 2018 with the code **IXDA** to receive 10% discount.
 
-{{<button target="_blank" name="Book with discount" href="http://www.mamashelter.com/en/lyon" >}}
+{{< button target="_blank" name="Book with discount" href="http://www.mamashelter.com/en/lyon" >}}
 {{% /box %}}
 
 {{< spacer >}}
 
-## More to come…
-We'll add more hotels and accomodation tips soon… But you know, Mama first!
+## Other hotels
+
+{{% hotels %}}

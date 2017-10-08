@@ -16,11 +16,9 @@ We aim to have a positive, long-lasting impact on our guests, our practice, and 
 
 {{% columns columns_number="2" %}}
 #### Impact by Cross Pollination
-
 We aim to facilitate activities supporting dialog and connection. Impact comes from the interactions and the mix of ideas of our diverse crowd of attendees.
-
+{{% columns_break %}}
 #### Impact by Insightful Delight
-
 We aim to bring the unexpected within our space, to challenge our perspectives. Impact comes from insightful experiences.
 {{% /columns %}}
 
@@ -32,9 +30,7 @@ We acknowledge our practice comes from an exchange between the members of a plur
 {{% columns columns_number="2" %}}
 #### Diversity by IxDA
 IxDA is a worldwide member-supported organization with over 10 years of history, 173 local groups and 80,000 members.
-
+{{% columns_break %}}
 #### Diversity by Contextual Relevance
 Each year the conference lives in a different city, with a different culture and a different organization team. We want to give tribute to Lyon, France and Europe.
 {{% /columns %}}
-
-  
