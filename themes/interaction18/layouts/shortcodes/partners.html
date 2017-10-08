@@ -1,5 +1,6 @@
 <div class="boxes boxes-nopadding boxes-partners">
-{{ $data := getJSON "https://script.google.com/macros/s/AKfycbxOLElujQcy1-ZUer1KgEvK16gkTLUqYftApjNCM_IRTL3HSuDk/exec?id=1I1tqSbAVRccL1N2yKQ3aiSzgNryLNzhfX6SAQ8xkNVI&sheet=partners" }}
+
+{{ $data := getJSON $.Site.Params.partnersData }}
 {{ range $data.partners }}
     {{ $item := . }}
     <div class="box">
