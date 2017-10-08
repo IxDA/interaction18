@@ -1,5 +1,5 @@
 ---
-title: "Homepage"
+title: "Home"
 date: 2017-07-11T22:31:14+02:00
 ---
 <section class="banner text-white banner-link banner-purple banner-video">
@@ -18,7 +18,7 @@ date: 2017-07-11T22:31:14+02:00
   <div class="box box-secondary">
     <h2>Join us in Lyon</h2>
     <p>
-      Get your ticket soon for the full conference experience at the lowest early bird price.
+      Get your ticket soon for the full conference experience.
     </p>
     <p>
       <a href="http://join.interaction.ixda.org" class="button">Get tickets for Interaction&nbsp;18</a>
@@ -217,7 +217,7 @@ date: 2017-07-11T22:31:14+02:00
     </div>
   </div>
   <p class="text-center spacer-t-b">
-    <a href="lyon.html" class="button">Discover your stay in Lyon</a>
+    <a href="/lyon/" class="button">Discover your stay in Lyon</a>
   </p>
 </section>
 
