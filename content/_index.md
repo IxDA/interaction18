@@ -124,11 +124,11 @@ date: 2017-07-11T22:31:14+02:00
     <div class="schedule-activity schedule-activity-local-leader">
       <h5><a href="#" for="more-local-leader" class="no-underline js-collapse schedule-activity-more-link">
         <time datetime="2018-02-04T12:00:00+00:00">4 Feb - </time>
-        Local Leaders workshop<span class="arrow-down">&nbsp;&blacktriangledown;</span>
+        Local Leaders retreat<span class="arrow-down">&nbsp;&blacktriangledown;</span>
       </a></h5>
       <div class="js-collapsed schedule-activity-more" id="more-local-leader">
         <p>
-          Are you passionate about growing your local community? Join us in a one day workshop.
+          Are you passionate about growing your local community? Join us in a one day retreat.
           <br/>
           <em>free tickets soon</em>
         </p>
