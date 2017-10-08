@@ -9,7 +9,7 @@ menu:
 We selected a few interesting stories about the city and the people of Lyon.
 {{< spacer >}}
 {{% fullwidth %}}
-<section class="boxes boxes-nopadding boxes-fun">
+{{% boxes class="boxes-nopadding boxes-fun" %}}
 <div class="box">
   <a name="lyon-Lugdunum"></a>
   <div class="box-inner-padding">
@@ -90,6 +90,6 @@ We selected a few interesting stories about the city and the people of Lyon.
     </p>
   </div>
 </div>
-</section>
+{{% /boxes %}}
 {{% /fullwidth %}}
 

@@ -18,7 +18,6 @@ Lyon benefits from a central location in Europe. You can enjoy a quiet high-spee
 {{% box %}}
 ## By plane
 ![Lyon Saint Exupery airport (LYS)](/img/photos/lyon-scene10-Airport.jpg) 
-/* style="width:100%;" */
 You&rsquo;ll arrive at Lyon Saint-Exup&eacute;ry (LYS), the main airport.  From there, there&rsquo;s a 30 minutes [Rh&ocirc;ne&nbsp;Express](https://www.rhonexpress.fr/en) that will take you to Gare de Lyon-Part-Dieu.
 
 Lyon is also connected directly to Paris-Charles de Gaulle (CDG) and Geneva Airport (GVA) via a 2 hours direct train ride.
