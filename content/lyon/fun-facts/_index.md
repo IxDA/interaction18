@@ -7,7 +7,8 @@ menu:
     parent: "lyon"
 ---
 We selected a few interesting stories about the city and the people of Lyon.
-
+{{< spacer >}}
+{{% fullwidth %}}
 <section class="boxes boxes-nopadding boxes-fun">
 <div class="box">
   <a name="lyon-Lugdunum"></a>
@@ -90,3 +91,5 @@ We selected a few interesting stories about the city and the people of Lyon.
   </div>
 </div>
 </section>
+{{% /fullwidth %}}
+
