@@ -13,18 +13,16 @@ We expect 1000 people to join us in Lyon. Our attendees are spread across many d
 
 **As well as helping us create an amazing conference, you will set your footprint in a fresh and ambitious location where interaction design rubs shoulders with many other industries: videogame, art, innovation, research... and the list goes on.**
 {{< spacer >}}
-{{% box %}}
 
+{{% box class="bordered mega-padding"  %}}
 ### Become a partner
 Make an impression during Interaction&nbsp;Week&nbsp;18
 
 {{<button target="_blank" name="Download the kit (EN)" href="pdf/Interaction-18_SponsorKit_EN.pdf" >}}&ensp;{{<button target="_blank" name="Télécharger le kit (FR)" href="pdf/Interaction-18_SponsorKit_FR.pdf" class="button-secondary" >}}
-
 {{% /box %}}
 
 
 ## Partners
-
   {{% partners %}}
 
 </section>

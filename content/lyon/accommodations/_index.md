@@ -24,7 +24,7 @@ Mama Shelter is our official partner: you will be able to use the hotel [spaces]
 
 ![Mama Shelter restaurant](/img/photos/Mama-Shelter-restaurant.jpg)
 
-{{% box %}}
+{{% box class="bordered mega-padding" %}}
 
 ## Get 10% discount at Mama Shelter hotel
 Mama Shelter is the official hotel of Interaction&nbsp;Week&nbsp;18. Book before 15 January 2018 with the code **IXDA** to receive 10% discount.
