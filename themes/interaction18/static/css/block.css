@@ -134,6 +134,17 @@
     margin-bottom: 0.5em;
   }
 
+/* Columns */
+@media (min-width: 600px) {
+  .columns{
+    column-count: 2;
+    column-gap: 4em;
+  }
+  .columns-3{
+    column-count: 3;
+  }
+}
+
 /* Boxes */
 .boxes{
   display: flex;

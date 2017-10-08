@@ -14,16 +14,18 @@ Building connections.</h2>
 </p>
 <h2>Impact</h2>
 <p>We aim to have a positive, long-lasting impact on our guests, our practice, and the world.</p>
-<div class="boxes boxes-2">
-<div class="box">
-  <h4>Impact by Cross Pollination</h4>
-  <p>We aim to facilitate activities supporting dialog and connection. Impact comes from the interactions and the mix of ideas of our diverse crowd of attendees.</p>
-</div>
-<div class="box">
-  <h4>Impact by Insightful Delight</h4>
-  <p>We aim to bring the unexpected within our space, to challenge our perspectives. Impact comes from insightful experiences.</p>
-</div>
-</div>
+
+{{% columns columns_number="2" %}}
+
+#### Impact by Cross Pollination
+
+We aim to facilitate activities supporting dialog and connection. Impact comes from the interactions and the mix of ideas of our diverse crowd of attendees.
+
+#### Impact by Insightful Delight
+
+We aim to bring the unexpected within our space, to challenge our perspectives. Impact comes from insightful experiences.
+{{% /columns %}}
+
 <hr class="spacer-t-b">
 <h2>Diversity</h2>
 <p>We acknowledge our practice comes from an exchange between the members of a pluralistic community, where each voice is heard.</p>
