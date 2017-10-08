@@ -121,6 +121,42 @@
   max-width: 32em;
 }
 
+
+@supports (display: grid) {
+  .container {
+    display: grid;
+    width: 100%;
+    max-width: 100%;
+    grid-template-columns:
+    [full-start] minmax(1em, 1fr)
+    [main-start] minmax(0, 70em) [main-end]
+    minmax(1em, 1fr) [full-end];
+  }
+  .container-s{
+    max-width: 100%;
+    grid-template-columns:
+    [full-start] minmax(1em, 1fr)
+    [main-start] minmax(0, 40em) [main-end]
+    minmax(1em, 1fr) [full-end];
+  }
+  .container-xs{
+    max-width: 100%;
+    grid-template-columns:
+    [full-start] minmax(1em, 1fr)
+    [main-start] minmax(0, 32em) [main-end]
+    minmax(1em, 1fr) [full-end];
+  }
+  .container > *, .container-s > *, .container-xs > * {
+    grid-column: main;
+  }
+
+  .fullwidth {
+    margin-left: 0;
+    margin-right: 0;
+    grid-column: full;
+  }
+}
+
 .content{
 
 }
@@ -212,7 +248,7 @@
 
 .boxes-fun{
   flex-direction: column;
-  height: 100em;
+  height: 110em;
   justify-content: flex-start;
 }
 .boxes-fun .box{
