@@ -230,6 +230,13 @@
     max-width: 100%;
   }
 
+.boxes-hotels{
+  }
+    .boxes-hotels .box{
+      flex: 1 0 10em;
+      margin-bottom: 2em;
+    }
+
 .boxes-partners{
 }
   .boxes-partners .box{

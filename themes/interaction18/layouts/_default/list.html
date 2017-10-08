@@ -1,7 +1,7 @@
 {{ partial "header.html" . }}
 <div class="bordered-top"></div>
 <main id="main">
-	<section class="container content container-s spacer-t-b">
+	<section class="container content container-s spacer-2t-b">
 		<h1>{{ .Title }}</h1>
 		{{ .Content }}
 
@@ -9,7 +9,7 @@
 		{{ range $paginator.Pages }}
 			{{ partial "summary.html" . }}
 		{{ end }}
-		
+
 	</section>
 </main>
 {{ partial "footer.html" . }}
