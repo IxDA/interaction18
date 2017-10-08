@@ -1,16 +1,17 @@
 <div class="boxes boxes-nopadding boxes-partners">
-
 {{ $data := getJSON $.Site.Params.partnersData }}
 {{ range $data.partners }}
     {{ $item := . }}
-    <div class="box">
+    {{ if $item.active }}
+    <div class="box box-{{ $item.size }}">
       <a href="{{ $item.url }}" target="_blank" class="no-underline">
-        <img src="{{ $item.logo }}" alt="{{ $item.logoalt }}" style="width:250px;">
+        <img src="{{ $item.logo }}" alt="{{ $item.logoalt }}">
       </a>
       <br/>
         <hr class="hr-xs">
         {{ $item.title }}<br>
         <a href="{{ $item.url }}" target="_blank">{{ $item.link }}</a>
     </div>
+    {{ end }}
 {{ end }}
 </div>

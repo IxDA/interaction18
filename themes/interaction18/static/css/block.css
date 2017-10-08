@@ -254,6 +254,13 @@
     margin-bottom: 3em;
     flex: 1 1 auto;
   }
+  .boxes-partners .box-XL img{ width: 25em; }
+  .boxes-partners .box-L img{ width: 12em; }
+  .boxes-partners .box-M img{ width: 6em; }
+  .boxes-partners .box-S img{ width: 6em; }
+  /*.boxes-partners .box img{
+    max-width: 250px;
+  }*/
 
 .boxes-gallery{
     flex-wrap: nowrap;
