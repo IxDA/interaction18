@@ -5,6 +5,9 @@ menu:
     name: "Fun facts"
     weight: 260  
     parent: "lyon"
+
+aliases: 
+    - /lyon-fun-facts.html
 ---
 We selected a few interesting stories about the city and the people of Lyon.
 {{< spacer >}}

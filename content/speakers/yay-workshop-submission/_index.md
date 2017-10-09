@@ -1,6 +1,10 @@
 ---
 title: "Congrats!"
 date: 2017-07-11T22:31:14+02:00
+
+aliases: 
+  - /yay-workshop-submission.html
+
 ---
 <section class="banner banner-link text-white banner-purple-speakers banner-video" style="background: url('/img/photos/yay-workshop.gif') no-repeat center center; background-size: cover;">
   <span class="button-banner text-white banner-full">

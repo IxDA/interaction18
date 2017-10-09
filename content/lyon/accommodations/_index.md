@@ -5,6 +5,10 @@ menu:
   "main":
     weight: 240  
     parent: "lyon"
+
+
+aliases:
+    - /lyon-accomodations.html
 ---
 Lyon offers a rich variety of accommodation choices, in the city centre or downtown, in a contemporary hotel or a classical 17<sup>th</sup> century apartment.
 

@@ -1,6 +1,11 @@
 ---
 title: "Partners"
 date: 2017-07-11T22:31:14+02:00
+
+
+aliases: 
+    - /partners.html
+    
 ---
 ## Connect with designers at the discipline's premier event
 From the rise of artificial intelligences and virtual reality to the commoditization of smart services — technology keeps redefining the relationship between us and the world where we live. Interaction 18 will offer practitioners and companies the opportunity to reflect on how we are shaping the world moving forward, by building bridges across cultures, disciplines and industries to discover shared directions and goals.

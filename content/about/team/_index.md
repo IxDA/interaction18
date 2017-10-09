@@ -7,6 +7,8 @@ menu:
     weight: 160
     parent: "about"
 
+aliases:
+    - /about-team.html
 ---
 
 <p>

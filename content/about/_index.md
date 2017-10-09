@@ -6,6 +6,9 @@ menu:
     name: "Principles"
     weight: 110  
     parent: "about"
+
+aliases:
+    - /about.html
 ---
 
 ## Dissolving boundaries.<br>Building connections.

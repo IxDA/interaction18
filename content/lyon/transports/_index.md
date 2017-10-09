@@ -6,6 +6,11 @@ menu:
     name: "Transports"
     weight: 230
     parent: "lyon"
+
+
+aliases: 
+    - /lyon-transports.html
+    
 ---
 
 You can easily move in the city using Lyon’s wide range of public transport. It’s also a beautiful city for a walk, if you fancy.

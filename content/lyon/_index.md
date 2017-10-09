@@ -6,6 +6,10 @@ menu:
     name: "Discover"
     weight: 210
     parent: "lyon"
+
+aliases: 
+    - /lyon.html
+    
 ---
 This perfectly-sized town offers the widest panel of food, architecture and bits of French culture. We are going to spend time in a city with a mix of historic and post-industrial landscapes, fancy boutiques, art museums and a wide range of public transports.
 

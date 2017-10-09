@@ -6,6 +6,9 @@ menu:
     name: "Get there"
     weight: 210  
     parent: "lyon"
+
+aliases: 
+    - /get-there.html
 ---
 Lyon benefits from a central location in Europe. You can enjoy a quiet high-speed train, or take a direct flight from **125 cities** in **46 countries**. Paris is just two hours away. Bon voyage!
 

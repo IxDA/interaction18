@@ -1,6 +1,10 @@
 ---
 title: "Call for proposals"
 date: 2017-07-11T22:31:14+02:00
+
+aliases: 
+  - /call-for-proposals.html
+  
 ---
 
 <section class="banner banner-link text-white banner-purple-cfp banner-video">
