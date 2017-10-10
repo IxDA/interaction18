@@ -1,6 +1,9 @@
 ---
 title: "Congrats!"
 date: 2017-07-11T22:31:14+02:00
+
+aliases: 
+  - /yay-talk-submission.html
 ---
 
 <section class="banner banner-link text-white banner-purple-speakers banner-video" style="background: url('/img/photos/yay-talk.gif') no-repeat center center; background-size: cover;">

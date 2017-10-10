@@ -1,6 +1,9 @@
 ---
 title: "Code Of Conduct"
 date: 2017-09-08T15:45:46+02:00
+
+aliases:
+    - /code-of-conduct.html
 ---
 ## The IxDA seeks to advance the discipline of interaction design by fostering a community of passionate individuals dedicated to moving our mission forward.
 

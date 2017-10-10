@@ -1,6 +1,8 @@
 ---
 title: "Media"
 date: 2017-09-08T15:49:43+02:00
+aliases:
+    - /media.html
 ---
 We are regrouping here communication materials to help you spread the word around the event. If you need something specific, drop us a line at <a href="mailto:ixd18@ixda.org">ixd18@ixda.org</a>
 <div class="spacer-t-b bordered-top"></div>

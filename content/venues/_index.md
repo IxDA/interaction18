@@ -1,6 +1,9 @@
 ---
 title: "Venues"
 date: 2017-07-11T22:31:14+02:00
+
+aliases:
+  - /venues.html
 ---
 <section class="container content container-s spacer-2t-b">
   <h1>La Sucrière</h1>
