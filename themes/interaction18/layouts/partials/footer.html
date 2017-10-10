@@ -20,9 +20,6 @@
       </div>
     </div>
   </div>
-</section>
-
-<section class="content container">
   <footer class="boxes boxes-valign boxes-nopadding bordered-bottom fullwidth">
       <div class="box">
         <a href="{{ .Site.BaseURL }}partners.html" class="button"><strong>Become a partner</strong></a>
@@ -47,10 +44,24 @@
           <a href="https://www.linkedin.com/company/ixda" target="_blank">LinkedIn</a>
       </div>
   </footer>
-</section>
 
-<section class="content container spacer-t-b">
-  <p class="text-center fullwidth">
+  <div class="boxes boxes-nopadding boxes-partners fullwidth">
+  {{ $data := getJSON $.Site.Params.partnersData }}
+  {{ range $data.partners }}
+      {{ $item := . }}
+      {{ if $item.active }}
+      {{ if $item.display_footer }}
+      <div class="box box-{{ $item.size }}">
+        <a href="{{ $item.url }}" target="_blank" class="no-underline">
+          <img src="{{ $item.logo }}" alt="{{ $item.logoalt }}">
+        </a>
+      </div>
+      {{ end }}
+      {{ end }}
+  {{ end }}
+  </div>
+
+  <p class="text-center fullwidth spacer-t-b">
     <a href="{{ .Site.BaseURL }}code-of-conduct.html">Code of Conduct</a>&nbsp;&nbsp;—&nbsp;&nbsp;Copyright 2004&nbsp;›&nbsp;{{ now.Year }} Interaction Design Association&nbsp;&nbsp;—&nbsp;&nbsp;<a href="{{ .Site.BaseURL }}credits.html">Credits</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a href="{{ .Site.BaseURL }}media.html">Media</a>
   </p>
 </section>

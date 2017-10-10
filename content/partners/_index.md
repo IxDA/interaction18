@@ -25,6 +25,6 @@ Make an impression during Interaction&nbsp;Week&nbsp;18
 
 ## Partners
 
-  {{% partners %}}
+  {{% partners full="true" %}}
 
 </section>

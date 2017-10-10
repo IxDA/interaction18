@@ -1,4 +1,4 @@
-<div class="boxes boxes-nopadding boxes-partners">
+<div class="boxes boxes-nopadding boxes-partners {{ if .Get "full" }}boxes-partners-full{{ end }}">
 {{ $data := getJSON $.Site.Params.partnersData }}
 {{ range $data.partners }}
     {{ $item := . }}
@@ -7,10 +7,12 @@
       <a href="{{ $item.url }}" target="_blank" class="no-underline">
         <img src="{{ $item.logo }}" alt="{{ $item.logoalt }}">
       </a>
-      <br/>
+      <span class="boxes-partners-full-display">
+        <br/>
         <hr class="hr-xs">
         {{ $item.title }}<br>
         <a href="{{ $item.url }}" target="_blank">{{ $item.link }}</a>
+      </span>
     </div>
     {{ end }}
 {{ end }}
