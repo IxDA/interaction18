@@ -38,6 +38,14 @@ Mama Shelter is the official hotel of Interaction&nbsp;Week&nbsp;18. Book before
 
 {{< spacer >}}
 
+## MOB Hotel
+
+You will be enjoying a comfortable stay right at the confluence of the two rivers, with a wonderful terrace right above the Saône. You will also be strategically located just 5 minutes walk to the main conference venue, La Sucrière.
+
+Use the discount code MOBINTERACTION when [booking here](https://gc.synxis.com/?hotel=74555&arrive=&depart=&rooms=1&adult=1&child=0&start=myprofile&_ga=1.2.2035279227.1506521829" title="Book a room at the MOB Hotel).
+
+![MOB Hotel](/img/photos/MOB-hotel.jpg)
+
 ## Other hotels
 
 {{% hotels %}}
