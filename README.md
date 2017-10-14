@@ -23,3 +23,4 @@ In order to minimize dependencies, we tried to be minimalist
 ### Work with Hugo
 1. Install Hugo http://gohugo.io/getting-started/installing/
 2. ```hugo serve``` to view the output
+2.1 ``hugo serve --ignoreCache`` to ignore cache for JSON files
