@@ -31,4 +31,7 @@ Make an impression during Interaction&nbsp;Week&nbsp;18
 
 ## Partners
 
-  {{% partners full="true" %}}
+  {{% partners full="true" size="XL" %}}
+  {{% partners full="true" size="L" %}}
+  {{% partners full="true" size="M" %}}
+  {{% partners full="true" size="S" %}}

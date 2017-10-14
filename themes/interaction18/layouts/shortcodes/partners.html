@@ -1,6 +1,7 @@
 <div class="boxes boxes-nopadding boxes-partners {{ if .Get "full" }}boxes-partners-full{{ end }}">
 {{ $data := getJSON $.Site.Params.partnersData }}
-{{ range $data.partners }}
+{{ $partnersize := .Get "size" }}
+{{ range where $data.partners "size" "==" $partnersize }}
     {{ $item := . }}
     {{ if $item.active }}
     <div class="box box-{{ $item.size }}">

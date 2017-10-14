@@ -45,9 +45,51 @@
       </div>
   </footer>
 
-  <div class="boxes boxes-nopadding boxes-partners fullwidth">
+  <div class="boxes-partners boxes-partners-footer fullwidth">
   {{ $data := getJSON $.Site.Params.partnersData }}
-  {{ range $data.partners }}
+  {{ range where $data.partners "size" "==" "XL" }}
+      {{ $item := . }}
+      {{ if $item.active }}
+      {{ if $item.display_footer }}
+      <div class="box box-{{ $item.size }}">
+        <a href="{{ $item.url }}" target="_blank" class="no-underline">
+          <img src="{{ $item.logo }}" alt="{{ $item.logoalt }}">
+        </a>
+      </div>
+      {{ end }}
+      {{ end }}
+  {{ end }}
+  </div>
+  <div class="boxes-partners boxes-partners-footer fullwidth">
+  {{ range where $data.partners "size" "==" "L" }}
+      {{ $item := . }}
+      {{ if $item.active }}
+      {{ if $item.display_footer }}
+      <div class="box box-{{ $item.size }}">
+        <a href="{{ $item.url }}" target="_blank" class="no-underline">
+          <img src="{{ $item.logo }}" alt="{{ $item.logoalt }}">
+        </a>
+      </div>
+      {{ end }}
+      {{ end }}
+  {{ end }}
+  </div>
+  <div class="boxes-partners boxes-partners-footer fullwidth">
+  {{ range where $data.partners "size" "==" "M" }}
+      {{ $item := . }}
+      {{ if $item.active }}
+      {{ if $item.display_footer }}
+      <div class="box box-{{ $item.size }}">
+        <a href="{{ $item.url }}" target="_blank" class="no-underline">
+          <img src="{{ $item.logo }}" alt="{{ $item.logoalt }}">
+        </a>
+      </div>
+      {{ end }}
+      {{ end }}
+  {{ end }}
+  </div>
+  <div class="boxes-partners boxes-partners-footer fullwidth">
+  {{ range where $data.partners "size" "==" "S" }}
       {{ $item := . }}
       {{ if $item.active }}
       {{ if $item.display_footer }}

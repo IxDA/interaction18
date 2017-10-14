@@ -293,6 +293,7 @@
   .boxes-partners .box{
     margin-bottom: 3em;
     flex: 1 1 auto;
+    text-align: center;
   }
   .boxes-partners .box-XL img{ width: 25em; }
   .boxes-partners .box-L img{ width: 12em; }
@@ -304,6 +305,17 @@
   .boxes-partners-full .boxes-partners-full-display{
     display: block;
   }
+.boxes-partners-footer{
+  text-align: center;
+}
+  .boxes-partners-footer .box{
+    display: inline-block;
+    margin-bottom: 0.4em;
+  }
+  .boxes-partners-footer .box-XL img{ width: 14em; }
+  .boxes-partners-footer .box-L img{ width: 8em; }
+  .boxes-partners-footer .box-M img{ width: 4em; }
+  .boxes-partners-footer .box-S img{ width: 4em; }
 
 .boxes-gallery{
     flex-wrap: nowrap;
