@@ -38,6 +38,10 @@ IxDA is a worldwide member-supported organization with over 10 years of history,
 Each year the conference lives in a different city, with a different culture and a different organization team. We want to give tribute to Lyon, France and Europe.
 {{% /columns %}}
 
-{{% box class="bordered" %}}
+{{% box class="bordered mega-padding" %}}
+## Want to help us?
+Reach out!
+
+{{< button href="mailto:ixd18@ixda.org" name="ixd18@ixda.org" >}}
 
 {{% /box %}}
