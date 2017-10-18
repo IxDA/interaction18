@@ -31,7 +31,7 @@ aliases:
   <p>La Sucrière still preserves the industrial charm of its origins, with strong structural pillars, concrete beams, and sugar feed chutes, not to mention the massive silos on its side.</p>
   <p>There are five different spaces. The massive Espace 1930, overlooked by a raised Mezzanine, is connected to the silos and to the adjacent Espace 1960. Above we have the Exhibition floor complemented at the very top by Le Sucre, with its terrace.</p>
 </section>
-
+{{% fullwidth %}}
 <section class="container content spacer-none">
   <div class="boxes boxes-4">
     <div class="box">
@@ -53,7 +53,7 @@ aliases:
     </div>
   </div>
 </section>
-
+{{% /fullwidth %}}
 <section class="container content container-s spacer-none">
   <p>Together they provide <strong>5100 m<sup>2</sup></strong> – more than ten basketball fields – and will be arranged to accommodate the various informative, social, and breathing needs of Interaction&nbsp;18.</p>
   <img src="/img/photos/Venue-Main_New-Order-at-La-Sucriere-copyright-Brice-Robert.jpg" alt="New Order concert during the Nuits Sonores festival - copyright Brice Robert">

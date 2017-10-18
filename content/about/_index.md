@@ -39,7 +39,7 @@ Each year the conference lives in a different city, with a different culture and
 {{% /columns %}}
 
 {{% box class="bordered mega-padding" %}}
-## Want to help us?
+### Want to help us?
 Reach out!
 
 {{< button href="mailto:ixd18@ixda.org" name="ixd18@ixda.org" >}}

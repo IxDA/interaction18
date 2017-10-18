@@ -18,6 +18,7 @@ You can easily move in the city using Lyon’s wide range of public transport. I
 
 {{< spacer >}}  
 
+{{% fullwidth %}}
 {{% boxes num="4" %}}
 {{% box %}}
 ### Metros, Tram, Buses
@@ -48,3 +49,4 @@ Lyon is a very walkable city. You can wander around the center and reach easily 
 {{% /box %}}
 
 {{% /boxes %}}
+{{% /fullwidth %}}

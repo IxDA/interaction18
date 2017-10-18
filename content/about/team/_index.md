@@ -18,4 +18,6 @@ aliases:
   Please meet a few of them.
 </p>
 
+{{< spacer >}}
+
 {{% team %}}
