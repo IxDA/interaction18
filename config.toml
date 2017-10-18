@@ -1,5 +1,7 @@
 baseURL = "http://interaction18.ixda.org/"
 languageCode = "en-us"
+DefaultContentLanguage = "en"
+
 theme = "interaction18"
 title = "Interaction 18 – 3—8 February 2018 • Lyon, France"
 hrefTargetBlank = true
@@ -50,3 +52,45 @@ hrefTargetBlank = true
     weight = 500
     identifier = "partners"
     url = "/partners/"
+
+
+[Languages]
+[Languages.en]
+languageName = "English"
+
+
+[Languages.fr]
+languageCode = "fr-fr"
+languageName = "Français"
+title = "Interaction 18 – 3—8 Février 2018 • Lyon, France"
+[[Languages.fr.menu.main]]
+    name = "Accueil"
+    weight = 80
+    identifier = "home"
+    url = "/"
+
+[[Languages.fr.menu.main]]
+    name = "À propos"
+    weight = 100
+    identifier = "about"
+
+[[Languages.fr.menu.main]]
+    name = "Lyon"
+    weight = 200
+    identifier = "lyon"
+
+[[Languages.fr.menu.main]]
+  name = "Lieux"
+  weight = 300
+  identifier = "venues"
+
+[[Languages.fr.menu.main]]
+  name = "Conférenciers"
+  weight = 400
+  identifier = "speakers"
+
+[[Languages.fr.menu.main]]
+    name = "Partenaires"
+    weight = 500
+    identifier = "partners"
+

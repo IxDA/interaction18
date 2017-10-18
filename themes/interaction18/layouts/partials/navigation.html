@@ -4,14 +4,14 @@
     {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
       <li class='{{if $currentPage.HasMenuCurrent "main" . }}active{{end}}'>
-      <a href="{{.URL}}" class='{{if $currentPage.HasMenuCurrent "main" . }}active{{end}}'>
+      <a href="{{.URL | absLangURL }}" class='{{if $currentPage.HasMenuCurrent "main" . }}active{{end}}'>
           {{ .Pre }}
           {{ .Name }}
       </a>
       <ul class='subnav {{if $currentPage.HasMenuCurrent "main" . }}subnav-active{{end}}'>
           {{ range .Children }}
           <li{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
-            <a href="{{.URL}}"{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
+            <a href="{{.URL | absLangURL}}"{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
               {{ .Name }}
             </a>
           </li>
@@ -19,7 +19,7 @@
       </ul>
     {{else}}
       <li class='{{if $currentPage.IsMenuCurrent "main" . }} active{{end}}' >
-      <a href="{{.URL}}"{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
+      <a href="{{.URL | absLangURL}}"{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
           {{ .Pre }}
           {{ .Name }}
       </a>
@@ -27,6 +27,14 @@
     </li>
     {{end}}
     <li class="main-nav-button"><a href="http://join.interaction.ixda.org" class="button button-xs-link" id="js-ticket-button">Get tickets</a></li>
+    {{ $currentLanguage := .Site.Language }}
+    {{ range .Site.Languages }}
+    <li {{if eq $currentLanguage . }} class="active"{{end}} >
+      <a href="/{{ .Lang }}" {{if eq $currentLanguage . }} class="active"{{end}} >
+          {{ .LanguageName }}
+      </a>
+    </li>
+    {{end}}
   </ul>
   <a href="#menu" class="nav-toggle button" id="js-toggle-nav">
     <span class="nav-toggle-open-text">
