@@ -41,6 +41,12 @@ hrefTargetBlank = true
   url = "/venues/"
 
 [[menu.main]]
+  name = "Workshops"
+  weight = 450
+  identifier = "program"
+  url = "/program/"
+
+[[menu.main]]
   name = "Speakers"
   weight = 400
   identifier = "speakers"
