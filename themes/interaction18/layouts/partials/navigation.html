@@ -1,0 +1,59 @@
+<nav role="menubar" id="menu">
+  <ul>
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+        {{ if .HasChildren }}
+      <li class='{{if $currentPage.HasMenuCurrent "main" . }}active{{end}}'>
+      <a href="{{.URL}}" class='{{if $currentPage.HasMenuCurrent "main" . }}active{{end}}'>
+          {{ .Pre }}
+          {{ .Name }}
+      </a>
+      <ul class='subnav {{if $currentPage.HasMenuCurrent "main" . }}subnav-active{{end}}'>
+          {{ range .Children }}
+          <li{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
+            <a href="{{.URL}}"{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
+              {{ .Name }}
+            </a>
+          </li>
+          {{ end }}
+      </ul>
+    {{else}}
+      <li class='{{if $currentPage.IsMenuCurrent "main" . }} active{{end}}' >
+      <a href="{{.URL}}"{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
+          {{ .Pre }}
+          {{ .Name }}
+      </a>
+    {{end}}
+    </li>
+    {{end}}
+    <li class="main-nav-button"><a href="{{ .Site.BaseURL }}tickets" class="button button-xs-link" id="js-ticket-button">Get tickets</a></li>
+  </ul>
+  <a href="#menu" class="nav-toggle button" id="js-toggle-nav">
+    <span class="nav-toggle-open-text">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
+      <style type="text/css">
+        .bg-menu-icon{fill:#FFFFFF;}
+      </style>
+      <g>
+        <g id="XMLID_100_">
+          <rect id="XMLID_103_" y="6" class="bg-menu-icon" width="14" height="2"/>
+          <rect id="XMLID_102_" y="1" class="bg-menu-icon" width="12" height="2"/>
+          <rect id="XMLID_101_" y="11" class="bg-menu-icon" width="10" height="2"/>
+        </g>
+      </g>
+      </svg>
+      <strong>Menu</strong>
+    </span>
+    <span class="nav-toggle-close-text">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 14 14" style="enable-background:new 0 0 14 14;" xml:space="preserve">
+      <style type="text/css">
+        .bg-back-icon{fill:#E50051;}
+      </style>
+      <polygon id="XMLID_63_" class="bg-back-icon" points="14,6 3.8,6 8.5,1.3 7.1,-0.1 0,7 7.1,14.1 8.5,12.7 3.8,8 14,8 "/>
+      </svg>
+      <strong>Back</strong>
+    </span>
+  </a>
+</nav>
