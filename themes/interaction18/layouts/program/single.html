@@ -3,7 +3,60 @@
 <main id="main">
 	<section class="container content container-s spacer-t-b">
 		<h1>{{ .Title }}</h1>
-		{{ .Content }}
+
+    {{ $data := getJSON $.Site.Params.programData }}
+
+    {{ $programslug := .File.BaseFileName }}
+    {{ range where $data.program "slug" "==" $programslug }}
+        {{ $item := . }}
+        {{ if $item.active }}
+
+        <h2>{{ $item.resume }}</h2>
+
+        <p>
+            {{ with $item.description }}{{ . | markdownify }}{{ end }}
+        </p>
+
+
+        {{ if $item.second_speaker }}
+        <h2>Speakers</h2>
+        <div class="boxes boxes-2">
+        {{else}}
+        <h2>Speaker</h2>
+        {{ end }}
+        <div class="box">
+          <h4>{{ $item.speaker_1_name }}</h4>
+          {{ if $item.speaker_1_photo }}
+          <img src="{{ $item.speaker_1_photo }}" alt="{{ $item.speaker_1_name }}">
+          {{ end }}
+            <p>
+            {{ with $item.speaker_1_bio }}{{ . | markdownify }}{{ end }}
+            </p>
+          {{ if $item.speaker_1_twitter }}
+          <p><a href="{{ $item.speaker_1_twitter }}" target="_blank">Connect with {{ $item.speaker_1_name }} on twitter</a></p>
+          {{ end }}
+        </div>
+          {{ if $item.second_speaker }}
+          <div class="box">
+            <h4>{{ $item.speaker_2_name }}</h4>
+            {{ if $item.speaker_2_photo }}
+            <img src="{{ $item.speaker_2_photo }}" alt="{{ $item.speaker_2_name }}">
+            {{ end }}
+              <p>
+              {{ with $item.speaker_2_bio }}{{ . | markdownify }}{{ end }}
+              </p>
+            {{ if $item.speaker_2_twitter }}
+            <p><a href="{{ $item.speaker_2_twitter }}" target="_blank">Connect with {{ $item.speaker_2_name }} on twitter</a></p>
+            {{ end }}
+          </div>
+          {{ end }}
+          {{ if $item.second_speaker }}
+          </div>
+          {{ end }}
+        {{ end }}
+    {{ end }}
+
+
 	</section>
 </main>
 {{ partial "footer.html" . }}
