@@ -3,8 +3,8 @@ title: "Speakers"
 date: 2017-07-11T22:31:14+02:00
 ---
 **Connect with great people… More to come!**
- 
-{{% keynotes %}}
+
+{{% keynotes kind="keynote" %}}
 
 {{% box class="bordered mega-padding" %}}
 ## General program
