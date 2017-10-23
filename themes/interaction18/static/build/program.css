@@ -1,0 +1,11 @@
+.program-list{
+
+}
+  .program-item{
+    border-top: 1px solid #B0A7AC;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  .program-item:last-child{
+    border-bottom: 1px solid #B0A7AC;
+  }

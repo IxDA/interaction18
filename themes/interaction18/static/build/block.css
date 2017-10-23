@@ -141,6 +141,9 @@
   margin-right: auto;
   clear: both;
 }
+.container-m{
+  max-width: 50em;
+}
 .container-s{
   max-width: 40em;
 }
@@ -162,6 +165,17 @@
         grid-template-columns:
     [full-start] minmax(1em, 1fr)
     [main-start] minmax(0, 70em) [main-end]
+    minmax(1em, 1fr) [full-end];
+  }
+  .container-m{
+    max-width: 100%;
+    -ms-grid-columns:
+    [full-start] minmax(1em, 1fr)
+    [main-start] minmax(0, 50em) [main-end]
+    minmax(1em, 1fr) [full-end];
+        grid-template-columns:
+    [full-start] minmax(1em, 1fr)
+    [main-start] minmax(0, 50em) [main-end]
     minmax(1em, 1fr) [full-end];
   }
   .container-s{
@@ -186,7 +200,7 @@
     [main-start] minmax(0, 32em) [main-end]
     minmax(1em, 1fr) [full-end];
   }
-  .container > *, .container-s > *, .container-xs > * {
+  .container > *, .container-s > *, .container-m > *, .container-xs > * {
     -ms-grid-column: main;
         grid-column: main;
   }

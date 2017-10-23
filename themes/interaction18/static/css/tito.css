@@ -1,0 +1,90 @@
+
+.tito-wrapper {
+}
+.tito-wrapper li {
+	list-style: none;
+	display:block;
+	padding:2em 0 1em;
+	clear: both;
+}
+.tito-wrapper li + li, .tito-wrapper form {
+	border-top: 1px solid #b0a7ac;
+}
+.tito-ticket-name {
+	font-weight: 600;
+}
+.tito-ticket-description {
+	font-size: 90%;
+	line-height: 1.4em;
+}
+.tito-discount-code-show {
+	display:none;
+}
+.tito-ticket-name-wrapper {
+	max-width:80%;
+	display:inline-block;
+}
+.tito-discount-code {
+}
+.tito-ticket-price-quantity, .tito-ticket-price-quantity-wrapper {
+	float:right;
+	display:block;
+	position:relative;
+	top:-0.3em;
+}
+.tito-ticket-price, .tito-ticket-quantity {
+	display:inline-block;
+}
+.tito-ticket-quantity-field {
+	width:2em;
+	text-align: right;
+}
+.tito-tickets-remaining {
+	white-space: nowrap;
+	color: #e50051;
+	font-weigth:400;
+	font-size: 1rem;
+}
+.tito-ticket-status-sold-out {
+	color: #CCC4C9;
+	line-height:1.5em;
+	float:right;
+}
+.tito-discount-code {
+	border-top: none!important;
+	float: left;
+	padding: 1em 0;
+	margin-bottom: 1em;
+	text-align: right;
+}
+.tito-submit-wrapper {
+	clear: right;
+	text-align:right;
+	border-top: 1px solid #421B4B;
+	padding: 1.3em 0;
+	border-bottom: 1px solid #421B4B;
+}
+.tito-badge-link { display: none; }
+.tito-submit, .tito-discount-apply-button{
+	cursor: pointer;
+	border: none;
+	background-color: #E40050;
+	color: #fff;
+	border-radius: 3px;
+	padding: 0.6em 1em;
+	transition: background 0.2s ease-in-out;
+}
+.tito-submit{
+	font-size: 150%;
+}
+.tito-submit:hover, .tito-submit:focus{
+	background-color: #ad003d;
+	color: #fff;
+}
+.tito-discount-apply-button{
+	background-color: #421B4B;
+}
+.tito-discount-apply-button:hover, .tito-discount-apply-button:focus{
+  background-color: #290930;
+  color: #D0A9D0;
+}
