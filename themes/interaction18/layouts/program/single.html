@@ -37,9 +37,12 @@
 	            {{ with $item.target_audience }}{{ . | markdownify }}{{ end }}
 	        </p>
 				</div>
-
+				
 				<hr>
+				
+				{{ partial "tito-widget.html" . }}
 
+				
 				<div class="spacer-t-b">
 	        {{ if $item.second_speaker }}
 	        <h1>Speakers</h1>
@@ -78,7 +81,6 @@
 	          {{ end }}
 				</div>
 				{{ end }}
-				{{ partial "tito-widget.html" . }}
     {{ end }}
 
 
