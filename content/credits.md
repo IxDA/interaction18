@@ -8,6 +8,7 @@ aliases:
 
 **Pictures**  
 Images of Lyon, courtesy of [OnlyLyon](http://www.onlylyon.com/en/) / [Aderly](https://www.aderly.com).
+Portrait of Kenya Hara photographed by Yoshiaki Tsutsui. 
 
 **Videos**  
 The amazing video teaser was produced by [Pagès Films](http://www.pages-films.com) in Lyon, music by [Baptiste Martineau](https://www.baptistemartineau.com), brewed locally too. Drone footage courtesy of OnlyLyon. Copyright © ONLYLYON Tourism and Conventions / Dynamic View
