@@ -6,15 +6,19 @@ aliases:
     - /credits.html
 ---
 
-**Pictures**  
-Images of Lyon, courtesy of [OnlyLyon](http://www.onlylyon.com/en/) / [Aderly](https://www.aderly.com).
-Portrait of Kenya Hara photographed by Yoshiaki Tsutsui. 
+**Pictures**
+
+* Images of Lyon, courtesy of [OnlyLyon](http://www.onlylyon.com/en/) / [Aderly](https://www.aderly.com).
+* Venues pictures, copyright of [Blaise Adilon](http://www.blaiseadilon.com), [Patricia Faure](http://www.patricia4.com), [Brice Robert](http://www.b-rob.com), [GL Events](http://www.gl-events.com/homepage).
+* Portrait of Kenya Hara photographed by [Yoshiaki Tsutsui](http://www.ttiphoto.jp/). 
 
 **Videos**  
-The amazing video teaser was produced by [Pagès Films](http://www.pages-films.com) in Lyon, music by [Baptiste Martineau](https://www.baptistemartineau.com), brewed locally too. Drone footage courtesy of OnlyLyon. Copyright © ONLYLYON Tourism and Conventions / Dynamic View
+The video teaser was produced by [Pagès Films](http://www.pages-films.com) in Lyon, music by [Baptiste Martineau](https://www.baptistemartineau.com), brewed locally too. Drone footage courtesy of OnlyLyon. Copyright © ONLYLYON Tourism and Conventions / Dynamic View
 
 **Logos and brands**  
 All company names and logos are trademarks™ or registered® trademarks of their respective holders. Their presence on this website does not imply any affiliation with or endorsement by them.
 
 **Typography**  
-Interaction 18 logo uses **Cogito Bold** font, designed by Jean-Baptiste Levée at [Production Type](#), Paris. Communication and website font is **Graphik Regular & Bold**, designed by Christian Schwartz at [Commercial Type](https://commercialtype.com/), New York.
+
+* Interaction 18 logo uses **Cogito Bold** font, designed by Jean-Baptiste Levée at [Production Type](#), Paris. 
+* Communication and website font is **Graphik Regular & Bold**, designed by Christian Schwartz at [Commercial Type](https://commercialtype.com/), New York.
