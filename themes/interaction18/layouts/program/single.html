@@ -64,9 +64,7 @@
 								<img src="{{ $item.speaker_1_photo }}" alt="{{ $item.speaker_1_name }}">
 								{{ end }}
 								<p><strong><a href="#speaker">{{ $item.speaker_1_name }}</a></strong><br/>
-								{{ if $item.speaker_1_twitter }}
-								<a href="{{ $item.speaker_1_twitter }}" target="_blank">twitter</a>
-								{{ end }}
+									{{ $item.speaker_1_function }}
 								</p>
 							</div>
 							{{ if $item.second_speaker }}
@@ -75,9 +73,7 @@
 								<img src="{{ $item.speaker_2_photo }}" alt="{{ $item.speaker_2_name }}">
 								{{ end }}
 								<p><strong><a href="#speaker2">{{ $item.speaker_2_name }}</a></strong><br/>
-								{{ if $item.speaker_2_twitter }}
-								<a href="{{ $item.speaker_2_twitter }}" target="_blank">twitter</a>
-								{{ end }}
+									{{ $item.speaker_2_function }}
 								</p>
 							</div>
 							{{ end }}
@@ -100,6 +96,7 @@
 								{{ end }}
 								<h3>{{ $item.speaker_1_name }}</h3>
 								<p>
+									<strong>{{ $item.speaker_1_function }}</strong><br/>
 								{{ with $item.speaker_1_bio }}{{ . | markdownify }}{{ end }}
 								</p>
 								<p>
@@ -115,6 +112,7 @@
 								{{ end }}
 								<h3>{{ $item.speaker_2_name }}</h3>
 								<p>
+									<strong>{{ $item.speaker_2_function }}</strong><br/>
 								{{ with $item.speaker_2_bio }}{{ . | markdownify }}{{ end }}
 								</p>
 								<p>
