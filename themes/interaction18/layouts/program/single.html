@@ -12,8 +12,18 @@
         {{ $item := . }}
         {{ if $item.active }}
 
-					<h2 class="program-speaker-by">By
-						<a href="#speaker1">{{ $item.speaker_1_name }}</a>
+					<h2 class="program-speaker-by">
+						Feb
+						{{ $item.day }}
+						–
+						{{ $item.hour }}
+						{{ $item.kind }}
+						<span class="label">
+							{{ $item.format }}
+						</span>
+						<br/>
+						By
+						<a href="#speaker">{{ $item.speaker_1_name }}</a>
 						{{ if $item.second_speaker }}
 						&
 						<a href="#speaker2">{{ $item.speaker_2_name }}</a>
@@ -53,7 +63,7 @@
 								{{ if $item.speaker_1_photo }}
 								<img src="{{ $item.speaker_1_photo }}" alt="{{ $item.speaker_1_name }}">
 								{{ end }}
-								<p><strong><a href="#speaker1">{{ $item.speaker_1_name }}</a></strong><br/>
+								<p><strong><a href="#speaker">{{ $item.speaker_1_name }}</a></strong><br/>
 								{{ if $item.speaker_1_twitter }}
 								<a href="{{ $item.speaker_1_twitter }}" target="_blank">twitter</a>
 								{{ end }}
@@ -84,11 +94,11 @@
 						{{else}}
 						<h2>About speaker</h2>
 						{{ end }}
-							<div class="program-speaker-box" id="speaker1">
+							<div class="program-speaker-box" id="speaker">
 								{{ if $item.speaker_1_photo }}
 								<img src="{{ $item.speaker_1_photo }}" alt="{{ $item.speaker_1_name }}">
 								{{ end }}
-								<h3><a href="#speaker1">{{ $item.speaker_1_name }}</a></h3>
+								<h3>{{ $item.speaker_1_name }}</h3>
 								<p>
 								{{ with $item.speaker_1_bio }}{{ . | markdownify }}{{ end }}
 								</p>
@@ -103,7 +113,7 @@
 								{{ if $item.speaker_2_photo }}
 								<img src="{{ $item.speaker_2_photo }}" alt="{{ $item.speaker_2_name }}">
 								{{ end }}
-								<h3><a href="#speaker2">{{ $item.speaker_2_name }}</a></h3>
+								<h3>{{ $item.speaker_2_name }}</h3>
 								<p>
 								{{ with $item.speaker_2_bio }}{{ . | markdownify }}{{ end }}
 								</p>

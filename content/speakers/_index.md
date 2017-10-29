@@ -6,6 +6,8 @@ date: 2017-07-11T22:31:14+02:00
 
 {{% keynotes kind="keynote" %}}
 
+{{% speakers %}}
+
 {{% box class="bordered mega-padding" %}}
 ## General program
 
