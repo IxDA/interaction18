@@ -1,7 +1,8 @@
 {{ partial "header.html" . }}
 <div class="bordered-top"></div>
 <main id="main">
-	<section class="container content container-m spacer-t-b">
+	<section class="container content spacer-t-b">
+		<div class="program-detail">
 		<h1>{{ .Title }}</h1>
 
     {{ $data := getJSON $.Site.Params.programData }}
@@ -11,77 +12,117 @@
         {{ $item := . }}
         {{ if $item.active }}
 
-				<h2>By
-					<a href="#speaker1">{{ $item.speaker_1_name }}</a>
-					{{ if $item.second_speaker }}
-					 &
-					 <a href="#speaker2">{{ $item.speaker_2_name }}</a>
-					{{ end }}
-				</h2>
+					<h2 class="program-speaker-by">By
+						<a href="#speaker1">{{ $item.speaker_1_name }}</a>
+						{{ if $item.second_speaker }}
+						&
+						<a href="#speaker2">{{ $item.speaker_2_name }}</a>
+						{{ end }}
+					</h2>
 
-				<div class="spacer-t-b">
-					<h3>{{ $item.resume }}</h3>
-	        <p>
-	            {{ with $item.description }}{{ . | markdownify }}{{ end }}
-	        </p>
-				</div>
+					<div class="program-resume spacer-t-b">
+						<h3>{{ $item.resume }}</h3>
+						<p>
+							{{ with $item.description }}{{ . | markdownify }}{{ end }}
+						</p>
+					</div>
 
-				<div class="columns columns2 spacer-b">
-					<h2>Outline</h2>
-					<p>
-	            {{ with $item.outline }}{{ . | markdownify }}{{ end }}
-	        </p>
-					<div class="columns-break"></div>
-					<h2>Target audience</h2>
-					<p>
-	            {{ with $item.target_audience }}{{ . | markdownify }}{{ end }}
-	        </p>
-				</div>
-				
-				<hr>
-				
-				{{ partial "tito-widget.html" . }}
+					<div class="program-outline columns columns2 spacer-b">
+						<h2>Outline</h2>
+						<p>
+							{{ with $item.outline }}{{ . | markdownify }}{{ end }}
+						</p>
+						<div class="columns-break"></div>
+						<h2>Target audience</h2>
+						<p>
+							{{ with $item.target_audience }}{{ . | markdownify }}{{ end }}
+						</p>
+					</div>
 
-				
-				<div class="spacer-t-b">
-	        {{ if $item.second_speaker }}
-	        <h1>Speakers</h1>
-	        <div class="boxes boxes-2">
-	        {{else}}
-	        <h1>Speaker</h1>
-	        {{ end }}
-	        <div class="box" id="speaker1">
-	          <h2>{{ $item.speaker_1_name }}</h2>
-	          {{ if $item.speaker_1_photo }}
-	          <img src="{{ $item.speaker_1_photo }}" alt="{{ $item.speaker_1_name }}">
-	          {{ end }}
-	            <p>
-	            {{ with $item.speaker_1_bio }}{{ . | markdownify }}{{ end }}
-	            </p>
-	          {{ if $item.speaker_1_twitter }}
-	          <p><a href="{{ $item.speaker_1_twitter }}" target="_blank">Connect with {{ $item.speaker_1_name }} on twitter</a></p>
-	          {{ end }}
-	        </div>
-	          {{ if $item.second_speaker }}
-	          <div class="box" id="speaker2">
-	            <h2>{{ $item.speaker_2_name }}</h2>
-	            {{ if $item.speaker_2_photo }}
-	            <img src="{{ $item.speaker_2_photo }}" alt="{{ $item.speaker_2_name }}">
-	            {{ end }}
-	              <p>
-	              {{ with $item.speaker_2_bio }}{{ . | markdownify }}{{ end }}
-	              </p>
-	            {{ if $item.speaker_2_twitter }}
-	            <p><a href="{{ $item.speaker_2_twitter }}" target="_blank">Connect with {{ $item.speaker_2_name }} on twitter</a></p>
-	            {{ end }}
-	          </div>
-	          {{ end }}
-	          {{ if $item.second_speaker }}
-	          </div>
-	          {{ end }}
-				</div>
+
+					<div class="program-tito">
+						{{ partial "tito-widget.html" . }}
+					</div>
+
+
+					<div class="program-speakers-preview spacer-t-b">
+						{{ if $item.second_speaker }}
+						<div class="program-2speakers">
+						{{ end }}
+							<div class="program-speaker-box">
+								{{ if $item.speaker_1_photo }}
+								<img src="{{ $item.speaker_1_photo }}" alt="{{ $item.speaker_1_name }}">
+								{{ end }}
+								<p><strong><a href="#speaker1">{{ $item.speaker_1_name }}</a></strong><br/>
+								{{ if $item.speaker_1_twitter }}
+								<a href="{{ $item.speaker_1_twitter }}" target="_blank">twitter</a>
+								{{ end }}
+								</p>
+							</div>
+							{{ if $item.second_speaker }}
+							<div class="program-speaker-box">
+								{{ if $item.speaker_2_photo }}
+								<img src="{{ $item.speaker_2_photo }}" alt="{{ $item.speaker_2_name }}">
+								{{ end }}
+								<p><strong><a href="#speaker2">{{ $item.speaker_2_name }}</a></strong><br/>
+								{{ if $item.speaker_2_twitter }}
+								<a href="{{ $item.speaker_2_twitter }}" target="_blank">twitter</a>
+								{{ end }}
+								</p>
+							</div>
+							{{ end }}
+							{{ if $item.second_speaker }}
+						</div>
+						{{ end }}
+					</div>
+
+
+					<div class="program-speakers-detail spacer-t-b">
+						{{ if $item.second_speaker }}
+						<h2>About speakers</h2>
+						<div class="program-2speakers">
+						{{else}}
+						<h2>About speaker</h2>
+						{{ end }}
+							<div class="program-speaker-box" id="speaker1">
+								{{ if $item.speaker_1_photo }}
+								<img src="{{ $item.speaker_1_photo }}" alt="{{ $item.speaker_1_name }}">
+								{{ end }}
+								<h3><a href="#speaker1">{{ $item.speaker_1_name }}</a></h3>
+								<p>
+								{{ with $item.speaker_1_bio }}{{ . | markdownify }}{{ end }}
+								</p>
+								<p>
+								{{ if $item.speaker_1_twitter }}
+								<a href="{{ $item.speaker_1_twitter }}" target="_blank">twitter</a>
+								{{ end }}
+								</p>
+							</div>
+							{{ if $item.second_speaker }}
+							<div class="program-speaker-box" id="speaker2">
+								{{ if $item.speaker_2_photo }}
+								<img src="{{ $item.speaker_2_photo }}" alt="{{ $item.speaker_2_name }}">
+								{{ end }}
+								<h3><a href="#speaker2">{{ $item.speaker_2_name }}</a></h3>
+								<p>
+								{{ with $item.speaker_2_bio }}{{ . | markdownify }}{{ end }}
+								</p>
+								<p>
+								{{ if $item.speaker_2_twitter }}
+								<a href="{{ $item.speaker_2_twitter }}" target="_blank">twitter</a>
+								{{ end }}
+								</p>
+							</div>
+							{{ end }}
+							{{ if $item.second_speaker }}
+						</div>
+						{{ end }}
+					</div>
+
+
 				{{ end }}
     {{ end }}
+		</div>
 
 
 	</section>
