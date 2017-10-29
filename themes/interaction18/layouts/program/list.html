@@ -12,6 +12,10 @@
     {{ range where $data.program "kind" "==" "workshop" }}
         {{ $item := . }}
         {{ if $item.active }}
+				<div class="program-item-date">
+					<h4>Feb {{ $item.day }}</h4>
+					{{ $item.hour }}
+				</div>
 				<div class="program-item">
 					<h4>
 						<a href="./{{ $item.slug }}">

@@ -1,11 +1,31 @@
-.program-list{
 
+.program-item-date{
+    float: left;
+    width: 4em;
 }
+.program-item{
+  clear: right;
+  padding-left: 5em;
+  padding-bottom: 1em;
+}
+.program-item-date, .program-item{
+  border-top: 1px solid #B0A7AC;
+  padding-top: 1em;
+}
+.program-item-date:nth-last-child(2), .program-item:last-child{
+  padding-bottom: 1em;
+  border-bottom: 1px solid #B0A7AC;
+}
+@supports ((display: -ms-grid) or (display: grid)) {
+  .program-list{
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 1em;
+    -ms-grid-columns: 4em 1fr;
+        grid-template-columns: 4em 1fr;
+  }
   .program-item{
-    border-top: 1px solid #B0A7AC;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-left: 0;
+    padding-bottom: 0;
   }
-  .program-item:last-child{
-    border-bottom: 1px solid #B0A7AC;
-  }
+}
