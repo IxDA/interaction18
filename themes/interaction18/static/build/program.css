@@ -1,11 +1,102 @@
-.program-list{
 
+.program-item-date{
+    float: left;
+    width: 3em;
+    text-align: right;
 }
+.program-item{
+  clear: right;
+  padding-left: 5em;
+  padding-bottom: 1em;
+}
+.program-item-date, .program-item{
+  border-top: 1px solid #B0A7AC;
+  padding-top: 1em;
+}
+.program-item-date:nth-last-child(2), .program-item:last-child{
+  padding-bottom: 1em;
+  border-bottom: 1px solid #B0A7AC;
+}
+@supports ((display: -ms-grid) or (display: grid)) {
+  .program-list{
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 1em;
+    -ms-grid-columns: 3em 1fr;
+        grid-template-columns: 3em 1fr;
+  }
   .program-item{
-    border-top: 1px solid #B0A7AC;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-left: 0;
+    padding-bottom: 0;
   }
-  .program-item:last-child{
-    border-bottom: 1px solid #B0A7AC;
+}
+.program-speakers-preview{
+  display: none;
+}
+
+@supports ((display: -ms-grid) or (display: grid)) {
+  @media (min-width: 70em) {
+    .program-detail{
+        display: -ms-grid;
+        display: grid;
+        grid-gap: 2em;
+        -ms-grid-columns: minmax(0, 40em) minmax(0, 10em);
+            grid-template-columns: minmax(0, 40em) minmax(0, 10em);
+    }
+    .program-title{
+      -ms-grid-column: 1;
+          grid-column-start: 1;
+      grid-column-end: -1;
+    }
+    .program-resume{
+      -ms-grid-column: 1;
+          grid-column-start: 1;
+      grid-column-end: 1;
+    }
+    .program-outline{
+      -ms-grid-column: 1;
+          grid-column-start: 1;
+      grid-column-end: 1;
+    }
+    .program-tito{
+      -ms-grid-column: 1;
+          grid-column-start: 1;
+      grid-column-end: -1;
+    }
+    .program-speakers-detail{
+      -ms-grid-column: 1;
+          grid-column-start: 1;
+      grid-column-end: -1;
+    }
+    .program-speakers-preview{
+      display: block;
+      -ms-grid-row: 2;
+          grid-row: 2;
+      -ms-grid-row-span: 3 span;
+          grid-row-end: 3 span;
+      -ms-grid-column: 2;
+          grid-column-start: 2;
+      grid-column-end: -1;
+     }
+     .program-speakers-preview .program-speaker-box{
+       margin-top: 1em;
+     }
+     .program-speakers-preview .program-speaker-box img{
+       margin: 0;
+       max-width: 200px;
+     }
+     .program-speakers-detail .program-2speakers{
+       display: -ms-grid;
+       display: grid;
+       grid-column-gap: 1em;
+       -ms-grid-columns: 50% 50%;
+           grid-template-columns: 50% 50%;
+     }
+     .program-speakers-detail .program-2speakers{
+       grid-column-gap: 2em;
+     }
+     .program-speakers-detail .program-speaker-box img{
+       max-width: 400px;
+     }
   }
+}

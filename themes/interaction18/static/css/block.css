@@ -229,7 +229,8 @@
   }
   .boxes.boxes-2 .box{
     flex: 1 0 40%;
-    min-width: 25vmax;
+    max-width: 40em;
+    min-width: 14em;
   }
   .boxes.boxes-3 .box{
     flex: 1 0 20%;
@@ -290,6 +291,28 @@
   .boxes-team .box img{
     max-width: 100%;
   }
+
+  .boxes-speaker{
+    justify-content: flex-start;
+  }
+    .boxes-speaker .box{
+      max-width: 50%;
+      flex: 1 1 auto;
+      padding: 0 1em 2em;
+      margin: 0;
+    }
+    .boxes-speaker .box img{
+      width: 256px;
+    }
+    @media (max-width: 600px) {
+      .boxes-speaker .box{
+        flex-basis: 50%; /* SAFARI fix*/
+      }
+    }
+    .boxes-speaker .box img{
+      max-width: 100%;
+    }
+
 
 .boxes-hotels{
 }
