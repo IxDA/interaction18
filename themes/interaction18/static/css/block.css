@@ -114,6 +114,9 @@
   margin-right: auto;
   clear: both;
 }
+.container-m{
+  max-width: 50em;
+}
 .container-s{
   max-width: 40em;
 }
@@ -132,6 +135,13 @@
     [main-start] minmax(0, 70em) [main-end]
     minmax(1em, 1fr) [full-end];
   }
+  .container-m{
+    max-width: 100%;
+    grid-template-columns:
+    [full-start] minmax(1em, 1fr)
+    [main-start] minmax(0, 50em) [main-end]
+    minmax(1em, 1fr) [full-end];
+  }
   .container-s{
     max-width: 100%;
     grid-template-columns:
@@ -146,7 +156,7 @@
     [main-start] minmax(0, 32em) [main-end]
     minmax(1em, 1fr) [full-end];
   }
-  .container > *, .container-s > *, .container-xs > * {
+  .container > *, .container-s > *, .container-m > *, .container-xs > * {
     grid-column: main;
   }
 
@@ -219,7 +229,8 @@
   }
   .boxes.boxes-2 .box{
     flex: 1 0 40%;
-    min-width: 25vmax;
+    max-width: 40em;
+    min-width: 14em;
   }
   .boxes.boxes-3 .box{
     flex: 1 0 20%;
@@ -280,6 +291,29 @@
   .boxes-team .box img{
     max-width: 100%;
   }
+
+  .boxes-speaker{
+    justify-content: flex-start;
+  }
+    .boxes-speaker .box{
+      width: 33%;
+      max-width: 33%;
+      flex: 1 1 auto;
+      padding: 0 1em 2em;
+      margin: 0;
+    }
+    .boxes-speaker .box img{
+      /*width: 120px;*/
+    }
+    @media (max-width: 600px) {
+      .boxes-speaker .box{
+        flex-basis: 50%; /* SAFARI fix*/
+      }
+    }
+    .boxes-speaker .box img{
+      max-width: 100%;
+    }
+
 
 .boxes-hotels{
 }

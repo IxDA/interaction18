@@ -1,0 +1,41 @@
+{{ partial "header.html" . }}
+<div class="bordered-top"></div>
+<main id="main">
+	<section class="container content container-s spacer-2t-b">
+
+		<h1>{{ .Title }}</h1>
+
+		{{ .Content }}
+
+		<div class="program-list spacer-t-b">
+		{{ $data := getJSON $.Site.Params.programData }}
+    {{ range where $data.program "kind" "==" "workshop" }}
+        {{ $item := . }}
+        {{ if $item.active }}
+				<div class="program-item-date">
+					<p>{{ $item.hour }}</p>
+				</div>
+				<div class="program-item">
+					<h4>
+						<a href="./{{ $item.slug }}">
+							{{ $item.title }}
+						</a>
+						<span class="label">
+							{{ $item.format }}
+						</span>
+					</h4>
+					<p>By
+						<a href="./{{ $item.slug }}#speaker">{{ $item.speaker_1_name }}</a>
+						{{ if $item.second_speaker }}
+						 &
+						 <a href="./{{ $item.slug }}#speaker2">{{ $item.speaker_2_name }}</a>
+						{{ end }}
+					</p>
+				</div>
+			{{ end }}
+    {{ end }}
+		</div>
+
+	</section>
+</main>
+{{ partial "footer.html" . }}

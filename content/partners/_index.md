@@ -24,7 +24,7 @@ We expect 1000 people to join us in Lyon. Our attendees are spread across many d
 ### Become a partner
 Make an impression during Interaction&nbsp;Week&nbsp;18
 
-{{<button target="_blank" name="Download the kit (EN)" href="pdf/Interaction-18_SponsorKit_EN.pdf" >}}&ensp;{{<button target="_blank" name="Télécharger le kit (FR)" href="pdf/Interaction-18_SponsorKit_FR.pdf" class="button-secondary" >}}
+{{<button target="_blank" name="Download the kit (EN)" href="/pdf/Interaction-18_SponsorKit_EN.pdf" >}}&ensp;{{<button target="_blank" name="Télécharger le kit (FR)" href="/pdf/Interaction-18_SponsorKit_FR.pdf" class="button-secondary" >}}
 {{% /box %}}
 
 {{< spacer >}}
