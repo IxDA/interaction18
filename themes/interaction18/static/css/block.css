@@ -296,13 +296,13 @@
     justify-content: flex-start;
   }
     .boxes-speaker .box{
-      max-width: 50%;
+      max-width: 33%;
       flex: 1 1 auto;
       padding: 0 1em 2em;
       margin: 0;
     }
     .boxes-speaker .box img{
-      width: 256px;
+      width: 120px;
     }
     @media (max-width: 600px) {
       .boxes-speaker .box{

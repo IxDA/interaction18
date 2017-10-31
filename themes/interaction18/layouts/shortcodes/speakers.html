@@ -1,11 +1,11 @@
-<div class="fullwidth">
-  <div class="container">
+
     <div class="boxes boxes-speaker">
       {{ $data := getJSON $.Site.Params.programData }}
-      {{ range $data.program }}
+
+      {{ $programkind := .Get "kind" }}
+      {{ range where $data.program "kind" "==" $programkind }}
       {{ $item := . }}
       {{ if $item.active }}
-      {{ if $item.speaker_1_photo }}
         <div class="box box-inner-padding">
           {{ if $item.speaker_1_photo }}
           <img src="{{ $item.speaker_1_photo }}" alt="{{ $item.speaker_1_name }}">
@@ -30,7 +30,4 @@
         {{ end }}
         {{ end }}
       {{ end }}
-      {{ end }}
     </div>
-  </div>
-</div>

@@ -6,7 +6,11 @@ date: 2017-07-11T22:31:14+02:00
 
 {{% keynotes kind="keynote" %}}
 
-{{% speakers %}}
+
+{{% ruler %}}
+
+## Workshop
+{{% speakers kind="workshop" %}}
 
 {{% box class="bordered mega-padding" %}}
 ## General program

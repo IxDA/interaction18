@@ -383,7 +383,7 @@
             justify-content: flex-start;
   }
     .boxes-speaker .box{
-      max-width: 50%;
+      max-width: 33%;
       -webkit-box-flex: 1;
           -ms-flex: 1 1 auto;
               flex: 1 1 auto;
@@ -391,7 +391,7 @@
       margin: 0;
     }
     .boxes-speaker .box img{
-      width: 256px;
+      width: 120px;
     }
     @media (max-width: 600px) {
       .boxes-speaker .box{

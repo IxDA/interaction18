@@ -33,15 +33,19 @@
 					</div>
 
 					<div class="program-outline columns columns2 spacer-b">
+						{{ if $item.outline }}
 						<h2>Outline</h2>
 						<p>
 							{{ with $item.outline }}{{ . | markdownify }}{{ end }}
 						</p>
 						<div class="columns-break"></div>
+						{{ end }}
+						{{ if $item.target_audience }}
 						<h2>Target audience</h2>
 						<p>
 							{{ with $item.target_audience }}{{ . | markdownify }}{{ end }}
 						</p>
+						{{ end }}
 					</div>
 
 
