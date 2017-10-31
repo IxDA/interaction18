@@ -8,23 +8,23 @@
       {{ if $item.active }}
         <div class="box box-inner-padding">
           {{ if $item.speaker_1_photo }}
-          <img src="{{ $item.speaker_1_photo }}" alt="{{ $item.speaker_1_name }}">
+          <!-- <img src="{{ $item.speaker_1_photo }}" alt="{{ $item.speaker_1_name }}"> -->
           {{ end }}
           <p>
             <strong><a href="/program/{{ $item.slug }}#speaker">{{ $item.speaker_1_name }}</a></strong>
-            <br/>
-            {{ $item.speaker_1_function }}
+            <!-- <br/>
+            {{ $item.speaker_1_function }} -->
           </p>
         </div>
         {{ if $item.second_speaker }}
         <div class="box box-inner-padding">
           {{ if $item.speaker_2_photo }}
-          <img src="{{ $item.speaker_2_photo }}" alt="{{ $item.speaker_2_name }}">
+          <!-- <img src="{{ $item.speaker_2_photo }}" alt="{{ $item.speaker_2_name }}"> -->
           {{ end }}
           <p>
             <strong><a href="/program/{{ $item.slug }}#speaker">{{ $item.speaker_2_name }}</a></strong>
-            <br/>
-            {{ $item.speaker_2_function }}
+            <!-- <br/>
+            {{ $item.speaker_2_function }} -->
           </p>
         </div>
         {{ end }}
