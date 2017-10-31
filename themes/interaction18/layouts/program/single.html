@@ -1,9 +1,8 @@
 {{ partial "header.html" . }}
 <div class="bordered-top"></div>
 <main id="main">
-	<section class="container content spacer-t-b">
+	<section class="container container-m content spacer-2t-b">
 		<div class="program-detail">
-		<h1>{{ .Title }}</h1>
 
     {{ $data := getJSON $.Site.Params.programData }}
 
@@ -12,26 +11,22 @@
         {{ $item := . }}
         {{ if $item.active }}
 
-					<h2 class="program-speaker-by">
-						Feb
-						{{ $item.day }}
-						–
-						{{ $item.hour }}
-						{{ $item.kind }}
-						<span class="label">
-							{{ $item.format }}
-						</span>
-						<br/>
-						By
-						<a href="#speaker">{{ $item.speaker_1_name }}</a>
-						{{ if $item.second_speaker }}
-						&
-						<a href="#speaker2">{{ $item.speaker_2_name }}</a>
-						{{ end }}
-					</h2>
+				<div class="program-title">
+					<h1>{{ $item.title }}</h1>
+					<h3>{{ $item.resume }}</h3>
+					<p>
+						<strong>
+							{{ $item.kind }} –
+							{{ $item.format }} |
+							Feb
+							{{ $item.day }}
+							–
+							{{ $item.hour }}
+						</strong>
+					</p>
+				</div>
 
-					<div class="program-resume spacer-t-b">
-						<h3>{{ $item.resume }}</h3>
+					<div class="program-resume">
 						<p>
 							{{ with $item.description }}{{ . | markdownify }}{{ end }}
 						</p>
@@ -55,7 +50,7 @@
 					</div>
 
 
-					<div class="program-speakers-preview spacer-t-b">
+					<div class="program-speakers-preview">
 						{{ if $item.second_speaker }}
 						<div class="program-2speakers">
 						{{ end }}
