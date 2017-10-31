@@ -8,7 +8,9 @@
       {{ if $item.active }}
         <div class="box box-inner-padding">
           {{ if $item.speaker_1_photo }}
-          <!-- <img src="{{ $item.speaker_1_photo }}" alt="{{ $item.speaker_1_name }}"> -->
+          <a href="/program/{{ $item.slug }}#speaker" class="no-underline">
+            <img src="{{ $item.speaker_1_photo }}" alt="{{ $item.speaker_1_name }}">
+          </a>
           {{ end }}
           <p>
             <strong><a href="/program/{{ $item.slug }}#speaker">{{ $item.speaker_1_name }}</a></strong>
@@ -19,10 +21,12 @@
         {{ if $item.second_speaker }}
         <div class="box box-inner-padding">
           {{ if $item.speaker_2_photo }}
-          <!-- <img src="{{ $item.speaker_2_photo }}" alt="{{ $item.speaker_2_name }}"> -->
+          <a href="/program/{{ $item.slug }}#speaker2" class="no-underline">
+            <img src="{{ $item.speaker_2_photo }}" alt="{{ $item.speaker_2_name }}">
+          </a>
           {{ end }}
           <p>
-            <strong><a href="/program/{{ $item.slug }}#speaker">{{ $item.speaker_2_name }}</a></strong>
+            <strong><a href="/program/{{ $item.slug }}#speaker2">{{ $item.speaker_2_name }}</a></strong>
             <!-- <br/>
             {{ $item.speaker_2_function }} -->
           </p>

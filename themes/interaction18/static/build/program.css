@@ -83,6 +83,7 @@
      }
      .program-speakers-preview .program-speaker-box img{
        margin: 0;
+       margin-bottom: 0.1em;
        max-width: 200px;
      }
      .program-speakers-detail .program-2speakers{

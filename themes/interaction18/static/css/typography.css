@@ -98,6 +98,9 @@ p, ul, ol, pre, table, blockquote {
 p + p, p + h2, p + h3, p + ul, ul + p, h2 + p, h3 + ol, h3 + ul, h2 + ol, h2 + ul{
   margin-top: 0.8em;
 }
+h1 + h2, h2 + h3{
+  margin-top: 0.4em;
+}
 ul, ol{
   margin-left: 0;
   padding-left: 0;
