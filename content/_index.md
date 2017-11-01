@@ -183,10 +183,11 @@ date: 2017-07-11T22:31:14+02:00
   <div class="bordered mega-padding">
     <div class="boxes boxes-valign boxes-nopadding">
       <div class="box">
-        <h3>♦︎ <strong>First Two Keynotes announced!</strong></h3>
+        <h3>♦︎ <strong><a href="/speakers">Four Keynotes</a> announced!</strong></h3>
+        <h3>♦︎ <strong>And <a href="/program">all workshops</a></strong></h3>
       </div>
       <div class="box">
-        <p><a href="speakers.html" class="button">Check our speakers page</a></p>
+        <p><a href="/program" class="button">Check our workshops</a></p>
       </div>
     </div>
   </div>
