@@ -103,7 +103,7 @@ date: 2017-07-11T22:31:14+02:00
         <p>
           Join the best designers and learn hands on.
           <br/>
-          <em>workshop tickets soon</em>
+          <a href="/program">See the program</a>
         </p>
       </div>
     </div>

@@ -12,7 +12,7 @@ aliases:
 
 {{% ruler %}}
 
-## Workshop
+## Workshops
 {{% speakers kind="workshop" %}}
 
 {{% box class="bordered mega-padding" %}}
