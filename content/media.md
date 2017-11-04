@@ -16,7 +16,7 @@ We are regrouping here communication materials to help you spread the word aroun
 <h3><strong>Logos</strong></h3>
 <p>The official Interaction&nbsp;18 logos, for print & digital use.</p>
 <br />
-<a href="/download/Interaction-18_logos.zip" target="_blank" class="button">Download logos (zip — 6.2 Mb)</a>
+<p><a href="/download/Interaction-18_logos.zip" target="_blank" class="button">Download logos (zip — 6.2 Mb)</a></p>
 <div class="spacer-t-b bordered-top"></div>
 <h3><strong>Local leaders</strong></h3>
 <p>Here is a presentation deck for you to talk about Interaction&nbsp;Week&nbsp;18 locally. Keynote & PowerPoint files.</p>
@@ -36,4 +36,4 @@ We are regrouping here communication materials to help you spread the word aroun
 <h3><strong>Banners</strong></h3>
 <p>If you want to "advertise" for Interaction&nbsp;18, we prepared some banners to display on your website. Don't worry, those are not blinking and annoying animated gifs, just plain and clean images so you can point to this very conference website.</p>
 <br />
-<a href="download/Interaction-18_banners.zip" target="_blank" class="button">Download banners (zip — 432 Kb)</a>
+<p><a href="download/Interaction-18_banners.zip" target="_blank" class="button">Download banners (zip — 432 Kb)</a></p>

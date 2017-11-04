@@ -18,7 +18,7 @@ date: 2017-07-11T22:31:14+02:00
   <div class="box box-secondary">
     <h2>Join us in Lyon</h2>
     <p>
-      Get your ticket soon for the full conference experience.
+      The tickets are going fast. be quick.
     </p>
     <p>
       <a href="http://join.interaction.ixda.org" class="button">Get tickets for Interaction&nbsp;18</a>
@@ -27,7 +27,7 @@ date: 2017-07-11T22:31:14+02:00
   <div class="box box-primary">
     <h2>Stay informed</h2>
     <p>
-      Want to be the first to know when the tickets come? We understand. Stay informed with our monthly updates.
+      Want to be the first to know about the new updates? We understand. Stay informed with our monthly updates.
     </p>
     <p>
       <form action="//ixda.us2.list-manage.com/subscribe/post?u=e714c585710f24c2743e2cb29&amp;id=4f464c4573" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
