@@ -151,8 +151,8 @@
   max-width: 32em;
 }
 
-
-@supports ((display: -ms-grid) or (display: grid)) {
+/* -ms-ime-align: auto is a edge only feature and as Edge support grid but not the way we implemented it ... */
+@supports ((display: -ms-grid) or (display: grid)) and (not (-ms-ime-align: auto)) {
   .container {
     display: -ms-grid;
     display: grid;

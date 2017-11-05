@@ -141,8 +141,8 @@ a{
   a:hover{
       color: #ad003d;
   }
-  a.no-underline::after{
-    display: none!important;
+  a.no-underline{
+    border-bottom: 0px solid transparent!important;
   }
 
 .content{}
@@ -156,28 +156,14 @@ a{
     position: relative;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    border-bottom: 0.12em solid #E40050;
   }
     .content a:not(.button):hover
     {
       text-decoration: none;
       color: #E40050;
+      border-bottom-color: #421B4B;
     }
-    .content a:not(.button)::after
-    {
-      content: '';
-      position: absolute;
-      height: 2px;
-      width: 100%;
-      bottom: 0px;
-      right: 0;
-      background: #E40050;
-      -webkit-transition: all 0.3s ease;
-      transition: all 0.3s ease;
-    }
-      .content a:not(.button):hover::after
-      {
-        background: #421B4B;
-      }
 
 /* Label */
 .label{
