@@ -95,6 +95,12 @@ title = "Interaction 18 – 3—8 Février 2018 • Lyon, France"
   url = "/venues/"
 
 [[Languages.fr.menu.main]]
+  name = "Workshops"
+  weight = 450
+  identifier = "program"
+  url = "/program/"
+
+[[Languages.fr.menu.main]]
   name = "Conférenciers"
   weight = 400
   identifier = "speakers"
