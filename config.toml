@@ -9,6 +9,7 @@ hrefTargetBlank = true
 [params]
   partnersData = "https://script.google.com/macros/s/AKfycbxOLElujQcy1-ZUer1KgEvK16gkTLUqYftApjNCM_IRTL3HSuDk/exec?id=1I1tqSbAVRccL1N2yKQ3aiSzgNryLNzhfX6SAQ8xkNVI&sheet=partners"
   teamData = "https://script.google.com/macros/s/AKfycbxOLElujQcy1-ZUer1KgEvK16gkTLUqYftApjNCM_IRTL3HSuDk/exec?id=1j7GyZ2PuLtbZxM4ljLyFlLUadtYxxyMjWHW9bWnBuQY&sheet=team"
+  programData = "https://script.google.com/macros/s/AKfycbxOLElujQcy1-ZUer1KgEvK16gkTLUqYftApjNCM_IRTL3HSuDk/exec?id=12JUQA4ogk1JGMlRtofFKJmn6NgCGMCCmtOqwqvChxT4&sheet=program"
 
 [menu]
 [[menu.main]]
@@ -40,6 +41,12 @@ hrefTargetBlank = true
   weight = 300
   identifier = "venues"
   url = "/venues/"
+
+[[menu.main]]
+  name = "Workshops"
+  weight = 450
+  identifier = "program"
+  url = "/program/"
 
 [[menu.main]]
   name = "Speakers"

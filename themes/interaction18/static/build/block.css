@@ -141,6 +141,9 @@
   margin-right: auto;
   clear: both;
 }
+.container-m{
+  max-width: 50em;
+}
 .container-s{
   max-width: 40em;
 }
@@ -148,8 +151,8 @@
   max-width: 32em;
 }
 
-
-@supports ((display: -ms-grid) or (display: grid)) {
+/* -ms-ime-align: auto is a edge only feature and as Edge support grid but not the way we implemented it ... */
+@supports ((display: -ms-grid) or (display: grid)) and (not (-ms-ime-align: auto)) {
   .container {
     display: -ms-grid;
     display: grid;
@@ -162,6 +165,17 @@
         grid-template-columns:
     [full-start] minmax(1em, 1fr)
     [main-start] minmax(0, 70em) [main-end]
+    minmax(1em, 1fr) [full-end];
+  }
+  .container-m{
+    max-width: 100%;
+    -ms-grid-columns:
+    [full-start] minmax(1em, 1fr)
+    [main-start] minmax(0, 50em) [main-end]
+    minmax(1em, 1fr) [full-end];
+        grid-template-columns:
+    [full-start] minmax(1em, 1fr)
+    [main-start] minmax(0, 50em) [main-end]
     minmax(1em, 1fr) [full-end];
   }
   .container-s{
@@ -186,7 +200,7 @@
     [main-start] minmax(0, 32em) [main-end]
     minmax(1em, 1fr) [full-end];
   }
-  .container > *, .container-s > *, .container-xs > * {
+  .container > *, .container-s > *, .container-m > *, .container-xs > * {
     -ms-grid-column: main;
         grid-column: main;
   }
@@ -282,7 +296,8 @@
     -webkit-box-flex: 1;
         -ms-flex: 1 0 40%;
             flex: 1 0 40%;
-    min-width: 25vmax;
+    max-width: 40em;
+    min-width: 14em;
   }
   .boxes.boxes-3 .box{
     -webkit-box-flex: 1;
@@ -361,6 +376,34 @@
   .boxes-team .box img{
     max-width: 100%;
   }
+
+  .boxes-speaker{
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+    .boxes-speaker .box{
+      width: 33%;
+      max-width: 33%;
+      -webkit-box-flex: 1;
+          -ms-flex: 1 1 auto;
+              flex: 1 1 auto;
+      padding: 0 1em 2em;
+      margin: 0;
+    }
+    .boxes-speaker .box img{
+      /*width: 120px;*/
+    }
+    @media (max-width: 600px) {
+      .boxes-speaker .box{
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; /* SAFARI fix*/
+      }
+    }
+    .boxes-speaker .box img{
+      max-width: 100%;
+    }
+
 
 .boxes-hotels{
 }

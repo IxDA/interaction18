@@ -18,7 +18,7 @@ date: 2017-07-11T22:31:14+02:00
   <div class="box box-secondary">
     <h2>Join us in Lyon</h2>
     <p>
-      Get your ticket soon for the full conference experience.
+      The tickets are going fast. be quick.
     </p>
     <p>
       <a href="http://join.interaction.ixda.org" class="button">Get tickets for Interaction&nbsp;18</a>
@@ -27,7 +27,7 @@ date: 2017-07-11T22:31:14+02:00
   <div class="box box-primary">
     <h2>Stay informed</h2>
     <p>
-      Want to be the first to know when the tickets come? We understand. Stay informed with our monthly updates.
+      We still have a few things to announce. Stay informed with our monthly updates.
     </p>
     <p>
       <form action="//ixda.us2.list-manage.com/subscribe/post?u=e714c585710f24c2743e2cb29&amp;id=4f464c4573" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -103,7 +103,7 @@ date: 2017-07-11T22:31:14+02:00
         <p>
           Join the best designers and learn hands on.
           <br/>
-          <em>workshop tickets soon</em>
+          <a href="/program">See the program</a>
         </p>
       </div>
     </div>
@@ -183,10 +183,11 @@ date: 2017-07-11T22:31:14+02:00
   <div class="bordered mega-padding">
     <div class="boxes boxes-valign boxes-nopadding">
       <div class="box">
-        <h3>♦︎ <strong>First Two Keynotes announced!</strong></h3>
+        <h3>♦︎ <strong><a href="/speakers">Four Keynotes</a> announced!</strong></h3>
+        <h3>♦︎ <strong>And <a href="/program">all workshops</a></strong></h3>
       </div>
       <div class="box">
-        <p><a href="speakers.html" class="button">Check our speakers page</a></p>
+        <p><a href="/program" class="button">Check our workshops</a></p>
       </div>
     </div>
   </div>

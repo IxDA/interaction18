@@ -98,6 +98,9 @@ p, ul, ol, pre, table, blockquote {
 p + p, p + h2, p + h3, p + ul, ul + p, h2 + p, h3 + ol, h3 + ul, h2 + ol, h2 + ul{
   margin-top: 0.8em;
 }
+h1 + h2, h2 + h3{
+  margin-top: 0.4em;
+}
 ul, ol{
   margin-left: 0;
   padding-left: 0;
@@ -173,7 +176,17 @@ a{
         background: #421B4B;
       }
 
-
+/* Label */
+.label{
+  border: 0.1em solid #D0A9D0;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 60%;
+  line-height: 1.1em;
+  display: inline-block;
+  padding: 0.2em 0.3em;
+  margin: 0 0.6em;
+}
 
 /* Let's make sure all's aligned */
 hr, .hr {
