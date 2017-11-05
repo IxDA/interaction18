@@ -1,5 +1,15 @@
 <nav role="menubar" id="menu">
-  <ul>
+  <ul class="language-nav">
+    {{ $currentLanguage := .Site.Language }}
+    {{ range .Site.Languages }}
+    <li class="language-nav-item-{{ .Lang }} {{if eq $currentLanguage . }} active{{end}}" >
+      <a href="/{{ .Lang }}" {{if eq $currentLanguage . }} class="active"{{end}} >
+        {{ .LanguageName }}
+      </a>
+    </li>
+    {{end}}
+  </ul>
+  <ul class="main-nav">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
@@ -27,15 +37,8 @@
     </li>
     {{end}}
     <li class="main-nav-button"><a href="{{ .Site.BaseURL }}tickets" class="button button-xs-link" id="js-ticket-button">Get tickets</a></li>
-    {{ $currentLanguage := .Site.Language }}
-    {{ range .Site.Languages }}
-    <li {{if eq $currentLanguage . }} class="active"{{end}} >
-      <a href="/{{ .Lang }}" {{if eq $currentLanguage . }} class="active"{{end}} >
-          {{ .LanguageName }}
-      </a>
-    </li>
-    {{end}}
   </ul>
+
   <a href="#menu" class="nav-toggle button" id="js-toggle-nav">
     <span class="nav-toggle-open-text">
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
