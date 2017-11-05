@@ -73,24 +73,28 @@ title = "Interaction 18 – 3—8 Février 2018 • Lyon, France"
     name = "À propos"
     weight = 100
     identifier = "about"
+    url = "/a-propos/"
 
 [[Languages.fr.menu.main]]
     name = "Lyon"
     weight = 200
     identifier = "lyon"
+    url = "/lyon/"
 
 [[Languages.fr.menu.main]]
   name = "Lieux"
   weight = 300
   identifier = "venues"
+  url = "/venues/"
 
 [[Languages.fr.menu.main]]
   name = "Conférenciers"
   weight = 400
   identifier = "speakers"
+  url = "/speakers/"
 
 [[Languages.fr.menu.main]]
     name = "Partenaires"
     weight = 500
     identifier = "partners"
-
+    url = "/partners/"
