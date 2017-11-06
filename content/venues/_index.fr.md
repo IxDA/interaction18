@@ -1,35 +1,30 @@
 ---
-title: "Lieux"
+title: "La Sucrière"
 date: 2017-07-11T22:31:14+02:00
-
-aliases:
-  - /venues.html
 ---
-<section class="container content container-s spacer-2t-b">
-  <h1>La Sucrière</h1>
   <p>
-    <strong>Main conference venue</strong>
+    <strong>Salle de conf&#233;rence principale</strong>
     <br />
-    Our main venue is located on the southern side of Perrache station, where Rhône and Saône merge. You will join us at La Sucrière, an old sugar warehouse, the only building that was preserved when the area was entirely <a href="http://www.domusweb.it/en/architecture/2015/02/16/the_new_lyon_city_centre.html" target="_blank">renewed in the 2000s</a> as a place of experimentation for contemporary architecture.
-  </p>
+    Notre salle principale est situ&#233;e au sud de la station Perrache o&#249; la Rhône et la Saône fusionnent. Vous nous rejoindrez &#224; La Sucrière, une ancienne usine de sucre et le seul bâtiment historique qui reste de ce quartier quand il a &#233;t&#233; r&#233;habilit&#233; <a href="http://www.domusweb.it/en/architecture/2015/02/16/the_new_lyon_city_centre.html" target="_blank">dans les ann&#233;es 2000</a> comme espace d&rsquo;exp&#233;rimentation pour l&rsquo;architecture contemporaine.
+    </p>
   <img src="/img/photos/venues-La-Sucriere-outside-copyright-Nicolas-Robin.jpg" alt="La Sucriere outside view - copyright Nicolas Robin">
   <p>
-    La Sucrière is now a renowned exhibition space, the perfect nest for the famous Lyon Biennale of Contemporary Art, the Bakery World Championship ...and now Interaction&nbsp;18.
-  </p>
+    La Sucrière est maintenant un espace d&rsquo;exposition renomm&#233;, l&rsquo;endroit parfait pour accueillir la c&#233;l&#232;bre Biennale d&rsquo;art contemporain, la Coupe du Monde de la P&#226;tisserie...et maintenant Interaction&nbsp;18.
+    </p>
   <p>
-    You will walk through its historical spaces, with characteristic massive silos and a wooden rooftop, made even more peculiar by having its façade redesigned every two years: its look in 2018 will be a surprise.
+    Vous marcherez &#224; travers ses espaces historiques, caract&#233;ris&#233;s par de grands silos et une toiture en bois, rendus encore plus particulier du fait que sa fa&#231;ade change tous les deux ans : son allure en 2018 sera une surprise.
   </p>
   <img src="/img/photos/venues-La-Sucriere-outside-copyright-Gaetan-Clement.jpg" alt="La Sucriere outside - copyright Gaetan Clement">
   <p>
-    Its wooden rooftop, hosting Le Sucre, a hip bar and a venue for famous DJs, will provide you a wonderful view of the rivers from its massive terrace.
+    Avec son rooftop en bois, qui accueille Le Sucre, un bar hip et une vitrine pour les DJ c&#233;l&#232;bres, vous aurez une vue magnifique des rivi&#232;res &#224; partir de sa grande terrasse.
   </p>
 </section>
 
 <section class="container content container-s spacer-none">
-  <h2>The inside</h2>
+  <h2>L&rsquo;int&#233;rieur</h2>
   <img src="/img/photos/Venue-Main_1930-Restauration-copyright-GL-Events.jpg" alt="1960 main room with the mezzanine.">
-  <p>La Sucrière still preserves the industrial charm of its origins, with strong structural pillars, concrete beams, and sugar feed chutes, not to mention the massive silos on its side.</p>
-  <p>There are five different spaces. The massive Espace 1930, overlooked by a raised Mezzanine, is connected to the silos and to the adjacent Espace 1960. Above we have the Exhibition floor complemented at the very top by Le Sucre, with its terrace.</p>
+  <p>La Sucri&#232;re a conserv&#233; son cachet industriel d&rsquo;origine avec de solides piliers structurels, des poutres en b&#233;ton et des toboggans &#224; sucre, sans oublier ses &#233;normes silos de part et d&rsquo;autre.</p>
+  <p>Il y a cinq espaces diff&#233;rents. Le tr&#232;s grand Espace 1930, surplomb&#233; d&rsquo;une mezzanine, est reli&#233; aux silos et adjacents &#224; l&rsquo;Espace 1960. Et au-dessus du Sucre et sa terasse, se trouve un espace d&rsquo;exposition compl&#233;mentaire.</p>
 </section>
 {{% fullwidth %}}
 <section class="container content spacer-none">
@@ -55,6 +50,6 @@ aliases:
 </section>
 {{% /fullwidth %}}
 <section class="container content container-s spacer-none">
-  <p>Together they provide <strong>5100 m<sup>2</sup></strong> – more than ten basketball fields – and will be arranged to accommodate the various informative, social, and breathing needs of Interaction&nbsp;18.</p>
+  <p>Ensemble, ils offrent <strong>5100 m<sup>2</sup></strong> - plus de dix terrains de basketball - qui seront am&#233;nag&#233;s pour accommoder les divers besoins en information, sociaux et espace d&rsquo;Interaction&nbsp;18.</p>
   <img src="/img/photos/Venue-Main_New-Order-at-La-Sucriere-copyright-Brice-Robert.jpg" alt="New Order concert during the Nuits Sonores festival - copyright Brice Robert">
 </section>

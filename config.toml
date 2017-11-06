@@ -80,7 +80,7 @@ title = "Interaction 18 – 3—8 Février 2018 • Lyon, France"
     name = "À propos"
     weight = 100
     identifier = "about"
-    url = "/a-propos/"
+    url = "/about/"
 
 [[Languages.fr.menu.main]]
     name = "Lyon"

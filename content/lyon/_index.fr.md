@@ -6,9 +6,8 @@ menu:
     name: "Découvrir"
     weight: 210
     parent: "lyon"
-    
 ---
-This perfectly-sized town offers the widest panel of food, architecture and bits of French culture. We are going to spend time in a city with a mix of historic and post-industrial landscapes, fancy boutiques, art museums and a wide range of public transports.
+Cette ville de taille id&eacute;ale offre la plus grande diversit&eacute; de gastronomie, architecture et sp&eacute;cificit&eacute;s de la culture fran&ccedil;aise. Nous allons passer du temps au sein d&apos;une ville m&eacute;langeant paysages historiques et post-industriels, boutiques de luxe, mus&eacute;es d&rsquo;art et qui propose un large choix de transports en commun.
 
 <section class="gallery-simple">
 {{< figure src="/img/photos/lyon-scene1-Bikes.jpg" alt="Lyon city bikes" class="box" >}}

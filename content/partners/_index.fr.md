@@ -1,32 +1,30 @@
 ---
 title: "Partenaires"
 date: 2017-07-11T22:31:14+02:00
-
-
 ---
-## Connect with designers at the discipline's premier event
-From the rise of artificial intelligences and virtual reality to the commoditization of smart services — technology keeps redefining the relationship between us and the world where we live. Interaction 18 will offer practitioners and companies the opportunity to reflect on how we are shaping the world moving forward, by building bridges across cultures, disciplines and industries to discover shared directions and goals.
+## Entrez en contact avec des designers au premier &#233;v&#233;nement du domaine
+De la croissance de l&rsquo;intelligence artificielle et la r&#233;alit&#233; virtuelle &#224; la marchandisation des services intelligents, la technologie continue &#224; red&#233;finir la relations entre nous et le monde dans lequel nous vivons. Interaction 18 offrira aux professionnels et aux entreprises la possibilit&#233; de r&#233;fl&#233;chir &#224; la façon dont nous fa&#231;onnons le monde en cr&#233;ant des ponts entre les cultures, les disciplines et les industries pour d&#233;couvrir les buts et les orientations partag&#233;es.
 
-## Why partner with us?
+## Pourquoi devenir partenaire?
 
-IxDA is renowned for its impressive conferences — a tradition made possible thanks to our sponsors. Interaction Week 18 is a key opportunity for our partners to reach the interaction design community and its professional stakeholders.
+IxDA est reconnu pour ses conf&#233;rences impressionantes, une tradition rendue possible gr&#226;ce &#224; nos sponsors. Interaction Week 18 est une occasion cl&#233; pour nos partenaires de rejoindre la communaut&#233; du design interactif et ses acteurs professionels.
 
-We expect 1000 people to join us in Lyon. Our attendees are spread across many design disciplines; interaction designers, user experience consultants, product managers, academics, but also authors of best-selling books on user experience and VPs of Fortune 1000 companies. About 35% of the attendees will be from North America, 50% from Europe and 15% from the rest of the world. About half of them work for in-house corporate design teams and the other half for agencies and consultancies.
+1 000 personnes nous rejoindront &#224; Lyon. Nos participants proviennent de plusieurs disciplines du design : designers d&rsquo;interaction, product managers, chercheurs, ainsi que des auteurs de best-sellers sur l&rsquo;exp&#233;rience utilisateur et des VP d&rsquo;entreprises du Fortune 1 000. Pr&#232;s de 35% des participants viendront d&rsquo;Am&#233;rique du Nord, 50% de l&rsquo;Europe et 15% du reste du monde. Pr&#232;s de la moiti&#233; d&rsquo;entre eux travaillent dans des &#233;quipes de conception en entreprises et l&rsquo;autre moiti&#233; pour des agences ou des sociétés de conseil.
 
-**As well as helping us create an amazing conference, you will set your footprint in a fresh and ambitious location where interaction design rubs shoulders with many other industries: videogame, art, innovation, research... and the list goes on.**
+**En plus de nous aider &#224; mettre sur pied une super conf&#233;rence, vous laisserez une empreinte dans un nouvel environnement o&#249; le design d&rsquo;interaction cotoie plusieurs autres industries : les jeux vid&#233;o, l&rsquo;art, l&rsquo;innovation, la recherche...la liste est longue.**
 
 {{< spacer >}}
 
 {{% box class="bordered mega-padding"  %}}
-### Become a partner
-Make an impression during Interaction&nbsp;Week&nbsp;18
+### Devenez partenaire
+Faites bonne impression pendant Interaction&nbsp;Week&nbsp;18
 
-{{<button target="_blank" name="Download the kit (EN)" href="pdf/Interaction-18_SponsorKit_EN.pdf" >}}&ensp;{{<button target="_blank" name="Télécharger le kit (FR)" href="pdf/Interaction-18_SponsorKit_FR.pdf" class="button-secondary" >}}
+{{<button target="_blank" name="Download the kit (EN)" href="/pdf/Interaction-18_SponsorKit_EN.pdf" >}}&ensp;{{<button target="_blank" name="Télécharger le kit (FR)" href="/pdf/Interaction-18_SponsorKit_FR.pdf" class="button-secondary" >}}
 {{% /box %}}
 
 {{< spacer >}}
 
-## Partners
+## Partenaires
 
   {{% partners full="true" size="XL" %}}
   {{% partners full="true" size="L" %}}
