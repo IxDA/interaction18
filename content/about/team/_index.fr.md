@@ -9,10 +9,10 @@ menu:
 ---
 
 <p>
-  <strong>Tout cela est rendu possible gr&#226;ce au d&#233;vouement de gens passionn&#233;s.</strong><br/>
+  <strong>Tout cela est rendu possible grâce au dévouement de gens passionnés.</strong><br/>
 </p>
 <p>
-  Laissez-nous vous pr&#233;senter certains d&rsquo;entre eux.
+  Laissez-nous vous présenter certains d’entre eux.
 </p>
 
 {{< spacer >}}

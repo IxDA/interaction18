@@ -5,7 +5,7 @@ date: 2017-07-11T22:31:14+02:00
 <section class="banner text-white banner-link banner-purple banner-video">
   <a href="https://vimeo.com/202684890" class="button-banner text-white link-no-underline banner-full" id="js-play-vimeo">
     <p>3-8 February 2018 • Lyon, France</p>
-    <h1>&#201;liminer les fronti&#232;res. <br>B&#226;tir des relations. </h1>
+    <h1>Éliminer les frontières. <br>Bâtir des relations. </h1>
     <p class="button-play">
       <span class="button-play_round"><span class="button-play_triangle"></span></span>
       <strong>Laissez-nous vous inspirer</strong>
@@ -16,18 +16,18 @@ date: 2017-07-11T22:31:14+02:00
 
 <section class="text-white boxes boxes-2">
   <div class="box box-secondary">
-    <h2>Venez nous rejoindre &#224; Lyon</h2>
+    <h2>Venez nous rejoindre à Lyon</h2>
     <p>
-      Les billets partent vite. N&rsquo;attendez plus.
+      Les billets partent vite. N’attendez plus.
     </p>
     <p>
       <a href="http://join.interaction.ixda.org" class="button">Obtenir des billets pour Interaction&nbsp;18</a>
     </p>
   </div>
   <div class="box box-primary">
-    <h2>Rest&#233;s inform&#233;s</h2>
+    <h2>Restés informés</h2>
     <p>
-      Nous avons encore des annonces &#224; partager. Rest&#233;s inform&#233;s avec nos mises &#224; jour mensuelles.
+      Nous avons encore des annonces à partager. Restés informés avec nos mises à jour mensuelles.
     </p>
     <p>
       <form action="//ixda.us2.list-manage.com/subscribe/post?u=e714c585710f24c2743e2cb29&amp;id=4f464c4573" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -46,18 +46,18 @@ date: 2017-07-11T22:31:14+02:00
   <div class="boxes boxes-2">
     <div class="box">
       <p>
-        Interaction Week 18 veut refl&#233;ter comment la technologie et le design fa&#231;onnent le monde en cr&#233;ant des ponts entre les cultures, les disciplines et les industries pour atteindre des buts partag&#233;s.
+        Interaction Week 18 veut refléter comment la technologie et le design façonnent le monde en créant des ponts entre les cultures, les disciplines et les industries pour atteindre des buts partagés.
       </p>
     </div>
     <div class="box">
       <p>
-        Nous allons &#233;couter des experts et participer &#224; des conversations pour changer l&rsquo;&#233;volution de nos relations avec nous-m&#234;mes, nos objets, l&rsquo;environnement et la soci&#233;t&#233; dans son ensemble.
+        Nous allons écouter des experts et participer à des conversations pour changer l’évolution de nos relations avec nous-mêmes, nos objets, l’environnement et la société dans son ensemble.
       </p>
     </div>
   </div>
   <p>
     <strong>
-      Aper&#231;u de la semaine 3-8 f&#233;vrier 2018
+      Aperçu de la semaine 3-8 février 2018
     </strong>
   </p>
 
@@ -88,7 +88,7 @@ date: 2017-07-11T22:31:14+02:00
       </a></h4>
       <div class="js-collapsed schedule-activity-more" id="more-education-summit">
         <p>
-          D&#233;velopez votre passion pour l&rsquo;apprentissage et l&rsquo;&#233;ducation, explorez comment le design est encore plus transdisciplinaire.
+          Dévelopez votre passion pour l’apprentissage et l’éducation, explorez comment le design est encore plus transdisciplinaire.
         <br/>
           <a href="http://edusummit.ixda.org/">Pour en savoir plus</a>
         </p>
@@ -110,12 +110,12 @@ date: 2017-07-11T22:31:14+02:00
     <div class="schedule-activity schedule-activity-interaction18-conference">
       <h4><a href="#" for="more-interaction18-conference" class="no-underline js-collapse schedule-activity-more-link color-pink">
         <time datetime="2018-02-06T12:00:00+00:00">6—8 Feb - </time>
-        Conf&#233;rence Interaction 18<span class="arrow-down">&nbsp;&blacktriangledown;</span>
+        Conférence Interaction 18<span class="arrow-down">&nbsp;&blacktriangledown;</span>
       </a></h4>
       <div class="js-collapsed schedule-activity-more" id="more-interaction18-conference">
         <p>
-          L&rsquo;&#233;v&#233;nement principal. Vous profiterez de trois jours complets de conf&#233;rences, &#233;couter des experts et participer &#224; des conversations pour changer l&rsquo;&#233;volution de nos relations avec nous-m&#234;mes, nos objets, l&rsquo;environnement et la soci&#233;t&#233; dans son ensemble.
-          Ne manquez pas la soir&#233;e d&rsquo;ouverture et les Interaction Awards!
+          L’événement principal. Vous profiterez de trois jours complets de conférences, écouter des experts et participer à des conversations pour changer l’évolution de nos relations avec nous-mêmes, nos objets, l’environnement et la société dans son ensemble.
+          Ne manquez pas la soirée d’ouverture et les Interaction Awards!
           <br/>
           <a href="http://join.interaction.ixda.org/">Obtenir des billets</a>
         </p>
@@ -128,9 +128,9 @@ date: 2017-07-11T22:31:14+02:00
       </a></h5>
       <div class="js-collapsed schedule-activity-more" id="more-local-leader">
         <p>
-          Passionn&#233; par l&rsquo;id&#233;e de faire grandir votre communaut&#233; locale? Rejoignez-nous pour une retraite d&rsquo;un jour.
+          Passionné par l’idée de faire grandir votre communauté locale? Rejoignez-nous pour une retraite d’un jour.
           <br/>
-          <em>Billets gratuits disponibles bient&#244;t</em>
+          <em>Billets gratuits disponibles bientôt</em>
         </p>
       </div>
     </div>
@@ -141,7 +141,7 @@ date: 2017-07-11T22:31:14+02:00
       </a></h5>
       <div class="js-collapsed schedule-activity-more" id="more-student-design-challenge">
         <p>
-          D&#233;montrez vos comp&#233;tences dans un concours de design et apprenez de mentors formidables.
+          Démontrez vos compétences dans un concours de design et apprenez de mentors formidables.
           <br/>
           <a href="http://sdc.ixda.org/">Pour en savoir plus</a>
         </p>
@@ -150,11 +150,11 @@ date: 2017-07-11T22:31:14+02:00
     <div class="schedule-activity schedule-activity-awards">
       <h5><a href="#" for="more-awards" class="no-underline js-collapse schedule-activity-more-link color-pink">
         <time datetime="2018-02-05T12:00:00+00:00">8 Feb - </time>
-         C&#233;r&#233;monie de remise de prix<span class="arrow-down">&nbsp;&blacktriangledown;</span>
+         Cérémonie de remise de prix<span class="arrow-down">&nbsp;&blacktriangledown;</span>
       </a></h5>
       <div class="js-collapsed schedule-activity-more" id="more-awards">
         <p>
-          L&rsquo;annuel Interaction Awards c&#233;l&#233;bre le leadership et l&rsquo;innovation en design &#224; travers le globe.
+          L’annuel Interaction Awards célébre le leadership et l’innovation en design à travers le globe.
         <br/>
           <a href="http://awards.ixda.org">Pour en savoir plus</a>
         </p>
@@ -183,7 +183,7 @@ date: 2017-07-11T22:31:14+02:00
   <div class="bordered mega-padding">
     <div class="boxes boxes-valign boxes-nopadding">
       <div class="box">
-        <h3>♦︎ <strong><a href="/fr/speakers">Quatre conf&#233;renciers</a> confirm&#233;s!</strong></h3>
+        <h3>♦︎ <strong><a href="/fr/speakers">Quatre conférenciers</a> confirmés!</strong></h3>
         <h3>♦︎ <strong>La liste de <a href="/fr/program">tous les workshops</a></strong></h3>
       </div>
       <div class="box">
@@ -196,7 +196,7 @@ date: 2017-07-11T22:31:14+02:00
 <section class="banner banner-link banner-purple text-white">
   <a href="/fr/lyon" class="button-banner text-white link-no-underline banner-full">
   <h1>
-    Lyon, une ville &#224; la confluence
+    Lyon, une ville à la confluence
   </h1>
   <img src="/img/graphics/lyon_map.svg" alt="Map of France with Saone and Rhone river joining in Lyon" style="max-width:50vh">
   </a>
@@ -205,21 +205,21 @@ date: 2017-07-11T22:31:14+02:00
 <section class="content container spacer-t-b">
   <div class="boxes boxes-2">
     <div class="box">
-      <h3>Bienvenue &#224; Lyon</h3>
+      <h3>Bienvenue à Lyon</h3>
       <img src="/img/photos/home_lyon-riverbanks.jpg" alt="Lyon full view">
-      <p>Premi&#232;re ville culturelle, seconde ville artistique en France, ville natale de la cin&#233;matographie, gourmande et durable. Lyon est la deuxi&#232;me plus grande ville du pays.</p>
-      <p>Son vibrant h&#233;ritage et son esprit &#233;nerg&#233;tique convainc 5,5 millions touristes chaque ann&#233;e de venir profiter de tout ce qu&rsquo;elle a offrir.</p>
+      <p>Première ville culturelle, seconde ville artistique en France, ville natale de la cinématographie, gourmande et durable. Lyon est la deuxième plus grande ville du pays.</p>
+      <p>Son vibrant héritage et son esprit énergétique convainc 5,5 millions touristes chaque année de venir profiter de tout ce qu’elle a offrir.</p>
     </div>
     <div class="box">
       <h3>Une vraie confluence</h3>
       <img src="/img/photos/home_lyon-confluence.jpg" alt="River confluence">
-      <p>&#192; la confluence de la Rh&#244;ne et de la Sa&#244;ne, les deux rivi&#232;res de Lyon, le nouveau quartier Confluence prend ses racines d&rsquo;une ancienne zone industrielle. </p>
-      <p>Ce grand projet de r&#233;novation urbaine allie une architecture audacieuse et des sites industriels restaur&#233;s et renoue avec ses rives et son environnement naturel. Un endroit o&#249; la cr&#233;ativit&#233; et l&rsquo;entrepreunariat ressortent.
+      <p>À la confluence de la Rhône et de la Saône, les deux rivières de Lyon, le nouveau quartier Confluence prend ses racines d’une ancienne zone industrielle. </p>
+      <p>Ce grand projet de rénovation urbaine allie une architecture audacieuse et des sites industriels restaurés et renoue avec ses rives et son environnement naturel. Un endroit où la créativité et l’entrepreunariat ressortent.
       </p>
     </div>
   </div>
   <p class="text-center spacer-t-b">
-    <a href="/fr/lyon/" class="button">D&#233;couvrez votre s&#233;jour &#224; Lyon</a>
+    <a href="/fr/lyon/" class="button">Découvrez votre séjour à Lyon</a>
   </p>
 </section>
 
