@@ -19,13 +19,13 @@ Vous pouvez vous déplacer facilement dans la ville en utilisant les divers tran
 ### Métros, Tram et Bus
 ![River confluence](/img/photos/lyon-scene7-Tram.jpg)
 Vous pouvez vous déplacer à Lyon avec cinq [lignes de métro](http://www.tcl.fr/Me-deplacer/Itineraires) efficaces, cinq lignes de tram et 138 lignes de bus.
-Le prix d’un ticket est 1,80€, celui d’un carnet de 10 tickets environ 17€ et la passe hebdomadaire environ 15€.
+Le prix d’un ticket est 1,80€, celui d’un carnet de 10 tickets environ 17€ et le pass hebdomadaire environ 15€.
 {{% /box %}}
 
 {{% box %}}
 ### Location de vélos
 ![River confluence](/img/photos/lyon-scene1-Bikes.jpg)
-[Vélo’v](https://velov.grandlyon.com), le système de location de vélos est accessible et bon marché. Prenez un vélo pour une journée pour 1.50 € par jour. De plus, les 30 premières minutes sont gratuites à chaque fois que vous prenez un nouveau vélo.
+[Vélo’v](https://velov.grandlyon.com), le système de location de vélos est accessible et bon marché. Prenez un vélo pour une journée pour 1,50€ par jour. De plus, les 30 premières minutes sont gratuites à chaque fois que vous prenez un nouveau vélo.
 Il y a plus de 300 stations accessibles et vous pouvez prendre ou déposer votre vélo où vous voulez.  
 {{% /box %}}
 
@@ -40,7 +40,7 @@ Un trajet de l’aéroport au centre-ville vous coûtera ±50€.
 {{% box %}}
 ### Marche
 ![River confluence](/img/photos/lyon-scene5-Vieux-Lyon.jpg)
-Lyon est une ville très marchable.Vous pouvez vous promener dans le centre et rejoindre facilement la plupart des endroits.
+Lyon est une ville très pédestre. Vous pouvez vous promener dans le centre et rejoindre facilement la plupart des endroits.
 {{% /box %}}
 
 {{% /boxes %}}

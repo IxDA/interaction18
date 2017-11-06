@@ -1,5 +1,5 @@
 ---
-title: "Media"
+title: "Médias"
 date: 2017-09-08T15:49:43+02:00
 ---
 Nous regroupons ici tous les supports de communication pour vous aider à diffuser l’information autour de l’événement. Si vous avez une question spécifique, écrivez-nous à <a href="mailto:ixd18@ixda.org">ixd18@ixda.org</a>

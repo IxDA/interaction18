@@ -9,14 +9,14 @@ date: 2017-07-11T22:31:14+02:00
     </p>
   <img src="/img/photos/venues-La-Sucriere-outside-copyright-Nicolas-Robin.jpg" alt="La Sucriere outside view - copyright Nicolas Robin">
   <p>
-    La Sucrière est maintenant un espace d’exposition renommé, l’endroit parfait pour accueillir la célèbre Biennale d’art contemporain, la Coupe du Monde de la Pâtisserie...et maintenant Interaction&nbsp;18.
+    La Sucrière est maintenant un espace d’exposition renommé, l’endroit parfait pour accueillir la célèbre Biennale d’art contemporain, la Coupe du Monde de la Pâtisserie… et maintenant Interaction&nbsp;18.
     </p>
   <p>
     Vous marcherez à travers ses espaces historiques, caractérisés par de grands silos et une toiture en bois, rendus encore plus particulier du fait que sa façade change tous les deux ans : son allure en 2018 sera une surprise.
   </p>
   <img src="/img/photos/venues-La-Sucriere-outside-copyright-Gaetan-Clement.jpg" alt="La Sucriere outside - copyright Gaetan Clement">
   <p>
-    Avec son rooftop en bois, qui accueille Le Sucre, un bar hip et une vitrine pour les DJ célèbres, vous aurez une vue magnifique des rivières à partir de sa grande terrasse.
+    Avec son rooftop en bois, qui accueille Le Sucre, un bar branché et une vitrine pour les DJ célèbres, vous aurez une vue magnifique des rivières à partir de sa grande terrasse.
   </p>
 </section>
 
@@ -24,7 +24,7 @@ date: 2017-07-11T22:31:14+02:00
   <h2>L’intérieur</h2>
   <img src="/img/photos/Venue-Main_1930-Restauration-copyright-GL-Events.jpg" alt="1960 main room with the mezzanine.">
   <p>La Sucrière a conservé son cachet industriel d’origine avec de solides piliers structurels, des poutres en béton et des toboggans à sucre, sans oublier ses énormes silos de part et d’autre.</p>
-  <p>Il y a cinq espaces différents. Le très grand Espace 1930, surplombé d’une mezzanine, est relié aux silos et adjacents à l’Espace 1960. Et au-dessus du Sucre et sa terasse, se trouve un espace d’exposition complémentaire.</p>
+  <p>Il y a cinq espaces différents. Le très grand Espace 1930, surplombé d’une mezzanine, est relié aux silos et adjacents à l’Espace 1960. Et au-dessus du Sucre et sa terrasse, se trouve un espace d’exposition complémentaire.</p>
 </section>
 {{% fullwidth %}}
 <section class="container content spacer-none">

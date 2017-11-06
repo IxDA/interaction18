@@ -11,7 +11,7 @@ IxDA est reconnu pour ses conférences impressionantes, une tradition rendue pos
 
 1 000 personnes nous rejoindront à Lyon. Nos participants proviennent de plusieurs disciplines du design : designers d’interaction, product managers, chercheurs, ainsi que des auteurs de best-sellers sur l’expérience utilisateur et des VP d’entreprises du Fortune 1 000. Près de 35% des participants viendront d’Amérique du Nord, 50% de l’Europe et 15% du reste du monde. Près de la moitié d’entre eux travaillent dans des équipes de conception en entreprises et l’autre moitié pour des agences ou des sociétés de conseil.
 
-**En plus de nous aider à mettre sur pied une super conférence, vous laisserez une empreinte dans un nouvel environnement où le design d’interaction cotoie plusieurs autres industries : les jeux vidéo, l’art, l’innovation, la recherche...la liste est longue.**
+**En plus de nous aider à mettre sur pied une super conférence, vous laisserez une empreinte dans un nouvel environnement où le design d’interaction cotoie plusieurs autres industries : les jeux vidéo, l’art, l’innovation, la recherche… la liste est longue.**
 
 {{< spacer >}}
 

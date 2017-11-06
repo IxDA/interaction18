@@ -9,7 +9,7 @@ menu:
 ---
 
 ## Éliminer les frontières.<br>Bâtir des relations.
-L’équipe s’appuie sur un solide ensemble de principes pour Interaction&nbsp;18:
+L’équipe s’appuie sur un solide ensemble de principes pour Interaction&nbsp;18&nbsp;:
 
 ## Créer un impact
 Nous cherchons à avoir un impact positif et durable sur nos invités, notre métier et le monde.
@@ -29,10 +29,10 @@ Nous reconnaissons que notre métier est un échange entre les membres d’une c
 
 {{% columns columns_number="2" %}}
 #### Diversité via IxDA
-IxDA est une organisation soutenue par ses membres avec plus de 10 ans d’histoire, 173 groupes locaux et 80 000 membres.
+IxDA est une organisation soutenue par ses membres avec plus de 10 ans d’histoire, 173 groupes locaux et 80&nbsp;000 membres.
 {{% columns_break %}}
 #### Diversité par la pertinence contextuelle
-Chaque année la conférence se déroule dans une ville différente, avec une culture différente et un comité organisateur différent. Cet année, nous voulons rendre hommage à Lyon, la France et l’Europe.
+Chaque année la conférence se déroule dans une ville différente, avec une culture différente et un comité organisateur différent. Cette année, nous voulons rendre hommage à Lyon, la France et l’Europe.
 {{% /columns %}}
 
 {{% box class="bordered mega-padding" %}}

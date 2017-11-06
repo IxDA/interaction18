@@ -16,7 +16,7 @@ Nous avons choisi quelques histoires intéressantes sur la ville et les gens de 
   <div class="box-inner-padding">
     <img src="/img/photos/lyon-Lugdunum.jpg" alt="Lugdunum, Lyon ancestral name" style="max-width:100%;"><br/>
     <p>
-     <strong>Lyon (Lugdunum) a été la capitale de la Gaule (France) pendant plus de 300 ans</strong><br/>
+     <strong>Lyon (Lugdunum) a été la capitale de la Gaule pendant plus de 300 ans</strong><br/>
       Deux empereurs romains sont nés ici. Les signes de la présence romaine subsiste à travers la ville, y compris l’Amphithéâtre de Fourvière.
     </p>
   </div>
@@ -37,7 +37,7 @@ Nous avons choisi quelques histoires intéressantes sur la ville et les gens de 
     <img src="/img/photos/lyon-Tete-dOr.jpg" alt="Lyon Tete d'or park, lung of the city" style="max-width:100%;"><br/>
     <p>
      <strong>Le Parc de la Tête d’Or a été crée la même année que Central Park à New York</strong><br/>
-      Les “poumons de Lyon” accueillent l’un des plus grands jardins botaniques du monde avec 16 000 espèces de plantes, une roseraie, un lac et un zoo en plein air.
+      Les «&nbsp;poumons de Lyon&nbsp;» accueillent l’un des plus grands jardins botaniques du monde avec 16 000 espèces de plantes, une roseraie, un lac et un zoo en plein air.
     </p>
   </div>
 </div>
@@ -77,7 +77,7 @@ Nous avons choisi quelques histoires intéressantes sur la ville et les gens de 
     <img src="/img/photos/lyon-Traboules.jpg" alt="Lyon's traboules" style="max-width:100%;"><br/>
     <p>
       <strong>Plongez dans le passé en vous baladant dans les Traboules</strong><br/>
-      Les Traboules sont des passages piétons typiquement lyonnais qui passent d’un immeuble à l’autre et perpendiculaires aux anciennes rues principales. Les travailleurs de la soie les empruntaient pour rejoindre les commerçants de tissus. Certaines sont faciles à trouver et d’autres un peu moins!
+      Les Traboules sont des passages piétons typiquement lyonnais qui passent d’un immeuble à l’autre et perpendiculaires aux anciennes rues principales. Les travailleurs de la soie les empruntaient pour rejoindre les commerçants de tissus. Certaines sont faciles à trouver et d’autres un peu moins !
     </p>
   </div>
 </div>

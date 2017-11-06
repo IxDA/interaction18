@@ -25,15 +25,15 @@ date: 2017-07-11T22:31:14+02:00
     </p>
   </div>
   <div class="box box-primary">
-    <h2>Restés informés</h2>
+    <h2>Restez informés</h2>
     <p>
-      Nous avons encore des annonces à partager. Restés informés avec nos mises à jour mensuelles.
+      Nous avons encore des annonces à partager. Restez informés avec nos mises à jour mensuelles.
     </p>
     <p>
       <form action="//ixda.us2.list-manage.com/subscribe/post?u=e714c585710f24c2743e2cb29&amp;id=4f464c4573" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div class="mc-field-group">
-          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your email address">
-          <input type="submit" value="Follow" name="subscribe" id="mc-embedded-subscribe" class="button button-secondary">
+          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Votre adresse mail">
+          <input type="submit" value="S'abonner" name="subscribe" id="mc-embedded-subscribe" class="button button-secondary">
           <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e714c585710f24c2743e2cb29_4f464c4573" tabindex="-1" value=""></div>
         </div>
       </form>
@@ -88,7 +88,7 @@ date: 2017-07-11T22:31:14+02:00
       </a></h4>
       <div class="js-collapsed schedule-activity-more" id="more-education-summit">
         <p>
-          Dévelopez votre passion pour l’apprentissage et l’éducation, explorez comment le design est encore plus transdisciplinaire.
+          Développez votre passion pour l’apprentissage et l’éducation, explorez comment le design est encore plus transdisciplinaire.
         <br/>
           <a href="http://edusummit.ixda.org/">Pour en savoir plus</a>
         </p>
@@ -183,11 +183,11 @@ date: 2017-07-11T22:31:14+02:00
   <div class="bordered mega-padding">
     <div class="boxes boxes-valign boxes-nopadding">
       <div class="box">
-        <h3>♦︎ <strong><a href="/fr/speakers">Quatre conférenciers</a> confirmés!</strong></h3>
+        <h3>♦︎ <strong><a href="/fr/speakers">Quatre conférenciers</a> confirmés !</strong></h3>
         <h3>♦︎ <strong>La liste de <a href="/fr/program">tous les workshops</a></strong></h3>
       </div>
       <div class="box">
-        <p><a href="/fr/program" class="button">Consultez la liste de workshops</a></p>
+        <p><a href="/fr/program" class="button">Consultez la liste des workshops</a></p>
       </div>
     </div>
   </div>
@@ -208,10 +208,10 @@ date: 2017-07-11T22:31:14+02:00
       <h3>Bienvenue à Lyon</h3>
       <img src="/img/photos/home_lyon-riverbanks.jpg" alt="Lyon full view">
       <p>Première ville culturelle, seconde ville artistique en France, ville natale de la cinématographie, gourmande et durable. Lyon est la deuxième plus grande ville du pays.</p>
-      <p>Son vibrant héritage et son esprit énergétique convainc 5,5 millions touristes chaque année de venir profiter de tout ce qu’elle a offrir.</p>
+      <p>Son vibrant héritage et son esprit énergétique convainc 5,5 millions de touristes chaque année de venir profiter de tout ce qu’elle a offrir.</p>
     </div>
     <div class="box">
-      <h3>Une vraie confluence</h3>
+      <h3>Une véritable confluence</h3>
       <img src="/img/photos/home_lyon-confluence.jpg" alt="River confluence">
       <p>À la confluence de la Rhône et de la Saône, les deux rivières de Lyon, le nouveau quartier Confluence prend ses racines d’une ancienne zone industrielle. </p>
       <p>Ce grand projet de rénovation urbaine allie une architecture audacieuse et des sites industriels restaurés et renoue avec ses rives et son environnement naturel. Un endroit où la créativité et l’entrepreunariat ressortent.

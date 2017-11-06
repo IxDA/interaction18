@@ -1,11 +1,11 @@
 ---
-title: "Speakers"
+title: "Conférenciers"
 date: 2017-07-11T22:31:14+02:00
 
 aliases:
     - /speakers.html
 ---
-**Connect with great people… More to come!**
+**Rencontrez des personnes géniales… D’autres sont à venir !**
 
 {{% keynotes kind="keynote" %}}
 
@@ -16,8 +16,8 @@ aliases:
 {{% speakers kind="workshop" %}}
 
 {{% box class="bordered mega-padding" %}}
-## General program
-The full program will be announced late November.<br><br>
+## Programme complet
+Le programme complet sera annoncé fin novembre.<br><br>
 
-We informed all applicants if they have been selected.</small>
+Nous avons informé tous les candidats sélectionnés.</small>
 {{% /box %}}
