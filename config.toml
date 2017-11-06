@@ -70,6 +70,7 @@ languageName = "EN"
 languageCode = "fr-fr"
 languageName = "FR"
 title = "Interaction 18 – 3—8 Février 2018 • Lyon, France"
+
 [[Languages.fr.menu.main]]
     name = "Accueil"
     weight = 80

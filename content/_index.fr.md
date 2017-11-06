@@ -103,7 +103,7 @@ date: 2017-07-11T22:31:14+02:00
         <p>
           Rejoignez les meilleurs designers et apprenez par la pratique.
           <br/>
-          <a href="/program">Consultez le programme</a>
+          <a href="/fr/program">Consultez le programme</a>
         </p>
       </div>
     </div>
@@ -183,18 +183,18 @@ date: 2017-07-11T22:31:14+02:00
   <div class="bordered mega-padding">
     <div class="boxes boxes-valign boxes-nopadding">
       <div class="box">
-        <h3>♦︎ <strong><a href="/speakers">Quatre conf&#233;renciers</a> confirm&#233;s!</strong></h3>
-        <h3>♦︎ <strong>La liste de <a href="/program">tous les workshops</a></strong></h3>
+        <h3>♦︎ <strong><a href="/fr/speakers">Quatre conf&#233;renciers</a> confirm&#233;s!</strong></h3>
+        <h3>♦︎ <strong>La liste de <a href="/fr/program">tous les workshops</a></strong></h3>
       </div>
       <div class="box">
-        <p><a href="/program" class="button">Consultez la liste de workshops</a></p>
+        <p><a href="/fr/program" class="button">Consultez la liste de workshops</a></p>
       </div>
     </div>
   </div>
 </section>
 
 <section class="banner banner-link banner-purple text-white">
-  <a href="lyon.html" class="button-banner text-white link-no-underline banner-full">
+  <a href="/fr/lyon" class="button-banner text-white link-no-underline banner-full">
   <h1>
     Lyon, une ville &#224; la confluence
   </h1>
@@ -219,7 +219,7 @@ date: 2017-07-11T22:31:14+02:00
     </div>
   </div>
   <p class="text-center spacer-t-b">
-    <a href="/lyon/" class="button">D&#233;couvrez votre s&#233;jour &#224; Lyon</a>
+    <a href="/fr/lyon/" class="button">D&#233;couvrez votre s&#233;jour &#224; Lyon</a>
   </p>
 </section>
 
