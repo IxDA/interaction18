@@ -1,17 +1,27 @@
 <nav role="menubar" id="menu">
-  <ul>
+  <ul class="language-nav">
+    {{ $currentLanguage := .Site.Language }}
+    {{ range .Site.Languages }}
+    <li class="language-nav-item-{{ .Lang }} {{if eq $currentLanguage . }} active{{end}}" >
+      <a href="/{{ .Lang }}" {{if eq $currentLanguage . }} class="active"{{end}} >
+        {{ .LanguageName }}
+      </a>
+    </li>
+    {{end}}
+  </ul>
+  <ul class="main-nav">
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
       <li class='{{if $currentPage.HasMenuCurrent "main" . }}active{{end}}'>
-      <a href="{{.URL}}" class='{{if $currentPage.HasMenuCurrent "main" . }}active{{end}}'>
+      <a href="{{.URL | absLangURL }}" class='{{if $currentPage.HasMenuCurrent "main" . }}active{{end}}'>
           {{ .Pre }}
           {{ .Name }}
       </a>
       <ul class='subnav {{if $currentPage.HasMenuCurrent "main" . }}subnav-active{{end}}'>
           {{ range .Children }}
           <li{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
-            <a href="{{.URL}}"{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
+            <a href="{{.URL | absLangURL}}"{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
               {{ .Name }}
             </a>
           </li>
@@ -19,7 +29,7 @@
       </ul>
     {{else}}
       <li class='{{if $currentPage.IsMenuCurrent "main" . }} active{{end}}' >
-      <a href="{{.URL}}"{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
+      <a href="{{.URL | absLangURL}}"{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}}>
           {{ .Pre }}
           {{ .Name }}
       </a>
@@ -28,6 +38,7 @@
     {{end}}
     <li class="main-nav-button"><a href="{{ .Site.BaseURL }}tickets" class="button button-xs-link" id="js-ticket-button">Get tickets</a></li>
   </ul>
+
   <a href="#menu" class="nav-toggle button" id="js-toggle-nav">
     <span class="nav-toggle-open-text">
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"

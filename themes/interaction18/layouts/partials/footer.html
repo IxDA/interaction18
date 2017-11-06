@@ -22,7 +22,7 @@
   </div>
   <footer class="boxes boxes-valign boxes-nopadding bordered-bottom fullwidth">
       <div class="box">
-        <a href="{{ .Site.BaseURL }}partners.html" class="button"><strong>Become a partner</strong></a>
+        <a href="{{ .Site.BaseURL }}{{T "partnerLink"}}" class="button"><strong>{{T "partnerLabel"}}</strong></a>
       </div>
       <div class="box">
           <strong>Organised by IxDA</strong><br/>
@@ -104,7 +104,13 @@
   </div>
 
   <p class="text-center fullwidth spacer-t-b">
-    <a href="{{ .Site.BaseURL }}code-of-conduct.html">Code of Conduct</a>&nbsp;&nbsp;—&nbsp;&nbsp;Copyright 2004&nbsp;›&nbsp;{{ now.Year }} Interaction Design Association&nbsp;&nbsp;—&nbsp;&nbsp;<a href="{{ .Site.BaseURL }}credits.html">Credits</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a href="{{ .Site.BaseURL }}media.html">Media</a>
+    <a href="{{ .Site.BaseURL }}{{T "codeofconductLink"}}">{{T "codeofconductLabel"}}</a>
+    &nbsp;&nbsp;—&nbsp;&nbsp;
+    Copyright 2004&nbsp;›&nbsp;{{ now.Year }} Interaction Design Association
+    &nbsp;&nbsp;—&nbsp;&nbsp;
+    <a href="{{ .Site.BaseURL }}{{T "creditLink"}}">{{T "creditLabel"}}</a>
+    &nbsp;&nbsp;•&nbsp;&nbsp;
+    <a href="{{ .Site.BaseURL }}{{T "mediaLink"}}">{{T "mediaLabel"}}</a>
   </p>
 </section>
 
