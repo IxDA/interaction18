@@ -7,6 +7,11 @@ aliases:
 ---
 **Rencontrez des personnes géniales… D’autres sont à venir !**
 
+{{% box class="box-primary text-white spacer-t-b" %}}
+### On parle English.
+La conférence et les ateliers se déroulent uniquement en anglais. 
+{{% /box %}}
+
 {{% keynotes kind="keynote" %}}
 
 
