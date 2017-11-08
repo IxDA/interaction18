@@ -6,6 +6,17 @@
   .text-white:hover{
     color: rgba(255,255,255,0.9);
   }
+.text-red{
+  color: #ad003d;
+  transition: color 0.3s ease-in-out;
+}
+  .text-red:hover{
+    color: RGBA(173, 0, 61, 0.9);
+  }
+.editable{
+  background-color:RGBA(66, 27, 75, 0.1);
+}
+
 .text-fade{
   color: #B0A7AC;
 }
