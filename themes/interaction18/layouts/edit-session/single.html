@@ -3,131 +3,51 @@
 <main id="main">
 	<section class="container container-m content spacer-2t-b">
 		<div class="program-detail">
-
+     
     {{ $data := getJSON $.Site.Params.programData }}
 
     {{ $programslug := .File.BaseFileName }}
     {{ range where $data.program "slug" "==" $programslug }}
         {{ $item := . }}
-        
-				<div class="program-title">
-					<h1>{{ $item.title }}</h1>
-					<h2>
-
-							{{ $item.kind }} –
-							{{ $item.format }} |
-							Feb
-							{{ $item.day }}
-							–
-							{{ $item.hour }}
-
-					</h2>
-					<h3>{{ $item.resume }}</h3>
-				</div>
-
-					<div class="program-resume">
-						<p>
-							{{ with $item.description }}{{ . | markdownify }}{{ end }}
-						</p>
-					</div>
-
-					<div class="program-outline columns columns2 spacer-b">
-						{{ if $item.outline }}
-						<h2>Outline</h2>
-						<p>
-							{{ with $item.outline }}{{ . | markdownify }}{{ end }}
-						</p>
-						<div class="columns-break"></div>
-						{{ end }}
-						{{ if $item.target_audience }}
-						<h2>Target audience</h2>
-						<p>
-							{{ with $item.target_audience }}{{ . | markdownify }}{{ end }}
-						</p>
-						{{ end }}
-					</div>
-
-
-					<div class="program-tito">
-						{{ partial "tito-widget.html" . }}
-					</div>
-
-
-					<div class="program-speakers-preview">
-						{{ if $item.second_speaker }}
-						<div class="program-2speakers">
-						{{ end }}
-							<div class="program-speaker-box">
-								{{ if $item.speaker_1_photo }}
-								<img src="{{ $item.speaker_1_photo }}" alt="{{ $item.speaker_1_name }}">
-								{{ end }}
-								<p><strong><a href="#speaker">{{ $item.speaker_1_name }}</a></strong><br/>
-									{{ $item.speaker_1_function }}
-								</p>
-							</div>
-							{{ if $item.second_speaker }}
-							<div class="program-speaker-box">
-								{{ if $item.speaker_2_photo }}
-								<img src="{{ $item.speaker_2_photo }}" alt="{{ $item.speaker_2_name }}">
-								{{ end }}
-								<p><strong><a href="#speaker2">{{ $item.speaker_2_name }}</a></strong><br/>
-									{{ $item.speaker_2_function }}
-								</p>
-							</div>
-							{{ end }}
-							{{ if $item.second_speaker }}
-						</div>
-						{{ end }}
-					</div>
-
-
-					<div class="program-speakers-detail spacer-t-b">
-						{{ if $item.second_speaker }}
-						<h2>About speakers</h2>
-						<div class="program-2speakers">
-						{{else}}
-						<h2>About speaker</h2>
-						{{ end }}
-							<div class="program-speaker-box" id="speaker">
-								{{ if $item.speaker_1_photo }}
-								<img src="{{ $item.speaker_1_photo }}" alt="{{ $item.speaker_1_name }}">
-								{{ end }}
-								<h3>{{ $item.speaker_1_name }}</h3>
-								<p>
-									<strong>{{ $item.speaker_1_function }}</strong><br/>
-								{{ with $item.speaker_1_bio }}{{ . | markdownify }}{{ end }}
-								</p>
-								<p>
-								{{ if $item.speaker_1_twitter }}
-								<a href="{{ $item.speaker_1_twitter }}" target="_blank">twitter</a>
-								{{ end }}
-								</p>
-							</div>
-							{{ if $item.second_speaker }}
-							<div class="program-speaker-box" id="speaker2">
-								{{ if $item.speaker_2_photo }}
-								<img src="{{ $item.speaker_2_photo }}" alt="{{ $item.speaker_2_name }}">
-								{{ end }}
-								<h3>{{ $item.speaker_2_name }}</h3>
-								<p>
-									<strong>{{ $item.speaker_2_function }}</strong><br/>
-								{{ with $item.speaker_2_bio }}{{ . | markdownify }}{{ end }}
-								</p>
-								<p>
-								{{ if $item.speaker_2_twitter }}
-								<a href="{{ $item.speaker_2_twitter }}" target="_blank">twitter</a>
-								{{ end }}
-								</p>
-							</div>
-							{{ end }}
-							{{ if $item.second_speaker }}
-						</div>
-						{{ end }}
-					</div>
+        <dl>
+        	<dt>Title</dt>
+        	<dd id="title">{{$item.title}}</dd>
+		</dl>
     {{ end }}
 		</div>
 
+        <div id="info"><em></em></div>
+        <div id="log"></div>
 
 	</section>
+
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="//rawgit.com/victorjonsson/jquery-editable/master/jquery.editable.min.js"></script>
+    <script type="text/javascript">
+
+    $("dd").each(function() {
+        var field=$(this).attr('id');
+        var item=$(this);
+        console.log("updating:"+field);
+        $.get( "https://script.google.com/a/ixda.eu/macros/s/AKfycbxkosqjGNtLsuXFinK-HevSzy-8KDAjYDfbV299G3uZM5S4phs/exec",  { slug: "{{$programslug}}", field:field, pwd:"abc"  }, function( data ) {
+            $(item).html( data );
+        });
+    });
+    $("dl dd").editable({
+    toggleFontSize : false,
+    emptyMessage : '<em>Please write something...</em>',
+    callback : function( data ) {
+      console.log('Stopped editing ' + data.$el[0].nodeName );
+        $.post( "https://script.google.com/a/ixda.eu/macros/s/AKfycbxkosqjGNtLsuXFinK-HevSzy-8KDAjYDfbV299G3uZM5S4phs/exec",
+            { slug: "{{$programslug}}", field:data.$el[0].id, value: data.content, pwd:"abc"  },
+            function( data ) { console.log(data); }).fail(function() {
+            console.log("Failed request");
+        });
+      if( data.content )
+        console.log('   * The text was changed')
+    }
+  });
+    </script>
 </main>
 {{ partial "footer.html" . }}
