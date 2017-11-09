@@ -16,6 +16,8 @@
   }
 .editable{
   background-color:RGBA(66, 27, 75, 0.1);
+    white-space:pre-line;
+
 }
 .text-fade{
   color: #B0A7AC;

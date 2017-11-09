@@ -55,18 +55,6 @@
                         </p>
                     </div>
 
-                    <div class="program-outline columns columns2 spacer-b">
-                        <h2>Outline</h2>
-                        <p class="js-editable" id="outline">
-                            {{ with $item.outline }}{{ . | markdownify }}{{ end }}
-                        </p>
-                        <div class="columns-break"></div>
-                        <h2>Target audience</h2>
-                        <p class="js-editable" id="target_audience">
-                            {{ with $item.target_audience }}{{ .  }}{{ end }}
-                        </p>
-                    </div>
-
                     <div class="program-speakers-preview">
                         {{ if $item.second_speaker }}
                         <div class="program-2speakers">
@@ -121,9 +109,9 @@
                             {{ if $item.second_speaker }}
                             <div class="program-speaker-box" id="speaker2">
                                 {{ if $item.speaker_2_photo }}
-                                <img src="{{ $item.speaker_2_photo }}" alt="{{ $item.speaker_2_name }}">
+                                    <img src="{{ $item.speaker_2_photo }}" alt="{{ $item.speaker_2_name }}">
                                 {{else}}
-                                <div class="box bordered mega-padding"><p>please upload a <strong>photo</strong> on <a href="https://www.dropbox.com/request/DnWHkhYw2aqVT2M69zz8">Dropbox</a></p> </div>
+                                    <div class="box bordered mega-padding"><p>please upload a <strong>photo</strong> on <a href="https://www.dropbox.com/request/DnWHkhYw2aqVT2M69zz8">Dropbox</a></p> </div>
                                 {{ end }}
                                 <h3 class="js-editable" id="speaker_2_name">{{ $item.speaker_2_name }}</h3>
                                 <p>
@@ -167,6 +155,7 @@
     }
 
     function activateDisplay() {
+        $("#pwd").attr("disabled", "disabled");
         $("#editable-space").removeClass("text-fade");
         $("#explain-edit").removeClass("text-fade").removeClass("bordered").addClass("box-primary") ;
     }
@@ -195,7 +184,6 @@
     }
 
     $( document ).ready(function() {
-
 
     displayScreen("Loading…", "#log");
 
