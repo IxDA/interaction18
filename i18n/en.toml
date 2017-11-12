@@ -21,3 +21,9 @@ other = "Media"
 
 [mediaLink]
 other = "media"
+
+[ticketsLabel]
+other = "Get tickets"
+
+[ticketsLink]
+other = "tickets"
