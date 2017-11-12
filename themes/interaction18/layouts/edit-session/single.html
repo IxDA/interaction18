@@ -1,8 +1,9 @@
 {{ partial "header.html" . }}
+<link rel="stylesheet" href="{{ .Site.BaseURL }}build/editable.css">
 <div class="bordered-top"></div>
 <main id="main">
 	<section class="container container-m content spacer-2t-b">
-    
+
     <h2>Review and Edit your talk.</h2>
     <p>
         Welcome to Edit mode. Here your can modify the description of your talk.
@@ -14,36 +15,36 @@
             <h2>1. validate your password</h2>
             <p>Put <strong>the password</strong> that was provided in the email, and check it  </p>
 
-            <form>
+            <form class="mini-padding-y">
                 <input type="text" id="pwd" style="width:5em;" placehoder="Type in the password…">
                 <a onclick="checkPassword()" class="button" >Check password</a>
-            </form>    
+            </form>
 
-            <div class="" id="log-pwd"></div>
+            <div class="mini-padding-y" id="log-pwd"></div>
 
         </div>
         <div id="explain-edit" class="box mega-padding bordered text-fade ">
             <h2>2. Edit your page</h2>
-            <p>Edit any field bellow by double clicking what you want to edit.</p>
+            <p>Edit any field bellow by <strong>double clicking</strong> what you want to edit.</p>
             <p>Please notice those are <strong>Markdown</strong> </p>
         </div>
     </div>
 
-    
-        <div class="" id="log"></div>
-    
+
+        <div class="editable-log-messages mini-padding-y" id="log"></div>
+
     </section>
 
-    <section id="editable-space" class="container container-m content spacer-2t-b bordered-top text-fade">
+    <section id="editable-space" class="container container-m content text-fade">
         <div class="program-detail">
-     
+
     {{ $data := getJSON $.Site.Params.programData }}
-    
+
 
     {{ $programslug := .File.BaseFileName }}
     {{ range where $data.program "slug" "==" $programslug }}
         {{ $item := . }}
-        
+
         <div class="program-title">
                     <h1 class="js-editable" id="title" >{{ $item.title }}</h1>
                     <h3 class="js-editable" id="resume">{{ $item.resume }}</h3>
@@ -138,7 +139,8 @@
 
     function displayScreen(text, id) {
         var component = id || "#log";
-        $(component).html(text);
+        $(component).html(text).fadeIn(500).delay(2000).fadeOut("slow");
+
     }
 
     function checkPassword() {
@@ -168,7 +170,7 @@
             if( data.content )
                 $.post( "https://script.google.com/a/ixda.eu/macros/s/AKfycbxkosqjGNtLsuXFinK-HevSzy-8KDAjYDfbV299G3uZM5S4phs/exec",
                     { slug: "{{$programslug}}", field: data.$el[0].id, value: data.content, pwd:$('#pwd').val()  },
-                    function( response_data ) { 
+                    function( response_data ) {
                         if (response_data == "OK") {
                            displayScreen(data.$el[0].id + " updated");
                             data.$el.removeClass("text-red");
@@ -190,7 +192,7 @@
     $(".js-editable").each(function() {
         var item=$(this);
         var field=$(this).attr('id');
-        
+
         $.get( "https://script.google.com/a/ixda.eu/macros/s/AKfycbxkosqjGNtLsuXFinK-HevSzy-8KDAjYDfbV299G3uZM5S4phs/exec",  { slug: "{{$programslug}}", field:field, pwd:$('#pwd').val()  }, function( data ) {
             $(item).html( data );
         });
