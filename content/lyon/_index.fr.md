@@ -7,7 +7,7 @@ menu:
     weight: 210
     parent: "lyon"
 ---
-Cette ville de taille id&eacute;ale offre la plus grande diversit&eacute; de gastronomie, architecture et sp&eacute;cificit&eacute;s de la culture fran&ccedil;aise. Nous allons passer du temps au sein d&apos;une ville m&eacute;langeant paysages historiques et post-industriels, boutiques de luxe, mus&eacute;es d&rsquo;art et qui propose un large choix de transports en commun.
+Cette ville de taille idéale offre la plus grande diversité de gastronomie, architecture et spécificités de la culture française. Nous allons passer du temps au sein d’une ville mélangeant paysages historiques et post-industriels, boutiques de luxe, musées d’art et qui propose un large choix de transports en commun.
 
 <section class="gallery-simple">
 {{< figure src="/img/photos/lyon-scene1-Bikes.jpg" alt="Lyon city bikes" class="box" >}}

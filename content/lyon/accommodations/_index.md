@@ -24,8 +24,6 @@ Mama Shelter is our official partner: you will be able to use the hotel [spaces]
 
 Its [156 comfortable rooms](http://www.mamashelter.com/en/lyon/rooms) are equipped with a desk and a 27” iMac that provides access to internet, free video on demand, photo booth, television,... and of course, wifi.
 
-Mama Shelter is our official partner: you will be able to use the hotel [spaces](http://www.mamashelter.com/en/lyon/photos) for interaction and chill.
-
 ![Mama Shelter restaurant](/img/photos/Mama-Shelter-restaurant.jpg)
 
 {{% box class="bordered mega-padding" %}}

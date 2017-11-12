@@ -21,3 +21,9 @@ other = "Médias"
 
 [mediaLink]
 other = "fr/media"
+
+[ticketsLabel]
+other = "Billetterie"
+
+[ticketsLink]
+other = "fr/tickets"
