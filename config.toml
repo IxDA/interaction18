@@ -7,9 +7,9 @@ title = "Interaction 18 – 3—8 February 2018 • Lyon, France"
 hrefTargetBlank = true
 
 [params]
-  partnersData = "https://script.google.com/macros/s/AKfycbxOLElujQcy1-ZUer1KgEvK16gkTLUqYftApjNCM_IRTL3HSuDk/exec?id=1I1tqSbAVRccL1N2yKQ3aiSzgNryLNzhfX6SAQ8xkNVI&sheet=partners"
-  teamData = "https://script.google.com/macros/s/AKfycbxOLElujQcy1-ZUer1KgEvK16gkTLUqYftApjNCM_IRTL3HSuDk/exec?id=1j7GyZ2PuLtbZxM4ljLyFlLUadtYxxyMjWHW9bWnBuQY&sheet=team"
-  programData = "https://script.google.com/macros/s/AKfycbxOLElujQcy1-ZUer1KgEvK16gkTLUqYftApjNCM_IRTL3HSuDk/exec?id=12JUQA4ogk1JGMlRtofFKJmn6NgCGMCCmtOqwqvChxT4&sheet=program"
+  partnersData = "https://script.google.com/macros/s/AKfycbxXn-yuUZevCgC484cyhQ-Wr6MDccEqvDvdzR6DlzkC3zfuT_8/exec?id=1I1tqSbAVRccL1N2yKQ3aiSzgNryLNzhfX6SAQ8xkNVI&sheet=partners"
+  teamData = "https://script.google.com/macros/s/AKfycbxXn-yuUZevCgC484cyhQ-Wr6MDccEqvDvdzR6DlzkC3zfuT_8/exec?id=1j7GyZ2PuLtbZxM4ljLyFlLUadtYxxyMjWHW9bWnBuQY&sheet=team"
+  programData = "https://script.google.com/macros/s/AKfycbxXn-yuUZevCgC484cyhQ-Wr6MDccEqvDvdzR6DlzkC3zfuT_8/exec?id=12JUQA4ogk1JGMlRtofFKJmn6NgCGMCCmtOqwqvChxT4&sheet=program"
 
 [menu]
 [[menu.main]]
