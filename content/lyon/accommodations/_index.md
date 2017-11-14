@@ -43,7 +43,16 @@ You will be enjoying a comfortable stay right at the confluence of the two river
 Use the discount code MOBINTERACTION when [booking here](https://gc.synxis.com/?hotel=74555&arrive=&depart=&rooms=1&adult=1&child=0&start=myprofile&_ga=1.2.2035279227.1506521829" title="Book a room at the MOB Hotel).
 
 ![MOB Hotel](/img/photos/MOB-hotel.jpg)
+{{< spacer >}}
 
-## Other hotels
+## Ho36
+
+You can choose private rooms or dormitories accommodations in this affordable combination of hotel and hostel, complete with coffee shop and restaurant – a perfect fit in the heart of the cosmopolitan area of the Guillotière.
+
+Use the discount code IXDAHO36 when [booking here](hhttp://www.ho36hostels.com/booking?HN=336&LN=en" title="Book a room at Ho36) for a 15% discount.
+
+![Ho36 Hotel](/img/photos/Ho36-hotel.jpg)
+
+## ACCOR hotels
 
 {{% hotels %}}
