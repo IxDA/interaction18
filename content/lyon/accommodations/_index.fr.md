@@ -43,9 +43,9 @@ Utilisez le code réduction MOBINTERACTION lors de votre [réservation](https://
 
 ## Ho36
 
-Vous pouvez choisir des chambres privés ou des dortoirs dans ce confortable lieu, à mi chemin entre un hotel et une auberge de jeunesse. Un endroit parfait et complet, avec son café et son restaurant, dans le coeur du quartier Guillotière.
+Vous pouvez choisir des chambres privées ou des dortoirs dans ce confortable lieu, à mi-chemin entre un hôtel et une auberge de jeunesse. Un endroit parfait et complet, avec son café et son restaurant, dans le cœur du quartier Guillotière.
 
-Utilisez le code IXDAHO36 lors de votre [réservation](http://www.ho36hostels.com/booking?HN=336&LN=fr" title="Book a room at Ho36) pour obtenir 15% de réduction.
+Utilisez le code réduction IXDAHO36 lors de votre [réservation](http://www.ho36hostels.com/booking?HN=336&LN=fr" title="Book a room at Ho36) pour obtenir 15% de réduction.
 
 ![Ho36 Hotel](/img/photos/Ho36-hotel.jpg)
 
