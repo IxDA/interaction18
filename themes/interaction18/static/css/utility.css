@@ -6,6 +6,15 @@
   .text-white:hover{
     color: rgba(255,255,255,0.9);
   }
+.text-red{
+  color: #ad003d;
+  transition: color 0.3s ease-in-out;
+}
+  .text-red:hover{
+    color: rgba(173, 0, 61, 0.9);
+  }
+
+
 .text-fade{
   color: #B0A7AC;
 }
@@ -35,6 +44,15 @@
 /* PADDINGS AND BORDERS */
 .mega-padding{
   padding: 1.6em 2em;
+}
+.mini-padding{
+  padding: 0.6em 1em;
+}
+.mini-padding-y{
+  padding: 0.6em 0;
+}
+.mini-padding-x{
+  padding: 0 1em;
 }
 .bordered{
   border: 1px solid #B0A7AC;
