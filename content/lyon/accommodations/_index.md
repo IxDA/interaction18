@@ -49,7 +49,7 @@ Use the discount code MOBINTERACTION when [booking here](https://gc.synxis.com/?
 
 You can choose private rooms or dormitories accommodations in this affordable combination of hotel and hostel, complete with coffee shop and restaurant – a perfect fit in the heart of the cosmopolitan area of the Guillotière.
 
-Use the discount code IXDAHO36 when [booking here](hhttp://www.ho36hostels.com/booking?HN=336&LN=en" title="Book a room at Ho36) for a 15% discount.
+Use the discount code IXDAHO36 when [booking here](http://www.ho36hostels.com/booking?HN=336&LN=en" title="Book a room at Ho36) for a 15% discount.
 
 ![Ho36 Hotel](/img/photos/Ho36-hotel.jpg)
 
