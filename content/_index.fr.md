@@ -4,7 +4,7 @@ date: 2017-07-11T22:31:14+02:00
 ---
 <section class="banner text-white banner-link banner-purple banner-video">
   <a href="https://vimeo.com/202684890" class="button-banner text-white link-no-underline banner-full" id="js-play-vimeo">
-    <p>3-8 February 2018 • Lyon, France</p>
+    <p>3-8 février 2018 • Lyon, France</p>
     <h1>Éliminer les frontières. <br>Bâtir des relations. </h1>
     <p class="button-play">
       <span class="button-play_round"><span class="button-play_triangle"></span></span>
@@ -21,7 +21,7 @@ date: 2017-07-11T22:31:14+02:00
       Les billets partent vite. N’attendez plus.
     </p>
     <p>
-      <a href="http://join.interaction.ixda.org" class="button">Obtenir des billets pour Interaction&nbsp;18</a>
+      <a href="http://join.interaction.ixda.org" class="button">Achetez vos billets pour Interaction&nbsp;18</a>
     </p>
   </div>
   <div class="box box-primary">
@@ -33,7 +33,7 @@ date: 2017-07-11T22:31:14+02:00
       <form action="//ixda.us2.list-manage.com/subscribe/post?u=e714c585710f24c2743e2cb29&amp;id=4f464c4573" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div class="mc-field-group">
           <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Votre adresse mail">
-          <input type="submit" value="S'abonner" name="subscribe" id="mc-embedded-subscribe" class="button button-secondary">
+          <input type="submit" value="Abonnez-vous" name="subscribe" id="mc-embedded-subscribe" class="button button-secondary">
           <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e714c585710f24c2743e2cb29_4f464c4573" tabindex="-1" value=""></div>
         </div>
       </form>
@@ -51,7 +51,7 @@ date: 2017-07-11T22:31:14+02:00
     </div>
     <div class="box">
       <p>
-        Nous allons écouter des experts et participer à des conversations pour changer l’évolution de nos relations avec nous-mêmes, nos objets, l’environnement et la société dans son ensemble.
+        Nous allons écouter des experts et participer à des discussions pour changer l’évolution de nos relations avec nous-mêmes, nos objets, l’environnement et l'ensemble de la société.
       </p>
     </div>
   </div>
@@ -88,7 +88,7 @@ date: 2017-07-11T22:31:14+02:00
       </a></h4>
       <div class="js-collapsed schedule-activity-more" id="more-education-summit">
         <p>
-          Développez votre passion pour l’apprentissage et l’éducation, explorez comment le design est encore plus transdisciplinaire.
+          Développez votre passion pour l’apprentissage et l’enseignement, explorez comment l’apprentissage du design est encore plus transdisciplinaire.
         <br/>
           <a href="http://edusummit.ixda.org/">Pour en savoir plus</a>
         </p>
@@ -114,10 +114,10 @@ date: 2017-07-11T22:31:14+02:00
       </a></h4>
       <div class="js-collapsed schedule-activity-more" id="more-interaction18-conference">
         <p>
-          L’événement principal. Vous profiterez de trois jours complets de conférences, écouter des experts et participer à des conversations pour changer l’évolution de nos relations avec nous-mêmes, nos objets, l’environnement et la société dans son ensemble.
-          Ne manquez pas la soirée d’ouverture et les Interaction Awards!
+          C’est l’événement principal. Trois jours complets de conférences à écouter des experts et participer à des discussions pour changer l’évolution de nos relations avec nous-mêmes, nos objets, l’environnement et l’ensemble de la société.
+          Ne ratez pas la soirée d’ouverture et les Interaction Awards!
           <br/>
-          <a href="http://join.interaction.ixda.org/">Obtenir des billets</a>
+          <a href="http://join.interaction.ixda.org/">Achetez vos billets</a>
         </p>
       </div>
     </div>
@@ -128,7 +128,7 @@ date: 2017-07-11T22:31:14+02:00
       </a></h5>
       <div class="js-collapsed schedule-activity-more" id="more-local-leader">
         <p>
-          Passionné par l’idée de faire grandir votre communauté locale? Rejoignez-nous pour une retraite d’un jour.
+          Envie de voir grandir votre communauté locale? Rejoignez-nous pour une retraite d’un jour.
           <br/>
           <em>Billets gratuits disponibles bientôt</em>
         </p>
@@ -141,7 +141,7 @@ date: 2017-07-11T22:31:14+02:00
       </a></h5>
       <div class="js-collapsed schedule-activity-more" id="more-student-design-challenge">
         <p>
-          Démontrez vos compétences dans un concours de design et apprenez de mentors formidables.
+          Démontrez vos compétences dans un concours de design et apprenez de mentors remarquables.
           <br/>
           <a href="http://sdc.ixda.org/">Pour en savoir plus</a>
         </p>
@@ -154,7 +154,7 @@ date: 2017-07-11T22:31:14+02:00
       </a></h5>
       <div class="js-collapsed schedule-activity-more" id="more-awards">
         <p>
-          L’annuel Interaction Awards célébre le leadership et l’innovation en design à travers le globe.
+          L’annuel Interaction Awards célébre le leadership et l’innovation en design à travers le monde.
         <br/>
           <a href="http://awards.ixda.org">Pour en savoir plus</a>
         </p>
