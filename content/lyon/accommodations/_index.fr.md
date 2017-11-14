@@ -1,5 +1,5 @@
 ---
-title: "Hôtel"
+title: "Hôtels"
 date: 2017-07-11T22:31:14+02:00
 menu:
   "main":
@@ -37,7 +37,7 @@ Mama Shelter est l’hôtel officiel de Interaction&nbsp;Week&nbsp;18. Réservez
 
 Vous apprécierez un séjour confortable à la confluence des deux rivières avec une belle terrasse au-dessus de la Saône. Vous serez aussi situés à cinq minutes de marche de la salle de conférence principale, La Sucrière.
 
-Utilisez le code réduction MOBINTERACTION lors de votre [réservation](https://gc.synxis.com/?hotel=74555&arrive=&depart=&rooms=1&adult=1&child=0&start=myprofile&locale=fr-FR&currency=EUR&_ga=1.2.1920882719.1509847435 "title="Rservez votre chambre au MOB Hotel).)
+Utilisez le code réduction MOBINTERACTION lors de votre [réservation](https://gc.synxis.com/?hotel=74555&arrive=&depart=&rooms=1&adult=1&child=0&start=myprofile&locale=fr-FR&currency=EUR&_ga=1.2.1920882719.1509847435 "Reservez votre chambre au MOB Hotel").
 
 ![MOB Hotel](/img/photos/MOB-hotel.jpg)
 
@@ -45,7 +45,7 @@ Utilisez le code réduction MOBINTERACTION lors de votre [réservation](https://
 
 Vous pouvez choisir des chambres privées ou des dortoirs dans ce confortable lieu, à mi-chemin entre un hôtel et une auberge de jeunesse. Un endroit parfait et complet, avec son café et son restaurant, dans le cœur du quartier Guillotière.
 
-Utilisez le code réduction IXDAHO36 lors de votre [réservation](http://www.ho36hostels.com/booking?HN=336&LN=fr" title="Book a room at Ho36) pour obtenir 15% de réduction.
+Utilisez le code réduction IXDAHO36 lors de votre [réservation](http://www.ho36hostels.com/booking?HN=336&LN=fr "Book a room at Ho36") pour obtenir 15% de réduction.
 
 ![Ho36 Hotel](/img/photos/Ho36-hotel.jpg)
 
