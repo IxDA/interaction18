@@ -1,0 +1,29 @@
+[partnerLabel]
+other = "Become a partner"
+
+[partnerLink]
+other = "partners"
+
+[codeofconductLabel]
+other = "Code of Conduct"
+
+[codeofconductLink]
+other = "code-of-conduct"
+
+[creditLabel]
+other = "Credits"
+
+[creditLink]
+other = "credits"
+
+[mediaLabel]
+other = "Media"
+
+[mediaLink]
+other = "media"
+
+[ticketsLabel]
+other = "Get tickets"
+
+[ticketsLink]
+other = "tickets"
