@@ -49,6 +49,6 @@ Utilisez le code réduction IXDAHO36 lors de votre [réservation](http://www.ho3
 
 ![Ho36 Hotel](/img/photos/Ho36-hotel.jpg)
 
-##  hôtels ACCOR
+##  Hôtels ACCOR
 
 {{% hotels %}}
