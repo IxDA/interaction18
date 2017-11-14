@@ -90,7 +90,7 @@ date: 2017-07-11T22:31:14+02:00
         <p>
           Développez votre passion pour l’apprentissage et l’enseignement, explorez comment l’apprentissage du design est encore plus transdisciplinaire.
         <br/>
-          <a href="http://edusummit.ixda.org/">Pour en savoir plus</a>
+          <a href="http://edusummit.ixda.org/">Pour en savoir plus (anglais seulement)</a>
         </p>
       </div>
     </div>
@@ -103,7 +103,7 @@ date: 2017-07-11T22:31:14+02:00
         <p>
           Rejoignez les meilleurs designers et apprenez par la pratique.
           <br/>
-          <a href="/fr/program">Consultez le programme</a>
+          <a href="/fr/program">Consultez le programme (anglais seulement)</a>
         </p>
       </div>
     </div>
@@ -143,7 +143,7 @@ date: 2017-07-11T22:31:14+02:00
         <p>
           Démontrez vos compétences dans un concours de design et apprenez de mentors remarquables.
           <br/>
-          <a href="http://sdc.ixda.org/">Pour en savoir plus</a>
+          <a href="http://sdc.ixda.org/">Pour en savoir plus (anglais seulement)</a>
         </p>
       </div>
     </div>
