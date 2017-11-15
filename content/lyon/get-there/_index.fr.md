@@ -3,7 +3,7 @@ title: "Se rendre à Lyon"
 date: 2017-07-11T22:31:14+02:00
 menu:
   "main":
-    name: "S'y rendre"
+    name: "Se rendre à Lyon"
     weight: 210
     parent: "lyon"
 ---
@@ -40,7 +40,7 @@ Les stations **Part-Dieu** et **Perrache** sont aussi bien desservies par le ré
 
 La position centrale de Lyon en Europe la rend facilement accessible en voiture et covoiturer avec d’autres personnes rendra votre voyage plus agréable.
 
-Pour trouver des trajets de covoiturage, consultez [Bla&nbsp;Bla&nbsp;Car](https://www.blablacar.fr/search?fn=&fc=&tn=Lyon%2C+France)
+Pour trouver des trajets de covoiturage, consultez le site de [Bla&nbsp;Bla&nbsp;Car](https://www.blablacar.fr/search?fn=&fc=&tn=Lyon%2C+France)
 {{% /box %}}
 {{% /boxes %}}
 
@@ -50,7 +50,7 @@ Pour trouver des trajets de covoiturage, consultez [Bla&nbsp;Bla&nbsp;Car](https
 {{% box class="bordered mega-padding" %}}
 ## Visas
 
-Si vous êtes citoyen d'un pays [exempté](https://www.diplomatie.gouv.fr/fr/venir-en-france/formalites-d-entree-en-france/article/les-etrangers-titulaires-d-un-passeport-ordinaire-dispenses-de-l-obligation-de) pour des séjours d’une durée maximale de 90 jours, excellent! Autrement, vous pourriez avoir besoin d’un VISA.
+Si vous êtes citoyen d'un pays [exempté](https://www.diplomatie.gouv.fr/fr/venir-en-france/formalites-d-entree-en-france/article/les-etrangers-titulaires-d-un-passeport-ordinaire-dispenses-de-l-obligation-de) de formalités d’entrée pour des séjours d’une durée maximale de 90 jours, excellent! Autrement, vous pourriez avoir besoin d’un VISA.
 
 Assurez-vous de [vérifier](https://www.diplomatie.gouv.fr/fr/venir-en-france/formalites-d-entree-en-france/) les conditions applicables avant de voyager.
 {{% /box %}}
@@ -58,7 +58,7 @@ Assurez-vous de [vérifier](https://www.diplomatie.gouv.fr/fr/venir-en-france/fo
 
 ## Obtenez jusqu’à 15% de réduction en voyageant avec SkyTeam
 
-L’Alliance aérienne SkyTeam est le partenaire de voyage officiel de Interaction&nbsp;Week&nbsp;18 et offre 15% de réduction sur les vols de 20 compagnies aériennes, y compris KLM, Air&nbsp;France ou Delta.
+L’Alliance aérienne SkyTeam est le partenaire de voyage officiel de Interaction 18 et offre 15% de réduction sur les vols de 20 compagnies aériennes, y compris KLM, Air&nbsp;France ou Delta.
 
 {{< button target="_blank" href="http://res.skyteam.com/Search/promoDefault.aspx?vendor=sky&promocode=3637S" name="Réserver avec une réduction" >}}
 {{% /box %}}

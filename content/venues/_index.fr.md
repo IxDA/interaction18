@@ -5,7 +5,7 @@ date: 2017-07-11T22:31:14+02:00
   <p>
     <strong>Salle de conférence principale</strong>
     <br />
-    Notre salle principale est située au sud de la station Perrache où la Rhône et la Saône fusionnent. Vous nous rejoindrez à La Sucrière, une ancienne usine de sucre et le seul bâtiment historique qui reste de ce quartier quand il a été réhabilité <a href="http://www.domusweb.it/en/architecture/2015/02/16/the_new_lyon_city_centre.html" target="_blank">dans les années 2000</a> comme espace d’expérimentation pour l’architecture contemporaine.
+    Notre salle principale est située au sud de la station Perrache où le Rhône et la Saône fusionnent. Vous nous rejoindrez à La Sucrière, une ancienne usine de sucre et le seul bâtiment historique qui reste de ce quartier quand il a été réhabilité <a href="http://www.domusweb.it/en/architecture/2015/02/16/the_new_lyon_city_centre.html" target="_blank">dans les années 2000</a> comme espace d’expérimentation pour l’architecture contemporaine.
     </p>
   <img src="/img/photos/venues-La-Sucriere-outside-copyright-Nicolas-Robin.jpg" alt="La Sucriere outside view - copyright Nicolas Robin">
   <p>
