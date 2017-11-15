@@ -117,7 +117,7 @@ date: 2017-07-11T22:31:14+02:00
           C’est l’événement principal. Trois jours complets de conférences à écouter des experts et participer à des discussions pour changer l’évolution de nos relations avec nous-mêmes, nos objets, l’environnement et l’ensemble de la société.
           Ne ratez pas la soirée d’ouverture et les Interaction Awards!
           <br/>
-          <a href="http://join.interaction.ixda.org/">Achetez vos billets</a>
+          <a href="http://join.interaction.ixda.org/">Achetez vos billets (anglais seulement)</a>
         </p>
       </div>
     </div>
@@ -156,7 +156,7 @@ date: 2017-07-11T22:31:14+02:00
         <p>
           L’annuel Interaction Awards célébre le leadership et l’innovation en design à travers le monde.
         <br/>
-          <a href="http://awards.ixda.org">Pour en savoir plus</a>
+          <a href="http://awards.ixda.org">Pour en savoir plus (anglais seulement)</a>
         </p>
       </div>
     </div>
