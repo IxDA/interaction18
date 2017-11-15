@@ -3,7 +3,7 @@ title: "Se déplacer à Lyon"
 date: 2017-07-11T22:31:14+02:00
 menu:
   "main":
-    name: "Transports"
+    name: "Se déplacer en ville"
     weight: 230
     parent: "lyon"
 ---
