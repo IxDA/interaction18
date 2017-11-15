@@ -213,13 +213,13 @@ date: 2017-07-11T22:31:14+02:00
     <div class="box">
       <h3>Une véritable confluence</h3>
       <img src="/img/photos/home_lyon-confluence.jpg" alt="River confluence">
-      <p>À la confluence de la Rhône et de la Saône, les deux rivières de Lyon, le nouveau quartier Confluence prend ses racines d’une ancienne zone industrielle. </p>
+      <p>À la confluence du Rhône et de la Saône, les deux rivières de Lyon, le nouveau quartier Confluence était à l'origine une ancienne zone industrielle. </p>
       <p>Ce grand projet de rénovation urbaine allie une architecture audacieuse et des sites industriels restaurés et renoue avec ses rives et son environnement naturel. Un endroit où la créativité et l’entrepreunariat ressortent.
       </p>
     </div>
   </div>
   <p class="text-center spacer-t-b">
-    <a href="/fr/lyon/" class="button">Découvrez votre séjour à Lyon</a>
+    <a href="/fr/lyon/" class="button">Planifiez votre séjour à Lyon</a>
   </p>
 </section>
 
