@@ -2,7 +2,7 @@
 title: "Faits intéressants sur Lyon"
 menu:
   "main":
-    name: "Fun facts"
+    name: "Anecdotes"
     weight: 260
     parent: "lyon"
 ---
@@ -17,7 +17,7 @@ Nous avons choisi quelques histoires intéressantes sur la ville et les gens de 
     <img src="/img/photos/lyon-Lugdunum.jpg" alt="Lugdunum, Lyon ancestral name" style="max-width:100%;"><br/>
     <p>
      <strong>Lyon (Lugdunum) a été la capitale de la Gaule pendant plus de 300 ans</strong><br/>
-      Deux empereurs romains sont nés ici. Les signes de la présence romaine subsiste à travers la ville, y compris l’Amphithéâtre de Fourvière.
+      Deux empereurs romains sont nés ici. Les signes de la présence romaine subsistent à travers la ville, y compris l’Amphithéâtre de Fourvière.
     </p>
   </div>
 </div>
@@ -46,8 +46,8 @@ Nous avons choisi quelques histoires intéressantes sur la ville et les gens de 
   <div class="box-inner-padding">
     <img src="/img/photos/lyon-Mere-Brasier.jpg" alt="La mere Brasier, famous cook" style="max-width:100%;"><br/>
     <p>
-      <strong>Trois des premiers restaurants à avoir obtenu trois étoiles Michelin étaient à moins de 30 min de Lyon</strong><br/>
-     Dans la première édition du guide gastronomique Michelin, trois étoiles ont été décernées à cinq restaurants. Parmi eux, trois étaient des femmes chefs habitants à Lyon même ou à moins de 30 km.
+      <strong>Trois des premiers restaurants à avoir obtenu trois étoiles Michelin étaient à moins de 30 minutes de Lyon</strong><br/>
+     Dans la première édition du guide gastronomique Michelin, trois étoiles ont été décernées à cinq restaurants. Parmi eux, trois étaient dirigés par des femmes chefs habitants à Lyon même ou à moins de 30 km.
     </p>
   </div>
 </div>
@@ -67,7 +67,7 @@ Nous avons choisi quelques histoires intéressantes sur la ville et les gens de 
     <img src="/img/photos/lyon-Petit-prince-St-Exupery.png" alt="Saint Exupery" style="max-width:100%;"><br/>
     <p>
      <strong>Le père du Petit Prince, Antoine de Saint-Exupéry, est né à Lyon</strong><br/>
-      Ce livre est le quatrième livre le plus traduit dans le monde. Cette illustration, ainsi que toutes celles de l’oeuvre originale, ont été dessinées par Saint-Exupéry.
+      C’est le quatrième livre le plus traduit dans le monde. Cette illustration, ainsi que toutes celles de l’oeuvre originale, ont été dessinées par Saint-Exupéry.
     </p>
   </div>
 </div>
@@ -86,7 +86,7 @@ Nous avons choisi quelques histoires intéressantes sur la ville et les gens de 
   <div class="box-inner-padding">
     <img src="/img/photos/lyon-Paul-Bocuse.png" alt="Paul Bocuse, famous French cook is from Lyon" style="max-width:100%;"><br/>
     <p>
-      <strong>Lyon accueille le restaurant réputé être parmi les meilleurs pendant la plus longue période de temps</strong><br/>
+      <strong>Lyon accueille le restaurant détenant trois étoiles depuis le plus longtemps</strong><br/>
       Le célèbre chef Paul Bocuse a établi son restaurant à Lyon. Il a trois étoiles dans le guide Michelin depuis maintenant plus de 51 ans, ce qui en fait le meilleur restaurant avec le plus d’ancienneté.
     </p>
   </div>
