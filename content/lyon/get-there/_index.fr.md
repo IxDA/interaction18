@@ -3,7 +3,7 @@ title: "Se rendre à Lyon"
 date: 2017-07-11T22:31:14+02:00
 menu:
   "main":
-    name: "S'y rendre"
+    name: "Se rendre à Lyon"
     weight: 210
     parent: "lyon"
 ---
