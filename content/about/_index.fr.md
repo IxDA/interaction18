@@ -16,16 +16,16 @@ Nous cherchons à avoir un impact positif et durable sur nos invités, notre mé
 
 {{% columns columns_number="2" %}}
 #### Créer un impact par la pollinisation croisée
-Nous cherchons à faciliter des activités qui favorisent le dialogue et la création de liens. L’impact provient des interactions et du mélange d’idées de notre foule diversifiée de participants.
+Nous cherchons à faciliter des activités qui favorisent le dialogue et la création de liens. L’impact provient des interactions et du mélange d’idées de notre foule de participants différents.
 {{% columns_break %}}
 #### Créer un impact par l’émerveillement
-Nous cherchons à apporter de l’inattendu dans notre environnement, à remettre en question nos points de vue. L’impact résulte d’expériences qui nous apportent de nouvelles connaissances.
+Nous cherchons à apporter une touche d’imprévu autour de nous, à remettre en question nos points de vue. L’impact découle d’expériences instructives.
 {{% /columns %}}
 
 {{< ruler >}}
 
 ## Diversité
-Nous reconnaissons que notre métier est un échange entre les membres d’une communauté pluraliste où chaque voix est entendue.
+Nous reconnaissons que notre métier est basé sur des échanges entre les membres d’une communauté pluraliste où chaque voix est entendue.
 
 {{% columns columns_number="2" %}}
 #### Diversité via IxDA

@@ -3,7 +3,7 @@ title: "Se déplacer à Lyon"
 date: 2017-07-11T22:31:14+02:00
 menu:
   "main":
-    name: "Transports"
+    name: "Se déplacer en ville"
     weight: 230
     parent: "lyon"
 ---
@@ -40,7 +40,7 @@ Un trajet de l’aéroport au centre-ville vous coûtera ±50€.
 {{% box %}}
 ### Marche
 ![River confluence](/img/photos/lyon-scene5-Vieux-Lyon.jpg)
-Lyon est une ville très pédestre. Vous pouvez vous promener dans le centre et rejoindre facilement la plupart des endroits.
+Lyon est une ville très piétonne. Vous pouvez vous promener dans le centre et rejoindre la plupart des attractions rapidement.
 {{% /box %}}
 
 {{% /boxes %}}
