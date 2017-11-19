@@ -127,6 +127,19 @@
   }
 
   toggleButton.addEventListener('click', toggleOpen);
+
+  // Fade passed program element
+  const progamElements = document.querySelectorAll('[data-elementdate]');
+  const now = new Date();
+  now.setHours(0,0,0,0);
+
+  progamElements.forEach(function(element) {
+    var itemDate = new Date(element.dataset.elementdate)
+    if (itemDate < now) {
+      element.classList.toggle('program-passed');
+    }
+  });
+
 </script>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJ7W3KG"
