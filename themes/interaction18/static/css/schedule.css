@@ -50,6 +50,12 @@
   .schedule-activity-student-design-challenge{
     grid-column: 4 span;
   }
+  .schedule-activity-opening{
+    grid-column: 3 / 1 span;
+  }
+  .schedule-activity-coroflot {
+    grid-column: 4 / 1 span;
+  }
   .schedule-activity-awards{
     grid-column: 6 / 1 span;
   }
@@ -102,6 +108,14 @@
   }
   .schedule-activity-awards{
     grid-row: 7;
+    grid-column: 2 / 2 span;
+  }
+  .schedule-activity-opening{
+    grid-row: 5;
+    grid-column: 2 / 2 span;
+  }
+  .schedule-activity-coroflot {
+    grid-row: 6;
     grid-column: 2 / 2 span;
   }
 }
