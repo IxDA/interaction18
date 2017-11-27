@@ -12,8 +12,9 @@ aliases:
 
 {{% ruler %}}
 
-## Workshops
+## Speakers
 {{% speakers kind="workshop" %}}
+{{% speakers kind="talk" %}}
 
 {{% box class="bordered mega-padding" %}}
 ## General program
