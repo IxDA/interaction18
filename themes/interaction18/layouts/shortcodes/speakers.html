@@ -5,7 +5,7 @@
       {{ $programkind := .Get "kind" }}
       {{ range where $data.program "kind" "==" $programkind }}
       {{ $item := . }}
-
+      {{ if $item.active }}
         <div class="box box-inner-padding">
           {{ if $item.speaker_1_photo }}
           <a href="/program/{{ $item.slug }}#speaker" class="no-underline">
@@ -32,6 +32,6 @@
           </p>
         </div>
         {{ end }}
-      
+        {{ end }}
       {{ end }}
     </div>
