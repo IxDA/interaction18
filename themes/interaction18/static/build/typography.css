@@ -29,12 +29,6 @@ body{
   font-size: calc(0.6em + 1vw);
   font-size: -webkit-calc(60% + 1vw);
 }
-@media (min-width: 90rem) {
-  body{
-    font-size: 1.5em;
-    /* max font-size */
-  }
-}
 b, strong{
   font-family: graphik-bold, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight:  700;
@@ -57,16 +51,16 @@ h2, .h2 {
   margin-bottom: 0;
 }
 h3, .h3 {
-  font-size: calc(0.5em + 1vw);
-  font-size: -webkit-calc(50% + 1vw);
+  font-size: calc(0.7em + 1vw);
+  font-size: -webkit-calc(70% + 1vw);
   font-weight: normal;
   line-height: 1.3em;
   margin-top: 0;
   margin-bottom: 0;
 }
 h4, .h4 {
-  font-size: calc(0.45em + 1vw);
-  font-size: -webkit-calc(45% + 1vw);
+  font-size: calc(0.6em + 1vw);
+  font-size: -webkit-calc(60% + 1vw);
   font-family: graphik-bold, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight:  700;
   line-height: 1.3em;
@@ -74,8 +68,8 @@ h4, .h4 {
   margin-bottom: 0;
 }
 h5, .h5 {
-  font-size: calc(0.4em + 1vw);
-  font-size: -webkit-calc(40% + 1vw);
+  font-size: calc(0.5em + 1vw);
+  font-size: -webkit-calc(50% + 1vw);
   font-family: graphik-bold, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight:  700;
   line-height: 1.3em;
@@ -89,6 +83,14 @@ h6, .h6 {
   line-height: 1.3em;
   margin-top: 0;
   margin-bottom: 0;
+}
+@media (min-width: 70rem) {
+  body{
+    font-size: 1.5em;
+  }
+  h4, h5, h6, p{
+    font-size: 1.4rem;
+  }
 }
 p, ul, ol, pre, table, blockquote {
   line-height: 1.43em;
