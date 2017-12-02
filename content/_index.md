@@ -21,7 +21,7 @@ date: 2017-07-11T22:31:14+02:00
       The tickets are going fast. be quick.
     </p>
     <p>
-      <a href="http://join.interaction.ixda.org" class="button">Get tickets for Interaction&nbsp;18</a>
+      <a href="http://join.interaction.ixda.org" class="button">Get tickets</a> <a href="/program" class="button">Check the program</a>
     </p>
   </div>
   <div class="box box-primary">
@@ -130,7 +130,7 @@ date: 2017-07-11T22:31:14+02:00
         <p>
           Are you passionate about growing your local community? Join us in a one day retreat.
           <br/>
-          <em>free tickets soon</em>
+          <a href="/events/local-leaders-retreat/">Register</a>
         </p>
       </div>
     </div>

@@ -10,14 +10,16 @@ menu:
 aliases:
     - /about-team.html
 ---
+**All of this is possible thanks to the dedication of passionate inviduals.</strong**
 
-<p>
-  <strong>All of this is possible thanks to the dedication of passionate inviduals.</strong><br/>
-</p>
-<p>
-  Please meet a few of them.
-</p>
+Please meet a few of them:
 
 {{< spacer >}}
 
 {{% team %}}
+
+{{< spacer >}}
+
+**And also:** Amanda, Andréa, Elaine, Christelle, Jean-Christophe, Hugo, Matthias Maxime, Marion, Rik, and many many more.
+
+
