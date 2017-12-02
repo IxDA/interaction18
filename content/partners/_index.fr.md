@@ -1,6 +1,8 @@
 ---
 title: "Partenaires"
 date: 2017-07-11T22:31:14+02:00
+hideFooter: true
+
 ---
 ## Entrez en contact avec des designers au premier événement du domaine
 De la croissance de l’intelligence artificielle et la réalité virtuelle à la marchandisation des services intelligents, la technologie continue à redéfinir la relations entre nous et le monde dans lequel nous vivons. Interaction 18 offrira aux professionnels et aux entreprises la possibilité de réfléchir à la façon dont nous façonnons le monde en créant des ponts entre les cultures, les disciplines et les industries pour découvrir les buts et les orientations partagées.

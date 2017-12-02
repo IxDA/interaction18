@@ -45,6 +45,8 @@
       </div>
   </footer>
 
+{{ if .Params.hideFooter }}
+{{ else }}
   <div class="boxes-partners boxes-partners-footer fullwidth">
   {{ $data := getJSON $.Site.Params.partnersData }}
   {{ range where $data.partners "size" "==" "XL" }}
@@ -102,7 +104,7 @@
       {{ end }}
   {{ end }}
   </div>
-
+{{ end }}
   <p class="text-center fullwidth spacer-t-b">
     <a href="{{ .Site.BaseURL }}{{T "codeofconductLink"}}">{{T "codeofconductLabel"}}</a>
     &nbsp;&nbsp;—&nbsp;&nbsp;
