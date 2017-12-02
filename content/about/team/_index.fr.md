@@ -18,3 +18,5 @@ menu:
 {{< spacer >}}
 
 {{% team %}}
+
+**Et aussi:** {{% team-textlist %}} et plein d'autre.

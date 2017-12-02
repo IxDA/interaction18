@@ -20,6 +20,6 @@ Please meet a few of them:
 
 {{< spacer >}}
 
-**And also:** Amanda, Andréa, Elaine, Christelle, Jean-Christophe, Hugo, Matthias Maxime, Marion, Rik, and many many more.
+**And also:** {{% team-textlist %}} and many many more.
 
 
