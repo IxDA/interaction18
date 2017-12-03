@@ -60,4 +60,15 @@ There are five different spaces. The massive Espace 1930, overlooked by a raised
 <section class="container content container-s spacer-none">
   <p>Together they provide <strong>5100 m<sup>2</sup></strong> – more than ten basketball fields – and will be arranged to accommodate the various informative, social, and breathing needs of Interaction&nbsp;18.</p>
   <img src="/img/photos/Venue-Main_New-Order-at-La-Sucriere-copyright-Brice-Robert.jpg" alt="New Order concert during the Nuits Sonores festival - copyright Brice Robert">
+
+  <div class="box bordered mega-padding spacer-t">
+  <h2>Rendez-vous: <a href="http://lasucriere-lyon.com">La sucrière</a></h2>
+  <ul>
+    <li>47 quai Rambaud, Lyon</li>
+    <li>6–8 Feb 2018, from 8:00 to 18:30</li>
+  </ul>
+  <p><a href="https://citymapper.com/go/am8pfj" class="button">Get directions with CityMapper</a>   
+  </div>
+
+
 </section>
