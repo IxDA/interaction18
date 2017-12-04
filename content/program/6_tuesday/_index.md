@@ -22,18 +22,7 @@ menu:
       <div class="program-item-room program-item-room-3">
         <h3><strong>Le Sucre</strong></h3>
       </div>
-      <div class="program-item-date program-item-milestone program-item-big-milestone">
-        <p><strong>08:00</strong></p>
-      </div>
-      <div class="program-item program-item-milestone program-item-big-milestone">
-        <p><strong>Door opening</strong></p>
-      </div>
-      <div class="program-item program-item-milestone program-item-big-milestone">
-        <p></p>
-      </div>
-      <div class="program-item program-item-milestone program-item-big-milestone">
-        <p></p>
-      </div>            
+      {{% programtime time="08:00" label="Door opening" one="true" two="true" three="true" big="true" %}}          
       <div class="program-item-date">
         <p>09:10</p>
       </div>
@@ -42,18 +31,7 @@ menu:
       </div>
       <div class="program-day-item-void"></div>
       <div class="program-day-item-void"></div>
-      <div class="program-item-date program-item-milestone">
-        <p>10:05</p>
-      </div>
-      <div class="program-item program-item-milestone">
-        <p>Break</p>
-      </div>
-      <div class="program-item">
-        <p></p>
-      </div>
-      <div class="program-item">
-        <p></p>
-      </div>            
+      {{% programtime time="10:05" one="true" label="Break" %}}
       <div class="program-item-date">
         <p>10:25</p>
       </div>
@@ -66,18 +44,7 @@ menu:
       </div>
       <div class="program-day-item-void"></div>
       <div class="program-day-item-void"></div>
-      <div class="program-item-date program-item-milestone">
-        <p>11:20</p>
-      </div>
-      <div class="program-item program-item-milestone">
-        <p>Break</p>
-      </div>     
-      <div class="program-item">
-        <p></p>
-      </div>     
-      <div class="program-item">
-        <p></p>
-      </div>                 
+      {{% programtime time="11:20" one="true" label="Break" %}}              
       <div class="program-item-date">
         <p>11:50</p>
       </div>
@@ -90,18 +57,7 @@ menu:
       </div>
       <div class="program-day-item-void"></div>
       <div class="program-day-item-void"></div>
-      <div class="program-item-date program-item-milestone program-item-big-milestone">
-        <p><strong>12:45</strong></p>
-      </div>
-      <div class="program-item program-item-milestone program-item-big-milestone">
-        <p><strong>Lunch</strong></p>
-      </div>   
-      <div class="program-item program-item-milestone program-item-big-milestone">
-        <p></p>
-      </div>   
-      <div class="program-item program-item-milestone program-item-big-milestone">
-        <p></p>
-      </div>               
+      {{% programtime time="12:45" label="Lunch" one="true" two="true" three="true" big="true" %}}             
       <div class="program-item-date">
         <p>14:00</p>
       </div>
@@ -125,19 +81,8 @@ menu:
         {{% talk slug="talk-jennifer-bush-bush-jennifer-steven-clark" %}}
         {{% talk slug="talk-talking-with-machines--voice-ui-and-conversation-design-reeves-stuart" %}}
         </div>
-      </div>      
-      <div class="program-item-date program-item-milestone">
-        <p>14:55</p>
-      </div>
-      <div class="program-item program-item-milestone">
-        <p>Break</p>
-      </div>
-      <div class="program-item program-item-milestone">
-        <p></p>
-      </div>
-      <div class="program-item program-item-milestone">
-        <p></p>
-      </div>            
+      </div>     
+      {{% programtime time="14:55" one="true" two="true" three="true" label="Break" %}}
       <div class="program-item-date">
         <p>15:25</p>
       </div>
@@ -162,18 +107,7 @@ menu:
         {{% talk slug="talk-not-an-error---the-three-level-error-feedback-design-strategy-zhu-hong" %}}
         </div>
       </div>    
-      <div class="program-item-date program-item-milestone">
-        <p>16:20</p>
-      </div>
-      <div class="program-item program-item-milestone">
-        <p>Break</p>
-      </div>
-      <div class="program-item program-item-milestone">
-        <p></p>
-      </div>
-      <div class="program-item program-item-milestone">
-        <p></p>
-      </div>            
+      {{% programtime time="16:20" one="true" two="true" three="true" label="Break" %}}      
       <div class="program-item-date">
         <p>17:30</p>
       </div>
@@ -182,18 +116,7 @@ menu:
       </div>
       <div class="program-day-item-void"></div>
       <div class="program-day-item-void"></div>
-      <div class="program-item-date program-item-milestone program-item-big-milestone">
-        <p><strong>18:30</strong></p>
-      </div>
-      <div class="program-item program-item-milestone program-item-big-milestone">
-        <p><strong>Door closing</strong></p>
-      </div>        
-      <div class="program-item program-item-milestone program-item-big-milestone">
-        <p></p>
-      </div>        
-      <div class="program-item program-item-milestone program-item-big-milestone">
-        <p></p>
-      </div>                    
+      {{% programtime time="18:30" label="Door closing" one="true" two="true" three="true" big="true" %}} 
     </div>
   </div>
 </div>

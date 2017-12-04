@@ -1,0 +1,20 @@
+<div class="program-item-date program-item-milestone {{ with .Get "big" }} program-item-big-milestone{{ end }}">
+  <p>
+    {{ with .Get "big" }}<strong>{{ end }}
+      {{ .Get "time" }}
+      {{ with .Get "big" }}</strong>{{ end }}
+  </p>
+</div>
+<div class="program-item {{ with .Get "one" }} program-item-milestone{{ end }} {{ with .Get "big" }} program-item-big-milestone{{ end }}">
+  <p>
+    {{ with .Get "big" }}<strong>{{ end }}
+    {{ .Get "label" }}
+    {{ with .Get "big" }}</strong>{{ end }}
+  </p>
+</div>
+<div class="program-item {{ with .Get "two" }} program-item-milestone{{ end }} {{ with .Get "big" }} program-item-big-milestone{{ end }}">
+  <p></p>
+</div>
+<div class="program-item {{ with .Get "three" }} program-item-milestone{{ end }} {{ with .Get "big" }} program-item-big-milestone{{ end }}">
+  <p></p>
+</div>
