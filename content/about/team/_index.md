@@ -10,14 +10,16 @@ menu:
 aliases:
     - /about-team.html
 ---
+**All of this is possible thanks to the dedication of passionate inviduals.</strong**
 
-<p>
-  <strong>All of this is possible thanks to the dedication of passionate inviduals.</strong><br/>
-</p>
-<p>
-  Please meet a few of them.
-</p>
+Please meet a few of them:
 
 {{< spacer >}}
 
 {{% team %}}
+
+{{< spacer >}}
+
+**And also:** {{% team-textlist %}} and many many more.
+
+

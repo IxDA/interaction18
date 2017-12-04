@@ -17,7 +17,7 @@ aliases:
 
 {{% box class="bordered mega-padding" %}}
 ## General program
-The full program will be announced late November.<br><br>
+The full program will be announced very soon.<br><br>
 
 We informed all applicants if they have been selected.</small>
 {{% /box %}}

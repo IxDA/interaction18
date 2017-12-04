@@ -22,7 +22,7 @@ La conférence et les ateliers se déroulent uniquement en anglais.
 
 {{% box class="bordered mega-padding" %}}
 ## Programme complet
-Le programme complet sera annoncé fin novembre.<br><br>
+Le programme complet sera annoncé très bientôt.<br><br>
 
 Nous avons informé tous les candidats sélectionnés.</small>
 {{% /box %}}

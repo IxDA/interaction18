@@ -1,1 +1,7 @@
-<tito-widget event="ixda/interaction-week-18"></tito-widget>
+<tito-widget event="ixda/interaction-week-18" {{ with .Get "tito_releases" }}releases="{{ . }}"{{ end }}></tito-widget>
+
+
+{{ with .Get "hide_discount" }}
+<style type="text/css">.tito-discount-code {display:none !important; }</style>
+
+{{ end }}
