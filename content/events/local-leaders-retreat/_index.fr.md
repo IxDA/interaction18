@@ -14,7 +14,7 @@ Are you an IxDA Local Leader or interested in starting an IxDA Local group in yo
 
 ![Local leaders in New York during the Local Leader Retreat 2017](/img/photos/event-llretreat-groupphoto.jpg)
 
-## One day to talk about the present and the future of the IxDA reprensation around the world
+## One day to talk about the present and the future of the IxDA represensation around the world
 
 Get together with both seasoned and new Local Leaders to discuss strategies for designing a passionate IxDA community in your area.
 
