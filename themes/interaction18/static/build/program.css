@@ -4,6 +4,7 @@
     width: 3em;
     text-align: right;
     margin-top: 1em;
+    clear: left;
 }
 .program-item, .program-day-item{
   margin-left: 4em;
@@ -25,7 +26,6 @@
 }
 .program-item-milestone{
   border-bottom: 1px solid #421B4B;
-  margin-bottom: 0.3em;
 }
 .program-item-big-milestone{
   border-bottom-width: 3px;
@@ -73,7 +73,7 @@
     .program-item-milestone{
       border-bottom: 1px solid #421B4B;
       padding: 0.3em 0;
-      margin-bottom: 0;
+      margin-bottom: 0.3em;
     }
     .program-item-big-milestone{
       border-bottom-width: 3px;
