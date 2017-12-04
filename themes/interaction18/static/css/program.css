@@ -3,11 +3,11 @@
     float: left;
     width: 3em;
     text-align: right;
+    margin-top: 1em;
 }
-.program-item{
-  clear: right;
-  padding-left: 5em;
-  padding-bottom: 1em;
+.program-item, .program-day-item{
+  margin-left: 4em;
+  margin-top: 1em;
 }
 /*.program-item-date, .program-item{
   border-top: 1px solid #421B4B;
@@ -17,36 +17,71 @@
   padding-bottom: 1em;
   border-bottom: 1px solid #421B4B;
 }*/
+.program-day-item-void{
+  display: none;
+}
+.program-item-room{
+  display: none;
+}
 .program-item-milestone{
   border-bottom: 1px solid #421B4B;
-  padding: 0.3em 0;
+  margin-bottom: 0.3em;
 }
 .program-item-big-milestone{
   border-bottom-width: 3px;
 }
+.program-item-room-2.program-item-milestone, .program-item-room-3.program-item-milestone{
+  display: none;
+}
 
 
 @supports (display: grid) {
-  .program-list{
-    display: grid;
-    grid-gap: 1em;
-    grid-template-columns: 3em 1fr;
-  }
-  .program-item{
-    padding-left: 0;
-    padding-bottom: 0;
-  }
-  .program-list-day{
-    grid-row-gap: 1em;
-    grid-column-gap: 1.6em;
-    grid-template-columns: 3em 1fr 1fr 1fr;
-  }
-  .program-item-full-line{
-    grid-column: 3 span;
-  }
-  .program-day-item-void{
-    grid-column: 1 span;
-    /*background-color: #B0A7AC20;*/
+  @media (min-width: 70em) {
+    .program-list{
+      display: grid;
+      grid-gap: 1em;
+      grid-template-columns: 3em 1fr;
+    }
+    .program-item, .program-day-item{
+      padding-left: 0;
+      padding-bottom: 0;
+      margin-top: 0;
+      margin-left: 0;
+    }
+    .program-item-date{
+      float: none;
+      margin-top: 0;
+    }
+    .program-list-day{
+      grid-row-gap: 1em;
+      grid-column-gap: 1.6em;
+      grid-template-columns: 3em 1fr 1fr 1fr;
+    }
+    .program-item-full-line{
+      grid-column: 3 span;
+    }
+    .program-day-item-void{
+      grid-column: 1 span;
+      display: block;
+      /*background-color: #B0A7AC20;*/
+    }
+    .program-item-milestone{
+      border-bottom: 1px solid #421B4B;
+      padding: 0.3em 0;
+      margin-bottom: 0;
+    }
+    .program-item-big-milestone{
+      border-bottom-width: 3px;
+    }
+    .program-item-room{
+      display: block;
+    }
+    .specify-room{
+      display: none;
+    }
+    .program-item-room-2.program-item-milestone, .program-item-room-3.program-item-milestone{
+      display: block;
+    }
   }
 }
 
@@ -66,7 +101,7 @@
 }
 
 @supports (display: grid) {
-  @media (min-width: 70em) {
+  @media (min-width: 30em) {
     .program-detail{
         display: grid;
         grid-gap: 2em;
