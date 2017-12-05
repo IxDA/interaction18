@@ -103,7 +103,7 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
             <h6><strong>Door closing</strong></h6>
         </div>
       </a>
-      <a class="program-overview-day" href="./8_tuesday" data-elementdate="2018-11-21T23:00:00.000Z">
+      <a class="program-overview-day" href="./8_thursday" data-elementdate="2018-11-21T23:00:00.000Z">
         <h3><strong>Thursday 8</strong></h3>
         <div class="program-item-milestone program-item-big-milestone">
             <div class="program-overview-item-hour">8:00</div>

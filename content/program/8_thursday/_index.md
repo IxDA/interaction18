@@ -3,7 +3,7 @@ title: "Macro. Identity and vision "
 date: 2017-07-11T22:31:14+02:00
 menu:
   "main":
-    name: "Tuesday 8"
+    name: "Thursday 8"
     weight: 260
     parent: "program"
 ---
