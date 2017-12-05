@@ -9,7 +9,7 @@ menu:
 ---
 Interaction 18 is 3 days of conference plus 1 extra day of workshops. 
 
-There is also the program of the [**workshops**](./5_monday), the [**Education Summit**](http://edusummit.ixda.org/program.html), or the [**Local leader workshop**](/events/local-leaders-retreat/).   
+There is also the program of the [**Education Summit**](http://edusummit.ixda.org/program.html), or the [**Local leader workshop**](/events/local-leaders-retreat/).   
 
 <div class="fullwidth spacer-t-b">
   <div class="container">

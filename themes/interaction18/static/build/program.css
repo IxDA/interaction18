@@ -184,12 +184,14 @@
   max-width: 22em;
   padding: 1em;
 }
-.program-overview-day{
+.content a.program-overview-day{
   border: 0.12em solid transparent;
 }
+
 .program-overview-day:hover{
   background-color: #D0A9D0;
   color: #421B4B!important;
+  border-color:transparent;
 }
 a.program-overview-day:hover .color-pink{
     color: #421B4B!important;

@@ -4,8 +4,14 @@ date: 2017-07-11T22:31:14+02:00
 
 aliases:
     - /speakers.html
+
+menu:
+  "main":
+    name: "Speakers"
+    weight: 280
+    parent: "program"
 ---
-**Connect with great people… More to come!**
+**Connect with great people**
 
 {{% keynotes kind="keynote" %}}
 

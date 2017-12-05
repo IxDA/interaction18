@@ -52,12 +52,6 @@ hrefTargetBlank = true
   parent = "program"
 
 [[menu.main]]
-  name = "Speakers"
-  weight = 400
-  identifier = "speakers"
-  url = "/speakers/"
-
-[[menu.main]]
     name = "Partners"
     weight = 500
     identifier = "partners"
