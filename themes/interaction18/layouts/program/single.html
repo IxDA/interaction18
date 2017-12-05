@@ -48,10 +48,11 @@
 						{{ end }}
 					</div>
 
-
+					{{ if $item.tito_releases }}
 					<div class="program-tito">
 						{{ partial "tito-widget.html" . }}
 					</div>
+					{{ end }}
 
 
 					<div class="program-speakers-preview">

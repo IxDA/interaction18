@@ -1,0 +1,12 @@
+  {{ $data := getJSON $.Site.Params.programData }}
+  {{ $slug := .Get "slug" }}
+  {{ range where $data.program "slug" "==" $slug }}
+    {{ $item := . }}
+    <div class="program-overview-item-speaker">
+      <img src="{{ $item.speaker_1_photo }}" alt="{{ $item.speaker_1_name }}">
+      <div class="program-overview-item-speaker-name">
+        <small>Keynote by</small>
+        <h6><strong>{{ $item.speaker_1_name }}</strong></h6>
+      </div>
+    </div>
+    {{ end }}
