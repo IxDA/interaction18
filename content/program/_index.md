@@ -7,6 +7,135 @@ menu:
     weight: 200
     parent: "program"
 ---
-Interaction 18 is 4 days .. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Interaction 18 is 3 days of conference plus 1 extra day of workshops. 
 
-{{% overview %}}
+There is also the program of the [**workshops**](./5_monday), the [**Education Summit**](http://edusummit.ixda.org/program.html), or the [**Local leader workshop**](/events/local-leaders-retreat/).   
+
+<div class="fullwidth spacer-t-b">
+  <div class="container">
+    <div class="program-overview">
+      <a class="program-overview-day" href="./5_monday" data-elementdate="2018-11-19T23:00:00.000Z">
+        <h3><strong>Monday 5</strong></h3>
+        <div class="program-item-milestone program-item-big-milestone">
+            <div class="program-overview-item-hour">8:30</div>
+            <h6><strong>Doors Open</strong></h6>
+        </div>
+        <div class="program-overview-item">
+            <div class="program-overview-item-hour">9:00</div>
+            <h6><strong>Morning and full-day workshops</strong></h6>
+        </div>
+        <div class="program-item-milestone program-item-big-milestone">
+            <div class="program-overview-item-hour">13:00</div>
+            <h6><strong>Lunch time</strong></h6>
+        </div>
+        <div class="program-overview-item">
+            <div class="program-overview-item-hour">13:30 – 17:30</div>
+            <h6><strong>Afternoon and full-day workshops</strong></h6>
+        </div>
+        <div class="program-item-milestone program-item-big-milestone">
+            <div class="program-overview-item-hour">18:00</div>
+            <h6><strong>Door closing</strong></h6>
+        </div>
+      </a>
+      <a class="program-overview-day" href="./6_tuesday" data-elementdate="2018-11-19T23:00:00.000Z">
+        <h3><strong>Tuesday 6</strong></h3>
+        <div class="program-item-milestone program-item-big-milestone">
+            <div class="program-overview-item-hour">8:00</div>
+            <h6><strong>Doors Open</strong></h6>
+        </div>
+        <div class="program-overview-item">
+            <div class="program-overview-item-hour">9:15</div>
+            {{% talkoverview slug="keynote--alan-cooper" %}}
+
+        </div>
+        <div class="program-overview-item">
+            <div class="program-overview-item-hour">10:30</div>
+            <h6><strong>Break out sessions</strong></h6>
+        </div>
+        <div class="program-item-milestone program-item-big-milestone">
+            <div class="program-overview-item-hour">12:50</div>
+            <h6><strong>Lunch time</strong></h6>
+        </div>
+        <div class="program-overview-item">
+            <div class="program-overview-item-hour">14:00 – 16:45</div>
+            <h6><strong>Break out sessions</strong></h6>
+        </div>
+        <div class="program-overview-item">
+            <div class="program-overview-item-hour">17:40</div>
+            {{% talkoverview slug="keynote--kenya-hara" %}}
+
+        </div>
+        <div class="program-item-milestone program-item-big-milestone">
+            <div class="program-overview-item-hour">18:30</div>
+            <h6><strong>Door closing</strong></h6>
+        </div>
+      </a>
+      <a class="program-overview-day" href="./7_wednesday" data-elementdate="2018-11-20T23:00:00.000Z">
+         <h3><strong>Wednesday 7</strong></h3>
+        <div class="program-item-milestone program-item-big-milestone">
+            <div class="program-overview-item-hour">8:00</div>
+            <h6><strong>Doors Open</strong></h6>
+        </div>
+        <div class="program-overview-item">
+            <div class="program-overview-item-hour">9:15</div>
+            {{% talkoverview slug="keynote--nicolas-nova" %}}
+
+        </div>
+        <div class="program-overview-item">
+            <div class="program-overview-item-hour">10:30</div>
+            <h6><strong>Break out sessions</strong></h6>
+        </div>
+        <div class="program-item-milestone program-item-big-milestone">
+            <div class="program-overview-item-hour">12:50</div>
+            <h6><strong>Lunch time</strong></h6>
+        </div>
+        <div class="program-overview-item">
+            <div class="program-overview-item-hour">14:00 – 16:45</div>
+            <h6><strong>Break out sessions</strong></h6>
+        </div>
+        <div class="program-overview-item">
+            <div class="program-overview-item-hour">17:40</div>
+            {{% talkoverview slug="keynote--haiyan-zhang" %}}
+
+        </div>
+        <div class="program-item-milestone program-item-big-milestone">
+            <div class="program-overview-item-hour">18:30</div>
+            <h6><strong>Door closing</strong></h6>
+        </div>
+      </a>
+      <a class="program-overview-day" href="./8_tuesday" data-elementdate="2018-11-21T23:00:00.000Z">
+        <h3><strong>Thursday 8</strong></h3>
+        <div class="program-item-milestone program-item-big-milestone">
+            <div class="program-overview-item-hour">8:00</div>
+            <h6><strong>Doors Open</strong></h6>
+        </div>
+        <div class="program-overview-item">
+            <div class="program-overview-item-hour">9:15</div>
+            {{% talkoverview slug="keynote--anab-jain" %}}
+
+        </div>
+        <div class="program-overview-item">
+            <div class="program-overview-item-hour">10:30</div>
+            <h6><strong>Break out sessions</strong></h6>
+        </div>
+        <div class="program-item-milestone program-item-big-milestone">
+            <div class="program-overview-item-hour">12:50</div>
+            <h6><strong>Lunch time</strong></h6>
+        </div>
+        <div class="program-overview-item">
+            <div class="program-overview-item-hour">14:00 – 16:45</div>
+            <h6><strong>Break out sessions</strong></h6>
+        </div>
+        <div class="program-overview-item">
+            <div class="program-overview-item-hour">17:40</div>
+            {{% talkoverview slug="keynote--leyla-acaroglu" %}}
+
+        </div>
+        <div class="program-item-milestone program-item-big-milestone">
+            <div class="program-overview-item-hour">18:30</div>
+            <h6><strong>Door closing</strong></h6>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

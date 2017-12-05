@@ -28,7 +28,7 @@ menu:
         <p>09:10</p>
       </div>
       <div class="program-day-item program-item-room-1">
-        Keynote ?????
+        {{% talk slug="keynote--anab-jain" %}}
       </div>
       <div class="program-day-item-void program-item-room-2"></div>
       <div class="program-day-item-void program-item-room-3"></div>

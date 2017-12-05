@@ -53,11 +53,6 @@ menu:
         <p>11:50</p>
       </div>
       <div class="program-day-item program-item-room-1">
-        <h3>Mises en bouche 2
-        <span class="specify-room">
-         – Amphithéâtre
-       </span>
-        </h3>
           <div class="">
           {{% talk slug="talk-tv-is-dead--long-live-tv--crafting-compelling-living-room-experiences-lafferty-molly" %}}
           {{% talk slug="talk-the-creative-possibilities-in-designing-for-social-media-conversations-lysbakken-nina" %}}
