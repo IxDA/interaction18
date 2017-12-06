@@ -5,12 +5,12 @@
     <div class="program-talk padding-b">
       <h4 class="mini-padding-b">
         <a href="/program/{{ $item.slug }}" class="program-talk-title">
-          {{ $item.title }}
+          {{ $item.title }} {{with $item.subtitle}}<span class="">&#151; {{ . }}</span>{{ end }}
         </a>
         <span class="label">
           {{ $item.format }}
         </span>
-        <span class="label room">
+        <span class="label specify-room">
           {{ $item.room }}
         </span>
       </h4>

@@ -23,6 +23,10 @@
 .text-xs{
   font-size:0.8em;
 }
+.text-unbold {
+  font-family: graphik, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+}
 .link-no-underline{
   text-decoration: none;
 }

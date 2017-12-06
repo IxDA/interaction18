@@ -23,7 +23,8 @@ menu:
       <div class="program-item-room program-item-room-3">
         <h3><strong>Le Sucre</strong></h3>
       </div>
-      {{% programtime time="08:00" label="Door opening" one="true" two="true" three="true" big="true" %}}          
+      {{% programtime time="08:00" key="morning-doors" one="true" two="true" three="true" big="true" %}}
+      {{% programtime time="09:00" key="morning-remarks" one="true" two="true" three="true" %}}          
       <div class="program-item-date">
         <p>09:10</p>
       </div>
@@ -32,7 +33,7 @@ menu:
       </div>
       <div class="program-day-item-void program-item-room-2"></div>
       <div class="program-day-item-void program-item-room-3"></div>
-      {{% programtime time="10:05" one="true" two="true" three="true" label="Break" %}}
+      {{% programtime time="10:05" one="true" two="true" three="true" key="break" %}}
       <div class="program-item-date">
         <p>10:25</p>
       </div>
@@ -69,7 +70,7 @@ menu:
         {{% talk slug="talk-you-re-not-a-designer--you-re-a-coach-forbes-katja" %}}
         </div>
       </div>    
-      {{% programtime time="11:20" one="true" two="true" three="true" label="Break" %}}        
+      {{% programtime time="11:20" one="true" two="true" three="true" key="break" %}}        
       <div class="program-item-date">
         <p>11:50</p>
       </div>
@@ -116,7 +117,7 @@ menu:
       <div class="program-day-item program-item-room-3">
         {{% talk slug="talk-the-ux-of-the-food-buffet-dunford-adam" %}}
       </div>          
-      {{% programtime time="12:45" label="Lunch" one="true" two="true" three="true" big="true" %}}
+      {{% programtime time="12:52" key="lunch-time" one="true" two="true" three="true" big="true" %}}
       <div class="program-item-date">
         <p>14:00</p>
       </div>
@@ -139,8 +140,7 @@ menu:
         </h3>
         <div class="">        
         {{% talk slug="talk-demystifying-design-in-the-21st-century-dickson-eilidh-john-lynch" %}}
-        ?????
-        </div>
+        {{% talk slug="talk-design-for-free-will-castro-pelayo-brenda" %}}        </div>
       </div>    
       <div class="program-day-item program-item-room-3">
         <h3>Rethinking finance
@@ -153,7 +153,7 @@ menu:
         {{% talk slug="talk-beyond-banks-pesani-marco-christian-miccoli" %}}
         </div>
       </div>   
-      {{% programtime time="14:50" one="true" two="true" three="true" label="Break" %}}
+      {{% programtime time="14:50" one="true" two="true" three="true" key="break" %}}
       <div class="program-item-date">
         <p>15:25</p>
       </div>
@@ -190,16 +190,17 @@ menu:
         {{% talk slug="talk-design-for-transition-to-the-future-of-autonomous-driving-xu-jiaojiao" %}}
         </div>
       </div>   
-      {{% programtime time="16:20" one="true" two="true" three="true" label="Break" %}}  
+      {{% programtime time="16:20" one="true" two="true" three="true" key="happy-hour" %}}  
       <div class="program-item-date">
         <p>17:30</p>
       </div>
       <div class="program-day-item program-item-room-1">
-        {{% talk slug="keynote-haiyan-zhang" %}}
+        {{% talk slug="keynote--haiyan-zhang" %}}
       </div>
       <div class="program-day-item-void program-item-room-2"></div>
       <div class="program-day-item-void program-item-room-3"></div>  
-      {{% programtime time="18:30" label="Door closing" one="true" two="true" three="true" big="true" %}}
+      {{% programtime time="18:15" key="evening-remarks" one="true" two="true" three="true" %}}
+      {{% programtime time="18:30" key="evening-doors" one="true" two="true" three="true" big="true" %}}
     </div>
   </div>
 </div>

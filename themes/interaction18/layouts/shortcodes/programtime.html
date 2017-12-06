@@ -8,7 +8,7 @@
 <div class="program-item program-item-room-1{{ with .Get "one" }} program-item-milestone{{ else }} program-day-item-void{{ end }} {{ with .Get "big" }} program-item-big-milestone{{ end }}">
   <p>
     {{ with .Get "big" }}<strong>{{ end }}
-    {{ .Get "label" }}
+    {{with .Get "label" }}{{ . }}{{end}}{{with .Get "key" }}{{ index $.Site.Data.program . }}{{end}}
     {{ with .Get "big" }}</strong>{{ end }}
   </p>
 </div>

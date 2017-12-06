@@ -12,7 +12,7 @@
         {{ if $item.active }}
 
 				<div class="program-title">
-					<h1>{{ $item.title }}</h1>
+					<h1>{{ $item.title }}{{with $item.subtitle}}&#151; {{ . }} {{end}}</h1>
 					<h2>
 
 							{{ $item.kind }} –
@@ -85,10 +85,10 @@
 
 					<div class="program-speakers-detail spacer-t-b">
 						{{ if $item.second_speaker }}
-						<h2>About speakers</h2>
+						<h2>About the speakers</h2>
 						<div class="program-2speakers">
 						{{else}}
-						<h2>About speaker</h2>
+						<h2>About the speaker</h2>
 						{{ end }}
 							<div class="program-speaker-box" id="speaker">
 								{{ if $item.speaker_1_photo }}

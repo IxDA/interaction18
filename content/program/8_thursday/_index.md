@@ -23,7 +23,8 @@ menu:
       <div class="program-item-room program-item-room-3">
         <h3><strong>Le Sucre</strong></h3>
       </div>
-      {{% programtime time="08:00" label="Door opening" one="true" two="true" three="true" big="true" %}}          
+      {{% programtime time="08:00" key="morning-doors" one="true" two="true" three="true" big="true" %}}        
+      {{% programtime time="09:00" key="morning-remarks" one="true" two="true" three="true"  %}}            
       <div class="program-item-date">
         <p>09:10</p>
       </div>
@@ -32,7 +33,7 @@ menu:
       </div>
       <div class="program-day-item-void program-item-room-2"></div>
       <div class="program-day-item-void program-item-room-3"></div>
-      {{% programtime time="10:05" one="true" two="true" three="true" label="Break" %}}
+      {{% programtime time="10:05" one="true" two="true" three="true" key="break" %}}
       <div class="program-item-date">
         <p>10:25</p>
       </div>
@@ -69,7 +70,7 @@ menu:
         {{% talk slug="talk-designing-for-people-you-cannot-understand-roy-marine" %}}
         </div>
       </div>   
-      {{% programtime time="11:20" one="true" two="true" three="true" label="Break" %}}
+      {{% programtime time="11:20" one="true" two="true" three="true" key="break" %}}
       <div class="program-item-date">
         <p>11:50</p>
       </div>
@@ -108,7 +109,7 @@ menu:
           {{% talk slug="talk-how-design-can-make-engineering-better-eguiluz-maria" %}}
         </div>
       </div>
-      {{% programtime time="13:00" label="Lunch" one="true" two="true" three="true" big="true" %}}
+      {{% programtime time="13:00" key="lunch-time" one="true" two="true" three="true" big="true" %}}
       <div class="program-item-date">
         <p>14:00</p>
       </div>
@@ -125,7 +126,7 @@ menu:
       </div>
       <div class="program-day-item-void program-item-room-2"></div>
       <div class="program-day-item-void program-item-room-3"></div>
-      {{% programtime time="14:50" one="true" label="Break" %}}
+      {{% programtime time="14:50" one="true" key="break" %}}
       {{% programtime time="15:10" one="true" label="Student Design Challenge" %}}
       <div class="program-item-date">
         <p>14:00</p>
@@ -135,7 +136,7 @@ menu:
       </div>
       <div class="program-day-item-void program-item-room-2"></div>
       <div class="program-day-item-void program-item-room-3"></div>     
-      {{% programtime time="16:20" one="true" label="Happy Hour" %}}
+      {{% programtime time="16:20" one="true" key="happy-hour" %}}
       <div class="program-item-date">
         <p>17:30</p>
       </div>
@@ -144,7 +145,8 @@ menu:
       </div>
       <div class="program-day-item-void program-item-room-2"></div>
       <div class="program-day-item-void program-item-room-3"></div>
-      {{% programtime time="18:15" label="Closing remarks" one="true" two="true" three="true" big="true" %}}      
+      {{% programtime time="18:15" key="evening-remarks" one="true" two="true" three="true" %}}      
+      {{% programtime time="18:15" key="evening-doors" one="true" two="true" three="true" big="true" %}}
     </div>
   </div>
 </div>  
