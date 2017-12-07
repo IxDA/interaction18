@@ -94,6 +94,7 @@ menu:
         <div class="">
         {{% talk slug="talk-tales-from-the-anthropologist--trust--fear-and-grief-in-digital-design-haverinen-anna" %}}
         {{% talk slug="talk-embodied-storytelling--body--mind-and-space-qian-yedan" %}}
+        {{% talk slug="talk-sniffing-out-the-differences-sahu-kadambari-kadambari-sahu" %}}
         </div>
       </div>    
       <div class="program-day-item program-item-room-3">
@@ -105,19 +106,10 @@ menu:
         <div class="">
         {{% talk slug="talk-restoring-place-in-the-modern-market--stories-of-two-chinese-e-commerce-villages-fang-alice" %}}
         {{% talk slug="talk-experience-+-systems-thinking-for-innovation-pegon-valerie-gauthier-fanmuy" %}}
-        </div>
-      </div>    
-      <div class="program-item-date">
-        <p>12:40</p>
-      </div>
-      <div class="program-day-item-void program-item-room-1"></div>
-      <div class="program-day-item program-item-room-2">
-        {{% talk slug="talk-sniffing-out-the-differences-sahu-kadambari-kadambari-sahu" %}}      
-      </div>    
-      <div class="program-day-item program-item-room-3">
         {{% talk slug="talk-the-ux-of-the-food-buffet-dunford-adam" %}}
-      </div>          
-      {{% programtime time="12:52" key="lunch-time" one="true" two="true" three="true" big="true" %}}
+        </div>
+      </div>              
+      {{% programtime time="12:50" key="lunch-time" one="true" two="true" three="true" big="true" %}}
       <div class="program-item-date">
         <p>14:00</p>
       </div>

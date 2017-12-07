@@ -23,7 +23,7 @@
 							{{ $item.hour }}
 
 					</h2>
-					<h3>{{ $item.resume }}</h3>
+					{{ with $item.resume }}<h3>{{ . | markdownify }}</h3>{{ end }}
 				</div>
 
 					<div class="program-resume">

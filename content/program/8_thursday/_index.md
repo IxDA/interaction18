@@ -109,7 +109,7 @@ menu:
           {{% talk slug="talk-how-design-can-make-engineering-better-eguiluz-maria" %}}
         </div>
       </div>
-      {{% programtime time="13:00" key="lunch-time" one="true" two="true" three="true" big="true" %}}
+      {{% programtime time="12:50" key="lunch-time" one="true" two="true" three="true" big="true" %}}
       <div class="program-item-date">
         <p>14:00</p>
       </div>
