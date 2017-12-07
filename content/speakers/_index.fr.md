@@ -23,12 +23,6 @@ La conférence et les ateliers se déroulent uniquement en anglais.
 
 {{% ruler %}}
 
-## Workshops
+## Tous les intervenants
 {{% speakers kind="workshop" %}}
-
-{{% box class="bordered mega-padding" %}}
-## Programme complet
-Le programme complet sera annoncé très bientôt.<br><br>
-
-Nous avons informé tous les candidats sélectionnés.</small>
-{{% /box %}}
+{{% speakers kind="talk" %}}
