@@ -5,7 +5,7 @@
     {{ $item := . }}
     {{ if $item.active }}
     <div class="box">
-      <h4>{{ $item.speaker_1_name }}</h4>
+      <h4><a href="/program/{{ $item.slug }}#speaker">{{ $item.speaker_1_name }}</a></h4>
       <img src="{{ $item.speaker_1_photo }}" alt="{{ $item.speaker_1_name }}">
         <p>
         {{ with $item.speaker_1_bio }}{{ . | markdownify }}{{ end }}

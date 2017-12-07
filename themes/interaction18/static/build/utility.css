@@ -23,6 +23,10 @@
 .text-xs{
   font-size:0.8em;
 }
+.text-unbold {
+  font-family: graphik, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+}
 .link-no-underline{
   text-decoration: none;
 }
@@ -59,8 +63,17 @@
 .mini-padding-y{
   padding: 0.6em 0;
 }
+.mini-padding-b{
+  padding-bottom: 0.4em;
+}
+.padding-b{
+  padding-bottom: 1em;
+}
 .mini-padding-x{
   padding: 0 1em;
+}
+.mini-padding-l{
+  padding-left: 1em;
 }
 .bordered{
   border: 1px solid #B0A7AC;

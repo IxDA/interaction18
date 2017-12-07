@@ -48,6 +48,8 @@
 
         <div class="program-title">
                     <h1 class="js-editable" id="title" >{{ $item.title }}</h1>
+                    <h2 class="js-editable" id="subtitle" >{{ $item.subtitle }}</h21>
+
                     <h3 class="js-editable" id="resume">{{ $item.resume }}</h3>
                 </div>
 
@@ -101,7 +103,7 @@
                                 {{ end }}
                                 <h3 class="js-editable" id="speaker_1_name">{{ $item.speaker_1_name }}</h3>
                                 <p>
-                                    <strong class="js-editable" id="speaker_1_function">{{ $item.speaker_1_function }}</strong><br/>
+                                <strong>Function:</strong> <strong class="js-editable" id="speaker_1_function">{{ $item.speaker_1_function }}</strong><br/>
                                 <span class="js-editable" id="speaker_1_bio">{{ with $item.speaker_1_bio }}{{.}}{{ end }}</span>
                                 </p>
                                 <p>

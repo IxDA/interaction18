@@ -1,0 +1,31 @@
+  <div class="program-list spacer-t-b">
+
+  {{ $data := getJSON $.Site.Params.programData }}
+  {{ $programDay := .Get "day" }}
+  {{ range where $data.program "day" "==" $programDay }}
+
+      {{ $item := . }}
+      {{ if $item.active }}
+      <div class="program-item-date">
+        <p>{{ $item.hour }}</p>
+      </div>
+      <div class="program-item">
+        <h4>
+          <a href="{{ .Site.BaseURL }}/program/{{ $item.slug }}">
+            {{ $item.title }}
+          </a>
+          <span class="label">
+            {{ $item.format }}
+          </span>
+        </h4>
+        <p>By
+          <a href="{{ .Site.BaseURL }}/program/{{ $item.slug }}#speaker">{{ $item.speaker_1_name }}</a>
+          {{ if $item.second_speaker }}
+           &
+           <a href="{{ .Site.BaseURL }}/program/{{ $item.slug }}#speaker2">{{ $item.speaker_2_name }}</a>
+          {{ end }}
+        </p>
+      </div>
+    {{ end }}
+  {{ end }}
+  </div>
