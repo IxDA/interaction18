@@ -129,7 +129,7 @@ menu:
       {{% programtime time="14:50" one="true" key="break" %}}
       {{% programtime time="15:10" one="true" label="Student Design Challenge" %}}
       <div class="program-item-date">
-        <p>14:00</p>
+        <p>15:40</p>
       </div>
       <div class="program-day-item program-item-room-1">
         {{% talk slug="talk-humanity-centered-design-kikin-gil-ruth" %}}
