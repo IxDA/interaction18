@@ -1,5 +1,5 @@
 ---
-title: "Macro. Identity and vision "
+title: "Macro – Identity and vision "
 date: 2017-07-11T22:31:14+02:00
 menu:
   "main":
