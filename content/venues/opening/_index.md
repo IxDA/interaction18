@@ -13,7 +13,7 @@ menu:
 
 Built on the last piece of land where the rivers Rhône and Saône meet, the museum is the perfect location to open Interaction18.
 
-Musée des Confluences was designed by Dutch architects [Coop Himmelb(l)au](https://www.archdaily.com/585697/musee-des-confluences-coop-himmelb-l-au). Its entrance is a “crystal”, a space of glass and structural beams containing the “gravity well”, a vortex in its center. From here, you will have access to the “cloud”, the central exhibition space.
+Musée des Confluences was designed by the Austrian architecture agency [Coop Himmelb(l)au](https://www.archdaily.com/585697/musee-des-confluences-coop-himmelb-l-au). Its entrance is a “crystal”, a space of glass and structural beams containing the “gravity well”, a vortex in its center. From here, you will have access to the “cloud”, the central exhibition space.
 
  
 IMG
@@ -29,7 +29,7 @@ During the night you also will be able to immerse yourself in the city through t
 {{% box class="bordered mega-padding spacer-t-b" %}}
 
 ## Rendez-vous: [Le musée des confluences](http://www.museedesconfluences.fr/fr/visit-museum)
-* 86 quai Perrache, Lyon 2
+* 86 Quai Perrache, Lyon 2
 * 5 Feb 2018, from 18:00 to 23:00 
  
 {{< button name="Get directions with CityMapper" href="https://citymapper.com/go/4tgnug" >}}
