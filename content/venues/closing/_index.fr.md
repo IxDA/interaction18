@@ -12,13 +12,13 @@ menu:
     parent: "venues"
 
 ---
-## Closing party venue
+## Lieu de la cérémonie de fermeture 
 
-For the closing night we move north along the Rhône. The Transbordeur, once a water treatment facility, acquired a bold new identity in 2010 that builds on its industrial past thanks to the graphic collective [Kolle Bolle](http://www.kollebolle.com/projets/transbo-identite-visuelle/).
+Pour la soirée de fermeture, direction le nord du Rhône. Le Transbordeur, ancienne usine destinée à l’origine au traitement des eaux, s'est doté d'une nouvelle identité visuelle en 2010 qui s'inspire de son passé industriel grâce au collectif graphique [Kolle Bolle](http://www.kollebolle.com/projets/transbo-identite-visuelle/).
 
 IMG
 
-The reputation of the Transbordeur has been established by thousands of renowned artists: The Chemical Brothers, Daft Punk, Foo Fighters, Iron Maiden, Jamiroquai, New Order, Oasis, Red Hot Chili Peppers, Smashing Pumpkins, Radiohead… and now, also us.
+La réputation du Transbordeur a été établi par des milliers d'artistes connus : The Chemical Brothers, Daft Punk, Foo Fighters, Iron Maiden, Jamiroquai, New Order, Oasis, les Red Hot Chili Peppers, les Smashing Pumpkins, Radiohead… et maintenant nous aussi.
 
 IMG
 
@@ -26,8 +26,8 @@ IMG
 
 ## Rendez-vous: [Transbordeur](http://www.transbordeur.fr/accueil)
 * 3 boulevard Stalingrad, Villeurbanne
-* 8 Feb 2018, from 18:30 to 4:00 
+* 8 février 2018, de 18:30 à 4:00 
  
-{{< button name="Get directions with CityMapper" href="https://citymapper.com/go/4rean3" >}}
+{{< button name="Obtenez l'itinéraire avec CityMapper" href="https://citymapper.com/go/4rean3" >}}
  
 {{% /box %}}
