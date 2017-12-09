@@ -26,7 +26,7 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
         </div>
         <div class="program-item-milestone program-item-big-milestone">
             <div class="program-overview-item-hour">13:00</div>
-            <h6><strong>{{% get key="lunch-break" %}}</strong></h6>
+            <h6><strong>{{% get key="lunch-time" %}}</strong></h6>
         </div>
         <div class="program-overview-item">
             <div class="program-overview-item-hour">13:30</div>

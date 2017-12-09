@@ -42,7 +42,10 @@
   display: none;
 }
 
+.program-evening {
+  background-color: #421B4B;
 
+}
 @supports ((display: -ms-grid) or (display: grid)) {
   @media (min-width: 70em) {
     .program-list{
@@ -70,7 +73,7 @@
     }
     .program-item-full-line{
       -ms-grid-column: 3 span;
-          grid-column: 3 span;
+          grid-column: 3 span; 
     }
     .program-day-item-void{
       -ms-grid-column: 1 span;
