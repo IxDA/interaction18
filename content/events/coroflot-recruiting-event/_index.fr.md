@@ -20,7 +20,7 @@ Coroflot Connects aura lieu de 19h à 21h au Sucre, le rooftop de notre lieu de 
 * 50 Quai Rambaud – Lyon, France
 * 7 février 2018, de 19:00 à 21:00 
 
-{{< button name="Obtenez un itinéraire avec CityMapper" href="https://citymapper.com/go/jmrdwm" >}}
+{{< button name="Obtenez l'itinéraire avec CityMapper" href="https://citymapper.com/go/jmrdwm" >}}
 
 {{% /box %}}
 
