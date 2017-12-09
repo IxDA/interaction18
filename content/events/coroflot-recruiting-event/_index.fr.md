@@ -6,9 +6,9 @@ menu:
     weight: 210
     parent: "events"
 ---
-## Événement de recrutement
+## Activité de recrutement
 
-Rejoignez vos pairs et les principales entreprises en UX pour réseauter et vous informer des possibilités d'emploi lors d'un cocktail dînatoire à Coroflot Connects, événement annuel ouvert à tous les participants de la conférence IxDA de tous niveaux d'expérience.     
+Rejoignez vos pairs et les principales entreprises dans le domaine de l'UX pour réseauter et vous informer des possibilités d'emploi lors d'un cocktail dînatoire à Coroflot Connects, événement annuel ouvert à tous les participants de la conférence IxDA de tous niveaux d'expérience.     
 {{< spacer >}}
 {{< tito-widget  tito_releases="5sg65crmt-g" hide_discount="true" >}}
 
