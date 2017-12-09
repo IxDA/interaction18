@@ -24,7 +24,7 @@ Vous pourrez aussi visitez l'exposition temporaire intitulée Lumiere! sur l'inv
 
 IMG
 
-En soirée, vous pourrez vous plongez dans la ville du point de vue du musée et profitez de sa terrasse ouverte ou du jardin qui l'entoure pour une promenade reposante même si la température est froide. 
+En soirée, vous pourrez vous plongez dans la ville du point de vue du musée et profitez de sa terrasse ouverte ou du jardin qui l'entoure pour vous y promener même si la température est froide. 
 
 {{% box class="bordered mega-padding spacer-t-b" %}}
 
