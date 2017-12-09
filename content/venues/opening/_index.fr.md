@@ -29,7 +29,7 @@ En soirée, vous pourrez vous plongez dans la ville du point de vue du musée et
 {{% box class="bordered mega-padding spacer-t-b" %}}
 
 ## Rendez-vous: [Le musée des confluences](http://www.museedesconfluences.fr/fr/visit-museum)
-* 86 quai Perrache, Lyon 2
+* 86 Quai Perrache, Lyon 2
 * 5 février 2018, de 18:00 à 23:00 
  
 {{< button name="Obtenez l'itinéraire avec CityMapper" href="https://citymapper.com/go/4tgnug" >}}
