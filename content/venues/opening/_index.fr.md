@@ -9,29 +9,29 @@ menu:
     parent: "venues"
 
 ---
-## Opening party venue
+## Lieu de la cérémonie d'ouverture
 
-Built on the last piece of land where the rivers Rhône and Saône meet, the museum is the perfect location to open Interaction18.
+Construit sur la dernière portion de terre au confluent du Rhône et de la Saône, le musée est l'endroit parfait pour lancer Interaction18.
 
-Musée des Confluences was designed by Dutch architects [Coop Himmelb(l)au](https://www.archdaily.com/585697/musee-des-confluences-coop-himmelb-l-au). Its entrance is a “crystal”, a space of glass and structural beams containing the “gravity well”, a vortex in its center. From here, you will have access to the “cloud”, the central exhibition space.
+Le musée des Confluences a été conçu par l'agence d'architecture autrichienne [Coop Himmelb(l)au](https://www.archdaily.com/585697/musee-des-confluences-coop-himmelb-l-au). À l'entrée, le Cristal, un espace de verre et des structures métalliques contiennent un puits de gravité, un vortez en son centre. De là, vous aurez accès au Nuage, l'espace principale d'exposition.  
 
  
 IMG
 
-What if you don’t enjoy parties? During the opening, you will be able to access all the exhibitions in the Musée: four rooms and four visions of our human existence and civilization.
+Vous n'êtes pas d'humeur à faire la fête? Durant le lancement, vous pourrez accéder à toutes les expositions du musée : quatre salles et quatre visions de notre existence et de la civilisation humaine.
 
-You will be able to see the temporary exhibition “Lumiere!”, showcasing the invention of the cinema.
+Vous pourrez aussi visitez l'exposition temporaire intitulée Lumiere! sur l'invention du cinéma.
 
 IMG
 
-During the night you also will be able to immerse yourself in the city through the Musée vantage point, either its open terrace or the park around it, for a relaxing – even if chilly – walk.
+En soirée, vous pourrez vous plongez dans la ville du point de vue du musée et profitez de sa terrasse ouverte ou du jardin qui l'entoure pour une promenade reposante même si la température est froide. 
 
 {{% box class="bordered mega-padding spacer-t-b" %}}
 
 ## Rendez-vous: [Le musée des confluences](http://www.museedesconfluences.fr/fr/visit-museum)
 * 86 quai Perrache, Lyon 2
-* 5 Feb 2018, from 18:00 to 23:00 
+* 5 février 2018, de 18:00 à 23:00 
  
-{{< button name="Get directions with CityMapper" href="https://citymapper.com/go/4tgnug" >}}
+{{< button name="Obtenez l'itinéraire avec CityMapper" href="https://citymapper.com/go/4tgnug" >}}
  
 {{% /box %}}
