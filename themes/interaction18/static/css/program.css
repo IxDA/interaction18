@@ -34,7 +34,10 @@
   display: none;
 }
 
+.program-evening {
+  background-color: #421B4B;
 
+}
 @supports (display: grid) {
   @media (min-width: 70em) {
     .program-list{
@@ -58,7 +61,7 @@
       grid-template-columns: 3em 1fr 1fr 1fr;
     }
     .program-item-full-line{
-      grid-column: 3 span;
+      grid-column: 3 span; 
     }
     .program-day-item-void{
       grid-column: 1 span;
