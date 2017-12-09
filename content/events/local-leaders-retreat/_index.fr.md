@@ -33,7 +33,7 @@ Le but est que tout le monde puisse comprendre les défis des dirigeants IxDA lo
 * 4 rue Prof Charles Appleton – 69007 Lyon
 * 4 février 2018, de 9:00 à 17:00 
  
-{{< button name="Obtenez un itinéraire avec CityMapper" href="https://citymapper.com/go/5a5exz" >}}
+{{< button name="Obtenez l'itinéraire avec CityMapper" href="https://citymapper.com/go/5a5exz" >}}
  
 {{% /box %}}
 
