@@ -10,7 +10,7 @@ menu:
 aliases:
     - /about-team.html
 ---
-**All of this is possible thanks to the dedication of passionate inviduals.</strong**
+**All of this is possible thanks to the dedication of passionate inviduals.**
 
 Please meet a few of them:
 
