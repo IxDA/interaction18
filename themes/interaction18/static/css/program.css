@@ -178,12 +178,22 @@
 .content a.program-overview-day{
   border: 0.12em solid transparent;
 }
+  .content a.program-overview-day .text-underline{
+  border-bottom: 0.12em solid #E40050;
+  transition: color 0.2s ease-in-out;
+}
+  
 
 .program-overview-day:hover{
   background-color: #D0A9D0;
   color: #421B4B!important;
   border-color:transparent;
 }
+.content a.program-overview-day:hover .text-underline {
+  color: #ad003d;
+}
+
+
 a.program-overview-day:hover .color-pink{
     color: #421B4B!important;
 }
