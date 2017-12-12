@@ -23,7 +23,6 @@ La conférence et les ateliers se déroulent uniquement en anglais.
 
 {{% ruler %}}
 
-## Workshops
+## Tous les intervenants
 {{% speakers kind="workshop" %}}
 {{% speakers kind="talk" %}}
-

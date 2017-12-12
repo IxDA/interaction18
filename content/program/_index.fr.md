@@ -7,15 +7,20 @@ menu:
     weight: 200
     parent: "program"
 ---
-Interaction 18 is 3 days of conference plus 1 extra day of workshops, in February 2018.  
+Interaction 18 is 3 days of conference plus 1 extra day of workshops. 
 
 There is also the program of the [**Education Summit**](http://edusummit.ixda.org/program.html), or the [**Local leaders retreat**](/events/local-leaders-retreat/).   
+
+{{% box class="box-primary text-white spacer-t-b" %}}
+### On parle English.
+La conférence et les ateliers se déroulent uniquement en anglais. 
+{{% /box %}}
 
 <div class="fullwidth spacer-t-b">
   <div class="container">
     <div class="program-overview">
       <a class="program-overview-day" href="./5_monday" data-elementdate="2018-11-19T23:00:00.000Z">
-        <h3><strong>Monday 5<br>February 2018</strong></h3>
+        <h3><strong>Monday 5</strong></h3>
         <div class="program-item-milestone program-item-big-milestone">
             <div class="program-overview-item-hour">8:30</div>
             <h6><strong>{{% get key="morning-doors" %}}</strong></h6>
