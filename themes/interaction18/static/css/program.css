@@ -24,6 +24,14 @@
 .program-item-room{
   display: none;
 }
+.program-item-soldout {
+  color: #D3C4D2;
+}
+.program-list .program-item-soldout a:not(.button), .program-list .program-item-soldout a:not(.button):hover  {
+  color: #D3C4D2; 
+  border-bottom-width: 0.06em;
+}
+
 .program-item-milestone{
   border-bottom: 1px solid #421B4B;
 }

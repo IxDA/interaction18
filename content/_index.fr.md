@@ -177,7 +177,7 @@ date: 2017-07-11T22:31:14+02:00
       <img src="/img/logos/logo_interaction_awards_2018.svg" alt="Interaction Awards 2018">
     </div>
   </div>
-</section>
+</section>  
 
 <section class="container spacer-t-b">
   <div class="bordered mega-padding">
