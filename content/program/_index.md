@@ -1,5 +1,5 @@
 ---
-title: "Overview"
+title: "Overview – February 2018"
 date: 2017-07-11T22:31:14+02:00
 menu:
   "main":
@@ -15,7 +15,7 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
   <div class="container">
     <div class="program-overview">
       <a class="program-overview-day" href="./5_monday" data-elementdate="2018-11-19T23:00:00.000Z">
-        <h3><strong>Monday 5<br>February 2018</strong></h3>
+        <h3><strong><span class="text-underline">Monday 5</span></strong></h3>
         <div class="program-item-milestone program-item-big-milestone">
             <div class="program-overview-item-hour">8:30</div>
             <h6><strong>{{% get key="morning-doors" %}}</strong></h6>
@@ -38,7 +38,7 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
         </div>
       </a>
       <a class="program-overview-day" href="./6_tuesday" data-elementdate="2018-11-19T23:00:00.000Z">
-        <h3><strong>Tuesday 6</strong></h3>
+        <h3><strong><span class="text-underline">Tuesday 6</span></strong></h3>
         <div class="program-item-milestone program-item-big-milestone">
             <div class="program-overview-item-hour">8:00</div>
             <h6><strong>{{% get key="morning-doors" %}}</strong></h6>
@@ -75,7 +75,7 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
         </div>
       </a>
       <a class="program-overview-day" href="./7_wednesday" data-elementdate="2018-11-20T23:00:00.000Z">
-         <h3><strong>Wednesday 7</strong></h3>
+         <h3><strong><span class="text-underline">Wednesday 7</span></strong></h3>
         <div class="program-item-milestone program-item-big-milestone">
             <div class="program-overview-item-hour">8:00</div>
             <h6><strong>{{% get key="morning-doors" %}}</strong></h6>
@@ -112,7 +112,7 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
         </div>
       </a>
       <a class="program-overview-day" href="./8_thursday" data-elementdate="2018-11-21T23:00:00.000Z">
-        <h3><strong>Thursday 8</strong></h3>
+        <h3><strong><span class="text-underline">Thursday 8</span></strong></h3>
         <div class="program-item-milestone program-item-big-milestone">
             <div class="program-overview-item-hour">8:00</div>
             <h6><strong>{{% get key="morning-doors" %}}</strong></h6>
