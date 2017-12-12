@@ -12,15 +12,16 @@
         {{ if $item.active }}
 
 				<div class="program-title">
-					<h1>{{ $item.title }}{{with $item.subtitle}}&#151; {{ . }} {{end}}</h1>
+					<h1>{{ $item.title }}{{with $item.subtitle}} &#151; {{ . }} {{end}}</h1>
 					<h2>
 
-							{{ $item.kind }} –
+							{{if $item.sponsored}} Sponsored {{end}}{{ $item.kind }} –
 							{{ $item.format }} |
 							Feb
 							{{ $item.day }}
 							–
 							{{ $item.hour }}
+
 
 					</h2>
 					{{ with $item.resume }}<h3>{{ . | markdownify }}</h3>{{ end }}
@@ -67,6 +68,13 @@
 
 
 					<div class="program-speakers-preview">
+						{{ if $item.sponsored }}
+						<div class="program-speaker-box">
+								<img src="{{ $item.sponsored_by_logo }}" alt="{{ $item.sponsored_by }}">
+								<p>Sponsored by <strong><a href="{{ $item.sponsored_by_link }}">{{ $item.sponsored_by }}</a></strong>
+								</p>
+							</div>
+						{{ end }}
 						{{ if $item.second_speaker }}
 						<div class="program-2speakers">
 						{{ end }}
