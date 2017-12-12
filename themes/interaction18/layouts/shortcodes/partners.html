@@ -9,9 +9,8 @@
         <img src="{{ $item.logo }}" alt="{{ $item.logoalt }}">
       </a>
       <span class="boxes-partners-full-display">
-        <br/>
         <hr class="hr-xs">
-        {{ $item.title }}<br>
+        {{ $item.title }}{{ if ( and $item.title $item.link ) }}<br>{{ end }}
         <a href="{{ $item.url }}" target="_blank">{{ $item.link }}</a>
       </span>
     </div>

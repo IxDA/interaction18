@@ -432,6 +432,9 @@
   }
   .boxes-partners-full .boxes-partners-full-display{
     display: block;
+    display: block;
+    position: relative;
+    top: -2em;
   }
 .boxes-partners-footer{
   text-align: center;
