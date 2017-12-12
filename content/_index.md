@@ -179,21 +179,6 @@ date: 2017-07-11T22:31:14+02:00
   </div>
 </section>
 
-<section class="container spacer-t-b">
-  <div class="bordered mega-padding">
-    <div class="boxes boxes-valign boxes-nopadding">
-      <div class="box">
-        <h3>♦︎ <strong><a href="/speakers">All Keynotes</a> announced</strong></h3>
-        <h3>♦︎ <strong>And <a href="/program">all workshops</a></strong></h3>
-        <h3>♦︎ <strong>The general program will be announced any day now</strong></h3>
-      </div>
-      <div class="box">
-        <p><a href="/program" class="button">Check our workshops</a></p>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section class="banner banner-link banner-purple text-white">
   <a href="lyon.html" class="button-banner text-white link-no-underline banner-full">
   <h1>
