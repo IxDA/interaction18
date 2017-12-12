@@ -6,10 +6,10 @@
 
       {{ $item := . }}
       {{ if $item.active }}
-      <div class="program-item-date">
+      <div class="program-item-date {{ if $item.soldout }}program-item-soldout{{ end }}">
         <p>{{ $item.hour }}</p>
       </div>
-      <div class="program-item">
+      <div class="program-item {{ if $item.soldout }}program-item-soldout{{ end }}">
         <h4>
           <a href="{{ .Site.BaseURL }}/program/{{ $item.slug }}">
             {{ $item.title }}
@@ -17,6 +17,9 @@
           <span class="label">
             {{ $item.format }}
           </span>
+          {{ if $item.soldout }}
+            <span class="label">Sold out</span>
+          {{ end }}
         </h4>
         <p>By
           <a href="{{ .Site.BaseURL }}/program/{{ $item.slug }}#speaker">{{ $item.speaker_1_name }}</a>

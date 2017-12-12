@@ -25,12 +25,19 @@
 					</h2>
 					{{ with $item.resume }}<h3>{{ . | markdownify }}</h3>{{ end }}
 				</div>
-
+					{{ if $item.soldout }}
+						<div class="box box-primary text-white" >
+							<h3>Sold out</h3>
+							<p>This workshop is sold out. Check out the rest of our <a href="/program/5_monday/">workshop program</a>.</p>
+						</div>
+					{{ end }}
 					<div class="program-resume">
 						<p>
 							{{ with $item.description }}{{ . | markdownify }}{{ end }}
 						</p>
 					</div>
+
+
 
 					<div class="program-outline columns columns2 spacer-b">
 						{{ if $item.outline }}
@@ -49,9 +56,13 @@
 					</div>
 
 					{{ if $item.tito_releases }}
-					<div class="program-tito">
-						{{ partial "tito-widget.html" . }}
-					</div>
+						{{ if $item.soldout }}
+						{{ else }}
+						<div class="program-tito">
+							{{ partial "tito-widget.html" . }}
+						</div>
+						{{ end }}
+
 					{{ end }}
 
 
