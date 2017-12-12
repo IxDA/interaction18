@@ -21,3 +21,4 @@ menu:
 ## Speakers
 {{% speakers kind="workshop" %}}
 {{% speakers kind="talk" %}}
+
