@@ -68,16 +68,19 @@
 
 
 					<div class="program-speakers-preview">
-						{{ if $item.sponsored }}
-						<div class="program-speaker-box">
-								<img src="{{ $item.sponsored_by_logo }}" alt="{{ $item.sponsored_by }}">
-								<p>Sponsored by <strong><a href="{{ $item.sponsored_by_link }}">{{ $item.sponsored_by }}</a></strong>
-								</p>
-							</div>
-						{{ end }}
+						
 						{{ if $item.second_speaker }}
 						<div class="program-2speakers">
 						{{ end }}
+							{{ if $item.sponsored }}
+							<div class="program-speaker-box">
+								<p>Sponsored by:<br>
+								<a href="{{ $item.sponsored_by_link }}" class="no-underline">
+									<img class="program-sponsor-logo" src="{{ $item.sponsored_by_logo }}" alt="{{ $item.sponsored_by }}">
+								</a>
+								</p>
+							</div>
+							{{ end }}
 							<div class="program-speaker-box">
 								{{ if $item.speaker_1_photo }}
 								<img src="{{ $item.speaker_1_photo }}" alt="{{ $item.speaker_1_name }}">
