@@ -76,7 +76,7 @@
 							<div class="program-speaker-box">
 								<p>Sponsored by:<br>
 								<a href="{{ $item.sponsored_by_link }}" class="no-underline">
-									<img class="program-sponsor-logo" src="{{ $item.sponsored_by_logo }}" alt="{{ $item.sponsored_by }}">
+									<img {{ if .Params.closersponsorlogo }}class="program-sponsor-logo"{{ end }} src="{{ $item.sponsored_by_logo }}" alt="{{ $item.sponsored_by }}">
 								</a>
 								</p>
 							</div>
