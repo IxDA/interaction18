@@ -12,7 +12,7 @@
       <div class="program-item {{ if $item.soldout }}program-item-soldout{{ end }}">
         <h4>
           <a href="{{ .Site.BaseURL }}/program/{{ $item.slug }}">
-            {{ $item.title }}
+            {{ $item.title }}{{with $item.subtitle}}&#151; {{ . }} {{end}}
           </a>
           <span class="label">
             {{ $item.format }}
@@ -21,6 +21,9 @@
             <span class="label">Sold out</span>
           {{ end }}
         </h4>
+        {{ if $item.sponsored }}
+        <p>Sponsored by <strong>{{$item.sponsored_by}}</strong>
+        {{ else }}
         <p>By
           <a href="{{ .Site.BaseURL }}/program/{{ $item.slug }}#speaker">{{ $item.speaker_1_name }}</a>
           {{ if $item.second_speaker }}
@@ -28,6 +31,7 @@
            <a href="{{ .Site.BaseURL }}/program/{{ $item.slug }}#speaker2">{{ $item.speaker_2_name }}</a>
           {{ end }}
         </p>
+        {{ end }}
       </div>
     {{ end }}
   {{ end }}

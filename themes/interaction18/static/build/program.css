@@ -113,6 +113,10 @@
   max-width: 400px;
 }
 
+.program-speakers-preview .program-speaker-box .program-sponsor-logo {
+  margin-top: -1em;
+}
+
 @supports ((display: -ms-grid) or (display: grid)) {
   @media (min-width: 30em) {
     .program-detail{
