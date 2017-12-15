@@ -52,4 +52,14 @@ date: 2017-07-11T22:31:14+02:00
 <section class="container content container-s spacer-none">
   <p>Ensemble, ils offrent <strong>5100 m<sup>2</sup></strong> - plus de dix terrains de basketball - qui seront aménagés pour accommoder les divers besoins en information, sociaux et espace d’Interaction&nbsp;18.</p>
   <img src="/img/photos/Venue-Main_New-Order-at-La-Sucriere-copyright-Brice-Robert.jpg" alt="New Order concert during the Nuits Sonores festival - copyright Brice Robert">
+
+<div class="box bordered mega-padding spacer-t">
+  <h2>Rendez-vous: <a href="http://lasucriere-lyon.com">La sucrière</a></h2>
+  <ul>
+    <li>47 quai Rambaud, Lyon</li>
+    <li>6–8 Février 2018, de 8:00 à 18:30</li>
+  </ul>
+  <p><a href="https://citymapper.com/go/am8pfj" class="button">Itinéraires avec CityMapper</a>   
+  </div>
+
 </section>
