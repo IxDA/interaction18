@@ -44,8 +44,12 @@
 
 .program-evening {
   background-color: #421B4B;
-
 }
+  .program-evening .content a:not(.button)  {
+  color: white;
+}
+
+
 @supports ((display: -ms-grid) or (display: grid)) {
   @media (min-width: 70em) {
     .program-list{

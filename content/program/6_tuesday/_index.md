@@ -149,3 +149,22 @@ menu:
   </div>
 </div>
 
+<div class="fullwidth spacer-b program-evening text-white">
+  <div class="container content spacer-t">
+    <h3>🌙 Evening events</h3>
+    <div class="program-list spacer-t-b">
+    <div class="program-item-date">
+        <p>19:00</p>
+      </div>
+      <div class="program-item">
+        <p><a href="#" ><strong>Community diners</strong></a></p><p>Let's meet around a table, all over the city.</p>
+      </div>
+      <div class="program-item-date">
+        <p>23:00</p>
+      </div>
+      <div class="program-item">
+        Time to go to bed… See you tomorrow.
+      </div>
+      </div>
+  </div>
+</div>
