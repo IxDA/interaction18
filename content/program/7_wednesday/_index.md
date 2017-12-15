@@ -178,7 +178,7 @@ menu:
        </span>
         </h3>
         <div class="">
-        {{% talk slug="talk-those-maasive-problems-tuli-apaar" %}}
+        {{% talk slug="talk-the-maasive-future-of-transport-apaar-tuli" %}}
         {{% talk slug="talk-design-for-transition-to-the-future-of-autonomous-driving-xu-jiaojiao" %}}
         </div>
       </div>   
