@@ -20,7 +20,7 @@
       </a>
       <ul class='subnav {{if $currentPage.HasMenuCurrent "main" . }}subnav-active{{end}}'>
           {{ range .Children }}
-            {{ if hasPrefix .Name "disabled_" }}
+            {{ if hasPrefix .Identifier "disabled_" }}
             <li>
               <a href="#" class="nav-disabled">
                 {{ .Name }}
