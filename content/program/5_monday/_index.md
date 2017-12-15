@@ -13,12 +13,14 @@ Need to buy multiple workshops? Check our [ticket page](/tickets).
 {{% program day="5" %}}
 
 <div class="fullwidth spacer-b program-evening text-white">
-  <div class="container">
+  <div class="container content container-s spacer-t">
+    <h3>🌙 Evening events</h3>
+    <div class="program-list spacer-t-b">
     <div class="program-item-date">
         <p>19:00</p>
       </div>
       <div class="program-item">
-        <a href="#" class="text-white">Opening Party<br> at Musée des confluence</a>
+        <h2><a href="#" class="text-white">Opening Party</a></h2> <p>at <a href="#">Musée des confluence</a></p>
         Sponsored by Microsoft
       </div>
       <div class="program-item-date">
@@ -27,7 +29,7 @@ Need to buy multiple workshops? Check our [ticket page](/tickets).
       <div class="program-item">
         Time to go to bed… See you tomorrow.
       </div>
-      
+      </div>
   </div>
 </div>
 

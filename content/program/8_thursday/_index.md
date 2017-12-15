@@ -150,3 +150,22 @@ menu:
     </div>
   </div>
 </div>  
+<div class="fullwidth spacer-b program-evening text-white">
+  <div class="container content spacer-t">
+    <h3>🌙 Evening events</h3>
+    <div class="program-list spacer-t-b">
+    <div class="program-item-date">
+        <p>19:00</p>
+      </div>
+      <div class="program-item">
+        <h2><a href="/events/coroflot-recruiting-event" ><strong>Closing party</strong></a></h2><p>Let's meet for the <a href="http://awards.ixda.org">Awards ceremony</a>, We will also use the time to party, till the early morning <br>at <a href="">Le Transbordeur</a>.</p>
+      </div>
+      <div class="program-item-date">
+        <p>5:00</p>
+      </div>
+      <div class="program-item">
+        Time to go to bed… or catch your flight.
+      </div>
+      </div>
+  </div>
+</div>
