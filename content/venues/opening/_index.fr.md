@@ -6,6 +6,7 @@ menu:
   "main":
     name: "Cérémonie d'ouverture"
     weight: 220
+    identifier: "disabled_opening"
     parent: "venues"
 
 ---

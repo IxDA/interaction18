@@ -8,6 +8,7 @@ aliases:
 menu:
   "main":
     name: "Closing party"
+    identifier: "disabled_closing"
     weight: 230
     parent: "venues"
 
