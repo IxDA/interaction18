@@ -63,6 +63,12 @@ header{
   header nav .subnav a{
     text-transform: uppercase;
   }
+    header nav a.nav-disabled {
+      color: #b0a4aa;
+      cursor: not-allowed;
+    }
+
+
   header nav a.active{
     color: #E40050;
   }
