@@ -1,0 +1,3 @@
+[submodule "themes/interaction18"]
+	path = themes/interaction18
+	url = git@github.com:IxDA/ixd-styleguide.git
