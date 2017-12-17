@@ -1,2 +1,0 @@
-{{ $data := getJSON $.Site.Params.teamData }}
-{{ range $data.team }}{{ $item := . }}{{ if and $item.active ( not $item.featured ) }}{{ $item.name }}, {{ end }}{{ end }}
