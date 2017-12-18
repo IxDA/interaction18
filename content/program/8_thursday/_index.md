@@ -158,7 +158,9 @@ menu:
         <p>19:00</p>
       </div>
       <div class="program-item">
-        <h2><a href="/events/coroflot-recruiting-event" ><strong>Closing party</strong></a></h2><p>Let's meet for the <a href="http://awards.ixda.org">Awards ceremony</a>, We will also use the time to party, till the early morning <br>at <a href="">Le Transbordeur</a>.</p>
+        <h2><a href="/events/coroflot-recruiting-event" >Closing party</a></h2>
+        <div class="boxes boxes-2"><div class="box"> <p>More than just a party with the <a href="http://awards.ixda.org">Awards ceremony</a>. The night will be long enough to make the final chats... and get dancing!<br>at <a href="">Le Transbordeur</a>.</p>
+        </div><div class="box"><p>Sponsored by<br><img src="/img/logos/partner-Amazon.svg"></p> </div></div>
       </div>
       <div class="program-item-date">
         <p>5:00</p>

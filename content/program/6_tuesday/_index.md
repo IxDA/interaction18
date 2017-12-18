@@ -157,7 +157,7 @@ menu:
         <p>19:00</p>
       </div>
       <div class="program-item">
-        <p><a href="#" ><strong>Community diners</strong></a></p><p>Let's meet around a table, all over the city.</p>
+        <p><a href="#" ><strong>Community diners</strong></a></p><p>Wonderful restaurants, smaller groups, and a walk around Lyon by night. We will be having a small taste of why Lyon is considered one of world's capitals of gastronomy.</p>
       </div>
       <div class="program-item-date">
         <p>23:00</p>

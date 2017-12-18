@@ -20,8 +20,10 @@ Need to buy multiple workshops? Check our [ticket page](/tickets).
         <p>19:00</p>
       </div>
       <div class="program-item">
-        <h2><a href="#" class="text-white">Opening Party</a></h2> <p>at <a href="#">Musée des confluence</a></p>
-        Sponsored by Microsoft
+        <h2><a href="#" class="text-white">Opening Party</a></h2><p>
+          Let's break the ice and open to new and old friends in a wonderful, design-inspired place.<br> 
+          at <a href="#">Musée des confluence</a></p>
+        <p>Sponsored by Microsoft</p>
       </div>
       <div class="program-item-date">
         <p>23:00</p>
