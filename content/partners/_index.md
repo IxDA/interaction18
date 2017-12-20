@@ -13,7 +13,7 @@ aliases:
     - /partners.html
 
 ---
-Without them, we would not be there. A huge **thank you** to: 
+Without them, we would not be here. A huge **thank you** to: 
   {{% partners full="true" size="XL" %}}
   {{% partners full="true" size="L" %}}
   {{% partners full="true" size="M" %}}
