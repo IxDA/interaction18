@@ -10,14 +10,7 @@
   margin-left: 4em;
   margin-top: 1em;
 }
-/*.program-item-date, .program-item{
-  border-top: 1px solid #421B4B;
-  padding-top: 1em;
-}*/
-/*.program-item-date:nth-last-child(2), .program-item:last-child{
-  padding-bottom: 1em;
-  border-bottom: 1px solid #421B4B;
-}*/
+
 .program-day-item-void{
   display: none;
 }
@@ -28,7 +21,7 @@
   color: #D3C4D2;
 }
 .program-list .program-item-soldout a:not(.button), .program-list .program-item-soldout a:not(.button):hover  {
-  color: #D3C4D2; 
+  color: #D3C4D2;
   border-bottom-width: 0.06em;
 }
 
@@ -43,12 +36,11 @@
 }
 
 .program-evening {
-  background-color: #421B4B;
-}
-  .program-evening .content a:not(.button)  {
-  color: white;
-}
 
+}
+  .program-evening .program-item-milestone{
+    border-bottom-color: #D3C4D2;
+  }
 
 @supports ((display: -ms-grid) or (display: grid)) {
   @media (min-width: 70em) {
@@ -77,13 +69,16 @@
     }
     .program-item-full-line{
       -ms-grid-column: 3 span;
-          grid-column: 3 span; 
+          grid-column: 3 span;
+    }
+    .program-item-2-line{
+      -ms-grid-column: 2 span;
+          grid-column: 2 span;
     }
     .program-day-item-void{
       -ms-grid-column: 1 span;
           grid-column: 1 span;
       display: block;
-      /*background-color: #B0A7AC20;*/
     }
     .program-item-milestone{
       border-bottom: 1px solid #421B4B;
@@ -211,7 +206,7 @@
   -webkit-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
 }
-  
+
 
 .program-overview-day:hover{
   background-color: #D0A9D0;
@@ -244,17 +239,6 @@ a.program-overview-day:hover .color-pink{
   padding-top: 1em;
 }
 .program-overview-item-break{
-  /*border-top: 1px solid #D0A9D0;
-  border-bottom:  1px solid #D0A9D0;
-  margin-top: 1em;
-  padding-top: 0.4em;
-  padding-bottom: 0.4em;
-  margin-bottom: 1em;
-  ;*/
-  /*background-color: #D0A9D0;*/
-  /*border-bottom: 0.2em solid #D0A9D0;
-  */
-
   color: #421B4B;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -263,14 +247,6 @@ a.program-overview-day:hover .color-pink{
       -ms-flex-align: center;
           align-items: center;
 }
-/* .program-overview-item-break small{
-  padding: 0.4em 0.25em 0.4em 0;
-}
-.program-overview-item-break::after{
-  content: "";
-  border-bottom: 1px solid #421B4B;
-  flex-grow: 1;
-}*/
 
 @supports ((display: -ms-grid) or (display: grid)) {
 .program-overview{
