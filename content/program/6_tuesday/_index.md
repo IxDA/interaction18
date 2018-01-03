@@ -16,7 +16,7 @@ menu:
       <div class="program-item-room program-item-full-line">
         <h3><strong>Amphithéâtre</strong></h3>
       </div>
-      {{% programtime time="08:00" key="morning-doors" full="true" big="true" %}} 
+      {{% programtime time="08:00" key="morning-doors" full="true" big="true" %}}
       {{% programtime time="09:00" key="morning-remarks" full="true" %}}          
       <div class="program-item-date">
         <p>09:10</p>
@@ -157,7 +157,9 @@ menu:
         <p>19:00</p>
       </div>
       <div class="program-item">
-        <p><a href="#" ><strong>Community diners</strong></a></p><p>Wonderful restaurants, smaller groups, and a walk around Lyon by night. We will be having a small taste of why Lyon is considered one of world's capitals of gastronomy.</p>
+        <p><a href="#"><strong>Community diners</strong></a><br/>
+          Fantastic restaurants, intimate groups and the chance to explore Lyon by night. Here we will have a small taste of why Lyon is considered one of the world's premier gastronomic destinations.
+        </p>
       </div>
       <div class="program-item-date">
         <p>23:00</p>

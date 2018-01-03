@@ -159,7 +159,7 @@ menu:
       </div>
       <div class="program-item">
         <h2><a href="/events/coroflot-recruiting-event" >Closing party</a></h2>
-        <div class="boxes boxes-2"><div class="box"> <p>More than just a party with the <a href="http://awards.ixda.org">Awards ceremony</a>. The night will be long enough to make the final chats... and get dancing!<br>at <a href="">Le Transbordeur</a>.</p>
+        <div class="boxes boxes-2"><div class="box"><p>More than just an <a href="http://awards.ixda.org">Awards ceremony</a>, our final night is the chance to connect one final time with friends and dance the night away.<br>at <a href="">Le Transbordeur</a>.</p>
         </div><div class="box"><p>Sponsored by<br><img src="/img/logos/partner-Amazon.svg"></p> </div></div>
       </div>
       <div class="program-item-date">

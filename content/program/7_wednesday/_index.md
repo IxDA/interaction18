@@ -204,7 +204,8 @@ menu:
         <p>19:00</p>
       </div>
       <div class="program-item">
-        <p><a href="/events/coroflot-recruiting-event" ><strong>Coroflot Connects</strong></a></p><p>Networking is hard. That's why we want to give everyone some extra dedicated time to talk with experts and businesses. Even if you're not looking for a job... who knows what could happen?<br>at Le Sucre</p>
+        <p><a href="/events/coroflot-recruiting-event" ><strong>Coroflot Connects</strong></a><br/>
+        Networking is hard. That's why we want to give everyone some dedicated time to talk with experts and businesses. Even if you're not looking for a job... who knows what could happen?</p>
       </div>
       <div class="program-item-date">
         <p>23:00</p>
@@ -215,4 +216,3 @@ menu:
       </div>
   </div>
 </div>
-

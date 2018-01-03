@@ -21,7 +21,7 @@ Need to buy multiple workshops? Check our [ticket page](/tickets).
       </div>
       <div class="program-item">
         <h2><a href="#" class="text-white">Opening Party</a></h2><p>
-          Let's break the ice and open to new and old friends in a wonderful, design-inspired place.<br> 
+          Time to break the ice and mingle with friends old and new in inspirational surroundings.<br> 
           at <a href="#">Musée des confluence</a></p>
         <p>Sponsored by Microsoft</p>
       </div>
@@ -34,4 +34,3 @@ Need to buy multiple workshops? Check our [ticket page](/tickets).
       </div>
   </div>
 </div>
-
