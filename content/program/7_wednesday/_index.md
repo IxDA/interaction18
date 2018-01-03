@@ -207,11 +207,15 @@ menu:
       </div>
       <div class="program-item-date">
       </div>
-      <div class="program-item program-item-full-line">
+      <div class="program-item program-item-2-line">
         <p>
           <a href="/events/coroflot-recruiting-event" ><strong>Coroflot Connects</strong></a><br/>
           Networking is hard. That's why we want to give everyone some dedicated time to talk with experts and businesses. Even if you're not looking for a job... who knows what could happen?
         </p>
+      </div>
+      <div class="program-item">
+        <small>Sponsored by</small><br>
+          <img src="/img/logos/partner-Coroflot_w.svg" style="max-width:20vw;">
       </div>
       <div class="program-item-date program-item-milestone ">
         <p>23:00</p>
