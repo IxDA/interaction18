@@ -36,7 +36,7 @@ Need to buy multiple workshops? Check our [ticket page](/tickets).
         <p>23:00</p>
       </div>
       <div class="program-item program-item-milestone program-item-full-line">
-        <p>Time to go to bed… See you tomorrow.</p>
+        <p>Time to go to bed… <a href="/program/6_tuesday/">See you tomorrow</a>.</p>
       </div>
     </div>
   </div>

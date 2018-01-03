@@ -161,14 +161,8 @@
 
 .program-overview-item{
   margin-top: 1em;
-  padding-top: 1em;
   margin-bottom: 1em;
 }
-
-.program-overview-item + .program-overview-item {
-  border-top: 1px solid #B0A7AC;
-  }
-
 
 .program-overview-item-break + .program-overview-item{
   border-top-color: transparent;
@@ -180,19 +174,28 @@
   max-width: 22em;
   padding: 1em;
 }
+.program-overview-day h3{
+  margin-bottom: 0.8em;
+}
 .content a.program-overview-day{
   border: 0.12em solid transparent;
 }
+  .content a.program-overview-day:hover{
+    border-bottom: none;
+  }
   .content a.program-overview-day .text-underline{
   border-bottom: 0.12em solid #E40050;
   transition: color 0.2s ease-in-out;
+}
+.program-overview-day .program-item-milestone{
+  margin-bottom: 0.3em;
+  padding-bottom: 0.8em;
 }
 
 
 .program-overview-day:hover{
   background-color: #D0A9D0;
   color: #421B4B!important;
-  border-color:transparent;
 }
 .content a.program-overview-day:hover .text-underline {
   color: #ad003d;

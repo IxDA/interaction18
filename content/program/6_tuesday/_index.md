@@ -168,7 +168,7 @@ menu:
         <p>23:00</p>
       </div>
       <div class="program-item program-item-milestone program-item-full-line">
-        <p>Time to go to bed… See you tomorrow.</p>
+        <p>Time to go to bed… <a href="/program/7_wednesday/">See you tomorrow</a>.</p>
       </div>
     </div>
   </div>

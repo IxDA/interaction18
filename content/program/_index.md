@@ -36,6 +36,10 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
             <div class="program-overview-item-hour">18:00</div>
             <h6><strong>{{% get key="evening-doors" %}}</strong></h6>
         </div>
+        <div class="program-item-milestone program-item-big-milestone">
+            <div class="program-overview-item-hour">🌙&nbsp;&nbsp;19:00</div>
+            <h6><strong>Opening Party</strong></h6>
+        </div>          
       </a>
       <a class="program-overview-day" href="./6_tuesday" data-elementdate="2018-11-19T23:00:00.000Z">
         <h3><strong><span class="text-underline">Tuesday 6</span></strong></h3>
@@ -73,6 +77,10 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
             <div class="program-overview-item-hour">18:30</div>
             <h6><strong>{{% get key="evening-doors" %}}</strong></h6>
         </div>
+        <div class="program-item-milestone program-item-big-milestone">
+            <div class="program-overview-item-hour">🌙&nbsp;&nbsp;19:00</div>
+            <h6><strong>Community diners</strong></h6>
+        </div>         
       </a>
       <a class="program-overview-day" href="./7_wednesday" data-elementdate="2018-11-20T23:00:00.000Z">
          <h3><strong><span class="text-underline">Wednesday 7</span></strong></h3>
@@ -110,6 +118,10 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
             <div class="program-overview-item-hour">18:30</div>
             <h6><strong>{{% get key="evening-doors" %}}</strong></h6>
         </div>
+        <div class="program-item-milestone program-item-big-milestone">
+            <div class="program-overview-item-hour">🌙&nbsp;&nbsp;19:00</div>
+            <h6><strong>Coroflot Connects</strong></h6>
+        </div>        
       </a>
       <a class="program-overview-day" href="./8_thursday" data-elementdate="2018-11-21T23:00:00.000Z">
         <h3><strong><span class="text-underline">Thursday 8</span></strong></h3>
@@ -147,8 +159,8 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
             <div class="program-overview-item-hour">18:30</div>
             <h6><strong>{{% get key="evening-doors" %}}</strong></h6>
         </div>
-        <div class="program-item-milestone program-item-big-milestone bg-purple text-white">
-            <div class="program-overview-item-hour">19:00</div>
+        <div class="program-item-milestone program-item-big-milestone">
+            <div class="program-overview-item-hour">🌙&nbsp;&nbsp;19:00</div>
             <h6><strong>Closing Party</strong></h6>
         </div>
       </a>
