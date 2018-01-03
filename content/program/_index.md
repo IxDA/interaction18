@@ -147,7 +147,7 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
             <div class="program-overview-item-hour">18:30</div>
             <h6><strong>{{% get key="evening-doors" %}}</strong></h6>
         </div>
-        <div class="program-item-milestone program-item-big-milestone program-evening text-white">
+        <div class="program-item-milestone program-item-big-milestone bg-purple text-white">
             <div class="program-overview-item-hour">19:00</div>
             <h6><strong>Closing Party</strong></h6>
         </div>

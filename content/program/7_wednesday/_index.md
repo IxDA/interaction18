@@ -9,7 +9,7 @@ menu:
 ---
 ## February 7, 2018
 
-<div class="fullwidth spacer-t-b">
+<div class="fullwidth spacer-t">
   <div class="container">
     <div class="program-list program-list-day">
       <div class="program-day-item-void">
@@ -24,7 +24,7 @@ menu:
         <h3><strong>Le Sucre</strong></h3>
       </div>
       {{% programtime time="08:00" key="morning-doors" one="true" two="true" three="true" big="true" %}}
-      {{% programtime time="09:00" key="morning-remarks" one="true" two="true" three="true" %}}          
+      {{% programtime time="09:00" key="morning-remarks" one="true" two="true" three="true" %}}
       <div class="program-item-date">
         <p>09:10</p>
       </div>
@@ -58,7 +58,7 @@ menu:
         {{% talk slug="talk-the-foundations-of-spatial-interaction-design-timmer-sjors" %}}
         {{% talk slug="talk-a-different-perspective--design-better-ar-augmented-reality-products-with-blind-young-adults-ngai-carina" %}}
         </div>
-      </div>    
+      </div>
       <div class="program-day-item program-item-room-3">
         <h3>Organisational transformation
         <span class="specify-room">
@@ -69,8 +69,8 @@ menu:
         {{% talk slug="talk-design-to-ignite--design-sprints-for-transformation-at-scale-sasaki-tomomi-milan-guenther" %}}
         {{% talk slug="talk-you-re-not-a-designer--you-re-a-coach-forbes-katja" %}}
         </div>
-      </div>    
-      {{% programtime time="11:20" one="true" two="true" three="true" key="break" %}}        
+      </div>
+      {{% programtime time="11:20" one="true" two="true" three="true" key="break" %}}
       <div class="program-item-date">
         <p>11:50</p>
       </div>
@@ -96,7 +96,7 @@ menu:
         {{% talk slug="talk-embodied-storytelling--body--mind-and-space-qian-yedan" %}}
         {{% talk slug="talk-sniffing-out-the-differences-sahu-kadambari-kadambari-sahu" %}}
         </div>
-      </div>    
+      </div>
       <div class="program-day-item program-item-room-3">
         <h3>Glocal design
         <span class="specify-room">
@@ -108,7 +108,7 @@ menu:
         {{% talk slug="talk-experience-+-systems-thinking-for-innovation-pegon-valerie-gauthier-fanmuy" %}}
         {{% talk slug="talk-the-ux-of-the-food-buffet-dunford-adam" %}}
         </div>
-      </div>              
+      </div>
       {{% programtime time="12:50" key="lunch-time" one="true" two="true" three="true" big="true" %}}
       <div class="program-item-date">
         <p>14:00</p>
@@ -130,10 +130,10 @@ menu:
          – Petit Théâtre
        </span>
         </h3>
-        <div class="">        
+        <div class="">
         {{% talk slug="talk-demystifying-design-in-the-21st-century-dickson-eilidh-john-lynch" %}}
         {{% talk slug="talk-design-for-free-will-castro-pelayo-brenda" %}}        </div>
-      </div>    
+      </div>
       <div class="program-day-item program-item-room-3">
         <h3>Rethinking finance
         <span class="specify-room">
@@ -144,7 +144,7 @@ menu:
         {{% talk slug="talk-35-million-dollars-in-30-seconds--designing-a-cryptocurrency-lewis-jonathan-we-don-t-know-yet" %}}
         {{% talk slug="talk-beyond-banks-pesani-marco-christian-miccoli" %}}
         </div>
-      </div>   
+      </div>
       {{% programtime time="14:50" one="true" two="true" three="true" key="break" %}}
       <div class="program-item-date">
         <p>15:25</p>
@@ -170,7 +170,7 @@ menu:
         {{% talk slug="talk-a-pattern-library-for-teamwork-brodersen-hertje" %}}
         {{% talk slug="talk-creating-and-developing-at-a-distance--away-from-the-office-but-close-to-the-heart-terceiro-luciana" %}}
         </div>
-      </div>    
+      </div>
       <div class="program-day-item program-item-room-3">
         <h3>Rethinking mobility
         <span class="specify-room">
@@ -181,8 +181,8 @@ menu:
         {{% talk slug="talk-those-maasive-problems-tuli-apaar" %}}
         {{% talk slug="talk-design-for-transition-to-the-future-of-autonomous-driving-xu-jiaojiao" %}}
         </div>
-      </div>   
-      {{% programtime time="16:20" one="true" two="true" three="true" key="happy-hour" %}}  
+      </div>
+      {{% programtime time="16:20" one="true" two="true" three="true" key="happy-hour" %}}
       <div class="program-item-date">
         <p>17:30</p>
       </div>
@@ -190,29 +190,35 @@ menu:
         {{% talk slug="keynote--haiyan-zhang" %}}
       </div>
       <div class="program-day-item-void program-item-room-2"></div>
-      <div class="program-day-item-void program-item-room-3"></div>  
+      <div class="program-day-item-void program-item-room-3"></div>
       {{% programtime time="18:15" key="evening-remarks" one="true" two="true" three="true" %}}
       {{% programtime time="18:30" key="evening-doors" one="true" two="true" three="true" big="true" %}}
     </div>
   </div>
 </div>
-<div class="fullwidth spacer-b program-evening text-white">
-  <div class="container content spacer-t">
-    <h3>🌙 Evening events</h3>
-    <div class="program-list spacer-t-b">
-    <div class="program-item-date">
+<div class="fullwidth spacer-t-b bg-purple text-white">
+  <div class="container content spacer-t-b">
+    <div class="program-list program-list-day program-evening">
+      <div class="program-item-date program-item-milestone">
         <p>19:00</p>
       </div>
-      <div class="program-item">
-        <p><a href="/events/coroflot-recruiting-event" ><strong>Coroflot Connects</strong></a><br/>
-        Networking is hard. That's why we want to give everyone some dedicated time to talk with experts and businesses. Even if you're not looking for a job... who knows what could happen?</p>
+      <div class="program-item program-item-milestone program-item-full-line">
+        <h3>🌙 Evening events</h3>
       </div>
       <div class="program-item-date">
+      </div>
+      <div class="program-item program-item-full-line">
+        <p>
+          <a href="/events/coroflot-recruiting-event" ><strong>Coroflot Connects</strong></a><br/>
+          Networking is hard. That's why we want to give everyone some dedicated time to talk with experts and businesses. Even if you're not looking for a job... who knows what could happen?
+        </p>
+      </div>
+      <div class="program-item-date program-item-milestone ">
         <p>23:00</p>
       </div>
-      <div class="program-item">
-        Time to go to bed… See you tomorrow.
+      <div class="program-item program-item-milestone program-item-full-line">
+        <p>Time to go to bed… See you tomorrow.</p>
       </div>
-      </div>
+    </div>
   </div>
 </div>

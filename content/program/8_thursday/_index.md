@@ -153,7 +153,7 @@ menu:
 <div class="fullwidth spacer-t-b bg-purple text-white">
   <div class="container content spacer-t-b">
     <div class="program-list program-list-day program-evening">
-      <div class="program-item-date program-item-milestone ">
+      <div class="program-item-date program-item-milestone">
         <p>19:00</p>
       </div>
       <div class="program-item program-item-milestone program-item-full-line">
