@@ -37,7 +37,7 @@ hrefTargetBlank = true
  	parent = "lyon"
 
 [[menu.main]]
-  name = "Venues"
+  name = "Venues & Events"
   weight = 300
   identifier = "venues"
   url = "/venues/"

@@ -29,6 +29,9 @@
         {{ if $item.second_speaker }}
         and <a href="/program/{{ $item.slug }}#speaker2">{{ $item.speaker_2_name }}</a>
         {{ end }}
+        {{ if $item.sponsored }}
+        – Hosted by <strong>{{ $item.sponsored_by }}</strong>
+        {{ end }}
       </p>
       {{ end }}
 

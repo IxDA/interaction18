@@ -5,7 +5,7 @@
 		<div class="program-detail">
 
     {{ $data := getJSON $.Site.Params.programData }}
-
+	{{ $params := .Params }}
     {{ $programslug := .File.BaseFileName }}
     {{ range where $data.program "slug" "==" $programslug }}
         {{ $item := . }}
@@ -74,13 +74,15 @@
 						{{ end }}
 							{{ if $item.sponsored }}
 							<div class="program-speaker-box">
-								<p>Sponsored by:<br>
+								<p>Hosted by:<br>
 								<a href="{{ $item.sponsored_by_link }}" class="no-underline">
-									<img {{ if .Params.closersponsorlogo }}class="program-sponsor-logo"{{ end }} src="{{ $item.sponsored_by_logo }}" alt="{{ $item.sponsored_by }}">
+									<img {{ if $params.closersponsorlogo }}class="program-sponsor-logo"{{ end }} src="{{ $item.sponsored_by_logo }}" alt="{{ $item.sponsored_by }}">
 								</a>
 								</p>
 							</div>
 							{{ end }}
+							{{ if $params.hide_speakers }}
+							{{else}}
 							<div class="program-speaker-box">
 								{{ if $item.speaker_1_photo }}
 								<img src="{{ $item.speaker_1_photo }}" alt="{{ $item.speaker_1_name }}">
@@ -89,6 +91,7 @@
 									{{ $item.speaker_1_function }}
 								</p>
 							</div>
+							{{ end }}
 							{{ if $item.second_speaker }}
 							<div class="program-speaker-box">
 								{{ if $item.speaker_2_photo }}
@@ -104,7 +107,8 @@
 						{{ end }}
 					</div>
 
-
+					{{ if $params.hide_speakers }}
+					{{else}}		
 					<div class="program-speakers-detail spacer-t-b">
 						{{ if $item.second_speaker }}
 						<h2>About the speakers</h2>
@@ -148,7 +152,7 @@
 						</div>
 						{{ end }}
 					</div>
-
+					{{end}}
 
 				{{ end }}
     {{ end }}

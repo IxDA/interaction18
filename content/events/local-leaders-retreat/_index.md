@@ -1,10 +1,10 @@
 ---
 title: "Local leaders retreat"
 menu:
-  "old":
+  "main":
     name: "Local leaders retreat"
-    weight: 210
-    parent: "events"
+    weight: 910
+    parent: "venues"
 ---
 
 Are you an IxDA Local Leader or interested in starting an IxDA Local group in your city? If so, come join us at the annual Local Leader’s Workshop. Get together with your fellow Local Leaders to discuss strategies for designing a passionate IxDA community in your area.
