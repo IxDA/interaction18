@@ -125,11 +125,12 @@ menu:
         </div>
       </div>
       {{% programtime time="14:50" full="true" key="break" %}}
-      {{% programtime time="15:10" full="true" label="Student Design Challenge" %}}
       <div class="program-item-date">
-        <p>15:40</p>
+        <p>15:10</p>
       </div>
       <div class="program-day-item program-item-full-line">
+        {{% talk slug="session-student-design-challenge-pitch" %}}
+
         {{% talk slug="talk-humanity-centered-design-kikin-gil-ruth" %}}
       </div>
       {{% programtime time="16:20" full="true" key="happy-hour" %}}
@@ -160,7 +161,7 @@ menu:
         <p>More than just an <a href="http://awards.ixda.org">Awards ceremony</a>, our final night is the chance to connect one final time with friends and dance the night away.<br>at <a href="">Le Transbordeur</a>.</p>
       </div>
       <div class="program-item">
-        <small>Sponsored by</small><br>
+        <small>Hosted by</small><br>
         <img src="/img/logos/partner-Amazon_w.svg" style="max-width:40vw;">
       </div>
       <div class="program-item-date program-item-milestone ">

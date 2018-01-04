@@ -22,7 +22,7 @@
           {{ end }}
         </h4>
         {{ if $item.sponsored }}
-        <p>Sponsored by <strong>{{$item.sponsored_by}}</strong>
+        <p>Hosted by <strong>{{$item.sponsored_by}}</strong>
         {{ else }}
         <p>By
           <a href="{{ .Site.BaseURL }}/program/{{ $item.slug }}#speaker">{{ $item.speaker_1_name }}</a>

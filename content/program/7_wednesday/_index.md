@@ -215,7 +215,7 @@ menu:
         </p>
       </div>
       <div class="program-item">
-        <small>Sponsored by</small><br>
+        <small>Hosted by</small><br>
           <img src="/img/logos/partner-Coroflot_w.svg" style="max-width:20vw;">
       </div>
       <div class="program-item-date program-item-milestone ">
