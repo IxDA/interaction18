@@ -23,16 +23,14 @@ menu:
       <div class="program-item-room program-item-room-3">
         <h3><strong>Le Sucre</strong></h3>
       </div>
-      {{% programtime time="08:00" key="morning-doors" one="true" two="true" three="true" big="true" %}}
-      {{% programtime time="09:00" key="morning-remarks" one="true" two="true" three="true"  %}}
+      {{% programtime time="08:00" key="morning-doors" full="true" big="true" %}}
+      {{% programtime time="09:00" key="morning-remarks" full="true"   %}}
       <div class="program-item-date">
         <p>09:10</p>
       </div>
-      <div class="program-day-item program-item-room-1">
+      <div class="program-day-item program-item-full-line">
         {{% talk slug="keynote--anab-jain" %}}
       </div>
-      <div class="program-day-item-void program-item-room-2"></div>
-      <div class="program-day-item-void program-item-room-3"></div>
       {{% programtime time="10:05" one="true" two="true" three="true" key="break" %}}
       <div class="program-item-date">
         <p>10:25</p>
