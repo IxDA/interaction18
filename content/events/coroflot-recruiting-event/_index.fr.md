@@ -1,10 +1,10 @@
 ---
 title: "Coroflot Connects "
 menu:
-  "old":
+  "main":
     name: "Coroflot Connects"
-    weight: 210
-    parent: "events"
+    weight: 910
+    parent: "venues"
 ---
 ## Activité de recrutement
 

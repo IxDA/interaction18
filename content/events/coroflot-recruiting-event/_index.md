@@ -1,10 +1,10 @@
 ---
 title: "Coroflot Connects "
 menu:
-  "old":
+  "main":
     name: "Coroflot Connects"
-    weight: 210
-    parent: "events"
+    weight: 910
+    parent: "venues"
 ---
 ## Recruiting event
 
@@ -17,7 +17,7 @@ This activity is open only for people who have acquired a *Interaction 18* ticke
 
 {{< tito-widget  tito_releases="5sg65crmt-g" hide_discount="true" >}}
 
-Coroflot Connects takes place at from 7:00 to 9:00pm directly at Le Sucre, the rooftop of our Conference Venue. 
+Coroflot Connects takes place from 7:00 to 9:00pm directly at Le Sucre, the rooftop of our Conference Venue. 
 
 {{% box class="bordered mega-padding spacer-t-b" %}}
 

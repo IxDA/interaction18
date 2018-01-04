@@ -209,7 +209,8 @@ menu:
       </div>
       <div class="program-item program-item-2-line">
         <p>
-          <a href="/events/coroflot-recruiting-event" ><strong>Coroflot Connects</strong></a><br/>
+          <h2><a href="/events/coroflot-recruiting-event" ><strong>Coroflot Connects</strong></a></h2>
+          <p>
           Networking is hard. That's why we want to give everyone some dedicated time to talk with experts and businesses. Even if you're not looking for a job... who knows what could happen?
         </p>
       </div>
@@ -218,10 +219,10 @@ menu:
           <img src="/img/logos/partner-Coroflot_w.svg" style="max-width:20vw;">
       </div>
       <div class="program-item-date program-item-milestone ">
-        <p>23:00</p>
+        <p>21:00</p>
       </div>
       <div class="program-item program-item-milestone program-item-full-line">
-        <p>Time to go to bed… <a href="/program/8_thursday/">See you tomorrow</a>.</p>
+        <p>The party continues everywhere in the city, on your own. <a href="/program/8_thursday/">See you tomorrow</a>.</p>
       </div>
     </div>
   </div>

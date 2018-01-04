@@ -109,11 +109,11 @@ menu:
           {{% talk slug="talk-how-design-can-make-engineering-better-eguiluz-maria" %}}
         </div>
       </div>
-      {{% programtime time="12:50" key="lunch-time" one="true" two="true" three="true" big="true" %}}
+      {{% programtime time="12:50" key="lunch-time" full="true"  big="true" %}}
       <div class="program-item-date">
         <p>14:00</p>
       </div>
-      <div class="program-day-item program-item-room-1">
+      <div class="program-day-item program-item-full-line">
         <h3>Mignardises
         <span class="specify-room">
          – Amphithéâtre
@@ -124,29 +124,23 @@ menu:
           {{% talk slug="talk-can-being-african-make-you-a-bad-designer----cultural-bias-in-design-madzima-farai" %}}
         </div>
       </div>
-      <div class="program-day-item-void program-item-room-2"></div>
-      <div class="program-day-item-void program-item-room-3"></div>
-      {{% programtime time="14:50" one="true" key="break" %}}
-      {{% programtime time="15:10" one="true" label="Student Design Challenge" %}}
+      {{% programtime time="14:50" full="true" key="break" %}}
+      {{% programtime time="15:10" full="true" label="Student Design Challenge" %}}
       <div class="program-item-date">
         <p>15:40</p>
       </div>
-      <div class="program-day-item program-item-room-1">
+      <div class="program-day-item program-item-full-line">
         {{% talk slug="talk-humanity-centered-design-kikin-gil-ruth" %}}
       </div>
-      <div class="program-day-item-void program-item-room-2"></div>
-      <div class="program-day-item-void program-item-room-3"></div>
-      {{% programtime time="16:20" one="true" key="happy-hour" %}}
+      {{% programtime time="16:20" full="true" key="happy-hour" %}}
       <div class="program-item-date">
         <p>17:30</p>
       </div>
-      <div class="program-day-item program-item-room-1">
+      <div class="program-day-item  program-item-full-line">
         {{% talk slug="keynote--leyla-acaroglu" %}}
       </div>
-      <div class="program-day-item-void program-item-room-2"></div>
-      <div class="program-day-item-void program-item-room-3"></div>
-      {{% programtime time="18:15" key="evening-remarks" one="true" two="true" three="true" %}}
-      {{% programtime time="18:15" key="evening-doors" one="true" two="true" three="true" big="true" %}}
+      {{% programtime time="18:15" key="evening-remarks" full="true" %}}
+      {{% programtime time="18:15" key="evening-doors" full="true" big="true" %}}
     </div>
   </div>
 </div>
@@ -162,7 +156,7 @@ menu:
       <div class="program-item-date">
       </div>
       <div class="program-item program-item-2-line">
-        <h2><a href="/events/coroflot-recruiting-event" >Closing party</a></h2>
+        <h2><a href="/venues/closing/" >Closing party</a></h2>
         <p>More than just an <a href="http://awards.ixda.org">Awards ceremony</a>, our final night is the chance to connect one final time with friends and dance the night away.<br>at <a href="">Le Transbordeur</a>.</p>
       </div>
       <div class="program-item">
@@ -170,7 +164,7 @@ menu:
         <img src="/img/logos/partner-Amazon_w.svg" style="max-width:40vw;">
       </div>
       <div class="program-item-date program-item-milestone ">
-        <p>5:00</p>
+        <p>2:00</p>
       </div>
       <div class="program-item program-item-milestone program-item-full-line">
         <p>Time to go to bed… or catch your flight.</p>

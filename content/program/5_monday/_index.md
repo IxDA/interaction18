@@ -24,13 +24,9 @@ Need to buy multiple workshops? Check our [ticket page](/tickets).
       <div class="program-item-date">
       </div>
       <div class="program-item program-item-2-line">
-        <h2><a href="#" class="text-white">Opening Party</a></h2><p>
+        <h2><a href="/venues/opening/" class="text-white">Opening Party</a></h2><p>
           Time to break the ice and mingle with friends old and new in inspirational surroundings.<br>
           at <a href="#">Musée des confluence</a></p>
-      </div>
-      <div class="program-item">
-        <small>Sponsored by</small><br>
-        <img src="/img/logos/partner-Microsoft_w.svg" style="max-width:40vw;">
       </div>
       <div class="program-item-date program-item-milestone">
         <p>23:00</p>

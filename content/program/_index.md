@@ -79,7 +79,7 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
         </div>
         <div class="program-item-milestone program-item-big-milestone">
             <div class="program-overview-item-hour">🌙&nbsp;&nbsp;19:00</div>
-            <h6><strong>Community diners</strong></h6>
+            <h6><strong>To be announced …</strong></h6>
         </div>         
       </a>
       <a class="program-overview-day" href="./7_wednesday" data-elementdate="2018-11-20T23:00:00.000Z">

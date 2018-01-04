@@ -160,15 +160,8 @@ menu:
       <div class="program-item-date">
       </div>
       <div class="program-item program-item-full-line">
-        <p><a href="#"><strong>Community diners</strong></a><br/>
-          Fantastic restaurants, intimate groups and the chance to explore Lyon by night. Here we will have a small taste of why Lyon is considered one of the world's premier gastronomic destinations.
+        <p><a href="#"><strong>Some tasty events. To be announced soon</strong></a><br/>
         </p>
-      </div>
-      <div class="program-item-date program-item-milestone ">
-        <p>23:00</p>
-      </div>
-      <div class="program-item program-item-milestone program-item-full-line">
-        <p>Time to go to bed… <a href="/program/7_wednesday/">See you tomorrow</a>.</p>
       </div>
     </div>
   </div>

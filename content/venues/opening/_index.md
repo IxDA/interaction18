@@ -6,7 +6,7 @@ menu:
   "main":
     name: "Opening party"
     weight: 220
-    identifier: "disabled_opening"
+    identifier: "opening"
     parent: "venues"
 
 ---
