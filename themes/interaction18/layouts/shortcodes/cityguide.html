@@ -1,6 +1,6 @@
 <div class="fullwidth cityguide">
 
-  <div id="cityguide_filter" class="cityguide-filters">
+  <div id="cityguide_filter" class="cityguide-filters js-hide">
     <ul class="js-filters">
         <li>
           <input type="checkbox" checked name="check_work" id="id_check_work" value="work">
@@ -172,7 +172,10 @@
 <script>
 		// extract tags
 		const cityguides = document.querySelectorAll('.js-cityguide');
+    const filter = document.querySelector('#cityguide_filter');
     const checkboxes = document.querySelectorAll('.js-filters input[type="checkbox"]');
+
+    filter.classList.remove('js-hide');
 
     function handleCheck(e) {
       if (this.checked) {
@@ -193,7 +196,6 @@
         }
       })
     }
-
 
     checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));
 
