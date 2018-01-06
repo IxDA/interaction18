@@ -377,6 +377,19 @@
   }
 
 
+/* Cityguide */
+.cityguide{
+  display: flex;
+
+}
+.cityguide-filters{
+    min-width: 300px;
+}
+  .cityguide-filters ul li{
+    list-style: none;
+  }
+.cityguide-items{}
+
 /* FOOTER */
 footer{
   min-height: 6em;
