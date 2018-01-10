@@ -18,9 +18,10 @@ To achieve this goal, the IxDA respectfully asks the following of our membership
 
 If a disagreement, harassment or uncomfortable situation persists, the IxDA is committed to providing support and resolution. In a physical setting such as a conference or local event, contact the organizers immediately. Participants asked to stop any harassing behavior are expected to comply immediately. Additionally, our online forums have moderators who can take action on members creating a hostile environment for others. Consequences can include removal from the forum and suspension of the member’s IxDA account. 
 
-We want Interaction Week to be a great experience for everyone. If you see something, or something happens, that makes that not the case, please do reach out to our volunteers in the purple shirts. They're here to help you! 
+We want Interaction Week to be a great experience for everyone. If you see something, or something happens, that makes that not the case, please do reach out to our volunteers in the purple shirts. They're here to help you!
 
 If you want to talk directly to one of our leadership team, here's how to get in touch:
-* Brenda Sanderson, Executive Director -  bsanderson@ixda.org
+
+* Brenda Sanderson, Executive Director - bsanderson@ixda.org
 * Erik Dahl, President - president@ixda.org
 * Alok Nandi, Vice President - vp@ixda.org
