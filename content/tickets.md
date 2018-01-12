@@ -41,6 +41,11 @@ From the rise of artificial intelligences and virtual reality to the commoditiza
 * Consider advertising your ticket by posting an announcement to Twitter using hashtags #ixd18 and #tickets, and include @ixdconf. We will help you sell your ticket by promoting your tweet.
 * Once you’ve received payment for the ticket, please email [interaction18@ixda.org](mailto:interaction18@ixda.org) with the person’s name, email, job title, company and food preferences and we will re-issue the ticket to the new party.
 
+{{< spacer >}}
 
+### Is the conference accessible?
+
+* We want everyone to join us! For more information, please check our [accessibility details](/accessibility).
+* If you have more questions, or request for us, [let us know](ixd18+accessibility@ixda.org).
 
 {{< tito-assets >}}
