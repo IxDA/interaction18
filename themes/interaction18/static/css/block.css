@@ -319,7 +319,7 @@
 }
   .boxes-restaurants .box{
     flex: 1 0 20%;
-    min-width: 20vmax;
+    min-width: 26vmax;
     padding: 1.6em 2em;
   }
   .boxes-restaurants .box-title{
