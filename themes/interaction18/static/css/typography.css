@@ -34,13 +34,18 @@ b, strong{
   font-weight:  700;
 }
 
-h1, .h1 {
+h1, .h1, .h-huge {
   font-size: calc(1.4em + 2vw);
   font-size: -webkit-calc(140% + 2vw);
   line-height: 1.3em;
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 0;
+}
+.h-huge{
+  font-size: calc(3.4em + 2vw);
+  font-size: -webkit-calc(340% + 2vw);
+  font-weight: bold;
 }
 h2, .h2 {
   font-size: calc(1em + 1vw);
