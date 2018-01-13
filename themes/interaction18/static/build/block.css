@@ -404,6 +404,18 @@
       max-width: 100%;
     }
 
+.boxes-restaurants{
+
+}
+  .boxes-restaurants .box{
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 20%;
+            flex: 1 0 20%;
+    min-width: 20vmax;
+  }
+  .boxes-restaurants .box-title{
+    min-width: 30vmax;
+  }
 
 .boxes-hotels{
 }
