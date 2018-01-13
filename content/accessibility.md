@@ -32,3 +32,6 @@ There are two entrances to the main ground floor area: a mild ramp and a special
 * It’s possible to bring hot and cold food from the outside.
 * All the venues are heated, with the exception of the Musée des Confluences main hall — the exhibitions are heated.
 * Security at the locations is trained for emergencies and first aid.
+
+
+If you have any request to submit to us or if you would like to make us aware of any accessibility concern (such as severe food allergies for example), please contact us at ixd18@ixda.org.
