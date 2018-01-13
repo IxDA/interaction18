@@ -58,6 +58,8 @@ Polished floors, shimmering woodwork, French ceilings, vast mirrors, paintings a
 *Vegetarian: yes, but need to ask for.*
 
 [Website](http://cafecomptoirabel.com/) – [Yelp](https://www.yelp.fr/biz/caf%C3%A9-comptoir-abel-lyon-2)
+
+{{< tito-widget  tito_releases="ugtmrmkwmtw" hide_discount="true" >}}
   {{% /box %}}
   {{% box class="bordered mega-padding spacer-t-b" %}}
 ### Le Garet
@@ -66,6 +68,8 @@ Polished floors, shimmering woodwork, French ceilings, vast mirrors, paintings a
 A real institution well known to lovers of Lyon cuisine: veal head, “tripes”, “quenelles” or “andouillettes” are tasted in a friendly atmosphere in an exemplary setting of the genre.
 
 [Yelp](https://www.yelp.fr/biz/le-garet-lyon)
+
+{{< tito-widget  tito_releases="f40axs-orsa" hide_discount="true" >}}
   {{% /box %}}
 </div>
 
@@ -85,6 +89,8 @@ Prairial is a team of enthusiasts serving demanding gourmets. The chef, Gaëtan 
 *Vegetarian: yes, on the menu*
 
 [Website](https://www.prairial-restaurant.fr/) – [Yelp](https://www.yelp.fr/biz/prairial-lyon)
+
+{{< tito-widget  tito_releases="xhopc-t0gmm" hide_discount="true" >}}
 {{% /box %}}
 {{% box class="bordered mega-padding spacer-t-b" %}}
 ### Monsieur P
@@ -94,6 +100,8 @@ Chef Florent Poulard offers authentic and innovative cuisine, with respect and t
 *Vegetarian: yes, on the menu*
 
 [Website](https://www.monsieurp.fr/)
+
+{{< tito-widget  tito_releases="gxneavshoq0" hide_discount="true" >}}
 {{% /box %}}
 </div>
 
@@ -111,6 +119,8 @@ Located between the Rhône and Saône rivers, the Brasserie Le Nord is the first
 *Vegetarian: yes, but need to ask for.*
 
 [Website](https://www.brasseries-bocuse.com/) – [Yelp](https://www.yelp.fr/biz/le-nord-lyon)
+
+{{< tito-widget  tito_releases="nn-z5rizc7k" hide_discount="true" >}}
 {{% /box %}}
 {{% box class="bordered mega-padding spacer-t-b" %}}
 ### Brasserie Georges
@@ -120,6 +130,8 @@ La Brasserie Georges is a historic place since its creation in 1836. Many celebr
 *Vegetarian: yes, on the menu*
 
 [Website](http://www.brasseriegeorges.com) – [Yelp](https://www.yelp.fr/biz/brasserie-georges-lyon)
+
+{{< tito-widget  tito_releases="fbtntmg9wne" hide_discount="true" >}}
 {{% /box %}}
 </div>
 <div class="boxes boxes-restaurants">
@@ -136,6 +148,8 @@ The Café Terroir is a unique rotisserie bistro that offers a selection of local
 *Vegetarian: no*
 
 [Website](http://www.cafeterroir.fr/) – [Yelp](https://www.yelp.fr/biz/café-terroir-lyon-2)
+
+{{< tito-widget  tito_releases="vei-euvinee" hide_discount="true" >}}
 {{% /box %}}
 {{% box class="bordered mega-padding spacer-t-b" %}}
 ### Café du Rhône
@@ -145,9 +159,15 @@ This very beautiful café, classified heritage of the twentieth century, was tak
 *Vegetarian: yes, but need to ask for.*
 
 [Yelp](https://www.yelp.fr/biz/caf%C3%A9-du-rh%C3%B4ne-lyon-2)
+
+{{< tito-widget  tito_releases="bsuydgl-jfy" hide_discount="true" >}}
 {{% /box %}}
 </div>
 
+<div class="spacer-t-b">
 ## Map
-<iframe src="https://www.google.com/maps/d/embed?mid=1POE9gHaQus-wuGMmCrYwTqpaGEk-_zGx" width="100%" height="600" class="spacer-t-b"></iframe>
+<iframe src="https://www.google.com/maps/d/embed?mid=1POE9gHaQus-wuGMmCrYwTqpaGEk-_zGx" width="100%" height="600"></iframe>
 {{% /fullwidth %}}
+</div>
+
+{{< tito-assets >}}
