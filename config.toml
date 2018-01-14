@@ -10,6 +10,7 @@ hrefTargetBlank = true
   partnersData = "https://script.google.com/macros/s/AKfycbxXn-yuUZevCgC484cyhQ-Wr6MDccEqvDvdzR6DlzkC3zfuT_8/exec?id=1I1tqSbAVRccL1N2yKQ3aiSzgNryLNzhfX6SAQ8xkNVI&sheet=partners"
   teamData = "https://script.google.com/macros/s/AKfycbxXn-yuUZevCgC484cyhQ-Wr6MDccEqvDvdzR6DlzkC3zfuT_8/exec?id=1j7GyZ2PuLtbZxM4ljLyFlLUadtYxxyMjWHW9bWnBuQY&sheet=team"
   programData = "https://script.google.com/macros/s/AKfycbxXn-yuUZevCgC484cyhQ-Wr6MDccEqvDvdzR6DlzkC3zfuT_8/exec?id=12JUQA4ogk1JGMlRtofFKJmn6NgCGMCCmtOqwqvChxT4&sheet=program"
+  lyoncityguideData = "https://script.google.com/macros/s/AKfycbxXn-yuUZevCgC484cyhQ-Wr6MDccEqvDvdzR6DlzkC3zfuT_8/exec?id=1_JH5YEkB9RFHWrUN5y4Og6uyBnwZ2gIPAoTDUm3WiCs&sheet=lyoncityguide"
 
 [menu]
 [[menu.main]]

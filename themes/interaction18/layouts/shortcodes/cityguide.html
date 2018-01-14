@@ -1,0 +1,96 @@
+<div class="fullwidth cityguide">
+  <div class="cityguide-boxes">
+    {{ $data := getJSON $.Site.Params.lyoncityguideData }}
+    {{ $category := .Get "category" | default "active" }}
+    {{ range where $data.lyoncityguide $category "==" true }}
+    {{ $item := . }}
+      {{ if $item.active }}
+        <div class="bordered box-inner-padding cityguide-box" id="cityguide_{{ $item.id }}">
+          {{ if $item.picture }}
+          <img src="{{ $item.picture }}" alt="{{ $item.photoalt }}" width="100%" style="margin:0;">
+          {{ end }}
+          <div class="mega-padding">
+            <h2>
+              {{ $item.name }}
+            </h2>
+
+            <h4>
+              {{ $item.subtitle }}
+              {{ if $item.work }}
+              <span class="label">
+                <a href="/lyon/city-guide/work">Places to work</a>
+              </span>
+              {{ end }}
+              {{ if $item.coffee }}
+              <span class="label">
+                <a href="/lyon/city-guide/coffee">Coffee places</a>
+              </span>
+              {{ end }}
+              {{ if $item.drink }}
+              <span class="label">
+                <a href="/lyon/city-guide/drink">Drinks / Party</a>
+              </span>
+              {{ end }}
+              {{ if $item.food }}
+              <span class="label">
+                <a href="/lyon/city-guide/food">Food / Restaurants</a>
+              </span>
+              {{ end }}
+              {{ if $item.french }}
+              <span class="label">
+                <a href="/lyon/city-guide/french">French typical product</a>
+              </span>
+              {{ end }}
+              {{ if $item.culture }}
+              <span class="label">
+                <a href="/lyon/city-guide/culture">Culture</a>
+              </span>
+              {{ end }}
+              {{ if $item.architecture }}
+              <span class="label">
+                <a href="/lyon/city-guide/architecture">Architecture</a>
+              </span>
+              {{ end }}
+              {{ if $item.views }}
+              <span class="label">
+                <a href="/lyon/city-guide/views">Views & Landscapes</a>
+              </span>
+              {{ end }}
+            </h4>
+            <p>
+              {{ $item.description }}
+            </p>
+            <!-- <small>
+            {{ $item.comments }}
+          </small> -->
+          <p>
+            <a href="{{ $item.locationlink }}">{{ $item.location }}</a>
+          </p>
+
+          {{ if $item.tag_glutenfree }}
+          <strong>glutenfree</strong>
+          {{ end }}
+          {{ if $item.tag_wifi }}
+          <strong>wifi</strong>
+          {{ end }}
+          {{ if $item.tag_reservationneeded }}
+          <strong>reservationneeded</strong>
+          {{ end }}
+          {{ if $item.tag_veggie }}
+          <strong>veggie</strong>
+          {{ end }}
+          {{ if $item.tag_vegan }}
+          <strong>vegan</strong>
+          {{ end }}
+
+          {{ if $item.website }}
+          <p>
+            <a href="{{ $item.website }}" target="_blank">Website</a>
+          </p>
+          {{ end }}
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+</div>

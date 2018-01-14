@@ -216,6 +216,9 @@
   -webkit-transform-origin: 0.45em 0.75em;
           transform-origin: 0.45em 0.75em;
 }
+.js-hide{
+  display: none;
+}
 
 
 /* FORMS */

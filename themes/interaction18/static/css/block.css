@@ -418,6 +418,16 @@
   }
 
 
+/* Cityguide */
+.cityguide-boxes{
+  column-width: 20em;
+  column-gap: 1em;
+}
+.cityguide-box{
+  display: inline-block;
+  column-break-inside: avoid;
+}
+
 /* FOOTER */
 footer{
   min-height: 6em;

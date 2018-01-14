@@ -515,6 +515,20 @@
   }
 
 
+/* Cityguide */
+.cityguide-boxes{
+  -webkit-column-width: 20em;
+     -moz-column-width: 20em;
+          column-width: 20em;
+  -webkit-column-gap: 1em;
+     -moz-column-gap: 1em;
+          column-gap: 1em;
+}
+.cityguide-box{
+  display: inline-block;
+  column-break-inside: avoid;
+}
+
 /* FOOTER */
 footer{
   min-height: 6em;

@@ -1,0 +1,60 @@
+{{ $category := .Get "category" | default "active" }}
+<div class="">
+  <nav class="category-navigation">
+    <ul>
+      <li>
+        <a href="/lyon/city-guide" {{ if eq $category "active" }}class="active"{{ end }}>
+          All
+        </a>
+      </li>
+      <li>
+        <a href="/lyon/city-guide/work" {{ if eq $category "work" }}class="active"{{ end }}>
+          Places to work
+        </a>
+      </li>
+      <li>
+        <a href="/lyon/city-guide/coffee" {{ if eq $category "coffee" }}class="active"{{ end }}>
+          Coffee places
+        </a>
+      </li>
+      <li>
+        <a href="/lyon/city-guide/drink" {{ if eq $category "drink" }}class="active"{{ end }}>
+          Drinks / Party
+        </a>
+      </li>
+      <li>
+        <a href="/lyon/city-guide/food" {{ if eq $category "food" }}class="active"{{ end }}>
+          Food / Restaurants
+        </a>
+        <small>(
+          <a href="/lyon/city-guide/food-folkloric" {{ if eq $category "food_folkloric" }}class="active"{{ end }}>Folkloric</a>
+          <a href="/lyon/city-guide/food-bouchons" {{ if eq $category "food_bouchons" }}class="active"{{ end }}>Bouchons</a>
+          <a href="/lyon/city-guide/food-takeaway" {{ if eq $category "food_takeaway" }}class="active"{{ end }}>Takeaway</a>
+          <a href="/lyon/city-guide/food-worldfood" {{ if eq $category "food_worldfood" }}class="active"{{ end }}>Worldfood</a>
+        )</small>
+      </li>
+      <li>
+        <a href="/lyon/city-guide/french" {{ if eq $category "french" }}class="active"{{ end }}>
+          French typical product
+        </a>
+      </li>
+      <li>
+        <a href="/lyon/city-guide/culture" {{ if eq $category "culture" }}class="active"{{ end }}>
+          Culture
+        </a>
+      </li>
+      <li>
+        <a href="/lyon/city-guide/architecture" {{ if eq $category "architecture" }}class="active"{{ end }}>
+          Architecture
+        </a>
+      </li>
+      <li>
+        <a href="/lyon/city-guide/views" {{ if eq $category "views" }}class="active"{{ end }}>
+          Views & Landscapes
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<!-- food_folkloric	food_bouchons	food_takeaway	food_worldfood -->
