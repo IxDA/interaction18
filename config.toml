@@ -1,4 +1,4 @@
-baseURL = "http://interaction18.ixda.org/"
+baseURL = "https://interaction18.ixda.org/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 

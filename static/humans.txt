@@ -15,10 +15,10 @@
 
 
                   /* TEAM */
-                  See http://interaction18.ixda.org/about.html for a complete list of the team
+                  See https://interaction18.ixda.org/about/ for a complete list of the team
 
                   /* THANKS */
-                  
+
 
                   /* SITE */
                   Last update: In the last 30 days
