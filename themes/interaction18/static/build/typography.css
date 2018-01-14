@@ -189,7 +189,9 @@ a{
 .label + .label{
   margin-left: 0;
 }
-
+.label a{
+  border-bottom: none!important;
+}
 /* Let's make sure all's aligned */
 hr, .hr {
   border: 1px solid #B0A7AC;

@@ -7,4 +7,6 @@ menu:
     parent: "lyon"
 ---
 
+{{% cityguide-category %}}
+
 {{% cityguide %}}

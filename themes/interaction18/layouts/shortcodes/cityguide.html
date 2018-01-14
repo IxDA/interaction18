@@ -1,202 +1,96 @@
 <div class="fullwidth cityguide">
-
-  <div id="cityguide_filter" class="cityguide-filters js-hide">
-    <ul class="js-filters">
-        <li>
-          <input type="checkbox" checked name="check_work" id="id_check_work" value="work">
-          <label for="id_check_work">work</label>
-        </li>
-        <li>
-          <input type="checkbox" checked name="check_coffee" id="id_check_coffee" value="coffee">
-          <label for="id_check_coffee">coffee</label>
-        </li>
-        <li>
-          <input type="checkbox" checked name="check_drink" id="id_check_drink" value="drink">
-          <label for="id_check_drink">drink</label>
-        </li>
-        <li>
-          <input type="checkbox" checked name="check_food" id="id_check_food" value="food">
-          <label for="id_check_food">food</label>
-        </li>
-        <li>
-          <input type="checkbox" checked name="check_french" id="id_check_french" value="french">
-          <label for="id_check_french">french</label>
-        </li>
-        <li>
-          <input type="checkbox" checked name="check_culture" id="id_check_culture" value="culture">
-          <label for="id_check_culture">culture</label>
-        </li>
-        <li>
-          <input type="checkbox" checked name="check_architecture" id="id_check_architecture" value="architecture">
-          <label for="id_check_architecture">architecture</label>
-        </li>
-        <li>
-          <input type="checkbox" checked name="check_views" id="id_check_views" value="views">
-          <label for="id_check_views">views</label>
-        </li>
-        <li>
-          <input type="checkbox" checked name="check_glutenfree" id="id_check_glutenfree" value="glutenfree">
-          <label for="id_check_glutenfree">glutenfree</label>
-        </li>
-        <li>
-          <input type="checkbox" checked name="check_wifi" id="id_check_wifi" value="wifi">
-          <label for="id_check_wifi">wifi</label>
-        </li>
-        <li>
-          <input type="checkbox" checked name="check_reservationneeded" id="id_check_reservationneeded" value="reservationneeded">
-          <label for="id_check_reservationneeded">reservationneeded</label>
-        </li>
-        <li>
-          <input type="checkbox" checked name="check_veggie" id="id_check_veggie" value="veggie">
-          <label for="id_check_veggie">veggie</label>
-        </li>
-        <li>
-          <input type="checkbox" checked name="check_vegan" id="id_check_vegan" value="vegan">
-          <label for="id_check_vegan">vegan</label>
-        </li>
-    </ul>
-  </div>
-
-  <div class="cityguide-items boxes boxes-2">
+  <div class="cityguide-boxes">
     {{ $data := getJSON $.Site.Params.lyoncityguideData }}
-    {{ range $data.lyoncityguide }}
+    {{ $category := .Get "category" | default "active" }}
+    {{ range where $data.lyoncityguide $category "==" true }}
     {{ $item := . }}
       {{ if $item.active }}
-        <div class="box bordered box-inner-padding mega-padding box-cityguide js-cityguide js-show" id="cityguide_{{ $item.id }}"
-        {{ if $item.work }}data-work="true" {{ end }}
-        {{ if $item.coffee }}data-coffee="true" {{ end }}
-        {{ if $item.drink }}data-drink="true" {{ end }}
-        {{ if $item.food }}data-food="true" {{ end }}
-        {{ if $item.french }}data-french="true" {{ end }}
-        {{ if $item.culture }}data-culture="true" {{ end }}
-        {{ if $item.architecture }}data-architecture="true" {{ end }}
-        {{ if $item.views }}data-views="true" {{ end }}
-        {{ if $item.glutenfree }}data-glutenfree="true" {{ end }}
-        {{ if $item.wifi }}data-wifi="true" {{ end }}
-        {{ if $item.reservationneeded }}data-reservationneeded="true" {{ end }}
-        {{ if $item.veggie }}data-veggie="true" {{ end }}
-        {{ if $item.vegan }}data-vegan="true" {{ end }}
-        >
+        <div class="bordered box-inner-padding cityguide-box" id="cityguide_{{ $item.id }}">
           {{ if $item.picture }}
-          <img src="{{ $item.picture }}" alt="{{ $item.photoalt }}" width="100%">
+          <img src="{{ $item.picture }}" alt="{{ $item.photoalt }}" width="100%" style="margin:0;">
           {{ end }}
-          <h2>
-            {{ $item.name }}
-          </h2>
-          <h4>
-            {{ $item.subtitle }}
-            {{ if $item.work }}
-            <span class="label">
-              work
-            </span>
-            {{ end }}
-            {{ if $item.coffee }}
-            <span class="label">
-              coffee
-            </span>
-            {{ end }}
-            {{ if $item.drink }}
-            <span class="label">
-              drink
-            </span>
-            {{ end }}
-            {{ if $item.food }}
-            <span class="label">
-              food
-            </span>
-            {{ end }}
-            {{ if $item.french }}
-            <span class="label">
-              french
-            </span>
-            {{ end }}
-            {{ if $item.culture }}
-            <span class="label">
-              culture
-            </span>
-            {{ end }}
-            {{ if $item.architecture }}
-            <span class="label">
-              architecture
-            </span>
-            {{ end }}
-            {{ if $item.views }}
-            <span class="label">
-              views
-            </span>
-            {{ end }}
-            {{ if $item.glutenfree }}
-            <span class="label">
-              glutenfree
-            </span>
-            {{ end }}
-            {{ if $item.wifi }}
-            <span class="label">
-              wifi
-            </span>
-            {{ end }}
-            {{ if $item.reservationneeded }}
-            <span class="label">
-              reservationneeded
-            </span>
-            {{ end }}
-            {{ if $item.veggie }}
-            <span class="label">
-              veggie
-            </span>
-            {{ end }}
-            {{ if $item.vegan }}
-            <span class="label">
-              vegan
-            </span>
-            {{ end }}
-          </h4>
-          <p>
-            {{ $item.description }}
-          </p>
-          <!-- <small>
+          <div class="mega-padding">
+            <h2>
+              {{ $item.name }}
+            </h2>
+
+            <h4>
+              {{ $item.subtitle }}
+              {{ if $item.work }}
+              <span class="label">
+                <a href="/lyon/city-guide/work">Places to work</a>
+              </span>
+              {{ end }}
+              {{ if $item.coffee }}
+              <span class="label">
+                <a href="/lyon/city-guide/coffee">Coffee places</a>
+              </span>
+              {{ end }}
+              {{ if $item.drink }}
+              <span class="label">
+                <a href="/lyon/city-guide/drink">Drinks / Party</a>
+              </span>
+              {{ end }}
+              {{ if $item.food }}
+              <span class="label">
+                <a href="/lyon/city-guide/food">Food / Restaurants</a>
+              </span>
+              {{ end }}
+              {{ if $item.french }}
+              <span class="label">
+                <a href="/lyon/city-guide/french">French typical product</a>
+              </span>
+              {{ end }}
+              {{ if $item.culture }}
+              <span class="label">
+                <a href="/lyon/city-guide/culture">Culture</a>
+              </span>
+              {{ end }}
+              {{ if $item.architecture }}
+              <span class="label">
+                <a href="/lyon/city-guide/architecture">Architecture</a>
+              </span>
+              {{ end }}
+              {{ if $item.views }}
+              <span class="label">
+                <a href="/lyon/city-guide/views">Views & Landscapes</a>
+              </span>
+              {{ end }}
+            </h4>
+            <p>
+              {{ $item.description }}
+            </p>
+            <!-- <small>
             {{ $item.comments }}
           </small> -->
           <p>
             <a href="{{ $item.locationlink }}">{{ $item.location }}</a>
           </p>
+
+          {{ if $item.tag_glutenfree }}
+          <strong>glutenfree</strong>
+          {{ end }}
+          {{ if $item.tag_wifi }}
+          <strong>wifi</strong>
+          {{ end }}
+          {{ if $item.tag_reservationneeded }}
+          <strong>reservationneeded</strong>
+          {{ end }}
+          {{ if $item.tag_veggie }}
+          <strong>veggie</strong>
+          {{ end }}
+          {{ if $item.tag_vegan }}
+          <strong>vegan</strong>
+          {{ end }}
+
+          {{ if $item.website }}
           <p>
             <a href="{{ $item.website }}" target="_blank">Website</a>
           </p>
+          {{ end }}
+          </div>
         </div>
       {{ end }}
     {{ end }}
   </div>
 </div>
-
-<script>
-		// extract tags
-		const cityguides = document.querySelectorAll('.js-cityguide');
-    const filter = document.querySelector('#cityguide_filter');
-    const checkboxes = document.querySelectorAll('.js-filters input[type="checkbox"]');
-
-    filter.classList.remove('js-hide');
-
-    function handleCheck(e) {
-      if (this.checked) {
-        switchGuide(this.value, true);
-      }else{
-        switchGuide(this.value, false);
-      }
-    }
-
-    function switchGuide(tag, open = true) {
-      const guides = document.querySelectorAll(`.js-cityguide[data-${tag}="true"]`);
-      if (!guides) return;
-      guides.forEach(guide => {
-        if(open){
-          guide.classList.remove('js-hide');
-        }else{
-          guide.classList.add('js-hide');
-        }
-      })
-    }
-
-    checkboxes.forEach(checkbox => checkbox.addEventListener('click', handleCheck));
-
-	</script>

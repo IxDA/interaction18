@@ -516,19 +516,18 @@
 
 
 /* Cityguide */
-.cityguide{
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-
+.cityguide-boxes{
+  -webkit-column-width: 20em;
+     -moz-column-width: 20em;
+          column-width: 20em;
+  -webkit-column-gap: 1em;
+     -moz-column-gap: 1em;
+          column-gap: 1em;
 }
-.cityguide-filters{
-    min-width: 300px;
+.cityguide-box{
+  display: inline-block;
+  column-break-inside: avoid;
 }
-  .cityguide-filters ul li{
-    list-style: none;
-  }
-.cityguide-items{}
 
 /* FOOTER */
 footer{

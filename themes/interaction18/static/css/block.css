@@ -419,17 +419,14 @@
 
 
 /* Cityguide */
-.cityguide{
-  display: flex;
-
+.cityguide-boxes{
+  column-width: 20em;
+  column-gap: 1em;
 }
-.cityguide-filters{
-    min-width: 300px;
+.cityguide-box{
+  display: inline-block;
+  column-break-inside: avoid;
 }
-  .cityguide-filters ul li{
-    list-style: none;
-  }
-.cityguide-items{}
 
 /* FOOTER */
 footer{
