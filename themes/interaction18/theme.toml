@@ -2,7 +2,7 @@ name = "interaction18"
 license = "MIT"
 licenselink = "https://github.com/vimux/blank/blob/master/LICENSE.md"
 description = "Interaction 18 Hugo theme."
-homepage = "http://interaction18.ixda.org"
+homepage = "https://interaction18.ixda.org"
 tags = ["Interaction", "ixda"]
 min_version = 0.1
 
