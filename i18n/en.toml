@@ -10,6 +10,12 @@ other = "Code of Conduct"
 [codeofconductLink]
 other = "code-of-conduct"
 
+[accessibilityLabel]
+other = "Accessibility"
+
+[accessibilityLink]
+other = "accessibility"
+
 [creditLabel]
 other = "Credits"
 

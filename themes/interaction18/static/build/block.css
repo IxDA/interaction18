@@ -404,6 +404,49 @@
       max-width: 100%;
     }
 
+.boxes-restaurants{
+
+}
+  .boxes-restaurants .box{
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 20%;
+            flex: 1 0 20%;
+    min-width: 26vmax;
+    padding: 1.6em 2em;
+  }
+  .boxes-restaurants .box-title{
+    min-width: 30vmax;
+    padding: 1.6em 1em;
+  }
+
+  .boxes-restaurants .tito-submit{
+    font-size: 100%;
+  }
+  .boxes-restaurants .tito-wrapper{
+    font-size: 80%;
+  }
+  .boxes-restaurants .tito-submit-wrapper{
+    border: none;
+    padding: 0;
+    float: right;
+  }
+  .boxes-restaurants .tito-wrapper form{
+    border-top: none;
+  }
+  .boxes-restaurants .tito-ticket-name{
+    font-size: 0;
+  }
+  .boxes-restaurants .tito-ticket-list{
+    margin-left: 0;
+  }
+  .boxes-restaurants .tito-ticket-description{
+    font-size: 80%;
+  }
+  .boxes-restaurants .tito-ticket-price-quantity-wrapper, .boxes-restaurants .tito-ticket-price-quantity{
+    margin-top: 0.8em;
+    float: left;
+    top: 0;
+  }
 
 .boxes-hotels{
 }

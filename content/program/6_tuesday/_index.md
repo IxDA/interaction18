@@ -110,7 +110,7 @@ menu:
         </h3>
         <div class="">
         {{% talk slug="talk-designing-for-deaf-people--for-everyone-actually-van-driessche-marie" %}}
-        {{% talk slug="talk-seamless-inclusion--impairment-as-a-design-opportunity-martini-dariowe-don-t-know-yet" %}}
+        {{% talk slug="talk-seamless-inclusion--impairment-as-a-design-opportunity-martini-dario" %}}
         </div>
       </div>
       <div class="program-day-item program-item-room-2">
