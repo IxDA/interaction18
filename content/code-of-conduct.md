@@ -11,7 +11,7 @@ Our mission is broad and inclusive, and our membership is passionate and diverse
 
 To achieve this goal, the IxDA respectfully asks the following of our membership, both for online and in-person interactions under our brand:
 
-* To be considerate and respectful of other cultures, backgrounds and perspectives
+* To be considerate and respectful of all cultures, backgrounds and perspectives
 * To maintain a professional manner and refrain from harassment or exclusionary behavior toward other members
 * To endeavor to resolve misunderstandings directly, through open dialogue and respectful feedback
 * To notify the organizers or moderators if you feel you have experienced harassment or have witnessed the harassment of others.
