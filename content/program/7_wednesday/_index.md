@@ -218,7 +218,7 @@ menu:
         <p>21:00</p>
       </div>
       <div class="program-item program-item-milestone program-item-full-line">
-        <p>The party continues everywhere in the city, on your own. <a href="/program/8_thursday/">See you tomorrow</a>.</p>
+        <p>The party continues throughout <a href="/lyon/city-guide/">the city</a>. <a href="/program/8_thursday/">See you tomorrow</a>.</p>
       </div>
     </div>
   </div>
