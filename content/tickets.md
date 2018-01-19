@@ -24,6 +24,7 @@ From the rise of artificial intelligences and virtual reality to the commoditiza
 
 ### What does my ticket give access to?
 * Ticket labeled **Interaction 18 conference**: Access to the 3-days main conference (6-8 February 2018), the opening party (5 February 2018) and the closing party (8 February 2018)
+* Ticket labeled **Conference - 1-day only**: Access to all sessions on the selected day (6, 7 or 8 February 2018), and any evening social events on the same day.
 * Ticket labeled **Workshop**: Access to the selected workshop (5 February 2018). See [the program](/program)
 * Ticket labeled **Education Summit**: Access to the [Education Summit](http://edusummit.ixda.org) (3-4 February 2018).
 
