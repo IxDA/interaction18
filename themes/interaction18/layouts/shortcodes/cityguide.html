@@ -7,7 +7,7 @@
       {{ if $item.active }}
         <div class="bordered box-inner-padding cityguide-box" id="cityguide_{{ $item.id }}">
           {{ if $item.picture }}
-          <img src="{{ $item.picture }}" alt="{{ $item.photoalt }}" width="100%" style="margin:0;">
+          <img src="/img/photos/{{ $item.picture }}" alt="{{ $item.photoalt }}" width="100%" style="margin:0;">
           {{ end }}
           <div class="mega-padding">
             <h2>
