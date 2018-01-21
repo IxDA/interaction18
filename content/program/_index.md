@@ -148,10 +148,10 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
         </div>
         <div class="program-item-milestone program-item-big-milestone">
             <div class="program-overview-item-hour">16:20</div>
-            <h6><strong>{{% get key="happy-hour" %}}</strong></h6>
+            <h6><strong>{{% get key="break" %}}</strong></h6>
         </div>
         <div class="program-overview-item">
-            <div class="program-overview-item-hour">17:20</div>
+            <div class="program-overview-item-hour">17:15</div>
             {{% talkoverview slug="keynote--leyla-acaroglu" %}}
 
         </div>

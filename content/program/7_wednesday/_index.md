@@ -31,6 +31,7 @@ menu:
       <div class="program-day-item program-item-full-line">
         {{% talk slug="keynote--nicolas-nova" %}}
       </div>
+      {{% programtime time="9:55" full="true" key="IxDAOnStage" %}}
       {{% programtime time="10:05" one="true" two="true" three="true" key="break" %}}
       <div class="program-item-date">
         <p>10:25</p>
@@ -181,6 +182,7 @@ menu:
         </div>
       </div>
       {{% programtime time="16:20" one="true" two="true" three="true" key="happy-hour" %}}
+      {{% programtime time="17:20" full="true" key="IxDAOnStage" %}}
       <div class="program-item-date">
         <p>17:30</p>
       </div>

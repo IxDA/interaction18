@@ -144,7 +144,7 @@ La conférence et les ateliers se déroulent uniquement en anglais.
             <h6><strong>{{% get key="happy-hour" %}}</strong></h6>
         </div>
         <div class="program-overview-item">
-            <div class="program-overview-item-hour">17:20</div>
+            <div class="program-overview-item-hour">17:15</div>
             {{% talkoverview slug="keynote--leyla-acaroglu" %}}
 
         </div>
