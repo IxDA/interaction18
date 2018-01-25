@@ -15,8 +15,8 @@ menu:
 Workshops are split in two campuses:
 
 * The **full-day** workshops are located at the **ENSSIB**.
-* THe **half-day** workshops are located at the **Ecole Bellecour**.
-
+* The **half-day** workshops are located at the **Ecole Bellecour**.
+{{< spacer >}}
 ## Half-day workshops - Bellecour
 
 Bellecour Ecole is the first private school in Lyon in the fields of Design and Entertainment.
@@ -29,7 +29,7 @@ It is possible to reach La Sucriere by bus, metro + tram, or even on foot.
 
 {{% box class="bordered mega-padding spacer-t-b" %}}
 
-## Rendez-vous HALF-DAY Workshops: [Ecole Bellecour](http://bellecour.fr)
+### Rendez-vous HALF-DAY Workshops: [Ecole Bellecour](http://bellecour.fr)
 * 18 Rue François Dauphin, Lyon 2
 * 5 Feb 2018, from 8:30 to 18:00
 
@@ -39,11 +39,13 @@ It is possible to reach La Sucriere by bus, metro + tram, or even on foot.
 
 ## Full-day workshops - ENSSIB
 
+The École nationale supérieure des sciences de l’information et des bibliothèques (or Enssib) is the French national LIS school associated with the Université de Lyon and located on the campus de La Doua. Its main mission for over 20 years has been the training of library curators. The school also grants masters degrees and carries out research in the fields of information science, librarianship and the history of books and libraries.
 
+Enssib plays a major role in the creation and circulation of knowledge in its specific professional field : Information and library science.
 
 {{% box class="bordered mega-padding spacer-t-b" %}}
 
-## Rendez-vous FULL DAY Workshops: [ENSSIB](http://www.enssib.fr)
+### Rendez-vous FULL DAY Workshops: [ENSSIB](http://www.enssib.fr)
 * 17/21 bd du 11 novembre 1918, Villeurbanne
 * 5 Feb 2018, from 8:30 to 18:00
 
