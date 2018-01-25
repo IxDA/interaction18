@@ -1,0 +1,52 @@
+---
+title: "Ecole Bellecour & ENSSIB"
+date: 2017-07-11T22:31:14+02:00
+
+menu:
+  "main":
+    name: "Workshops"
+    weight: 225
+    identifier: "workshops"
+    parent: "venues"
+
+---
+## Workshops
+
+Workshops are split in two campuses:
+
+* The **full-day** workshops are located at the **ENSSIB**.
+* THe **half-day** workshops are located at the **Ecole Bellecour**.
+
+## Half-day workshops - Bellecour
+
+Bellecour Ecole is the first private school in Lyon in the fields of Design and Entertainment.
+Our students are made aware of the trades of the real and the virtual and given access to extremely dynamic, job opportunities in innovative sectors: 3D animation, design, gaming, communication, digital, fashion, television, architecture, cinema, service...
+There are annually about 1 100 students, more than 150 teachers and thousands of former assets that contribute to the professional influence and creative reputation of the school.
+ 
+The 5000m² campus articulates on 3 buildings around Place Bellecour, right in the active and cultural city center of Lyon, in the 2nd district.
+It is possible to reach La Sucriere by bus, metro + tram, or even on foot.
+
+
+{{% box class="bordered mega-padding spacer-t-b" %}}
+
+## Rendez-vous HALF-DAY Workshops: [Ecole Bellecour](http://bellecour.fr)
+* 18 Rue François Dauphin, Lyon 2
+* 5 Feb 2018, from 8:30 to 18:00
+
+{{< button name="Get directions with CityMapper" href="https://citymapper.com/go/uoksv4" >}}
+
+{{% /box %}}
+
+## Full-day workshops - ENSSIB
+
+
+
+{{% box class="bordered mega-padding spacer-t-b" %}}
+
+## Rendez-vous FULL DAY Workshops: [ENSSIB](http://www.enssib.fr)
+* 17/21 bd du 11 novembre 1918, Villeurbanne
+* 5 Feb 2018, from 8:30 to 18:00
+
+{{< button name="Get directions with CityMapper" href="https://citymapper.com/go/yzop9t" >}}
+
+{{% /box %}}
