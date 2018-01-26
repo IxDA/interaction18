@@ -57,6 +57,7 @@ Be careful at the range of prices, which range from 25€ to 100€ (not includi
 
 Polished floors, shimmering woodwork, French ceilings, vast mirrors, paintings and objects found here and there by the masters of successive places... At Abel, time stops when tasting the real homemade pike quenelle, famous chicken morels or a delicious gratin crayfish.
 *Vegetarian: yes, but need to ask for.*
+Special guest : Liz Danzico
 
 [Website](http://cafecomptoirabel.com/) – [Yelp](https://www.yelp.fr/biz/caf%C3%A9-comptoir-abel-lyon-2)
 
@@ -67,6 +68,8 @@ Polished floors, shimmering woodwork, French ceilings, vast mirrors, paintings a
 25€ - 45€
 
 A real institution well known to lovers of Lyon cuisine: veal head, “tripes”, “quenelles” or “andouillettes” are tasted in a friendly atmosphere in an exemplary setting of the genre.
+*Vegetarian: no.*
+Special guest : Brenda Laurel
 
 [Yelp](https://www.yelp.fr/biz/le-garet-lyon)
 
@@ -88,6 +91,7 @@ A real institution well known to lovers of Lyon cuisine: veal head, “tripes”
 
 Prairial is a team of enthusiasts serving demanding gourmet. The chef, Gaëtan Gentil, has made his way to the biggest names in French cuisine like Jean-François Piège, Yannick Alleno or Emmanuel Renaut. A sensory and taste experience not to be missed.
 *Vegetarian: yes, on the menu*
+Special guest : Alan Cooper
 
 [Website](https://www.prairial-restaurant.fr/) – [Yelp](https://www.yelp.fr/biz/prairial-lyon)
 
@@ -99,6 +103,7 @@ Prairial is a team of enthusiasts serving demanding gourmet. The chef, Gaëtan G
 
 Chef Florent Poulard offers authentic and innovative cuisine,with the respect and tradition of classic French gastronomy. Vegetables take a dominant place and are rigorously selected from local producers. The meat and fish are regularly prepared in whole pieces and can be proposed to all the guests of the table.
 *Vegetarian: yes, on the menu*
+Special guest : Louis Rosenfeld
 
 [Website](https://www.monsieurp.fr/)
 
@@ -118,6 +123,7 @@ Chef Florent Poulard offers authentic and innovative cuisine,with the respect an
 
 Located between the Rhône and Saône rivers, Le Nord was the first brasserie opened in Lyon by famed chef Paul Bocuse in 1994. In the heart of the Presqu'île, Le Nord revisits the great classics of traditional Lyonnaise cuisine in a warm decor that has kept all its authenticity dating from the 1900s.
 *Vegetarian: yes, but need to ask for.*
+Special guest : Khoi Vinh
 
 [Website](https://www.brasseries-bocuse.com/) – [Yelp](https://www.yelp.fr/biz/le-nord-lyon)
 
@@ -129,6 +135,7 @@ Located between the Rhône and Saône rivers, Le Nord was the first brasserie op
 
 La Brasserie Georges has been a Lyon landmark since its opening in 1836. Many celebrities have eaten here, including Paul Verlaine, Jules Verne, the Lumière brothers, Edouard Herriot, Mistinguett, Leon Blum, Emile Zola, Rodin... The generous Alsatian sauerkraut, the draft beers brewed on the spot and the period ambiance are the hallmark of the establishment.
 *Vegetarian: yes, on the menu*
+Special guest : Gillian Crampton Smith
 
 [Website](http://www.brasseriegeorges.com) – [Yelp](https://www.yelp.fr/biz/brasserie-georges-lyon)
 
@@ -147,6 +154,7 @@ La Brasserie Georges has been a Lyon landmark since its opening in 1836. Many ce
 
 The Café Terroir is a unique rotisserie bistro that offers a selection of local products unearthed in the four corners of the Rhône-Alpes region. For this, the Café has chosen to work with producers and winemakers concerned about the well-being of their land.
 *Vegetarian: no*
+Special guest : Cheryl Platz
 
 [Website](http://www.cafeterroir.fr/) – [Yelp](https://www.yelp.fr/biz/café-terroir-lyon-2)
 
@@ -158,6 +166,7 @@ The Café Terroir is a unique rotisserie bistro that offers a selection of local
 
 This very beautiful café,a recognised heritage site, was taken over by a team of three young chefs. These three passionate cooks offer a short circuit catering composed of products from the region or even the market just opposite, produced by small producers in organic farming or reasoned. A modern kitchen, which respects seasonal products selected by the chef for their taste.
 *Vegetarian: yes, but need to ask for.*
+Special guest : Boon Chew
 
 [Yelp](https://www.yelp.fr/biz/caf%C3%A9-du-rh%C3%B4ne-lyon-2)
 
