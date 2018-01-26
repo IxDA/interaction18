@@ -217,6 +217,12 @@ menu:
           <img src="/img/logos/partner-Coroflot_w.svg" style="max-width:20vw;">
       </div>
       <div class="program-item-date program-item-milestone ">
+        <p>20:30</p>
+      </div>
+      <div class="program-item program-item-milestone program-item-full-line">
+        <p>Let’s talk, let’s eat, during our <a href="/events/community-dinner/">community dinners</a>.</p>
+      </div>
+      <div class="program-item-date program-item-milestone ">
         <p>21:00</p>
       </div>
       <div class="program-item program-item-milestone program-item-full-line">

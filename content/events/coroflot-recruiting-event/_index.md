@@ -4,7 +4,7 @@ menu:
   "main":
     name: "Coroflot Connects"
     weight: 910
-    parent: "venues"
+    parent: "events"
 ---
 ## Recruiting event
 

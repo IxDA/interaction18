@@ -154,7 +154,7 @@ menu:
   <div class="container content spacer-t-b">
     <div class="program-list program-list-day program-evening">
       <div class="program-item-date program-item-milestone">
-        <p>19:00</p>
+        <p>20:00</p>
       </div>
       <div class="program-item program-item-milestone program-item-full-line">
         <h3>🌙 Evening events</h3>
@@ -162,8 +162,14 @@ menu:
       <div class="program-item-date">
       </div>
       <div class="program-item program-item-full-line">
-        <p><a href="#"><strong>Some tasty events. To be announced soon</strong></a><br/>
+        <p><a href="/events/pub-crawl/"><strong>Get a drink in Vieux Lyon</strong></a>, with your fellow attendees.<br/>
         </p>
+      </div>
+      <div class="program-item-date program-item-milestone ">
+        <p>23:00</p>
+      </div>
+      <div class="program-item program-item-milestone program-item-full-line">
+        <p><a href="/program/7_wednesday/">See you tomorrow</a>.</p>
       </div>
     </div>
   </div>

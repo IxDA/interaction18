@@ -38,10 +38,16 @@ hrefTargetBlank = true
  	parent = "lyon"
 
 [[menu.main]]
-  name = "Venues & Events"
+  name = "Venues"
   weight = 300
   identifier = "venues"
   url = "/venues/"
+
+[[menu.main]]
+  name = "Social Events"
+  weight = 310
+  identifier = "events"
+  url = "/events/coroflot-recruiting-event/"
 
 [[menu.main]]
   name = "Program"
@@ -49,7 +55,7 @@ hrefTargetBlank = true
   identifier = "program"
   url = "/program/"
 
- [[menu.program]]
+[[menu.program]]
   parent = "program"
 
 [[menu.main]]
@@ -65,9 +71,9 @@ languageName = "EN"
 
 
 [Languages.fr]
-languageCode = "fr-fr"
-languageName = "FR"
-title = "Interaction 18 – 3—8 Février 2018 • Lyon, France"
+    languageCode = "fr-fr"
+    languageName = "FR"
+    title = "Interaction 18 – 3—8 Février 2018 • Lyon, France"
 
 [[Languages.fr.menu.main]]
     name = "Accueil"
@@ -92,6 +98,12 @@ title = "Interaction 18 – 3—8 Février 2018 • Lyon, France"
   weight = 300
   identifier = "venues"
   url = "/venues/"
+
+[[Languages.fr.menu.main]]
+  name = "Evenements"
+  weight = 310
+  identifier = "events"
+  url = "/events/coroflot-recruiting-event/"
 
 [[Languages.fr.menu.main]]
   name = "Workshops"

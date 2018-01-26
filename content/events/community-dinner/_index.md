@@ -4,7 +4,7 @@ menu:
   "main":
     name: "Community dinner"
     weight: 990
-    parent: "venues"
+    parent: "events"
 ---
 ## Let’s talk, let’s eat!
 ### Wednesday 7 at 20:30
