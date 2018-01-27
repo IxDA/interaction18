@@ -28,15 +28,15 @@ If you are sick or something happens and you need to cancel the reservation, ple
 ### Vegetarian or diverse food requirements
 
 Unfortunately, vegetarian menus are not common in France and we need to ask the chef for it. Most of the time, there’s no problem. If you are vegetarian let us know on booking. You can also check [the list of restaurants and their websites](#restaurants).
-If you have special food requirements (lactose free, gluten free, etc), please contact us before booking at [mathias.duret[a]gmail.com](mailto:mathias.duret@gmail.com?subject=food-requirements), we’ll ask the restaurant for you.
+If you have special food requirements (lactose free, gluten free, etc), please contact us before booking at [mathias.duret[a]gmail.com](mailto:mathias.duret@gmail.com?subject=food-requirements), and we’ll ask the restaurant for you.
 
 ### How do I pay the restaurant?
 
-Each attendee will pay for what they eat and drink. If you choose to take a bottle of wine or share your meal, please, make sure everyone at the table is fine to share the bill.
+Each attendee will pay for what they eat and drink. If you choose to order a bottle of wine or share your meal, please, make sure everyone at the table is fine to share the bill.
 
 ### Will I know people at the table?
 
-For each restaurant, there are 8 guests including 1 IxDA local leader and 1 special guest. The list of the attendees will be sent to you on the morning.
+For each restaurant, there are 8 guests including 1 IxDA local leader and 1 special guest. The list of the attendees will be sent to you on the morning of your dinner.
 
 ## Restaurants
 
@@ -57,7 +57,7 @@ Be mindful of the range of prices, which range from 25€ to 100€ (not includi
 
 Polished floors, shimmering woodwork, French ceilings, vast mirrors, paintings and objects found here and there by the masters of successive places... At Abel, time stops when tasting the real homemade pike quenelle, famous chicken morels or a delicious gratin crayfish.
 
-* *Vegetarian: yes, but need to ask for.*
+* *Vegetarian: yes, but by request.*
 * Special guest : Liz Danzico
 
 [Website](http://cafecomptoirabel.com/) – [Yelp](https://www.yelp.fr/biz/caf%C3%A9-comptoir-abel-lyon-2)
@@ -127,7 +127,7 @@ Chef Florent Poulard offers authentic and innovative cuisine,with the respect an
 
 Located between the Rhône and Saône rivers, Le Nord was the first brasserie opened in Lyon by famed chef Paul Bocuse in 1994. In the heart of the Presqu'île, Le Nord revisits the great classics of traditional Lyonnaise cuisine in a warm decor that has kept all its authenticity dating from the 1900s.
 
-* *Vegetarian: yes, but need to ask for.*
+* *Vegetarian: yes, but by request.*
 * Special guest : Khoi Vinh
 
 [Website](https://www.brasseries-bocuse.com/) – [Yelp](https://www.yelp.fr/biz/le-nord-lyon)
@@ -173,7 +173,7 @@ The Café Terroir is a unique rotisserie bistro that offers a selection of local
 
 This very beautiful café,a recognised heritage site, was taken over by a team of three young chefs. These three passionate cooks offer a short circuit catering composed of products from the region or even the market just opposite, produced by small producers in organic farming or reasoned. A modern kitchen, which respects seasonal products selected by the chef for their taste.
 
-* Vegetarian: yes, but need to ask for.*
+* Vegetarian: yes, but by request.*
 * Special guest : Boon Chew
 
 [Yelp](https://www.yelp.fr/biz/caf%C3%A9-du-rh%C3%B4ne-lyon-2)
