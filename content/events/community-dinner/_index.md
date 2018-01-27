@@ -7,7 +7,7 @@ menu:
     parent: "events"
 ---
 ## Let’s talk, let’s eat!
-### Wednesday 7 at 20:30
+### Wednesday, 7 Feb at 20:30
 
 Lyon is rightly seen as a gastronomic capital of the world, with a history of serving some of the finest food in France. From the famous "bouchons" to the Michelin starred chefs of the city, let’s discover together this culinary excellence. 
 
