@@ -11,7 +11,7 @@ menu:
 
 Lyon is rightly seen as a gastronomic capital of the world, with a history of serving some of the finest food in France. From the famous "bouchons" to the Michelin starred chefs of the city, let’s discover together this culinary excellence. 
 
-You can join us for a community dinner for 8 groups of diners to 8 different restaurants in town on wednesday 7 at 20:30. We have handpicked a variety of restaurants, from ones that we love to go with friends everyday to famous and well-known places. As space is limited, each group can only take up to 6 attendees. Every group will be led by one local host and also include one special guest — e.g. a prominent influencer or leader in our field. 
+You can join us for a community dinner for 8 groups of diners at 8 different restaurants in town on Wednesday, 7 Feb at 20:30. We have handpicked a variety of restaurants, from ones that we love to go to with friends everyday to famous and well-known places. As space is limited, each group can only take up to 6 attendees. Every group will be led by one local host and also include one special guest — e.g. a prominent influencer or leader in our field. 
 
 **We expect tickets to sell out fast, so don’t think too much and join us!**
 
@@ -19,29 +19,29 @@ You can join us for a community dinner for 8 groups of diners to 8 different res
 
 ### How can I book a restaurant?
 
-To book a restaurant, go to this page and fill the form. 
+To book a restaurant, go to this page and complete the form. 
 
-### What happens if i need to cancel my reservation?
+### What happens if I need to cancel my reservation?
 
 If you are sick or something happens and you need to cancel the reservation, please call or send a mail to the local organizer. Every detail will be sent to you in the confirmation mail.
 
 ### Vegetarian or diverse food requirements
 
 Unfortunately, vegetarian menus are not common in France and we need to ask the chef for it. Most of the time, there’s no problem. If you are vegetarian let us know on booking. You can also check [the list of restaurants and their websites](#restaurants).
-If you need special food requirements (lactose free, gluten free, etc), please contact us before booking at [mathias.duret[a]gmail.com](mailto:mathias.duret@gmail.com?subject=food-requirements), we’ll ask the restaurant for you.
+If you have special food requirements (lactose free, gluten free, etc), please contact us before booking at [mathias.duret[a]gmail.com](mailto:mathias.duret@gmail.com?subject=food-requirements), we’ll ask the restaurant for you.
 
-### How do i pay the restaurant?
+### How do I pay the restaurant?
 
 Each attendee will pay for what they eat and drink. If you choose to take a bottle of wine or share your meal, please, make sure everyone at the table is fine to share the bill.
 
-### Will i know people at the table?
+### Will I know people at the table?
 
 For each restaurant, there are 8 guests including 1 IxDA local leader and 1 special guest. The list of the attendees will be sent to you on the morning.
 
 ## Restaurants
 
 We've selected the best places for you, from classic food to the best in nouvelle cuisine. Most restaurants are situated in the Presqu'île quartier with it's many fine pubs and bars, perfect for drinks before or after dining.
-Be careful at the range of prices, which range from 25€ to 100€ (not including drinks) and not all restaurants have vegetarian options. **Take a look to their website**!
+Be mindful of the range of prices, which range from 25€ to 100€ (not including drinks) and not all restaurants have vegetarian options. **Take a look to their website**!
 
 <br/>
 {{% fullwidth %}}
@@ -49,7 +49,7 @@ Be careful at the range of prices, which range from 25€ to 100€ (not includi
   {{% box class="text-right box-title" %}}
 <p class="h-huge">1</p>
 
-**Typical food from Lyon “Bouchon Lyonnais”:** in the nineteenth century, the cooks of the bourgeoisie, nicknamed "les mères lyonnaises”, leave their home to start their own business and give birth to culinary traditions that you will enjoy!
+**Typical food from Lyon “Bouchon Lyonnais”:** in the nineteenth century, the cooks of the bourgeoisie, nicknamed "les mères lyonnaises”, leave their homes to start their own businesses and give birth to culinary traditions that you will enjoy!
   {{% /box %}}
   {{% box class="bordered mega-padding spacer-t-b" %}}
 ### Café Comptoir Abel
