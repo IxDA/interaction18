@@ -34,7 +34,7 @@ b, strong{
   font-weight:  700;
 }
 
-h1, .h1 {
+h1, .h1, .h-huge {
   font-size: calc(1.4em + 2vw);
   font-size: -webkit-calc(140% + 2vw);
   line-height: 1.3em;
@@ -42,25 +42,30 @@ h1, .h1 {
   margin-top: 0;
   margin-bottom: 0;
 }
+.h-huge{
+  font-size: calc(3.4em + 2vw);
+  font-size: -webkit-calc(340% + 2vw);
+  font-weight: bold;
+}
 h2, .h2 {
-  font-size: calc(1em + 1vw);
-  font-size: -webkit-calc(100% + 1vw);
+  font-size: calc(1.2em + 1vw);
+  font-size: -webkit-calc(120% + 1vw);
   line-height: 1.3em;
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 0;
 }
 h3, .h3 {
-  font-size: calc(0.7em + 1vw);
-  font-size: -webkit-calc(70% + 1vw);
+  font-size: calc(0.9em + 1vw);
+  font-size: -webkit-calc(90% + 1vw);
   font-weight: normal;
   line-height: 1.3em;
   margin-top: 0;
   margin-bottom: 0;
 }
 h4, .h4 {
-  font-size: calc(0.6em + 1vw);
-  font-size: -webkit-calc(60% + 1vw);
+  font-size: calc(0.7em + 1vw);
+  font-size: -webkit-calc(70% + 1vw);
   font-family: graphik-bold, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight:  700;
   line-height: 1.3em;
@@ -87,6 +92,9 @@ h6, .h6 {
 @media (min-width: 70rem) {
   body{
     font-size: 1.5em;
+  }
+  h3{
+    font-size: 1.8rem;
   }
   h4, h5, h6, p{
     font-size: 1.4rem;
@@ -179,7 +187,9 @@ a{
 .label + .label{
   margin-left: 0;
 }
-
+.label a{
+  border-bottom: none!important;
+}
 /* Let's make sure all's aligned */
 hr, .hr {
   border: 1px solid #B0A7AC;

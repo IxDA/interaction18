@@ -31,6 +31,7 @@ menu:
       <div class="program-day-item program-item-full-line">
         {{% talk slug="keynote--anab-jain" %}}
       </div>
+      {{% programtime time="9:55" full="true" key="IxDAOnStage" %}}
       {{% programtime time="10:05" one="true" two="true" three="true" key="break" %}}
       <div class="program-item-date">
         <p>10:25</p>
@@ -132,14 +133,14 @@ menu:
         {{% talk slug="talk-humanity-centered-design-kikin-gil-ruth" %}}
       </div>
       {{% programtime time="16:20" full="true" key="happy-hour" %}}
+      {{% programtime time="16:50" full="true" key="announcingIxd19" %}}
       <div class="program-item-date">
-        <p>17:30</p>
+        <p>17:15</p>
       </div>
       <div class="program-day-item  program-item-full-line">
         {{% talk slug="keynote--leyla-acaroglu" %}}
       </div>
-      {{% programtime time="18:15" key="evening-remarks" full="true" %}}
-      {{% programtime time="18:15" key="evening-doors" full="true" big="true" %}}
+      {{% programtime time="18:30" key="evening-doors" full="true" big="true" %}}
     </div>
   </div>
 </div>
@@ -147,7 +148,7 @@ menu:
   <div class="container content spacer-t-b">
     <div class="program-list program-list-day program-evening">
       <div class="program-item-date program-item-milestone">
-        <p>19:00</p>
+        <p>18:30</p>
       </div>
       <div class="program-item program-item-milestone program-item-full-line">
         <h3>🌙 Evening events</h3>
@@ -163,7 +164,7 @@ menu:
         <img src="/img/logos/partner-Amazon_w.svg" style="max-width:40vw;">
       </div>
       <div class="program-item-date program-item-milestone ">
-        <p>2:00</p>
+        <p>1:00</p>
       </div>
       <div class="program-item program-item-milestone program-item-full-line">
         <p>Time to go to bed… or catch your flight.</p>

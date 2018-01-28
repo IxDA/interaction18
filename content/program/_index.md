@@ -78,8 +78,8 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
             <h6><strong>{{% get key="evening-doors" %}}</strong></h6>
         </div>
         <div class="program-item-milestone program-item-big-milestone">
-            <div class="program-overview-item-hour">🌙&nbsp;&nbsp;19:00</div>
-            <h6><strong>To be announced …</strong></h6>
+            <div class="program-overview-item-hour">🌙&nbsp;&nbsp;20:00</div>
+            <h6><strong>Vieux-Lyon Crawl</strong></h6>
         </div>         
       </a>
       <a class="program-overview-day" href="./7_wednesday" data-elementdate="2018-11-20T23:00:00.000Z">
@@ -120,8 +120,12 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
         </div>
         <div class="program-item-milestone program-item-big-milestone">
             <div class="program-overview-item-hour">🌙&nbsp;&nbsp;19:00</div>
-            <h6><strong>Coroflot Connects</strong></h6>
-        </div>        
+            <h6><strong>Coroflot Connects</strong></h6>    
+        </div>
+        <div class="program-item-milestone program-item-big-milestone">
+            <div class="program-overview-item-hour">🌙&nbsp;&nbsp;20:30</div>
+            <h6><strong>Community dinners</strong></h6>
+        </div>                
       </a>
       <a class="program-overview-day" href="./8_thursday" data-elementdate="2018-11-21T23:00:00.000Z">
         <h3><strong><span class="text-underline">Thursday 8</span></strong></h3>
@@ -148,10 +152,10 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
         </div>
         <div class="program-item-milestone program-item-big-milestone">
             <div class="program-overview-item-hour">16:20</div>
-            <h6><strong>{{% get key="happy-hour" %}}</strong></h6>
+            <h6><strong>{{% get key="break" %}}</strong></h6>
         </div>
         <div class="program-overview-item">
-            <div class="program-overview-item-hour">17:20</div>
+            <div class="program-overview-item-hour">17:15</div>
             {{% talkoverview slug="keynote--leyla-acaroglu" %}}
 
         </div>

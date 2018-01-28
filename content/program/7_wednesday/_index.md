@@ -31,6 +31,7 @@ menu:
       <div class="program-day-item program-item-full-line">
         {{% talk slug="keynote--nicolas-nova" %}}
       </div>
+      {{% programtime time="9:55" full="true" key="IxDAOnStage" %}}
       {{% programtime time="10:05" one="true" two="true" three="true" key="break" %}}
       <div class="program-item-date">
         <p>10:25</p>
@@ -181,6 +182,7 @@ menu:
         </div>
       </div>
       {{% programtime time="16:20" one="true" two="true" three="true" key="happy-hour" %}}
+      {{% programtime time="17:20" full="true" key="IxDAOnStage" %}}
       <div class="program-item-date">
         <p>17:30</p>
       </div>
@@ -215,10 +217,16 @@ menu:
           <img src="/img/logos/partner-Coroflot_w.svg" style="max-width:20vw;">
       </div>
       <div class="program-item-date program-item-milestone ">
+        <p>20:30</p>
+      </div>
+      <div class="program-item program-item-milestone program-item-full-line">
+        <p>Let’s talk, let’s eat, during our <a href="/events/community-dinner/">community dinners</a>.</p>
+      </div>
+      <div class="program-item-date program-item-milestone ">
         <p>21:00</p>
       </div>
       <div class="program-item program-item-milestone program-item-full-line">
-        <p>The party continues everywhere in the city, on your own. <a href="/program/8_thursday/">See you tomorrow</a>.</p>
+        <p>The party continues throughout <a href="/lyon/city-guide/">the city</a>. <a href="/program/8_thursday/">See you tomorrow</a>.</p>
       </div>
     </div>
   </div>

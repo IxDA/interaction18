@@ -6,11 +6,10 @@ menu:
     weight: 260  
     parent: "lyon"
 
-aliases: 
+aliases:
     - /lyon-fun-facts.html
 ---
 We selected a few interesting stories about the city and the people of Lyon.
-{{< spacer >}}
 {{% fullwidth %}}
 {{% boxes class="boxes-nopadding boxes-fun" %}}
 <div class="box">
@@ -95,4 +94,3 @@ We selected a few interesting stories about the city and the people of Lyon.
 </div>
 {{% /boxes %}}
 {{% /fullwidth %}}
-
