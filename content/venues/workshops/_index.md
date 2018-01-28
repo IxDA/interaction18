@@ -3,7 +3,7 @@ title: "Ecole Bellecour & ENSSIB"
 date: 2017-07-11T22:31:14+02:00
 
 menu:
-  "main":
+  "hidden":
     name: "Workshops"
     weight: 225
     identifier: "workshops"
