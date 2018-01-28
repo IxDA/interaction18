@@ -173,7 +173,7 @@ The Café Terroir is a unique rotisserie bistro that offers a selection of local
 
 This very beautiful café,a recognised heritage site, was taken over by a team of three young chefs. These three passionate cooks offer a short circuit catering composed of products from the region or even the market just opposite, produced by small producers in organic farming or reasoned. A modern kitchen, which respects seasonal products selected by the chef for their taste.
 
-* * Vegetarian: yes, but by request.*
+* *Vegetarian: yes, but by request.*
 * Special guest : Boon Chew
 
 [Yelp](https://www.yelp.fr/biz/caf%C3%A9-du-rh%C3%B4ne-lyon-2)
