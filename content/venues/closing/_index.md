@@ -7,7 +7,7 @@ aliases:
 
 menu:
   "main":
-    name: "Closing party"
+    name: "Closing"
     identifier: "closing"
     weight: 230
     parent: "venues"
@@ -26,8 +26,8 @@ The reputation of the Transbordeur has been established by thousands of renowned
 {{% box class="bordered mega-padding spacer-t-b" %}}
 
 ## Rendez-vous: [Transbordeur](http://www.transbordeur.fr/accueil)
-* 3 boulevard Stalingrad, Villeurbanne
-* 8 Feb 2018, from 18:30 to 4:00
+* 3 Boulevard Stalingrad, Villeurbanne
+* 8 Feb 2018, from 18:30 to 1:00
 
 {{< button name="Get directions with CityMapper" href="https://citymapper.com/go/4rean3" >}}
 

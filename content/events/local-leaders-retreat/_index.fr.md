@@ -4,7 +4,7 @@ menu:
   "main":
     name: "Retraite des leaders locaux"
     weight: 910
-    parent: "events"
+    parent: "venues"
 ---
 
 Vous dirigez un groupe IxDA local ou êtes intéressé à créer un groupe IxDA dans votre ville? Si oui, rejoignez-nous à l'atelier annuel des leaders locaux. Ensemble avec d'autres dirigeants locaux nous discuterons de stratégies pour bâtir une communauté IxDA passionnée dans votre région.

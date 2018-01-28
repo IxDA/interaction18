@@ -46,7 +46,7 @@ Enssib plays a major role in the creation and circulation of knowledge in its sp
 {{% box class="bordered mega-padding spacer-t-b" %}}
 
 ### Rendez-vous FULL DAY Workshops: [ENSSIB](http://www.enssib.fr)
-* 17/21 bd du 11 novembre 1918, Villeurbanne
+* 17–21 Boulevard du 11 novembre 1918, Villeurbanne
 * 5 Feb 2018, from 8:30 to 18:00
 
 {{< button name="Get directions with CityMapper" href="https://citymapper.com/go/yzop9t" >}}

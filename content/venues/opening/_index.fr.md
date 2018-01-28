@@ -4,7 +4,7 @@ date: 2017-07-11T22:31:14+02:00
 
 menu:
   "main":
-    name: "Cérémonie d'ouverture"
+    name: "Ouverture"
     weight: 220
     identifier: "opening"
     parent: "venues"
