@@ -50,6 +50,7 @@ Be mindful of the range of prices, which range from 25€ to 100€ (not includi
 <p class="h-huge">1</p>
 
 **Typical food from Lyon “Bouchon Lyonnais”:** in the nineteenth century, the cooks of the bourgeoisie, nicknamed "les mères lyonnaises”, leave their homes to start their own businesses and give birth to culinary traditions that you will enjoy!
+
   {{% /box %}}
   {{% box class="bordered mega-padding spacer-t-b" %}}
 ### Café Comptoir Abel
@@ -62,7 +63,7 @@ Polished floors, shimmering woodwork, French ceilings, vast mirrors, paintings a
 
 [Website](http://cafecomptoirabel.com/) – [Yelp](https://www.yelp.fr/biz/caf%C3%A9-comptoir-abel-lyon-2)
 
-{{< tito-widget  tito_releases="ugtmrmkwmtw" hide_discount="true" >}}
+{{< tito-widget soldout="true" tito_releases="ugtmrmkwmtw" hide_discount="true" >}}
   {{% /box %}}
   {{% box class="bordered mega-padding spacer-t-b" %}}
 ### Le Garet
@@ -75,7 +76,7 @@ A real institution well known to lovers of Lyon cuisine: veal head, “tripes”
 
 [Yelp](https://www.yelp.fr/biz/le-garet-lyon)
 
-{{< tito-widget  tito_releases="f40axs-orsa" hide_discount="true" >}}
+{{< tito-widget soldout="true" tito_releases="f40axs-orsa" hide_discount="true" >}}
   {{% /box %}}
 </div>
 
@@ -98,7 +99,7 @@ Prairial is a team of enthusiasts serving demanding gourmet. The chef, Gaëtan G
 
 [Website](https://www.prairial-restaurant.fr/) – [Yelp](https://www.yelp.fr/biz/prairial-lyon)
 
-{{< tito-widget  tito_releases="xhopc-t0gmm" hide_discount="true" >}}
+{{< tito-widget soldout="true" tito_releases="xhopc-t0gmm" hide_discount="true" >}}
 {{% /box %}}
 {{% box class="bordered mega-padding spacer-t-b" %}}
 ### Monsieur P
@@ -111,7 +112,7 @@ Chef Florent Poulard offers authentic and innovative cuisine,with the respect an
 
 [Website](https://www.monsieurp.fr/)
 
-{{< tito-widget  tito_releases="gxneavshoq0" hide_discount="true" >}}
+{{< tito-widget soldout="true" tito_releases="gxneavshoq0" hide_discount="true" >}}
 {{% /box %}}
 </div>
 
@@ -132,7 +133,7 @@ Located between the Rhône and Saône rivers, Le Nord was the first brasserie op
 
 [Website](https://www.brasseries-bocuse.com/) – [Yelp](https://www.yelp.fr/biz/le-nord-lyon)
 
-{{< tito-widget  tito_releases="nn-z5rizc7k" hide_discount="true" >}}
+{{< tito-widget soldout="true" tito_releases="nn-z5rizc7k" hide_discount="true" >}}
 {{% /box %}}
 {{% box class="bordered mega-padding spacer-t-b" %}}
 ### Brasserie Georges
@@ -145,7 +146,7 @@ La Brasserie Georges has been a Lyon landmark since its opening in 1836. Many ce
 
 [Website](http://www.brasseriegeorges.com) – [Yelp](https://www.yelp.fr/biz/brasserie-georges-lyon)
 
-{{< tito-widget  tito_releases="fbtntmg9wne" hide_discount="true" >}}
+{{< tito-widget soldout="true" tito_releases="fbtntmg9wne" hide_discount="true" >}}
 {{% /box %}}
 </div>
 <div class="boxes boxes-restaurants">
@@ -165,7 +166,7 @@ The Café Terroir is a unique rotisserie bistro that offers a selection of local
 
 [Website](http://www.cafeterroir.fr/) – [Yelp](https://www.yelp.fr/biz/café-terroir-lyon-2)
 
-{{< tito-widget  tito_releases="vei-euvinee" hide_discount="true" >}}
+{{< tito-widget soldout="true" tito_releases="vei-euvinee" hide_discount="true" >}}
 {{% /box %}}
 {{% box class="bordered mega-padding spacer-t-b" %}}
 ### Café du Rhône
@@ -178,7 +179,7 @@ This very beautiful café,a recognised heritage site, was taken over by a team o
 
 [Yelp](https://www.yelp.fr/biz/caf%C3%A9-du-rh%C3%B4ne-lyon-2)
 
-{{< tito-widget  tito_releases="bsuydgl-jfy" hide_discount="true" >}}
+{{< tito-widget soldout="true" tito_releases="bsuydgl-jfy" hide_discount="true" >}}
 {{% /box %}}
 </div>
 
