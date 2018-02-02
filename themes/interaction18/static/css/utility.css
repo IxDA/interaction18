@@ -164,6 +164,21 @@
     }
   }
 
+/* ICONS */
+.feature-icons{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:  0.5em;
+}
+.feature-icon{
+  text-align: center;
+}
+.feature-icon svg{
+  display: block;
+  margin: 4px auto;
+  width: 40%;
+}
+
 /* THEME BACKGROUND */
 .content .bg-pink{
   background-color: #E40050;
