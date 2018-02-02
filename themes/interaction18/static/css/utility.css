@@ -27,6 +27,7 @@
 }
 .link-no-underline{
   text-decoration: none;
+  border-bottom: none!important;
 }
 .text-center{
   text-align: center;
