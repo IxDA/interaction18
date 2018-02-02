@@ -29,6 +29,7 @@
 }
 .link-no-underline{
   text-decoration: none;
+  border-bottom: none!important;
 }
 .text-center{
   text-align: center;
@@ -172,6 +173,23 @@
       color: #B0A7AC;
     }
   }
+
+/* ICONS */
+.feature-icons{
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap:  0.5em;
+}
+.feature-icon{
+  text-align: center;
+}
+.feature-icon svg{
+  display: block;
+  margin: 4px auto;
+  width: 40%;
+}
 
 /* THEME BACKGROUND */
 .content .bg-pink{

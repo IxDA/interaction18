@@ -184,7 +184,7 @@ a{
   padding: 0.2em 0.3em;
   margin: 0 0.6em;
 }
-.label + .label{
+.label-no-margin-left .label, .label + .label{
   margin-left: 0;
 }
 .label a{

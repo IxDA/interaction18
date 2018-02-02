@@ -18,4 +18,6 @@ We hope you enjoy this guide and the recommendations within. We are positive tha
 
 Bon voyage!
 
+{{% cityguide-category %}}
+
 {{% cityguide %}}
