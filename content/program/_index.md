@@ -123,6 +123,10 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
             <h6><strong>Coroflot Connects</strong></h6>    
         </div>
         <div class="program-item-milestone program-item-big-milestone">
+            <div class="program-overview-item-hour">🌙&nbsp;&nbsp;19:00</div>
+            <h6><strong>Re/Design Society by IxDA Lyon</strong></h6>    
+        </div>        
+        <div class="program-item-milestone program-item-big-milestone">
             <div class="program-overview-item-hour">🌙&nbsp;&nbsp;20:30</div>
             <h6><strong>Community dinners</strong></h6>
         </div>                
