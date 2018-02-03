@@ -55,7 +55,7 @@ menu:
         </h3>
         <div class="">
         {{% talk slug="talk-you-don-t-need-to-ask-that---anticipatory-design-to-create-smart--delightful-user-experiences-moorjani-yogesh" %}}
-        {{% talk slug="talk-imperfect-futures---the-future-ethics-of-our-everyday-products-goddemeyer-daniel" %}}
+        {{% talk slug="talk-imperfect-futures---the-hidden-ethics-of-tomorrows-products-goddemeyer-daniel" %}}
         </div>
       </div>
       <div class="program-day-item program-item-room-3">
