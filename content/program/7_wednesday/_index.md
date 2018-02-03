@@ -217,6 +217,12 @@ menu:
           <img src="/img/logos/partner-Coroflot_w.svg" style="max-width:20vw;">
       </div>
       <div class="program-item-date program-item-milestone ">
+        <p>19:00</p>
+      </div>
+      <div class="program-item program-item-milestone program-item-full-line">
+        <p>59e Networking Interactif Lyon : Re/Design Society by IxDA Lyon – <a href="https://www.eventbrite.fr/e/billets-59e-networking-interactif-lyon-redesign-society-42648397505?aff=erelexpmlt" target="_blank">info and free registration</a></p>
+      </div>
+      <div class="program-item-date program-item-milestone ">
         <p>20:30</p>
       </div>
       <div class="program-item program-item-milestone program-item-full-line">
