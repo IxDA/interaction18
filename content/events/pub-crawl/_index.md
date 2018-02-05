@@ -16,8 +16,12 @@ Jump from one stop to the next, bump into your fellow attendees, and get lost in
 For one night, Vieux Lyon is ours!
 
 {{% box class="bordered mega-padding spacer-t-b" %}}
-### Where
 
-*More information to come soon*
+### Where
+* Vieux Lyon area
+* About 30-40 minutes by public transport from La Sucrière
+* About 20-30 minutes by public transport from Mama Shelter
+
+{{< button name="See map of suggested pubs" href="https://bit.ly/ixd18-pubcrawl" >}}
 
 {{% /box %}}
