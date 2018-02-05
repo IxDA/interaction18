@@ -16,7 +16,7 @@ Need to buy multiple workshops? Check our [ticket page](/tickets).
   <div class="container content spacer-t-b">
     <div class="program-list program-list-day program-evening">
       <div class="program-item-date program-item-milestone">
-        <p>19:00</p>
+        <p>18:30</p>
       </div>
       <div class="program-item program-item-milestone program-item-full-line">
         <h3>🌙 Evening events</h3>
