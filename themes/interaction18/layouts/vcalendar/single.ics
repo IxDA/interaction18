@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//IVEPTA//Event Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Interaction 18
+X-WR-TIMEZONE:Europe/Paris
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+X-LIC-LOCATION:Europe/Paris
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+{{ $data := getJSON $.Site.Params.programData }}{{ range where $data.program "kind" "==" "keynote" }}{{ $item := . }}{{ if $item.active }}
+BEGIN:VEVENT
+ORGANIZER;CN="IxD18":mailto:ixd18@ixda.org
+SUMMARY:{{ $item.title }} [{{ $item.kind }} – {{ $item.format }}]
+DESCRIPTION:{{ $item.speaker_1_name }}
+UID:{{ $item.slug }}@interaction18.ixda.org
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20171011T072220
+DTSTART:{{ $item.start_date }}
+DTEND:{{ $item.end_date }}
+LOCATION:{{ $item.room }}, 49-50 Quai Rambaud, 69002 Lyon
+URL:https://interaction18.ixda.org/program/{{ $item.slug }}
+END:VEVENT{{end}}{{end}}
+{{ $data := getJSON $.Site.Params.programData }}{{ range where $data.program "kind" "==" "talk" }}{{ $item := . }}{{ if $item.active }}
+BEGIN:VEVENT
+ORGANIZER;CN="IxD18":mailto:ixd18@ixda.org
+SUMMARY:{{ $item.title }} [{{ $item.kind }} – {{ $item.format }}]
+DESCRIPTION:{{ $item.subtitle }}
+UID:{{ $item.slug }}@interaction18.ixda.org
+SEQUENCE:0
+STATUS:CONFIRMED
+DTSTAMP:20171011T072220
+DTSTART:{{ $item.start_date }}
+DTEND:{{ $item.end_date }}
+LOCATION:{{ $item.room }}, 49-50 Quai Rambaud, 69002 Lyon
+URL:https://interaction18.ixda.org/program/{{ $item.slug }}
+END:VEVENT{{end}}{{end}}
+END:VCALENDAR
