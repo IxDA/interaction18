@@ -18,6 +18,6 @@ For one night, Vieux Lyon is ours!
 {{% box class="bordered mega-padding spacer-t-b" %}}
 ### Where
 
-*More information to come soon*
+{{< button name="See map of suggested pubs" href="https://bit.ly/ixd18-pubcrawl" >}}
 
 {{% /box %}}
