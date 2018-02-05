@@ -30,7 +30,7 @@ During the night you also will be able to immerse yourself in the city through t
 
 ## Rendez-vous: [Le musée des confluences](http://www.museedesconfluences.fr/fr/visit-museum)
 * 86 Quai Perrache, Lyon 2
-* 5 Feb 2018, from 18:00 to 23:00
+* 5 Feb 2018, from 19:00 to 23:00
 
 {{< button name="Get directions with CityMapper" href="https://citymapper.com/go/4tgnug" >}}
 
