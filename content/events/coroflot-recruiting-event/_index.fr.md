@@ -1,10 +1,5 @@
 ---
 title: "Coroflot Connects "
-menu:
-  "main":
-    name: "Coroflot Connects"
-    weight: 910
-    parent: "venues"
 ---
 ## Activité de recrutement
 
@@ -17,13 +12,13 @@ Cette activité n'est accessible qu'au detenteurs d'un ticket *Interaction 18*.
 
 {{< tito-widget  tito_releases="5sg65crmt-g" hide_discount="true" >}}
 
-Coroflot Connects aura lieu de 19h à 21h au Sucre, le rooftop de notre lieu de conférence. 
+Coroflot Connects aura lieu de 19h à 21h au Sucre, le rooftop de notre lieu de conférence.
 
 {{% box class="bordered mega-padding spacer-t-b" %}}
 
 ## Rendez-vous: [Le sucre](http://www.le-sucre.eu)
 * 50 Quai Rambaud – Lyon, France
-* 7 février 2018, de 19:00 à 21:00 
+* 7 février 2018, de 19:00 à 21:00
 
 {{< button name="Obtenez l'itinéraire avec CityMapper" href="https://citymapper.com/go/jmrdwm" >}}
 

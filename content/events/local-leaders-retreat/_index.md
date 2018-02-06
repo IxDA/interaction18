@@ -26,15 +26,15 @@ You’ll get to hear directly from the IxDA board members, Regional Coordinators
 
 
 All in all, the goal is for all us is to understand the challenges of IxDA Local Leaders, learn how to overcome them and interact and connect with the other local leaders from around the globe.
- 
+
 {{% box class="bordered mega-padding spacer-t-b" %}}
 
 ## Rendez-vous: [LaTourDuWeb](http://www.latourduweb.com)
 * 4 rue Prof Charles Appleton – 69007 Lyon
-* 4 Feb 2018, from 9:00 to 17:00 
- 
+* 4 Feb 2018, from 9:00 to 17:00
+
 {{< button name="Get directions with CityMapper" href="https://citymapper.com/go/5a5exz" >}}
- 
+
 {{% /box %}}
 
 
