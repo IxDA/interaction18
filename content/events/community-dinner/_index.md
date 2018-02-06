@@ -54,7 +54,7 @@ Be mindful of the range of prices, which range from 25€ to 100€ (not includi
 Polished floors, shimmering woodwork, French ceilings, vast mirrors, paintings and objects found here and there by the masters of successive places... At Abel, time stops when tasting the real homemade pike quenelle, famous chicken morels or a delicious gratin crayfish.
 
 * *Vegetarian: yes, but by request.*
-* Special guest : Liz Danzico
+* Special guest : Dave Malouf
 
 [Website](http://cafecomptoirabel.com/) – [Yelp](https://www.yelp.fr/biz/caf%C3%A9-comptoir-abel-lyon-2)
 
