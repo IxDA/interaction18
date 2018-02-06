@@ -156,8 +156,8 @@ menu:
       <div class="program-item-date">
       </div>
       <div class="program-item program-item-2-line">
-        <h2><a href="/venues/closing/" >Closing party</a></h2>
-        <p>More than just an <a href="http://awards.ixda.org">Awards ceremony</a>, our final night is the chance to connect one final time with friends and dance the night away.<br>at <a href="">Le Transbordeur</a>.</p>
+        <h2><a href="/venues/closing/">Closing party</a></h2>
+        <p>More than just an <a href="http://awards.ixda.org">Awards ceremony</a>, our final night is the chance to connect one final time with friends and dance the night away.<br>at <a href="http://www.transbordeur.fr/accueil">Le Transbordeur</a>.</p>
       </div>
       <div class="program-item">
         <small>Hosted by</small><br>

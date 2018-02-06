@@ -1,17 +1,12 @@
 ---
 title: "Community dinners"
-menu:
-  "main":
-    name: "Community dinners"
-    weight: 990
-    parent: "venues"
 ---
 ## Let’s talk, let’s eat!
 **Wednesday, 7 Feb at 20:30**
 
-Lyon is rightly seen as a gastronomic capital of the world, with a history of serving some of the finest food in France. From the famous "bouchons" to the Michelin starred chefs of the city, let’s discover together this culinary excellence. 
+Lyon is rightly seen as a gastronomic capital of the world, with a history of serving some of the finest food in France. From the famous "bouchons" to the Michelin starred chefs of the city, let’s discover together this culinary excellence.
 
-You can join us for a community dinner for 8 groups of diners at 8 different restaurants in town on Wednesday, 7 Feb at 20:30. We have handpicked a variety of restaurants, from ones that we love to go to with friends everyday to famous and well-known places. As space is limited, each group can only take up to 6 attendees. Every group will be led by one local host and also include one special guest — e.g. a prominent influencer or leader in our field. 
+You can join us for a community dinner for 8 groups of diners at 8 different restaurants in town on Wednesday, 7 Feb at 20:30. We have handpicked a variety of restaurants, from ones that we love to go to with friends everyday to famous and well-known places. As space is limited, each group can only take up to 6 attendees. Every group will be led by one local host and also include one special guest — e.g. a prominent influencer or leader in our field.
 
 **We expect tickets to sell out fast, so don’t think too much and join us!**
 
@@ -19,7 +14,7 @@ You can join us for a community dinner for 8 groups of diners at 8 different res
 
 ### How can I book a restaurant?
 
-To book a restaurant, go to this page and complete the form. 
+To book a restaurant, go to this page and complete the form.
 
 ### What happens if I need to cancel my reservation?
 

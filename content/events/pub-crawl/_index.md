@@ -1,10 +1,5 @@
 ---
 title: "Pub crawl"
-menu:
-  "main":
-    name: "Pub crawl"
-    weight: 991
-    parent: "venues"
 ---
 ## Get a drink in Vieux Lyon
 **Tuesday, 6 Feb at 20:00**
