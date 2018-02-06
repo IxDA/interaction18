@@ -241,6 +241,10 @@ a.program-overview-day:hover .color-pink{
   }
 }
 
+.program-talk-canceled{
+  text-decoration: line-through;
+}
+
 .program-passed{
   opacity: 0.4;
 }
