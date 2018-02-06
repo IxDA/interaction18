@@ -134,6 +134,7 @@ menu:
         <div class="">
         {{% talk slug="talk-embracing-friction-kollin-zoltan" %}}
         {{% talk slug="talk-not-an-error---the-three-level-error-feedback-design-strategy-zhu-hong" %}}
+        {{% talk slug="talk-finding-the-void--pieta-van-der-molen" %}}
         </div>
       </div>
       {{% programtime time="16:20" one="true" two="true" three="true" key="happy-hour" data-elementdate="2018-02-06T16:20:00.000Z" %}}
