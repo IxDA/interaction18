@@ -14,7 +14,7 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
 <div class="fullwidth spacer-t-b">
   <div class="container">
     <div class="program-overview">
-      <a class="program-overview-day" href="./5_monday" data-elementdate="2018-11-19T23:00:00.000Z">
+      <a class="program-overview-day" href="./5_monday" data-elementdate="2018-02-05T23:00:00.000Z">
         <h3><strong><span class="text-underline">Monday 5</span></strong></h3>
         <div class="program-item-milestone program-item-big-milestone">
             <div class="program-overview-item-hour">8:30</div>
@@ -41,7 +41,7 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
             <h6><strong>Opening Party</strong></h6>
         </div>          
       </a>
-      <a class="program-overview-day" href="./6_tuesday" data-elementdate="2018-11-19T23:00:00.000Z">
+      <a class="program-overview-day" href="./6_tuesday" data-elementdate="2018-02-06T23:00:00.000Z">
         <h3><strong><span class="text-underline">Tuesday 6</span></strong></h3>
         <div class="program-item-milestone program-item-big-milestone">
             <div class="program-overview-item-hour">8:00</div>
@@ -82,7 +82,7 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
             <h6><strong>Vieux-Lyon Crawl</strong></h6>
         </div>         
       </a>
-      <a class="program-overview-day" href="./7_wednesday" data-elementdate="2018-11-20T23:00:00.000Z">
+      <a class="program-overview-day" href="./7_wednesday" data-elementdate="2018-02-07T23:00:00.000Z">
          <h3><strong><span class="text-underline">Wednesday 7</span></strong></h3>
         <div class="program-item-milestone program-item-big-milestone">
             <div class="program-overview-item-hour">8:00</div>
@@ -131,7 +131,7 @@ There is also the program of the [**Education Summit**](http://edusummit.ixda.or
             <h6><strong>Community dinners</strong></h6>
         </div>                
       </a>
-      <a class="program-overview-day" href="./8_thursday" data-elementdate="2018-11-21T23:00:00.000Z">
+      <a class="program-overview-day" href="./8_thursday" data-elementdate="2018-02-08T23:00:00.000Z">
         <h3><strong><span class="text-underline">Thursday 8</span></strong></h3>
         <div class="program-item-milestone program-item-big-milestone">
             <div class="program-overview-item-hour">8:00</div>

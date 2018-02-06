@@ -1,4 +1,4 @@
-<div class="program-item-date program-item-milestone {{ with .Get "big" }} program-item-big-milestone{{ end }}">
+<div class="program-item-date program-item-milestone {{ with .Get "big" }} program-item-big-milestone{{ end }}"{{ with .Get "data-elementdate" }} data-elementdate="{{ . }}"{{ end }}>
   <p>
     {{ with .Get "big" }}<strong>{{ end }}
       {{ .Get "time" }}
@@ -6,7 +6,7 @@
   </p>
 </div>
 {{ if .Get "full"}}
-<div class="program-item program-item-milestone program-item-full-line {{ with .Get "big" }} program-item-big-milestone{{ end }}">
+<div class="program-item program-item-milestone program-item-full-line {{ with .Get "big" }} program-item-big-milestone{{ end }}"{{ with .Get "data-elementdate" }} data-elementdate="{{ . }}"{{ end }}>
   <p>
     {{ with .Get "big" }}<strong>{{ end }}
     {{with .Get "label" }}{{ . }}{{end}}{{with .Get "key" }}{{ index $.Site.Data.program . }}{{end}}
@@ -14,17 +14,17 @@
   </p>
 </div>
 {{else}}
-<div class="program-item program-item-room-1{{ with .Get "one" }} program-item-milestone{{ else }} program-day-item-void{{ end }} {{ with .Get "big" }} program-item-big-milestone{{ end }}">
+<div class="program-item program-item-room-1{{ with .Get "one" }} program-item-milestone{{ else }} program-day-item-void{{ end }} {{ with .Get "big" }} program-item-big-milestone{{ end }}"{{ with .Get "data-elementdate" }} data-elementdate="{{ . }}"{{ end }}>
   <p>
     {{ with .Get "big" }}<strong>{{ end }}
     {{with .Get "label" }}{{ . }}{{end}}{{with .Get "key" }}{{ index $.Site.Data.program . }}{{end}}
     {{ with .Get "big" }}</strong>{{ end }}
   </p>
 </div>
-<div class="program-item program-item-room-2{{ with .Get "two" }} program-item-milestone{{ else }} program-day-item-void{{ end }} {{ with .Get "big" }} program-item-big-milestone{{ end }}">
+<div class="program-item program-item-room-2{{ with .Get "two" }} program-item-milestone{{ else }} program-day-item-void{{ end }} {{ with .Get "big" }} program-item-big-milestone{{ end }}"{{ with .Get "data-elementdate" }} data-elementdate="{{ . }}"{{ end }}>
   <p></p>
 </div>
-<div class="program-item program-item-room-3{{ with .Get "three" }} program-item-milestone{{ else }} program-day-item-void{{ end }} {{ with .Get "big" }} program-item-big-milestone{{ end }}">
+<div class="program-item program-item-room-3{{ with .Get "three" }} program-item-milestone{{ else }} program-day-item-void{{ end }} {{ with .Get "big" }} program-item-big-milestone{{ end }}"{{ with .Get "data-elementdate" }} data-elementdate="{{ . }}"{{ end }}>
   <p></p>
 </div>
 {{end}}
