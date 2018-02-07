@@ -37,9 +37,6 @@
 							{{ with $item.description }}{{ . | markdownify }}{{ end }}
 						</p>
 					</div>
-
-
-
 					<div class="program-outline columns columns2 spacer-b">
 						{{ if $item.outline }}
 						<h2>Outline</h2>
@@ -68,7 +65,7 @@
 
 
 					<div class="program-speakers-preview">
-						
+
 						{{ if $item.second_speaker }}
 						<div class="program-2speakers">
 						{{ end }}
@@ -108,7 +105,7 @@
 					</div>
 
 					{{ if $params.hide_speakers }}
-					{{else}}		
+					{{else}}
 					<div class="program-speakers-detail spacer-t-b">
 						{{ if $item.second_speaker }}
 						<h2>About the speakers</h2>

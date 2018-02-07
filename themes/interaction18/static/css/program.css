@@ -106,6 +106,7 @@
   max-width: 200px;
 }
 .program-speakers-detail .program-speaker-box img{
+  width: 100%;
   max-width: 400px;
 }
 
