@@ -37,14 +37,13 @@
 							{{ with $item.description }}{{ . | markdownify }}{{ end }}
 						</p>
 					</div>
+					{{ if $item.outline }}
 					<div class="program-outline columns columns2 spacer-b">
-						{{ if $item.outline }}
 						<h2>Outline</h2>
 						<p>
 							{{ with $item.outline }}{{ . | markdownify }}{{ end }}
 						</p>
 						<div class="columns-break"></div>
-						{{ end }}
 						{{ if $item.target_audience }}
 						<h2>Target audience</h2>
 						<p>
@@ -52,6 +51,7 @@
 						</p>
 						{{ end }}
 					</div>
+					{{ end }}
 
 					{{ if $item.tito_releases }}
 						{{ if $item.soldout }}
