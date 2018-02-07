@@ -16,7 +16,7 @@ menu:
 Get a drink in Vieux Lyon.
 
 ## Wednesday, 7 Feb
-### [20:30– Coroflot Connects](/events/coroflot-recruiting-event/)
+### [20:30– Coroflot Connect](/events/coroflot-recruiting-event/)
 Recruiting event at Le Sucre. Grab your ticket.
 
 ### [20:30 – Community dinner](/events/community-dinner/)

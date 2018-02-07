@@ -207,7 +207,7 @@ menu:
       </div>
       <div class="program-item program-item-2-line">
         <p>
-          <h2><a href="/events/coroflot-recruiting-event" ><strong>Coroflot Connects</strong></a></h2>
+          <h2><a href="/events/coroflot-recruiting-event" ><strong>Coroflot Connect</strong></a></h2>
           <p>
           Networking is hard. That's why we want to give everyone some dedicated time to talk with experts and businesses. Even if you're not looking for a job... who knows what could happen?
         </p>
