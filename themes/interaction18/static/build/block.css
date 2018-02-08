@@ -514,6 +514,32 @@
     margin: 1em;
   }
 
+/* Credits */
+.credits-list{
+  -webkit-column-width: 10em;
+     -moz-column-width: 10em;
+          column-width: 10em;
+  -webkit-column-gap: 3em;
+     -moz-column-gap: 3em;
+          column-gap: 3em;
+  margin-top: 0.6em;
+  margin-bottom: 2em;
+}
+.credits-list-2{
+  -webkit-column-width: 16em;
+     -moz-column-width: 16em;
+          column-width: 16em;
+}
+.credits-list-0{
+  -webkit-column-width: 40em;
+     -moz-column-width: 40em;
+          column-width: 40em;
+}
+.credits-list p + p{
+  line-height: 1.3em;
+  margin-top: 0.7em;
+  column-break-inside: avoid;
+}
 
 /* Cityguide */
 .cityguide-boxes{

@@ -19,4 +19,4 @@ menu:
 
 {{% team %}}
 
-**Et aussi:** {{% team-textlist %}} et plein d'autre.
+**Et aussi:** {{% team-textlist %}} et [plein d'autre](/fr/credits).

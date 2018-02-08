@@ -417,6 +417,24 @@
     margin: 1em;
   }
 
+/* Credits */
+.credits-list{
+  column-width: 10em;
+  column-gap: 3em;
+  margin-top: 0.6em;
+  margin-bottom: 2em;
+}
+.credits-list-2{
+  column-width: 16em;
+}
+.credits-list-0{
+  column-width: 40em;
+}
+.credits-list p + p{
+  line-height: 1.3em;
+  margin-top: 0.7em;
+  column-break-inside: avoid;
+}
 
 /* Cityguide */
 .cityguide-boxes{
