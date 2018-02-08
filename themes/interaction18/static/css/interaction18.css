@@ -13,3 +13,36 @@ body {
   border: 2rem white solid;
   margin-bottom: 4em;
 }
+
+/* INTERACTION19 */
+.interaction19{
+	display: block;
+	min-height: 10vh;
+	margin-bottom: 2rem;
+	text-decoration: none;
+	background: linear-gradient(135deg, #ff7373 0%,#a37cd8 26%,#9a7de2 32%,#8080ff 52%,#86aed8 76%,#91ff91 100%);
+	padding: 0.4em;
+}
+.interaction19-wrap{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	transition: background 0.14s ease-out;
+	background: #421B4BFF;
+}
+.interaction19:hover .interaction19-wrap{
+	background: #421B4B00;
+}
+#interaction19-logo{
+	margin: 20px;
+	height: 100%;
+	max-height: 10vh;
+}
+.interaction19 p{
+	font-family: Courier New, Monaco, monospace;
+	line-height: 1.1em;
+	margin: 20px;
+	color: white;
+	border-bottom: none;
+}
