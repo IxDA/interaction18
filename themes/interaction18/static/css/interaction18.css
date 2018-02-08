@@ -37,7 +37,9 @@ body {
 #interaction19-logo{
 	margin: 20px;
 	height: 100%;
+  width: 120px;
 	max-height: 10vh;
+  min-height: 0;
 }
 .interaction19 p{
 	font-family: Courier New, Monaco, monospace;
