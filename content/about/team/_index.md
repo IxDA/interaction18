@@ -20,6 +20,4 @@ Please meet a few of them:
 
 {{< spacer >}}
 
-**And also:** {{% team-textlist %}} and many many more.
-
-
+**And also:** {{% team-textlist %}} and [many many more](/credits).
