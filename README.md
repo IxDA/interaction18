@@ -17,7 +17,7 @@ In order to minimize dependencies, we tried to be minimalist
 2. ```$ yarn install```
 
 ### Work on CSS
-1. Edit only css files in ./css folder
+1. Edit only css files in `/themes/interaction18/static/css` folder
 2. ```$ yarn run build:watch```
 
 ### Work with Hugo
