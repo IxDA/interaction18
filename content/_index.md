@@ -16,27 +16,17 @@ date: 2017-07-11T22:31:14+02:00
 
 <section class="text-white boxes boxes-2">
   <div class="box box-secondary">
-    <h2>Join us in Lyon</h2>
-    <p>
-      The tickets are going fast. be quick.
-    </p>
-    <p>
-      <a href="http://join.interaction.ixda.org" class="button">Get tickets</a> <a href="/program" class="button">Check the program</a>
-    </p>
+    <h2>Rediscover Interaction 18</h2>
+    <p><a href="/program" class="button">Watch the videos</a></p>
+    <p><a href="https://airtable.com/shrADWFh9muXZoBqQ" class="">Discover what have been said</a></p>
+    <p><a href="https://www.flickr.com/photos/ixda/collections/72157695495014041/" class="">Look at the photos</a></p>
+      
   </div>
   <div class="box box-primary">
-    <h2>Stay informed</h2>
-    <p>
-      We still have a few things to announce. Stay informed with our monthly updates.
+    <h2>Go to Interaction 19</h2>
+    <p>Interaction&nbsp;19 will happen in Seattle, WA, USA, from the 4 to the 10 February 2019. 
     </p>
-    <p>
-      <form action="//ixda.us2.list-manage.com/subscribe/post?u=e714c585710f24c2743e2cb29&amp;id=4f464c4573" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        <div class="mc-field-group">
-          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your email address">
-          <input type="submit" value="Follow" name="subscribe" id="mc-embedded-subscribe" class="button button-secondary">
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e714c585710f24c2743e2cb29_4f464c4573" tabindex="-1" value=""></div>
-        </div>
-      </form>
+    <p><a href="https://interaction19.ixda.org" class="button button-secondary">Get your ticket</a></p>
     </p>
   </div>
 </section>
