@@ -56,6 +56,14 @@
     -ms-grid-column: 4 span;
         grid-column: 4 span;
   }
+  .schedule-activity-opening{
+    -ms-grid-column: 3 / 1 span;
+        grid-column: 3 / 1 span;
+  }
+  .schedule-activity-coroflot {
+    -ms-grid-column: 4 / 1 span;
+        grid-column: 4 / 1 span;
+  }
   .schedule-activity-awards{
     -ms-grid-column: 6 / 1 span;
         grid-column: 6 / 1 span;
@@ -123,6 +131,18 @@
   .schedule-activity-awards{
     -ms-grid-row: 7;
         grid-row: 7;
+    -ms-grid-column: 2 / 2 span;
+        grid-column: 2 / 2 span;
+  }
+  .schedule-activity-opening{
+    -ms-grid-row: 5;
+        grid-row: 5;
+    -ms-grid-column: 2 / 2 span;
+        grid-column: 2 / 2 span;
+  }
+  .schedule-activity-coroflot {
+    -ms-grid-row: 6;
+        grid-row: 6;
     -ms-grid-column: 2 / 2 span;
         grid-column: 2 / 2 span;
   }

@@ -137,9 +137,31 @@ date: 2017-07-11T22:31:14+02:00
         </p>
       </div>
     </div>
+    <div class="schedule-activity schedule-activity-opening">
+      <h5><a href="#" for="more-opening" class="no-underline js-collapse schedule-activity-more-link color-pink">
+        <time datetime="2018-02-05T12:00:00+00:00">5 Feb - </time>
+        Opening party<span class="arrow-down">&nbsp;&blacktriangledown;</span>
+      </a></h5>
+      <div class="js-collapsed schedule-activity-more" id="more-opening">
+        <p>
+          Join us at our opening party.
+        </p>
+      </div>
+    </div>
+    <div class="schedule-activity schedule-activity-coroflot">
+      <h5><a href="#" for="more-coroflot" class="no-underline js-collapse schedule-activity-more-link color-pink">
+        <time datetime="2018-02-05T12:00:00+00:00">6 Feb - </time>
+        Careers by Coroflot<span class="arrow-down">&nbsp;&blacktriangledown;</span>
+      </a></h5>
+      <div class="js-collapsed schedule-activity-more" id="more-coroflot">
+        <p>
+        Meet employers that look for new talent and discouver your next career during this evening event.
+        </p>
+      </div>
+    </div>
     <div class="schedule-activity schedule-activity-awards">
       <h5><a href="#" for="more-awards" class="no-underline js-collapse schedule-activity-more-link color-pink">
-        <time datetime="2018-02-05T12:00:00+00:00">8 Feb - </time>
+        <time datetime="2018-02-08T12:00:00+00:00">8 Feb - </time>
         Awards Ceremony<span class="arrow-down">&nbsp;&blacktriangledown;</span>
       </a></h5>
       <div class="js-collapsed schedule-activity-more" id="more-awards">
