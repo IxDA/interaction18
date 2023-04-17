@@ -8,7 +8,7 @@
     "url": "git+https://github.com/ixda/interaction18.git"
   },
   "devDependencies": {
-    "autoprefixer": "^7.1.2",
+    "autoprefixer": "^10.4.14",
     "onchange": "latest"
   },
   "scripts": {
@@ -17,6 +17,6 @@
     "build:watch": "onchange 'themes/interaction18/static/css/*.css' -- npm run build"
   },
   "dependencies": {
-    "postcss-cli": "^4.1.0"
+    "postcss-cli": "^10.1.0"
   }
 }
