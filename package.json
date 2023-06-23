@@ -17,6 +17,6 @@
     "build:watch": "onchange 'themes/interaction18/static/css/*.css' -- npm run build"
   },
   "dependencies": {
-    "postcss-cli": "^4.1.0"
+    "postcss-cli": "^10.1.0"
   }
 }
